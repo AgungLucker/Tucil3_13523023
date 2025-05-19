@@ -1,5 +1,7 @@
+package src;
 
 import javax.swing.*;
+
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.io.File;
@@ -28,7 +30,7 @@ public class Main extends JFrame {
 
         // Top Bar
         JPanel topBar = new JPanel(new BorderLayout());
-        topBar.setBackground(new Color(173, 216, 230)); // Light blue (RGB)
+        topBar.setBackground(new Color(173, 216, 230)); // biru muda
         
         JLabel topLabel = new JLabel("<html><span style='color:#B22222;'>RUSH</span> <span style='color:orange;'>HOUR</span> GAME SOLVER</html>", SwingConstants.CENTER);
         topLabel.setFont(new Font("SansSerif", Font.BOLD, 24));
@@ -117,7 +119,7 @@ public class Main extends JFrame {
         // Bottom Bar
         JPanel bottomBar = new JPanel(new BorderLayout());
         bottomBar.setPreferredSize(new Dimension(0, 40));
-        bottomBar.setBackground(Color.red); // Light blue (RGB)
+        bottomBar.setBackground(Color.red); 
         statusLabel = new JLabel("Silakan load file konfigurasi.");
         statsLabel = new JLabel("Jumlah Gerakan: 0 | Waktu: 0ms");
 
@@ -209,9 +211,11 @@ public class Main extends JFrame {
 
         // Replay Animation Button
         replayButton.addActionListener((ActionEvent e) -> {
+            solveButton.setEnabled(false);
             if (solver != null && solver.getSolutionPath() != null) {
                 new Thread(() -> solver.animateSolution(this::drawBoard)).start();
             }
+            solveButton.setEnabled(false);
         });
 
         this.setSize(800, 600);
