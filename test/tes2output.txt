@@ -1,0 +1,63 @@
+Algoritma: UCS
+Heuristik: Manhattan Distance
+Papan awal:
+ K      
+ XXXD.B 
+ LL.DGB 
+ P..DG. 
+ P.EE.N 
+ .UUU.N 
+ ...FFF 
+        
+
+Gerakan 1: E-kiri
+ K      
+ XXXD.B 
+ LL.DGB 
+ P..DG. 
+ PEE..N 
+ .UUU.N 
+ ...FFF 
+        
+
+Gerakan 2: D-bawah
+ K      
+ XXX..B 
+ LL.DGB 
+ P..DG. 
+ PEED.N 
+ .UUU.N 
+ ...FFF 
+        
+
+Gerakan 3: X-kanan
+ K      
+ .XXX.B 
+ LL.DGB 
+ P..DG. 
+ PEED.N 
+ .UUU.N 
+ ...FFF 
+        
+
+Gerakan 4: L-kanan
+ K      
+ .XXX.B 
+ .LLDGB 
+ P..DG. 
+ PEED.N 
+ .UUU.N 
+ ...FFF 
+        
+
+Gerakan 5: P-atas
+ P      
+ PXXX.B 
+ .LLDGB 
+ ...DG. 
+ .EED.N 
+ .UUU.N 
+ ...FFF 
+        
+
+Jumlah Gerakan: 5, Waktu: 1139 ms

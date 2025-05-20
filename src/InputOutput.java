@@ -27,18 +27,12 @@ public class InputOutput {
                 continue;
             }
             char ch = row.charAt(j);
-            // System.out.println("i: " + targetRow + ", j: " + j);
-            // System.out.println("ch: " + ch);
-            // System.out.println();
             if (ch != 'K' && ch != ' ') {
-                // System.out.println("ADD");
                 if (isExitLeft) {
                     initialBoard[targetRow][j] = ch;
-                    // System.out.println("LEFT");
                 } else {
                     initialBoard[targetRow][j+1] = ch;
                 }
-                // printBoard(initialBoard);
             } else if (ch == 'K' && j > 0 && j < boardWidth) {
                 throw new IOException("Konfigurasi papan (terdapat pintu keluar dalam papan) tidak valid.");
             } 
@@ -132,7 +126,6 @@ public class InputOutput {
 
             } else {
                 boolean isExitLeft = false;
-                // printBoard(initialBoard);
 
                 for (int i = 0; i < this.boardHeight; i++) {
                     String row = boardLines.get(i);
@@ -210,20 +203,34 @@ public class InputOutput {
 
     }
 
-    public void saveSolutionToFile(String filepath, List<State> solutionPath, long duration) throws IOException {
+    public void saveSolutionToFile(String filepath, List<State> solutionPath, String algo, int heuristicType, long duration) throws IOException {
 
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(filepath))) {
-             if (solutionPath == null) {
+            writer.write("Algoritma: " + algo + "\n");
+            if (heuristicType == 1) {
+                writer.write("Heuristik: Manhattan Distance\n");
+            } else if (heuristicType == 2) {
+                writer.write("Heuristik: Min Blocking Pieces\n");
+            } else if (heuristicType == 3) {
+                writer.write("Heuristik: Manhattan Distance + Min Blocking Pieces\n");
+            } else if (heuristicType == 4) {
+                writer.write("Heuristik: Min Moveable Blockers\n");
+            }
+            if (solutionPath == null) {
                 writer.write("Solusi tidak ditemukan.\n");
                 return;
             }
-            for (int i = 1; i < solutionPath.size(); i++) {
+            for (int i = 0; i < solutionPath.size(); i++) {
                 State currentState = solutionPath.get(i);
-                if (!currentState.getMoveLog().isEmpty()) {
-                    String lastMove = currentState.getMoveLog().get(currentState.getMoveLog().size() - 1);
-                    writer.write("Gerakan " + i + ": " + lastMove + "\n");
+                if (i == 0) {
+                    writer.write("Papan awal:\n");
                 } else {
-                    writer.write("Gerakan " + i + ": Tidak ada gerakan yang dilakukan.\n");
+                    if (!currentState.getMoveLog().isEmpty()) {
+                        String lastMove = currentState.getMoveLog().get(currentState.getMoveLog().size() - 1);
+                        writer.write("Gerakan " + i + ": " + lastMove + "\n");
+                    } else {
+                        writer.write("Gerakan " + i + ": Tidak ada gerakan yang dilakukan.\n");
+                    }
                 }
 
                 // Tulis papan
@@ -240,7 +247,7 @@ public class InputOutput {
                 }
                 writer.write("\n");
             }
-            writer.write("Jumlah Gerakan: " + (solutionPath.size() - 1) + ", Waktu: " + duration + "\n");
+            writer.write("Jumlah Gerakan: " + (solutionPath.size() - 1) + ", Waktu: " + duration + " ms\n");
         }
     }
 }

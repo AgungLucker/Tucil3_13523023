@@ -9,14 +9,20 @@ public class MinBlock implements Heuristic {
 
     public int calculateHeuristic(State state) {
         Piece primaryPiece = state.getPieces().get('P');
+        char[][] board = state.getStateBoard().getBoard();
+        int rows = state.getStateBoard().getRows();
+        int cols = state.getStateBoard().getCols();
+        int exitY = state.getStateBoard().getExitY();
+        int exitX = state.getStateBoard().getExitX();
         int exitDistance = 0;
 
         if (manhattanDistance) {
             exitDistance = state.calculateDistanceToExit();
+            System.out.println("Manhattan distance: " + exitDistance);
         } 
 
         int blockingPieces = 0;
-        if (state.getStateBoard().getExitX()== 0) {
+        if (exitX == 0) {
             int row = primaryPiece.getPieceRow();
             for (int col = 1; col < primaryPiece.getPieceCol(); col++) {
                 if (col < state.getStateBoard().getCols() && state.getStateBoard().getBoard()[row][col] != '.' 
@@ -24,32 +30,31 @@ public class MinBlock implements Heuristic {
                     blockingPieces++;
                 }
             }
-        } else if (state.getStateBoard().getExitX() == state.getStateBoard().getCols()  - 1) {
+        } else if (exitX == cols  - 1) {
             int row = primaryPiece.getPieceRow();
-            for (int col = state.getStateBoard().getCols() - 2; col >= primaryPiece.getPieceCol() + primaryPiece.getPieceSize(); col--) {
-                if (col > 0 && state.getStateBoard().getBoard()[row][col] != '.' 
-                && state.getStateBoard().getBoard()[row][col] != 'K') {
+            for (int col = cols - 2; col >= primaryPiece.getPieceCol() + primaryPiece.getPieceSize(); col--) {
+                if (col > 0 && board[row][col] != '.' 
+                && board[row][col] != 'K') {
                     blockingPieces++;
                 }
             }
-        } else if (state.getStateBoard().getExitY() == 0) {
+        } else if (exitY == 0) {
             int col = primaryPiece.getPieceCol();
             for (int row = 1; row < primaryPiece.getPieceRow(); row++) {
-               if (row < state.getStateBoard().getRows() && state.getStateBoard().getBoard()[row][col] != '.' 
-               && state.getStateBoard().getBoard()[row][col] != 'K') {
+               if (row < rows && board[row][col] != '.' 
+               && board[row][col] != 'K') {
                    blockingPieces++;
                }
             }
-        } else if (state.getStateBoard().getExitY() == state.getStateBoard().getRows() - 1) {
+        } else if (exitY == rows - 1) {
             int col = primaryPiece.getPieceCol();
-            for (int row = state.getStateBoard().getRows() - 2; row >= primaryPiece.getPieceRow() + primaryPiece.getPieceSize(); row--) {
-               if (row > 0 && state.getStateBoard().getBoard()[row][col] != '.' 
-               && state.getStateBoard().getBoard()[row][col] != 'K') {
+            for (int row = rows - 2; row >= primaryPiece.getPieceRow() + primaryPiece.getPieceSize(); row--) {
+               if (row > 0 && board[row][col] != '.' 
+               && board[row][col] != 'K') {
                    blockingPieces++;
                }
             }
         }
-        System.out.println("Exit distance: " + exitDistance + ", Blocking pieces: " + blockingPieces);
         return exitDistance + blockingPieces;
     }
     

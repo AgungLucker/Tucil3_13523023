@@ -30,6 +30,7 @@ public class Solver {
         int MAX_DEPTH = 1000; // kasus unsolvable
         this.solutionPath = null;
         while (depthLimit < MAX_DEPTH) {
+            System.out.println("Depth Limit: " + depthLimit);
             Set<String> visited = new HashSet<>();
             
             State resultState = depthLimitedSearch(initialState, depthLimit, visited);
@@ -65,11 +66,11 @@ public class Solver {
             System.out.println("Tipe heuristik tidak valid.");
             return false;
         }
-        return solveHelper(Comparator.comparingInt(s -> heuristic.calculateHeuristic(s)), initialState);
+        return solveHelper(Comparator.comparingInt(s -> heuristic.calculateHeuristic(s)), initialState, true);
     }
 
     public boolean solveWithUCS(State initialState) {
-        return solveHelper(Comparator.comparingInt(s -> s.getCost()), initialState);
+        return solveHelper(Comparator.comparingInt(s -> s.getCost()), initialState, false);
     }
 
     public boolean solveWithAStar(int heuristicType, State initialState) {
@@ -78,29 +79,26 @@ public class Solver {
             System.out.println("Tipe heuristik tidak valid.");
             return false;
         }
-        return solveHelper(Comparator.comparingInt(s -> s.getCost() + heuristic.calculateHeuristic(s)), initialState);
+        return solveHelper(Comparator.comparingInt(s -> s.getCost() + heuristic.calculateHeuristic(s)), initialState, false);
     }
 
-    private boolean solveHelper(Comparator<State> comparator, State initialState) {
+    private boolean solveHelper(Comparator<State> comparator, State initialState, boolean isGBFS) {
         PriorityQueue<State> frontier = new PriorityQueue<>(comparator);
         Set<String> visited = new HashSet<>();
 
         frontier.add(initialState);
-        visited.add(initialState.getUniqueStateID());
+        if (isGBFS) {
+            visited.add(initialState.getUniqueStateID());
+        }
 
         State goalState = null;
         this.solutionPath = null;
-        int cnt = 0;
         while (!frontier.isEmpty()) {
-            System.out.println("Iterasi benar ke-" + (cnt + 1));
-            cnt++;
-
             State currentState = frontier.poll();
-            if (currentState.getMoveLog().size() - 1 > 0) {
-                System.out.println("Gerakan terakhir: " + currentState.getMoveLog().get(currentState.getMoveLog().size() - 1));
-            } else {
-                System.out.println("Tidak ada gerakan yang dilakukan.");
+            if (!isGBFS) {
+                visited.add(currentState.getUniqueStateID());
             }
+
 
 
             if (currentState.isGoal(currentState.getStateBoard().getExitY(), currentState.getStateBoard().getExitX())) {
@@ -112,7 +110,9 @@ public class Solver {
             List<State> successors = currentState.generateSuccessors();
             for (State nextState : successors) {
                 if (!visited.contains((nextState.getUniqueStateID()))) {
-                    visited.add(nextState.getUniqueStateID());
+                    if (isGBFS) {
+                        visited.add(nextState.getUniqueStateID());
+                    }
                     nextState.setParent(currentState);
                     frontier.add(nextState);
                 }

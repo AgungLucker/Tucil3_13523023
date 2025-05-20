@@ -4,7 +4,6 @@ import java.util.Map;
 
 public class MoveablePieces implements Heuristic {
     public int calculateHeuristic(State state) {
-        int exitDistance = state.calculateDistanceToExit();
         int blockingMoves = 0;
         for (Map.Entry<Character, Piece> entry : state.getPieces().entrySet()) {
             Piece piece = entry.getValue();
@@ -25,6 +24,6 @@ public class MoveablePieces implements Heuristic {
                 }
             }
         }
-        return exitDistance + blockingMoves; 
+        return blockingMoves; 
     }
 }

@@ -1,0 +1,2273 @@
+Algoritma: IDS
+Heuristik: Manhattan Distance
+Papan awal:
+        
+ NNDD.L 
+ B....L 
+KBZCPPL 
+ .ZC... 
+ .WW..E 
+ HHHDDE 
+        
+
+Gerakan 1: B-bawah
+        
+ NNDD.L 
+ .....L 
+KBZCPPL 
+ BZC... 
+ .WW..E 
+ HHHDDE 
+        
+
+Gerakan 2: B-bawah
+        
+ NNDD.L 
+ .....L 
+K.ZCPPL 
+ BZC... 
+ BWW..E 
+ HHHDDE 
+        
+
+Gerakan 3: C-atas
+        
+ NNDD.L 
+ ..C..L 
+K.ZCPPL 
+ BZ.... 
+ BWW..E 
+ HHHDDE 
+        
+
+Gerakan 4: B-atas
+        
+ NNDD.L 
+ ..C..L 
+KBZCPPL 
+ BZ.... 
+ .WW..E 
+ HHHDDE 
+        
+
+Gerakan 5: B-atas
+        
+ NNDD.L 
+ B.C..L 
+KBZCPPL 
+ .Z.... 
+ .WW..E 
+ HHHDDE 
+        
+
+Gerakan 6: E-atas
+        
+ NNDD.L 
+ B.C..L 
+KBZCPPL 
+ .Z...E 
+ .WW..E 
+ HHHDD. 
+        
+
+Gerakan 7: B-bawah
+        
+ NNDD.L 
+ ..C..L 
+KBZCPPL 
+ BZ...E 
+ .WW..E 
+ HHHDD. 
+        
+
+Gerakan 8: B-bawah
+        
+ NNDD.L 
+ ..C..L 
+K.ZCPPL 
+ BZ...E 
+ BWW..E 
+ HHHDD. 
+        
+
+Gerakan 9: C-bawah
+        
+ NNDD.L 
+ .....L 
+K.ZCPPL 
+ BZC..E 
+ BWW..E 
+ HHHDD. 
+        
+
+Gerakan 10: B-atas
+        
+ NNDD.L 
+ .....L 
+KBZCPPL 
+ BZC..E 
+ .WW..E 
+ HHHDD. 
+        
+
+Gerakan 11: B-atas
+        
+ NNDD.L 
+ B....L 
+KBZCPPL 
+ .ZC..E 
+ .WW..E 
+ HHHDD. 
+        
+
+Gerakan 12: D-kanan
+        
+ NNDD.L 
+ B....L 
+KBZCPPL 
+ .ZC..E 
+ .WW..E 
+ HHH.DD 
+        
+
+Gerakan 13: B-bawah
+        
+ NNDD.L 
+ .....L 
+KBZCPPL 
+ BZC..E 
+ .WW..E 
+ HHH.DD 
+        
+
+Gerakan 14: B-bawah
+        
+ NNDD.L 
+ .....L 
+K.ZCPPL 
+ BZC..E 
+ BWW..E 
+ HHH.DD 
+        
+
+Gerakan 15: C-atas
+        
+ NNDD.L 
+ ..C..L 
+K.ZCPPL 
+ BZ...E 
+ BWW..E 
+ HHH.DD 
+        
+
+Gerakan 16: B-atas
+        
+ NNDD.L 
+ ..C..L 
+KBZCPPL 
+ BZ...E 
+ .WW..E 
+ HHH.DD 
+        
+
+Gerakan 17: B-atas
+        
+ NNDD.L 
+ B.C..L 
+KBZCPPL 
+ .Z...E 
+ .WW..E 
+ HHH.DD 
+        
+
+Gerakan 18: W-kiri
+        
+ NNDD.L 
+ B.C..L 
+KBZCPPL 
+ .Z...E 
+ WW...E 
+ HHH.DD 
+        
+
+Gerakan 19: B-bawah
+        
+ NNDD.L 
+ ..C..L 
+KBZCPPL 
+ BZ...E 
+ WW...E 
+ HHH.DD 
+        
+
+Gerakan 20: C-bawah
+        
+ NNDD.L 
+ .....L 
+KBZCPPL 
+ BZC..E 
+ WW...E 
+ HHH.DD 
+        
+
+Gerakan 21: B-atas
+        
+ NNDD.L 
+ B....L 
+KBZCPPL 
+ .ZC..E 
+ WW...E 
+ HHH.DD 
+        
+
+Gerakan 22: C-bawah
+        
+ NNDD.L 
+ B....L 
+KBZ.PPL 
+ .ZC..E 
+ WWC..E 
+ HHH.DD 
+        
+
+Gerakan 23: P-kiri
+        
+ NNDD.L 
+ B....L 
+KBZPP.L 
+ .ZC..E 
+ WWC..E 
+ HHH.DD 
+        
+
+Gerakan 24: B-bawah
+        
+ NNDD.L 
+ .....L 
+KBZPP.L 
+ BZC..E 
+ WWC..E 
+ HHH.DD 
+        
+
+Gerakan 25: P-kanan
+        
+ NNDD.L 
+ .....L 
+KBZ.PPL 
+ BZC..E 
+ WWC..E 
+ HHH.DD 
+        
+
+Gerakan 26: D-kiri
+        
+ NNDD.L 
+ .....L 
+KBZ.PPL 
+ BZC..E 
+ WWC..E 
+ HHHDD. 
+        
+
+Gerakan 27: P-kiri
+        
+ NNDD.L 
+ .....L 
+KBZPP.L 
+ BZC..E 
+ WWC..E 
+ HHHDD. 
+        
+
+Gerakan 28: B-atas
+        
+ NNDD.L 
+ B....L 
+KBZPP.L 
+ .ZC..E 
+ WWC..E 
+ HHHDD. 
+        
+
+Gerakan 29: P-kanan
+        
+ NNDD.L 
+ B....L 
+KBZ.PPL 
+ .ZC..E 
+ WWC..E 
+ HHHDD. 
+        
+
+Gerakan 30: C-atas
+        
+ NNDD.L 
+ B....L 
+KBZCPPL 
+ .ZC..E 
+ WW...E 
+ HHHDD. 
+        
+
+Gerakan 31: B-bawah
+        
+ NNDD.L 
+ .....L 
+KBZCPPL 
+ BZC..E 
+ WW...E 
+ HHHDD. 
+        
+
+Gerakan 32: C-atas
+        
+ NNDD.L 
+ ..C..L 
+KBZCPPL 
+ BZ...E 
+ WW...E 
+ HHHDD. 
+        
+
+Gerakan 33: B-atas
+        
+ NNDD.L 
+ B.C..L 
+KBZCPPL 
+ .Z...E 
+ WW...E 
+ HHHDD. 
+        
+
+Gerakan 34: E-bawah
+        
+ NNDD.L 
+ B.C..L 
+KBZCPPL 
+ .Z.... 
+ WW...E 
+ HHHDDE 
+        
+
+Gerakan 35: B-bawah
+        
+ NNDD.L 
+ ..C..L 
+KBZCPPL 
+ BZ.... 
+ WW...E 
+ HHHDDE 
+        
+
+Gerakan 36: C-bawah
+        
+ NNDD.L 
+ .....L 
+KBZCPPL 
+ BZC... 
+ WW...E 
+ HHHDDE 
+        
+
+Gerakan 37: B-atas
+        
+ NNDD.L 
+ B....L 
+KBZCPPL 
+ .ZC... 
+ WW...E 
+ HHHDDE 
+        
+
+Gerakan 38: C-bawah
+        
+ NNDD.L 
+ B....L 
+KBZ.PPL 
+ .ZC... 
+ WWC..E 
+ HHHDDE 
+        
+
+Gerakan 39: P-kiri
+        
+ NNDD.L 
+ B....L 
+KBZPP.L 
+ .ZC... 
+ WWC..E 
+ HHHDDE 
+        
+
+Gerakan 40: B-bawah
+        
+ NNDD.L 
+ .....L 
+KBZPP.L 
+ BZC... 
+ WWC..E 
+ HHHDDE 
+        
+
+Gerakan 41: P-kanan
+        
+ NNDD.L 
+ .....L 
+KBZ.PPL 
+ BZC... 
+ WWC..E 
+ HHHDDE 
+        
+
+Gerakan 42: Z-atas
+        
+ NNDD.L 
+ .Z...L 
+KBZ.PPL 
+ B.C... 
+ WWC..E 
+ HHHDDE 
+        
+
+Gerakan 43: P-kiri
+        
+ NNDD.L 
+ .Z...L 
+KBZPP.L 
+ B.C... 
+ WWC..E 
+ HHHDDE 
+        
+
+Gerakan 44: B-atas
+        
+ NNDD.L 
+ BZ...L 
+KBZPP.L 
+ ..C... 
+ WWC..E 
+ HHHDDE 
+        
+
+Gerakan 45: P-kanan
+        
+ NNDD.L 
+ BZ...L 
+KBZ.PPL 
+ ..C... 
+ WWC..E 
+ HHHDDE 
+        
+
+Gerakan 46: C-atas
+        
+ NNDD.L 
+ BZ...L 
+KBZCPPL 
+ ..C... 
+ WW...E 
+ HHHDDE 
+        
+
+Gerakan 47: B-bawah
+        
+ NNDD.L 
+ .Z...L 
+KBZCPPL 
+ B.C... 
+ WW...E 
+ HHHDDE 
+        
+
+Gerakan 48: C-atas
+        
+ NNDD.L 
+ .ZC..L 
+KBZCPPL 
+ B..... 
+ WW...E 
+ HHHDDE 
+        
+
+Gerakan 49: B-atas
+        
+ NNDD.L 
+ BZC..L 
+KBZCPPL 
+ ...... 
+ WW...E 
+ HHHDDE 
+        
+
+Gerakan 50: E-atas
+        
+ NNDD.L 
+ BZC..L 
+KBZCPPL 
+ .....E 
+ WW...E 
+ HHHDD. 
+        
+
+Gerakan 51: B-bawah
+        
+ NNDD.L 
+ .ZC..L 
+KBZCPPL 
+ B....E 
+ WW...E 
+ HHHDD. 
+        
+
+Gerakan 52: C-bawah
+        
+ NNDD.L 
+ .Z...L 
+KBZCPPL 
+ B.C..E 
+ WW...E 
+ HHHDD. 
+        
+
+Gerakan 53: B-atas
+        
+ NNDD.L 
+ BZ...L 
+KBZCPPL 
+ ..C..E 
+ WW...E 
+ HHHDD. 
+        
+
+Gerakan 54: C-bawah
+        
+ NNDD.L 
+ BZ...L 
+KBZ.PPL 
+ ..C..E 
+ WWC..E 
+ HHHDD. 
+        
+
+Gerakan 55: P-kiri
+        
+ NNDD.L 
+ BZ...L 
+KBZPP.L 
+ ..C..E 
+ WWC..E 
+ HHHDD. 
+        
+
+Gerakan 56: B-bawah
+        
+ NNDD.L 
+ .Z...L 
+KBZPP.L 
+ B.C..E 
+ WWC..E 
+ HHHDD. 
+        
+
+Gerakan 57: P-kanan
+        
+ NNDD.L 
+ .Z...L 
+KBZ.PPL 
+ B.C..E 
+ WWC..E 
+ HHHDD. 
+        
+
+Gerakan 58: D-kanan
+        
+ NNDD.L 
+ .Z...L 
+KBZ.PPL 
+ B.C..E 
+ WWC..E 
+ HHH.DD 
+        
+
+Gerakan 59: P-kiri
+        
+ NNDD.L 
+ .Z...L 
+KBZPP.L 
+ B.C..E 
+ WWC..E 
+ HHH.DD 
+        
+
+Gerakan 60: B-atas
+        
+ NNDD.L 
+ BZ...L 
+KBZPP.L 
+ ..C..E 
+ WWC..E 
+ HHH.DD 
+        
+
+Gerakan 61: P-kanan
+        
+ NNDD.L 
+ BZ...L 
+KBZ.PPL 
+ ..C..E 
+ WWC..E 
+ HHH.DD 
+        
+
+Gerakan 62: C-atas
+        
+ NNDD.L 
+ BZ...L 
+KBZCPPL 
+ ..C..E 
+ WW...E 
+ HHH.DD 
+        
+
+Gerakan 63: B-bawah
+        
+ NNDD.L 
+ .Z...L 
+KBZCPPL 
+ B.C..E 
+ WW...E 
+ HHH.DD 
+        
+
+Gerakan 64: C-atas
+        
+ NNDD.L 
+ .ZC..L 
+KBZCPPL 
+ B....E 
+ WW...E 
+ HHH.DD 
+        
+
+Gerakan 65: B-atas
+        
+ NNDD.L 
+ BZC..L 
+KBZCPPL 
+ .....E 
+ WW...E 
+ HHH.DD 
+        
+
+Gerakan 66: W-kanan
+        
+ NNDD.L 
+ BZC..L 
+KBZCPPL 
+ .....E 
+ .WW..E 
+ HHH.DD 
+        
+
+Gerakan 67: B-bawah
+        
+ NNDD.L 
+ .ZC..L 
+KBZCPPL 
+ B....E 
+ .WW..E 
+ HHH.DD 
+        
+
+Gerakan 68: B-bawah
+        
+ NNDD.L 
+ .ZC..L 
+K.ZCPPL 
+ B....E 
+ BWW..E 
+ HHH.DD 
+        
+
+Gerakan 69: C-bawah
+        
+ NNDD.L 
+ .Z...L 
+K.ZCPPL 
+ B.C..E 
+ BWW..E 
+ HHH.DD 
+        
+
+Gerakan 70: B-atas
+        
+ NNDD.L 
+ .Z...L 
+KBZCPPL 
+ B.C..E 
+ .WW..E 
+ HHH.DD 
+        
+
+Gerakan 71: B-atas
+        
+ NNDD.L 
+ BZ...L 
+KBZCPPL 
+ ..C..E 
+ .WW..E 
+ HHH.DD 
+        
+
+Gerakan 72: D-kiri
+        
+ NNDD.L 
+ BZ...L 
+KBZCPPL 
+ ..C..E 
+ .WW..E 
+ HHHDD. 
+        
+
+Gerakan 73: B-bawah
+        
+ NNDD.L 
+ .Z...L 
+KBZCPPL 
+ B.C..E 
+ .WW..E 
+ HHHDD. 
+        
+
+Gerakan 74: B-bawah
+        
+ NNDD.L 
+ .Z...L 
+K.ZCPPL 
+ B.C..E 
+ BWW..E 
+ HHHDD. 
+        
+
+Gerakan 75: C-atas
+        
+ NNDD.L 
+ .ZC..L 
+K.ZCPPL 
+ B....E 
+ BWW..E 
+ HHHDD. 
+        
+
+Gerakan 76: B-atas
+        
+ NNDD.L 
+ .ZC..L 
+KBZCPPL 
+ B....E 
+ .WW..E 
+ HHHDD. 
+        
+
+Gerakan 77: B-atas
+        
+ NNDD.L 
+ BZC..L 
+KBZCPPL 
+ .....E 
+ .WW..E 
+ HHHDD. 
+        
+
+Gerakan 78: E-bawah
+        
+ NNDD.L 
+ BZC..L 
+KBZCPPL 
+ ...... 
+ .WW..E 
+ HHHDDE 
+        
+
+Gerakan 79: B-bawah
+        
+ NNDD.L 
+ .ZC..L 
+KBZCPPL 
+ B..... 
+ .WW..E 
+ HHHDDE 
+        
+
+Gerakan 80: B-bawah
+        
+ NNDD.L 
+ .ZC..L 
+K.ZCPPL 
+ B..... 
+ BWW..E 
+ HHHDDE 
+        
+
+Gerakan 81: C-bawah
+        
+ NNDD.L 
+ .Z...L 
+K.ZCPPL 
+ B.C... 
+ BWW..E 
+ HHHDDE 
+        
+
+Gerakan 82: B-atas
+        
+ NNDD.L 
+ .Z...L 
+KBZCPPL 
+ B.C... 
+ .WW..E 
+ HHHDDE 
+        
+
+Gerakan 83: B-atas
+        
+ NNDD.L 
+ BZ...L 
+KBZCPPL 
+ ..C... 
+ .WW..E 
+ HHHDDE 
+        
+
+Gerakan 84: W-kanan
+        
+ NNDD.L 
+ BZ...L 
+KBZCPPL 
+ ..C... 
+ ..WW.E 
+ HHHDDE 
+        
+
+Gerakan 85: B-bawah
+        
+ NNDD.L 
+ .Z...L 
+KBZCPPL 
+ B.C... 
+ ..WW.E 
+ HHHDDE 
+        
+
+Gerakan 86: B-bawah
+        
+ NNDD.L 
+ .Z...L 
+K.ZCPPL 
+ B.C... 
+ B.WW.E 
+ HHHDDE 
+        
+
+Gerakan 87: C-atas
+        
+ NNDD.L 
+ .ZC..L 
+K.ZCPPL 
+ B..... 
+ B.WW.E 
+ HHHDDE 
+        
+
+Gerakan 88: B-atas
+        
+ NNDD.L 
+ .ZC..L 
+KBZCPPL 
+ B..... 
+ ..WW.E 
+ HHHDDE 
+        
+
+Gerakan 89: B-atas
+        
+ NNDD.L 
+ BZC..L 
+KBZCPPL 
+ ...... 
+ ..WW.E 
+ HHHDDE 
+        
+
+Gerakan 90: E-atas
+        
+ NNDD.L 
+ BZC..L 
+KBZCPPL 
+ .....E 
+ ..WW.E 
+ HHHDD. 
+        
+
+Gerakan 91: B-bawah
+        
+ NNDD.L 
+ .ZC..L 
+KBZCPPL 
+ B....E 
+ ..WW.E 
+ HHHDD. 
+        
+
+Gerakan 92: B-bawah
+        
+ NNDD.L 
+ .ZC..L 
+K.ZCPPL 
+ B....E 
+ B.WW.E 
+ HHHDD. 
+        
+
+Gerakan 93: C-bawah
+        
+ NNDD.L 
+ .Z...L 
+K.ZCPPL 
+ B.C..E 
+ B.WW.E 
+ HHHDD. 
+        
+
+Gerakan 94: B-atas
+        
+ NNDD.L 
+ .Z...L 
+KBZCPPL 
+ B.C..E 
+ ..WW.E 
+ HHHDD. 
+        
+
+Gerakan 95: B-atas
+        
+ NNDD.L 
+ BZ...L 
+KBZCPPL 
+ ..C..E 
+ ..WW.E 
+ HHHDD. 
+        
+
+Gerakan 96: D-kanan
+        
+ NNDD.L 
+ BZ...L 
+KBZCPPL 
+ ..C..E 
+ ..WW.E 
+ HHH.DD 
+        
+
+Gerakan 97: B-bawah
+        
+ NNDD.L 
+ .Z...L 
+KBZCPPL 
+ B.C..E 
+ ..WW.E 
+ HHH.DD 
+        
+
+Gerakan 98: B-bawah
+        
+ NNDD.L 
+ .Z...L 
+K.ZCPPL 
+ B.C..E 
+ B.WW.E 
+ HHH.DD 
+        
+
+Gerakan 99: C-atas
+        
+ NNDD.L 
+ .ZC..L 
+K.ZCPPL 
+ B....E 
+ B.WW.E 
+ HHH.DD 
+        
+
+Gerakan 100: B-atas
+        
+ NNDD.L 
+ .ZC..L 
+KBZCPPL 
+ B....E 
+ ..WW.E 
+ HHH.DD 
+        
+
+Gerakan 101: B-atas
+        
+ NNDD.L 
+ BZC..L 
+KBZCPPL 
+ .....E 
+ ..WW.E 
+ HHH.DD 
+        
+
+Gerakan 102: W-kanan
+        
+ NNDD.L 
+ BZC..L 
+KBZCPPL 
+ .....E 
+ ...WWE 
+ HHH.DD 
+        
+
+Gerakan 103: B-bawah
+        
+ NNDD.L 
+ .ZC..L 
+KBZCPPL 
+ B....E 
+ ...WWE 
+ HHH.DD 
+        
+
+Gerakan 104: B-bawah
+        
+ NNDD.L 
+ .ZC..L 
+K.ZCPPL 
+ B....E 
+ B..WWE 
+ HHH.DD 
+        
+
+Gerakan 105: C-bawah
+        
+ NNDD.L 
+ .Z...L 
+K.ZCPPL 
+ B.C..E 
+ B..WWE 
+ HHH.DD 
+        
+
+Gerakan 106: B-atas
+        
+ NNDD.L 
+ .Z...L 
+KBZCPPL 
+ B.C..E 
+ ...WWE 
+ HHH.DD 
+        
+
+Gerakan 107: B-atas
+        
+ NNDD.L 
+ BZ...L 
+KBZCPPL 
+ ..C..E 
+ ...WWE 
+ HHH.DD 
+        
+
+Gerakan 108: C-bawah
+        
+ NNDD.L 
+ BZ...L 
+KBZ.PPL 
+ ..C..E 
+ ..CWWE 
+ HHH.DD 
+        
+
+Gerakan 109: P-kiri
+        
+ NNDD.L 
+ BZ...L 
+KBZPP.L 
+ ..C..E 
+ ..CWWE 
+ HHH.DD 
+        
+
+Gerakan 110: B-bawah
+        
+ NNDD.L 
+ .Z...L 
+KBZPP.L 
+ B.C..E 
+ ..CWWE 
+ HHH.DD 
+        
+
+Gerakan 111: P-kanan
+        
+ NNDD.L 
+ .Z...L 
+KBZ.PPL 
+ B.C..E 
+ ..CWWE 
+ HHH.DD 
+        
+
+Gerakan 112: B-bawah
+        
+ NNDD.L 
+ .Z...L 
+K.Z.PPL 
+ B.C..E 
+ B.CWWE 
+ HHH.DD 
+        
+
+Gerakan 113: P-kiri
+        
+ NNDD.L 
+ .Z...L 
+K.ZPP.L 
+ B.C..E 
+ B.CWWE 
+ HHH.DD 
+        
+
+Gerakan 114: D-kiri
+        
+ NNDD.L 
+ .Z...L 
+K.ZPP.L 
+ B.C..E 
+ B.CWWE 
+ HHHDD. 
+        
+
+Gerakan 115: P-kanan
+        
+ NNDD.L 
+ .Z...L 
+K.Z.PPL 
+ B.C..E 
+ B.CWWE 
+ HHHDD. 
+        
+
+Gerakan 116: B-atas
+        
+ NNDD.L 
+ .Z...L 
+KBZ.PPL 
+ B.C..E 
+ ..CWWE 
+ HHHDD. 
+        
+
+Gerakan 117: P-kiri
+        
+ NNDD.L 
+ .Z...L 
+KBZPP.L 
+ B.C..E 
+ ..CWWE 
+ HHHDD. 
+        
+
+Gerakan 118: B-atas
+        
+ NNDD.L 
+ BZ...L 
+KBZPP.L 
+ ..C..E 
+ ..CWWE 
+ HHHDD. 
+        
+
+Gerakan 119: P-kanan
+        
+ NNDD.L 
+ BZ...L 
+KBZ.PPL 
+ ..C..E 
+ ..CWWE 
+ HHHDD. 
+        
+
+Gerakan 120: C-atas
+        
+ NNDD.L 
+ BZ...L 
+KBZCPPL 
+ ..C..E 
+ ...WWE 
+ HHHDD. 
+        
+
+Gerakan 121: B-bawah
+        
+ NNDD.L 
+ .Z...L 
+KBZCPPL 
+ B.C..E 
+ ...WWE 
+ HHHDD. 
+        
+
+Gerakan 122: B-bawah
+        
+ NNDD.L 
+ .Z...L 
+K.ZCPPL 
+ B.C..E 
+ B..WWE 
+ HHHDD. 
+        
+
+Gerakan 123: C-atas
+        
+ NNDD.L 
+ .ZC..L 
+K.ZCPPL 
+ B....E 
+ B..WWE 
+ HHHDD. 
+        
+
+Gerakan 124: B-atas
+        
+ NNDD.L 
+ .ZC..L 
+KBZCPPL 
+ B....E 
+ ...WWE 
+ HHHDD. 
+        
+
+Gerakan 125: B-atas
+        
+ NNDD.L 
+ BZC..L 
+KBZCPPL 
+ .....E 
+ ...WWE 
+ HHHDD. 
+        
+
+Gerakan 126: E-bawah
+        
+ NNDD.L 
+ BZC..L 
+KBZCPPL 
+ ...... 
+ ...WWE 
+ HHHDDE 
+        
+
+Gerakan 127: B-bawah
+        
+ NNDD.L 
+ .ZC..L 
+KBZCPPL 
+ B..... 
+ ...WWE 
+ HHHDDE 
+        
+
+Gerakan 128: B-bawah
+        
+ NNDD.L 
+ .ZC..L 
+K.ZCPPL 
+ B..... 
+ B..WWE 
+ HHHDDE 
+        
+
+Gerakan 129: C-bawah
+        
+ NNDD.L 
+ .Z...L 
+K.ZCPPL 
+ B.C... 
+ B..WWE 
+ HHHDDE 
+        
+
+Gerakan 130: B-atas
+        
+ NNDD.L 
+ .Z...L 
+KBZCPPL 
+ B.C... 
+ ...WWE 
+ HHHDDE 
+        
+
+Gerakan 131: B-atas
+        
+ NNDD.L 
+ BZ...L 
+KBZCPPL 
+ ..C... 
+ ...WWE 
+ HHHDDE 
+        
+
+Gerakan 132: C-bawah
+        
+ NNDD.L 
+ BZ...L 
+KBZ.PPL 
+ ..C... 
+ ..CWWE 
+ HHHDDE 
+        
+
+Gerakan 133: P-kiri
+        
+ NNDD.L 
+ BZ...L 
+KBZPP.L 
+ ..C... 
+ ..CWWE 
+ HHHDDE 
+        
+
+Gerakan 134: B-bawah
+        
+ NNDD.L 
+ .Z...L 
+KBZPP.L 
+ B.C... 
+ ..CWWE 
+ HHHDDE 
+        
+
+Gerakan 135: P-kanan
+        
+ NNDD.L 
+ .Z...L 
+KBZ.PPL 
+ B.C... 
+ ..CWWE 
+ HHHDDE 
+        
+
+Gerakan 136: B-bawah
+        
+ NNDD.L 
+ .Z...L 
+K.Z.PPL 
+ B.C... 
+ B.CWWE 
+ HHHDDE 
+        
+
+Gerakan 137: P-kiri
+        
+ NNDD.L 
+ .Z...L 
+K.ZPP.L 
+ B.C... 
+ B.CWWE 
+ HHHDDE 
+        
+
+Gerakan 138: Z-bawah
+        
+ NNDD.L 
+ .....L 
+K.ZPP.L 
+ BZC... 
+ B.CWWE 
+ HHHDDE 
+        
+
+Gerakan 139: P-kanan
+        
+ NNDD.L 
+ .....L 
+K.Z.PPL 
+ BZC... 
+ B.CWWE 
+ HHHDDE 
+        
+
+Gerakan 140: B-atas
+        
+ NNDD.L 
+ .....L 
+KBZ.PPL 
+ BZC... 
+ ..CWWE 
+ HHHDDE 
+        
+
+Gerakan 141: P-kiri
+        
+ NNDD.L 
+ .....L 
+KBZPP.L 
+ BZC... 
+ ..CWWE 
+ HHHDDE 
+        
+
+Gerakan 142: B-atas
+        
+ NNDD.L 
+ B....L 
+KBZPP.L 
+ .ZC... 
+ ..CWWE 
+ HHHDDE 
+        
+
+Gerakan 143: P-kanan
+        
+ NNDD.L 
+ B....L 
+KBZ.PPL 
+ .ZC... 
+ ..CWWE 
+ HHHDDE 
+        
+
+Gerakan 144: C-atas
+        
+ NNDD.L 
+ B....L 
+KBZCPPL 
+ .ZC... 
+ ...WWE 
+ HHHDDE 
+        
+
+Gerakan 145: B-bawah
+        
+ NNDD.L 
+ .....L 
+KBZCPPL 
+ BZC... 
+ ...WWE 
+ HHHDDE 
+        
+
+Gerakan 146: B-bawah
+        
+ NNDD.L 
+ .....L 
+K.ZCPPL 
+ BZC... 
+ B..WWE 
+ HHHDDE 
+        
+
+Gerakan 147: C-atas
+        
+ NNDD.L 
+ ..C..L 
+K.ZCPPL 
+ BZ.... 
+ B..WWE 
+ HHHDDE 
+        
+
+Gerakan 148: B-atas
+        
+ NNDD.L 
+ ..C..L 
+KBZCPPL 
+ BZ.... 
+ ...WWE 
+ HHHDDE 
+        
+
+Gerakan 149: B-atas
+        
+ NNDD.L 
+ B.C..L 
+KBZCPPL 
+ .Z.... 
+ ...WWE 
+ HHHDDE 
+        
+
+Gerakan 150: E-atas
+        
+ NNDD.L 
+ B.C..L 
+KBZCPPL 
+ .Z...E 
+ ...WWE 
+ HHHDD. 
+        
+
+Gerakan 151: B-bawah
+        
+ NNDD.L 
+ ..C..L 
+KBZCPPL 
+ BZ...E 
+ ...WWE 
+ HHHDD. 
+        
+
+Gerakan 152: B-bawah
+        
+ NNDD.L 
+ ..C..L 
+K.ZCPPL 
+ BZ...E 
+ B..WWE 
+ HHHDD. 
+        
+
+Gerakan 153: C-bawah
+        
+ NNDD.L 
+ .....L 
+K.ZCPPL 
+ BZC..E 
+ B..WWE 
+ HHHDD. 
+        
+
+Gerakan 154: B-atas
+        
+ NNDD.L 
+ .....L 
+KBZCPPL 
+ BZC..E 
+ ...WWE 
+ HHHDD. 
+        
+
+Gerakan 155: B-atas
+        
+ NNDD.L 
+ B....L 
+KBZCPPL 
+ .ZC..E 
+ ...WWE 
+ HHHDD. 
+        
+
+Gerakan 156: C-bawah
+        
+ NNDD.L 
+ B....L 
+KBZ.PPL 
+ .ZC..E 
+ ..CWWE 
+ HHHDD. 
+        
+
+Gerakan 157: P-kiri
+        
+ NNDD.L 
+ B....L 
+KBZPP.L 
+ .ZC..E 
+ ..CWWE 
+ HHHDD. 
+        
+
+Gerakan 158: B-bawah
+        
+ NNDD.L 
+ .....L 
+KBZPP.L 
+ BZC..E 
+ ..CWWE 
+ HHHDD. 
+        
+
+Gerakan 159: P-kanan
+        
+ NNDD.L 
+ .....L 
+KBZ.PPL 
+ BZC..E 
+ ..CWWE 
+ HHHDD. 
+        
+
+Gerakan 160: B-bawah
+        
+ NNDD.L 
+ .....L 
+K.Z.PPL 
+ BZC..E 
+ B.CWWE 
+ HHHDD. 
+        
+
+Gerakan 161: P-kiri
+        
+ NNDD.L 
+ .....L 
+K.ZPP.L 
+ BZC..E 
+ B.CWWE 
+ HHHDD. 
+        
+
+Gerakan 162: D-kanan
+        
+ NNDD.L 
+ .....L 
+K.ZPP.L 
+ BZC..E 
+ B.CWWE 
+ HHH.DD 
+        
+
+Gerakan 163: P-kanan
+        
+ NNDD.L 
+ .....L 
+K.Z.PPL 
+ BZC..E 
+ B.CWWE 
+ HHH.DD 
+        
+
+Gerakan 164: B-atas
+        
+ NNDD.L 
+ .....L 
+KBZ.PPL 
+ BZC..E 
+ ..CWWE 
+ HHH.DD 
+        
+
+Gerakan 165: P-kiri
+        
+ NNDD.L 
+ .....L 
+KBZPP.L 
+ BZC..E 
+ ..CWWE 
+ HHH.DD 
+        
+
+Gerakan 166: B-atas
+        
+ NNDD.L 
+ B....L 
+KBZPP.L 
+ .ZC..E 
+ ..CWWE 
+ HHH.DD 
+        
+
+Gerakan 167: P-kanan
+        
+ NNDD.L 
+ B....L 
+KBZ.PPL 
+ .ZC..E 
+ ..CWWE 
+ HHH.DD 
+        
+
+Gerakan 168: C-atas
+        
+ NNDD.L 
+ B....L 
+KBZCPPL 
+ .ZC..E 
+ ...WWE 
+ HHH.DD 
+        
+
+Gerakan 169: B-bawah
+        
+ NNDD.L 
+ .....L 
+KBZCPPL 
+ BZC..E 
+ ...WWE 
+ HHH.DD 
+        
+
+Gerakan 170: B-bawah
+        
+ NNDD.L 
+ .....L 
+K.ZCPPL 
+ BZC..E 
+ B..WWE 
+ HHH.DD 
+        
+
+Gerakan 171: C-atas
+        
+ NNDD.L 
+ ..C..L 
+K.ZCPPL 
+ BZ...E 
+ B..WWE 
+ HHH.DD 
+        
+
+Gerakan 172: B-atas
+        
+ NNDD.L 
+ ..C..L 
+KBZCPPL 
+ BZ...E 
+ ...WWE 
+ HHH.DD 
+        
+
+Gerakan 173: B-atas
+        
+ NNDD.L 
+ B.C..L 
+KBZCPPL 
+ .Z...E 
+ ...WWE 
+ HHH.DD 
+        
+
+Gerakan 174: W-kiri
+        
+ NNDD.L 
+ B.C..L 
+KBZCPPL 
+ .Z...E 
+ ..WW.E 
+ HHH.DD 
+        
+
+Gerakan 175: B-bawah
+        
+ NNDD.L 
+ ..C..L 
+KBZCPPL 
+ BZ...E 
+ ..WW.E 
+ HHH.DD 
+        
+
+Gerakan 176: B-bawah
+        
+ NNDD.L 
+ ..C..L 
+K.ZCPPL 
+ BZ...E 
+ B.WW.E 
+ HHH.DD 
+        
+
+Gerakan 177: C-bawah
+        
+ NNDD.L 
+ .....L 
+K.ZCPPL 
+ BZC..E 
+ B.WW.E 
+ HHH.DD 
+        
+
+Gerakan 178: B-atas
+        
+ NNDD.L 
+ .....L 
+KBZCPPL 
+ BZC..E 
+ ..WW.E 
+ HHH.DD 
+        
+
+Gerakan 179: B-atas
+        
+ NNDD.L 
+ B....L 
+KBZCPPL 
+ .ZC..E 
+ ..WW.E 
+ HHH.DD 
+        
+
+Gerakan 180: D-kiri
+        
+ NNDD.L 
+ B....L 
+KBZCPPL 
+ .ZC..E 
+ ..WW.E 
+ HHHDD. 
+        
+
+Gerakan 181: B-bawah
+        
+ NNDD.L 
+ .....L 
+KBZCPPL 
+ BZC..E 
+ ..WW.E 
+ HHHDD. 
+        
+
+Gerakan 182: B-bawah
+        
+ NNDD.L 
+ .....L 
+K.ZCPPL 
+ BZC..E 
+ B.WW.E 
+ HHHDD. 
+        
+
+Gerakan 183: C-atas
+        
+ NNDD.L 
+ ..C..L 
+K.ZCPPL 
+ BZ...E 
+ B.WW.E 
+ HHHDD. 
+        
+
+Gerakan 184: B-atas
+        
+ NNDD.L 
+ ..C..L 
+KBZCPPL 
+ BZ...E 
+ ..WW.E 
+ HHHDD. 
+        
+
+Gerakan 185: B-atas
+        
+ NNDD.L 
+ B.C..L 
+KBZCPPL 
+ .Z...E 
+ ..WW.E 
+ HHHDD. 
+        
+
+Gerakan 186: E-bawah
+        
+ NNDD.L 
+ B.C..L 
+KBZCPPL 
+ .Z.... 
+ ..WW.E 
+ HHHDDE 
+        
+
+Gerakan 187: B-bawah
+        
+ NNDD.L 
+ ..C..L 
+KBZCPPL 
+ BZ.... 
+ ..WW.E 
+ HHHDDE 
+        
+
+Gerakan 188: B-bawah
+        
+ NNDD.L 
+ ..C..L 
+K.ZCPPL 
+ BZ.... 
+ B.WW.E 
+ HHHDDE 
+        
+
+Gerakan 189: C-bawah
+        
+ NNDD.L 
+ .....L 
+K.ZCPPL 
+ BZC... 
+ B.WW.E 
+ HHHDDE 
+        
+
+Gerakan 190: B-atas
+        
+ NNDD.L 
+ .....L 
+KBZCPPL 
+ BZC... 
+ ..WW.E 
+ HHHDDE 
+        
+
+Gerakan 191: B-atas
+        
+ NNDD.L 
+ B....L 
+KBZCPPL 
+ .ZC... 
+ ..WW.E 
+ HHHDDE 
+        
+
+Gerakan 192: Z-bawah
+        
+ NNDD.L 
+ B....L 
+KB.CPPL 
+ .ZC... 
+ .ZWW.E 
+ HHHDDE 
+        
+
+Gerakan 193: B-bawah
+        
+ NNDD.L 
+ .....L 
+KB.CPPL 
+ BZC... 
+ .ZWW.E 
+ HHHDDE 
+        
+
+Gerakan 194: B-bawah
+        
+ NNDD.L 
+ .....L 
+K..CPPL 
+ BZC... 
+ BZWW.E 
+ HHHDDE 
+        
+
+Gerakan 195: C-atas
+        
+ NNDD.L 
+ ..C..L 
+K..CPPL 
+ BZ.... 
+ BZWW.E 
+ HHHDDE 
+        
+
+Gerakan 196: B-atas
+        
+ NNDD.L 
+ ..C..L 
+KB.CPPL 
+ BZ.... 
+ .ZWW.E 
+ HHHDDE 
+        
+
+Gerakan 197: B-atas
+        
+ NNDD.L 
+ B.C..L 
+KB.CPPL 
+ .Z.... 
+ .ZWW.E 
+ HHHDDE 
+        
+
+Gerakan 198: E-atas
+        
+ NNDD.L 
+ B.C..L 
+KB.CPPL 
+ .Z...E 
+ .ZWW.E 
+ HHHDD. 
+        
+
+Gerakan 199: B-bawah
+        
+ NNDD.L 
+ ..C..L 
+KB.CPPL 
+ BZ...E 
+ .ZWW.E 
+ HHHDD. 
+        
+
+Gerakan 200: B-bawah
+        
+ NNDD.L 
+ ..C..L 
+K..CPPL 
+ BZ...E 
+ BZWW.E 
+ HHHDD. 
+        
+
+Gerakan 201: C-bawah
+        
+ NNDD.L 
+ .....L 
+K..CPPL 
+ BZC..E 
+ BZWW.E 
+ HHHDD. 
+        
+
+Gerakan 202: B-atas
+        
+ NNDD.L 
+ .....L 
+KB.CPPL 
+ BZC..E 
+ .ZWW.E 
+ HHHDD. 
+        
+
+Gerakan 203: B-atas
+        
+ NNDD.L 
+ B....L 
+KB.CPPL 
+ .ZC..E 
+ .ZWW.E 
+ HHHDD. 
+        
+
+Gerakan 204: D-kanan
+        
+ NNDD.L 
+ B....L 
+KB.CPPL 
+ .ZC..E 
+ .ZWW.E 
+ HHH.DD 
+        
+
+Gerakan 205: B-bawah
+        
+ NNDD.L 
+ .....L 
+KB.CPPL 
+ BZC..E 
+ .ZWW.E 
+ HHH.DD 
+        
+
+Gerakan 206: B-bawah
+        
+ NNDD.L 
+ .....L 
+K..CPPL 
+ BZC..E 
+ BZWW.E 
+ HHH.DD 
+        
+
+Gerakan 207: C-atas
+        
+ NNDD.L 
+ ..C..L 
+K..CPPL 
+ BZ...E 
+ BZWW.E 
+ HHH.DD 
+        
+
+Gerakan 208: B-atas
+        
+ NNDD.L 
+ ..C..L 
+KB.CPPL 
+ BZ...E 
+ .ZWW.E 
+ HHH.DD 
+        
+
+Gerakan 209: B-atas
+        
+ NNDD.L 
+ B.C..L 
+KB.CPPL 
+ .Z...E 
+ .ZWW.E 
+ HHH.DD 
+        
+
+Gerakan 210: W-kanan
+        
+ NNDD.L 
+ B.C..L 
+KB.CPPL 
+ .Z...E 
+ .Z.WWE 
+ HHH.DD 
+        
+
+Gerakan 211: B-bawah
+        
+ NNDD.L 
+ ..C..L 
+KB.CPPL 
+ BZ...E 
+ .Z.WWE 
+ HHH.DD 
+        
+
+Gerakan 212: B-bawah
+        
+ NNDD.L 
+ ..C..L 
+K..CPPL 
+ BZ...E 
+ BZ.WWE 
+ HHH.DD 
+        
+
+Gerakan 213: C-bawah
+        
+ NNDD.L 
+ .....L 
+K..CPPL 
+ BZC..E 
+ BZ.WWE 
+ HHH.DD 
+        
+
+Gerakan 214: B-atas
+        
+ NNDD.L 
+ .....L 
+KB.CPPL 
+ BZC..E 
+ .Z.WWE 
+ HHH.DD 
+        
+
+Gerakan 215: B-atas
+        
+ NNDD.L 
+ B....L 
+KB.CPPL 
+ .ZC..E 
+ .Z.WWE 
+ HHH.DD 
+        
+
+Gerakan 216: C-bawah
+        
+ NNDD.L 
+ B....L 
+KB..PPL 
+ .ZC..E 
+ .ZCWWE 
+ HHH.DD 
+        
+
+Gerakan 217: P-kiri
+        
+ NNDD.L 
+ B....L 
+KB.PP.L 
+ .ZC..E 
+ .ZCWWE 
+ HHH.DD 
+        
+
+Gerakan 218: P-kiri
+        
+ NNDD.L 
+ B....L 
+KBPP..L 
+ .ZC..E 
+ .ZCWWE 
+ HHH.DD 
+        
+
+Gerakan 219: B-bawah
+        
+ NNDD.L 
+ .....L 
+KBPP..L 
+ BZC..E 
+ .ZCWWE 
+ HHH.DD 
+        
+
+Gerakan 220: P-kanan
+        
+ NNDD.L 
+ .....L 
+KB.PP.L 
+ BZC..E 
+ .ZCWWE 
+ HHH.DD 
+        
+
+Gerakan 221: P-kanan
+        
+ NNDD.L 
+ .....L 
+KB..PPL 
+ BZC..E 
+ .ZCWWE 
+ HHH.DD 
+        
+
+Gerakan 222: B-bawah
+        
+ NNDD.L 
+ .....L 
+K...PPL 
+ BZC..E 
+ BZCWWE 
+ HHH.DD 
+        
+
+Gerakan 223: P-kiri
+        
+ NNDD.L 
+ .....L 
+K..PP.L 
+ BZC..E 
+ BZCWWE 
+ HHH.DD 
+        
+
+Gerakan 224: P-kiri
+        
+ NNDD.L 
+ .....L 
+K.PP..L 
+ BZC..E 
+ BZCWWE 
+ HHH.DD 
+        
+
+Gerakan 225: P-kiri
+        
+ NNDD.L 
+ .....L 
+KPP...L 
+ BZC..E 
+ BZCWWE 
+ HHH.DD 
+        
+
+Gerakan 226: P-kiri
+        
+ NNDD.L 
+ .....L 
+PP....L 
+ BZC..E 
+ BZCWWE 
+ HHH.DD 
+        
+
+Jumlah Gerakan: 226, Waktu: 8 ms

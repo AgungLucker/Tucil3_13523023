@@ -1,0 +1,5983 @@
+Algoritma: IDS
+Heuristik: Manhattan Distance
+Papan awal:
+     K  
+ ...IJJ 
+ YYYI.G 
+ HHD..G 
+ .MDCC. 
+ .M..P. 
+ .FF.P. 
+        
+
+Gerakan 1: C-kanan
+     K  
+ ...IJJ 
+ YYYI.G 
+ HHD..G 
+ .MD.CC 
+ .M..P. 
+ .FF.P. 
+        
+
+Gerakan 2: D-bawah
+     K  
+ ...IJJ 
+ YYYI.G 
+ HH...G 
+ .MD.CC 
+ .MD.P. 
+ .FF.P. 
+        
+
+Gerakan 3: C-kiri
+     K  
+ ...IJJ 
+ YYYI.G 
+ HH...G 
+ .MDCC. 
+ .MD.P. 
+ .FF.P. 
+        
+
+Gerakan 4: F-kiri
+     K  
+ ...IJJ 
+ YYYI.G 
+ HH...G 
+ .MDCC. 
+ .MD.P. 
+ FF..P. 
+        
+
+Gerakan 5: C-kanan
+     K  
+ ...IJJ 
+ YYYI.G 
+ HH...G 
+ .MD.CC 
+ .MD.P. 
+ FF..P. 
+        
+
+Gerakan 6: D-atas
+     K  
+ ...IJJ 
+ YYYI.G 
+ HHD..G 
+ .MD.CC 
+ .M..P. 
+ FF..P. 
+        
+
+Gerakan 7: C-kiri
+     K  
+ ...IJJ 
+ YYYI.G 
+ HHD..G 
+ .MDCC. 
+ .M..P. 
+ FF..P. 
+        
+
+Gerakan 8: D-bawah
+     K  
+ ...IJJ 
+ YYYI.G 
+ HH...G 
+ .M.CC. 
+ .MD.P. 
+ FFD.P. 
+        
+
+Gerakan 9: C-kiri
+     K  
+ ...IJJ 
+ YYYI.G 
+ HH...G 
+ .MCC.. 
+ .MD.P. 
+ FFD.P. 
+        
+
+Gerakan 10: P-atas
+     K  
+ ...IJJ 
+ YYYI.G 
+ HH...G 
+ .MCCP. 
+ .MD.P. 
+ FFD... 
+        
+
+Gerakan 11: P-atas
+     K  
+ ...IJJ 
+ YYYI.G 
+ HH..PG 
+ .MCCP. 
+ .MD... 
+ FFD... 
+        
+
+Gerakan 12: P-atas
+     K  
+ ...IJJ 
+ YYYIPG 
+ HH..PG 
+ .MCC.. 
+ .MD... 
+ FFD... 
+        
+
+Gerakan 13: C-kanan
+     K  
+ ...IJJ 
+ YYYIPG 
+ HH..PG 
+ .M.CC. 
+ .MD... 
+ FFD... 
+        
+
+Gerakan 14: C-kanan
+     K  
+ ...IJJ 
+ YYYIPG 
+ HH..PG 
+ .M..CC 
+ .MD... 
+ FFD... 
+        
+
+Gerakan 15: D-atas
+     K  
+ ...IJJ 
+ YYYIPG 
+ HH..PG 
+ .MD.CC 
+ .MD... 
+ FF.... 
+        
+
+Gerakan 16: C-kiri
+     K  
+ ...IJJ 
+ YYYIPG 
+ HH..PG 
+ .MDCC. 
+ .MD... 
+ FF.... 
+        
+
+Gerakan 17: D-atas
+     K  
+ ...IJJ 
+ YYYIPG 
+ HHD.PG 
+ .MDCC. 
+ .M.... 
+ FF.... 
+        
+
+Gerakan 18: C-kanan
+     K  
+ ...IJJ 
+ YYYIPG 
+ HHD.PG 
+ .MD.CC 
+ .M.... 
+ FF.... 
+        
+
+Gerakan 19: F-kanan
+     K  
+ ...IJJ 
+ YYYIPG 
+ HHD.PG 
+ .MD.CC 
+ .M.... 
+ .FF... 
+        
+
+Gerakan 20: C-kiri
+     K  
+ ...IJJ 
+ YYYIPG 
+ HHD.PG 
+ .MDCC. 
+ .M.... 
+ .FF... 
+        
+
+Gerakan 21: D-bawah
+     K  
+ ...IJJ 
+ YYYIPG 
+ HH..PG 
+ .MDCC. 
+ .MD... 
+ .FF... 
+        
+
+Gerakan 22: C-kanan
+     K  
+ ...IJJ 
+ YYYIPG 
+ HH..PG 
+ .MD.CC 
+ .MD... 
+ .FF... 
+        
+
+Gerakan 23: F-kanan
+     K  
+ ...IJJ 
+ YYYIPG 
+ HH..PG 
+ .MD.CC 
+ .MD... 
+ ..FF.. 
+        
+
+Gerakan 24: C-kiri
+     K  
+ ...IJJ 
+ YYYIPG 
+ HH..PG 
+ .MDCC. 
+ .MD... 
+ ..FF.. 
+        
+
+Gerakan 25: D-atas
+     K  
+ ...IJJ 
+ YYYIPG 
+ HHD.PG 
+ .MDCC. 
+ .M.... 
+ ..FF.. 
+        
+
+Gerakan 26: C-kanan
+     K  
+ ...IJJ 
+ YYYIPG 
+ HHD.PG 
+ .MD.CC 
+ .M.... 
+ ..FF.. 
+        
+
+Gerakan 27: F-kanan
+     K  
+ ...IJJ 
+ YYYIPG 
+ HHD.PG 
+ .MD.CC 
+ .M.... 
+ ...FF. 
+        
+
+Gerakan 28: C-kiri
+     K  
+ ...IJJ 
+ YYYIPG 
+ HHD.PG 
+ .MDCC. 
+ .M.... 
+ ...FF. 
+        
+
+Gerakan 29: D-bawah
+     K  
+ ...IJJ 
+ YYYIPG 
+ HH..PG 
+ .MDCC. 
+ .MD... 
+ ...FF. 
+        
+
+Gerakan 30: C-kanan
+     K  
+ ...IJJ 
+ YYYIPG 
+ HH..PG 
+ .MD.CC 
+ .MD... 
+ ...FF. 
+        
+
+Gerakan 31: D-bawah
+     K  
+ ...IJJ 
+ YYYIPG 
+ HH..PG 
+ .M..CC 
+ .MD... 
+ ..DFF. 
+        
+
+Gerakan 32: C-kiri
+     K  
+ ...IJJ 
+ YYYIPG 
+ HH..PG 
+ .M.CC. 
+ .MD... 
+ ..DFF. 
+        
+
+Gerakan 33: C-kiri
+     K  
+ ...IJJ 
+ YYYIPG 
+ HH..PG 
+ .MCC.. 
+ .MD... 
+ ..DFF. 
+        
+
+Gerakan 34: P-bawah
+     K  
+ ...IJJ 
+ YYYI.G 
+ HH..PG 
+ .MCCP. 
+ .MD... 
+ ..DFF. 
+        
+
+Gerakan 35: P-bawah
+     K  
+ ...IJJ 
+ YYYI.G 
+ HH...G 
+ .MCCP. 
+ .MD.P. 
+ ..DFF. 
+        
+
+Gerakan 36: F-kanan
+     K  
+ ...IJJ 
+ YYYI.G 
+ HH...G 
+ .MCCP. 
+ .MD.P. 
+ ..D.FF 
+        
+
+Gerakan 37: P-atas
+     K  
+ ...IJJ 
+ YYYI.G 
+ HH..PG 
+ .MCCP. 
+ .MD... 
+ ..D.FF 
+        
+
+Gerakan 38: P-atas
+     K  
+ ...IJJ 
+ YYYIPG 
+ HH..PG 
+ .MCC.. 
+ .MD... 
+ ..D.FF 
+        
+
+Gerakan 39: C-kanan
+     K  
+ ...IJJ 
+ YYYIPG 
+ HH..PG 
+ .M.CC. 
+ .MD... 
+ ..D.FF 
+        
+
+Gerakan 40: C-kanan
+     K  
+ ...IJJ 
+ YYYIPG 
+ HH..PG 
+ .M..CC 
+ .MD... 
+ ..D.FF 
+        
+
+Gerakan 41: D-atas
+     K  
+ ...IJJ 
+ YYYIPG 
+ HH..PG 
+ .MD.CC 
+ .MD... 
+ ....FF 
+        
+
+Gerakan 42: C-kiri
+     K  
+ ...IJJ 
+ YYYIPG 
+ HH..PG 
+ .MDCC. 
+ .MD... 
+ ....FF 
+        
+
+Gerakan 43: D-atas
+     K  
+ ...IJJ 
+ YYYIPG 
+ HHD.PG 
+ .MDCC. 
+ .M.... 
+ ....FF 
+        
+
+Gerakan 44: C-kanan
+     K  
+ ...IJJ 
+ YYYIPG 
+ HHD.PG 
+ .MD.CC 
+ .M.... 
+ ....FF 
+        
+
+Gerakan 45: I-bawah
+     K  
+ ....JJ 
+ YYYIPG 
+ HHDIPG 
+ .MD.CC 
+ .M.... 
+ ....FF 
+        
+
+Gerakan 46: C-kiri
+     K  
+ ....JJ 
+ YYYIPG 
+ HHDIPG 
+ .MDCC. 
+ .M.... 
+ ....FF 
+        
+
+Gerakan 47: D-bawah
+     K  
+ ....JJ 
+ YYYIPG 
+ HH.IPG 
+ .MDCC. 
+ .MD... 
+ ....FF 
+        
+
+Gerakan 48: C-kanan
+     K  
+ ....JJ 
+ YYYIPG 
+ HH.IPG 
+ .MD.CC 
+ .MD... 
+ ....FF 
+        
+
+Gerakan 49: D-bawah
+     K  
+ ....JJ 
+ YYYIPG 
+ HH.IPG 
+ .M..CC 
+ .MD... 
+ ..D.FF 
+        
+
+Gerakan 50: C-kiri
+     K  
+ ....JJ 
+ YYYIPG 
+ HH.IPG 
+ .M.CC. 
+ .MD... 
+ ..D.FF 
+        
+
+Gerakan 51: C-kiri
+     K  
+ ....JJ 
+ YYYIPG 
+ HH.IPG 
+ .MCC.. 
+ .MD... 
+ ..D.FF 
+        
+
+Gerakan 52: P-bawah
+     K  
+ ....JJ 
+ YYYI.G 
+ HH.IPG 
+ .MCCP. 
+ .MD... 
+ ..D.FF 
+        
+
+Gerakan 53: P-bawah
+     K  
+ ....JJ 
+ YYYI.G 
+ HH.I.G 
+ .MCCP. 
+ .MD.P. 
+ ..D.FF 
+        
+
+Gerakan 54: F-kiri
+     K  
+ ....JJ 
+ YYYI.G 
+ HH.I.G 
+ .MCCP. 
+ .MD.P. 
+ ..DFF. 
+        
+
+Gerakan 55: P-atas
+     K  
+ ....JJ 
+ YYYI.G 
+ HH.IPG 
+ .MCCP. 
+ .MD... 
+ ..DFF. 
+        
+
+Gerakan 56: P-atas
+     K  
+ ....JJ 
+ YYYIPG 
+ HH.IPG 
+ .MCC.. 
+ .MD... 
+ ..DFF. 
+        
+
+Gerakan 57: C-kanan
+     K  
+ ....JJ 
+ YYYIPG 
+ HH.IPG 
+ .M.CC. 
+ .MD... 
+ ..DFF. 
+        
+
+Gerakan 58: C-kanan
+     K  
+ ....JJ 
+ YYYIPG 
+ HH.IPG 
+ .M..CC 
+ .MD... 
+ ..DFF. 
+        
+
+Gerakan 59: D-atas
+     K  
+ ....JJ 
+ YYYIPG 
+ HH.IPG 
+ .MD.CC 
+ .MD... 
+ ...FF. 
+        
+
+Gerakan 60: C-kiri
+     K  
+ ....JJ 
+ YYYIPG 
+ HH.IPG 
+ .MDCC. 
+ .MD... 
+ ...FF. 
+        
+
+Gerakan 61: D-atas
+     K  
+ ....JJ 
+ YYYIPG 
+ HHDIPG 
+ .MDCC. 
+ .M.... 
+ ...FF. 
+        
+
+Gerakan 62: C-kanan
+     K  
+ ....JJ 
+ YYYIPG 
+ HHDIPG 
+ .MD.CC 
+ .M.... 
+ ...FF. 
+        
+
+Gerakan 63: F-kiri
+     K  
+ ....JJ 
+ YYYIPG 
+ HHDIPG 
+ .MD.CC 
+ .M.... 
+ ..FF.. 
+        
+
+Gerakan 64: C-kiri
+     K  
+ ....JJ 
+ YYYIPG 
+ HHDIPG 
+ .MDCC. 
+ .M.... 
+ ..FF.. 
+        
+
+Gerakan 65: D-bawah
+     K  
+ ....JJ 
+ YYYIPG 
+ HH.IPG 
+ .MDCC. 
+ .MD... 
+ ..FF.. 
+        
+
+Gerakan 66: C-kanan
+     K  
+ ....JJ 
+ YYYIPG 
+ HH.IPG 
+ .MD.CC 
+ .MD... 
+ ..FF.. 
+        
+
+Gerakan 67: F-kiri
+     K  
+ ....JJ 
+ YYYIPG 
+ HH.IPG 
+ .MD.CC 
+ .MD... 
+ .FF... 
+        
+
+Gerakan 68: C-kiri
+     K  
+ ....JJ 
+ YYYIPG 
+ HH.IPG 
+ .MDCC. 
+ .MD... 
+ .FF... 
+        
+
+Gerakan 69: D-atas
+     K  
+ ....JJ 
+ YYYIPG 
+ HHDIPG 
+ .MDCC. 
+ .M.... 
+ .FF... 
+        
+
+Gerakan 70: C-kanan
+     K  
+ ....JJ 
+ YYYIPG 
+ HHDIPG 
+ .MD.CC 
+ .M.... 
+ .FF... 
+        
+
+Gerakan 71: F-kiri
+     K  
+ ....JJ 
+ YYYIPG 
+ HHDIPG 
+ .MD.CC 
+ .M.... 
+ FF.... 
+        
+
+Gerakan 72: C-kiri
+     K  
+ ....JJ 
+ YYYIPG 
+ HHDIPG 
+ .MDCC. 
+ .M.... 
+ FF.... 
+        
+
+Gerakan 73: D-bawah
+     K  
+ ....JJ 
+ YYYIPG 
+ HH.IPG 
+ .MDCC. 
+ .MD... 
+ FF.... 
+        
+
+Gerakan 74: C-kanan
+     K  
+ ....JJ 
+ YYYIPG 
+ HH.IPG 
+ .MD.CC 
+ .MD... 
+ FF.... 
+        
+
+Gerakan 75: D-bawah
+     K  
+ ....JJ 
+ YYYIPG 
+ HH.IPG 
+ .M..CC 
+ .MD... 
+ FFD... 
+        
+
+Gerakan 76: C-kiri
+     K  
+ ....JJ 
+ YYYIPG 
+ HH.IPG 
+ .M.CC. 
+ .MD... 
+ FFD... 
+        
+
+Gerakan 77: C-kiri
+     K  
+ ....JJ 
+ YYYIPG 
+ HH.IPG 
+ .MCC.. 
+ .MD... 
+ FFD... 
+        
+
+Gerakan 78: P-bawah
+     K  
+ ....JJ 
+ YYYI.G 
+ HH.IPG 
+ .MCCP. 
+ .MD... 
+ FFD... 
+        
+
+Gerakan 79: P-bawah
+     K  
+ ....JJ 
+ YYYI.G 
+ HH.I.G 
+ .MCCP. 
+ .MD.P. 
+ FFD... 
+        
+
+Gerakan 80: P-bawah
+     K  
+ ....JJ 
+ YYYI.G 
+ HH.I.G 
+ .MCC.. 
+ .MD.P. 
+ FFD.P. 
+        
+
+Gerakan 81: C-kanan
+     K  
+ ....JJ 
+ YYYI.G 
+ HH.I.G 
+ .M.CC. 
+ .MD.P. 
+ FFD.P. 
+        
+
+Gerakan 82: C-kanan
+     K  
+ ....JJ 
+ YYYI.G 
+ HH.I.G 
+ .M..CC 
+ .MD.P. 
+ FFD.P. 
+        
+
+Gerakan 83: D-atas
+     K  
+ ....JJ 
+ YYYI.G 
+ HH.I.G 
+ .MD.CC 
+ .MD.P. 
+ FF..P. 
+        
+
+Gerakan 84: C-kiri
+     K  
+ ....JJ 
+ YYYI.G 
+ HH.I.G 
+ .MDCC. 
+ .MD.P. 
+ FF..P. 
+        
+
+Gerakan 85: D-atas
+     K  
+ ....JJ 
+ YYYI.G 
+ HHDI.G 
+ .MDCC. 
+ .M..P. 
+ FF..P. 
+        
+
+Gerakan 86: C-kanan
+     K  
+ ....JJ 
+ YYYI.G 
+ HHDI.G 
+ .MD.CC 
+ .M..P. 
+ FF..P. 
+        
+
+Gerakan 87: F-kanan
+     K  
+ ....JJ 
+ YYYI.G 
+ HHDI.G 
+ .MD.CC 
+ .M..P. 
+ .FF.P. 
+        
+
+Gerakan 88: C-kiri
+     K  
+ ....JJ 
+ YYYI.G 
+ HHDI.G 
+ .MDCC. 
+ .M..P. 
+ .FF.P. 
+        
+
+Gerakan 89: D-bawah
+     K  
+ ....JJ 
+ YYYI.G 
+ HH.I.G 
+ .MDCC. 
+ .MD.P. 
+ .FF.P. 
+        
+
+Gerakan 90: C-kanan
+     K  
+ ....JJ 
+ YYYI.G 
+ HH.I.G 
+ .MD.CC 
+ .MD.P. 
+ .FF.P. 
+        
+
+Gerakan 91: F-kanan
+     K  
+ ....JJ 
+ YYYI.G 
+ HH.I.G 
+ .MD.CC 
+ .MD.P. 
+ ..FFP. 
+        
+
+Gerakan 92: C-kiri
+     K  
+ ....JJ 
+ YYYI.G 
+ HH.I.G 
+ .MDCC. 
+ .MD.P. 
+ ..FFP. 
+        
+
+Gerakan 93: D-atas
+     K  
+ ....JJ 
+ YYYI.G 
+ HHDI.G 
+ .MDCC. 
+ .M..P. 
+ ..FFP. 
+        
+
+Gerakan 94: C-kanan
+     K  
+ ....JJ 
+ YYYI.G 
+ HHDI.G 
+ .MD.CC 
+ .M..P. 
+ ..FFP. 
+        
+
+Gerakan 95: I-atas
+     K  
+ ...IJJ 
+ YYYI.G 
+ HHD..G 
+ .MD.CC 
+ .M..P. 
+ ..FFP. 
+        
+
+Gerakan 96: C-kiri
+     K  
+ ...IJJ 
+ YYYI.G 
+ HHD..G 
+ .MDCC. 
+ .M..P. 
+ ..FFP. 
+        
+
+Gerakan 97: D-bawah
+     K  
+ ...IJJ 
+ YYYI.G 
+ HH...G 
+ .MDCC. 
+ .MD.P. 
+ ..FFP. 
+        
+
+Gerakan 98: C-kanan
+     K  
+ ...IJJ 
+ YYYI.G 
+ HH...G 
+ .MD.CC 
+ .MD.P. 
+ ..FFP. 
+        
+
+Gerakan 99: H-kanan
+     K  
+ ...IJJ 
+ YYYI.G 
+ .HH..G 
+ .MD.CC 
+ .MD.P. 
+ ..FFP. 
+        
+
+Gerakan 100: C-kiri
+     K  
+ ...IJJ 
+ YYYI.G 
+ .HH..G 
+ .MDCC. 
+ .MD.P. 
+ ..FFP. 
+        
+
+Gerakan 101: F-kiri
+     K  
+ ...IJJ 
+ YYYI.G 
+ .HH..G 
+ .MDCC. 
+ .MD.P. 
+ .FF.P. 
+        
+
+Gerakan 102: C-kanan
+     K  
+ ...IJJ 
+ YYYI.G 
+ .HH..G 
+ .MD.CC 
+ .MD.P. 
+ .FF.P. 
+        
+
+Gerakan 103: F-kiri
+     K  
+ ...IJJ 
+ YYYI.G 
+ .HH..G 
+ .MD.CC 
+ .MD.P. 
+ FF..P. 
+        
+
+Gerakan 104: C-kiri
+     K  
+ ...IJJ 
+ YYYI.G 
+ .HH..G 
+ .MDCC. 
+ .MD.P. 
+ FF..P. 
+        
+
+Gerakan 105: D-bawah
+     K  
+ ...IJJ 
+ YYYI.G 
+ .HH..G 
+ .M.CC. 
+ .MD.P. 
+ FFD.P. 
+        
+
+Gerakan 106: C-kiri
+     K  
+ ...IJJ 
+ YYYI.G 
+ .HH..G 
+ .MCC.. 
+ .MD.P. 
+ FFD.P. 
+        
+
+Gerakan 107: P-atas
+     K  
+ ...IJJ 
+ YYYI.G 
+ .HH..G 
+ .MCCP. 
+ .MD.P. 
+ FFD... 
+        
+
+Gerakan 108: P-atas
+     K  
+ ...IJJ 
+ YYYI.G 
+ .HH.PG 
+ .MCCP. 
+ .MD... 
+ FFD... 
+        
+
+Gerakan 109: P-atas
+     K  
+ ...IJJ 
+ YYYIPG 
+ .HH.PG 
+ .MCC.. 
+ .MD... 
+ FFD... 
+        
+
+Gerakan 110: C-kanan
+     K  
+ ...IJJ 
+ YYYIPG 
+ .HH.PG 
+ .M.CC. 
+ .MD... 
+ FFD... 
+        
+
+Gerakan 111: C-kanan
+     K  
+ ...IJJ 
+ YYYIPG 
+ .HH.PG 
+ .M..CC 
+ .MD... 
+ FFD... 
+        
+
+Gerakan 112: D-atas
+     K  
+ ...IJJ 
+ YYYIPG 
+ .HH.PG 
+ .MD.CC 
+ .MD... 
+ FF.... 
+        
+
+Gerakan 113: C-kiri
+     K  
+ ...IJJ 
+ YYYIPG 
+ .HH.PG 
+ .MDCC. 
+ .MD... 
+ FF.... 
+        
+
+Gerakan 114: F-kanan
+     K  
+ ...IJJ 
+ YYYIPG 
+ .HH.PG 
+ .MDCC. 
+ .MD... 
+ .FF... 
+        
+
+Gerakan 115: C-kanan
+     K  
+ ...IJJ 
+ YYYIPG 
+ .HH.PG 
+ .MD.CC 
+ .MD... 
+ .FF... 
+        
+
+Gerakan 116: F-kanan
+     K  
+ ...IJJ 
+ YYYIPG 
+ .HH.PG 
+ .MD.CC 
+ .MD... 
+ ..FF.. 
+        
+
+Gerakan 117: C-kiri
+     K  
+ ...IJJ 
+ YYYIPG 
+ .HH.PG 
+ .MDCC. 
+ .MD... 
+ ..FF.. 
+        
+
+Gerakan 118: F-kanan
+     K  
+ ...IJJ 
+ YYYIPG 
+ .HH.PG 
+ .MDCC. 
+ .MD... 
+ ...FF. 
+        
+
+Gerakan 119: C-kanan
+     K  
+ ...IJJ 
+ YYYIPG 
+ .HH.PG 
+ .MD.CC 
+ .MD... 
+ ...FF. 
+        
+
+Gerakan 120: D-bawah
+     K  
+ ...IJJ 
+ YYYIPG 
+ .HH.PG 
+ .M..CC 
+ .MD... 
+ ..DFF. 
+        
+
+Gerakan 121: C-kiri
+     K  
+ ...IJJ 
+ YYYIPG 
+ .HH.PG 
+ .M.CC. 
+ .MD... 
+ ..DFF. 
+        
+
+Gerakan 122: C-kiri
+     K  
+ ...IJJ 
+ YYYIPG 
+ .HH.PG 
+ .MCC.. 
+ .MD... 
+ ..DFF. 
+        
+
+Gerakan 123: P-bawah
+     K  
+ ...IJJ 
+ YYYI.G 
+ .HH.PG 
+ .MCCP. 
+ .MD... 
+ ..DFF. 
+        
+
+Gerakan 124: P-bawah
+     K  
+ ...IJJ 
+ YYYI.G 
+ .HH..G 
+ .MCCP. 
+ .MD.P. 
+ ..DFF. 
+        
+
+Gerakan 125: F-kanan
+     K  
+ ...IJJ 
+ YYYI.G 
+ .HH..G 
+ .MCCP. 
+ .MD.P. 
+ ..D.FF 
+        
+
+Gerakan 126: P-atas
+     K  
+ ...IJJ 
+ YYYI.G 
+ .HH.PG 
+ .MCCP. 
+ .MD... 
+ ..D.FF 
+        
+
+Gerakan 127: P-atas
+     K  
+ ...IJJ 
+ YYYIPG 
+ .HH.PG 
+ .MCC.. 
+ .MD... 
+ ..D.FF 
+        
+
+Gerakan 128: C-kanan
+     K  
+ ...IJJ 
+ YYYIPG 
+ .HH.PG 
+ .M.CC. 
+ .MD... 
+ ..D.FF 
+        
+
+Gerakan 129: C-kanan
+     K  
+ ...IJJ 
+ YYYIPG 
+ .HH.PG 
+ .M..CC 
+ .MD... 
+ ..D.FF 
+        
+
+Gerakan 130: D-atas
+     K  
+ ...IJJ 
+ YYYIPG 
+ .HH.PG 
+ .MD.CC 
+ .MD... 
+ ....FF 
+        
+
+Gerakan 131: C-kiri
+     K  
+ ...IJJ 
+ YYYIPG 
+ .HH.PG 
+ .MDCC. 
+ .MD... 
+ ....FF 
+        
+
+Gerakan 132: G-bawah
+     K  
+ ...IJJ 
+ YYYIP. 
+ .HH.PG 
+ .MDCCG 
+ .MD... 
+ ....FF 
+        
+
+Gerakan 133: D-bawah
+     K  
+ ...IJJ 
+ YYYIP. 
+ .HH.PG 
+ .M.CCG 
+ .MD... 
+ ..D.FF 
+        
+
+Gerakan 134: C-kiri
+     K  
+ ...IJJ 
+ YYYIP. 
+ .HH.PG 
+ .MCC.G 
+ .MD... 
+ ..D.FF 
+        
+
+Gerakan 135: P-bawah
+     K  
+ ...IJJ 
+ YYYI.. 
+ .HH.PG 
+ .MCCPG 
+ .MD... 
+ ..D.FF 
+        
+
+Gerakan 136: P-bawah
+     K  
+ ...IJJ 
+ YYYI.. 
+ .HH..G 
+ .MCCPG 
+ .MD.P. 
+ ..D.FF 
+        
+
+Gerakan 137: F-kiri
+     K  
+ ...IJJ 
+ YYYI.. 
+ .HH..G 
+ .MCCPG 
+ .MD.P. 
+ ..DFF. 
+        
+
+Gerakan 138: P-atas
+     K  
+ ...IJJ 
+ YYYI.. 
+ .HH.PG 
+ .MCCPG 
+ .MD... 
+ ..DFF. 
+        
+
+Gerakan 139: P-atas
+     K  
+ ...IJJ 
+ YYYIP. 
+ .HH.PG 
+ .MCC.G 
+ .MD... 
+ ..DFF. 
+        
+
+Gerakan 140: C-kanan
+     K  
+ ...IJJ 
+ YYYIP. 
+ .HH.PG 
+ .M.CCG 
+ .MD... 
+ ..DFF. 
+        
+
+Gerakan 141: D-atas
+     K  
+ ...IJJ 
+ YYYIP. 
+ .HH.PG 
+ .MDCCG 
+ .MD... 
+ ...FF. 
+        
+
+Gerakan 142: F-kiri
+     K  
+ ...IJJ 
+ YYYIP. 
+ .HH.PG 
+ .MDCCG 
+ .MD... 
+ ..FF.. 
+        
+
+Gerakan 143: F-kiri
+     K  
+ ...IJJ 
+ YYYIP. 
+ .HH.PG 
+ .MDCCG 
+ .MD... 
+ .FF... 
+        
+
+Gerakan 144: F-kiri
+     K  
+ ...IJJ 
+ YYYIP. 
+ .HH.PG 
+ .MDCCG 
+ .MD... 
+ FF.... 
+        
+
+Gerakan 145: D-bawah
+     K  
+ ...IJJ 
+ YYYIP. 
+ .HH.PG 
+ .M.CCG 
+ .MD... 
+ FFD... 
+        
+
+Gerakan 146: C-kiri
+     K  
+ ...IJJ 
+ YYYIP. 
+ .HH.PG 
+ .MCC.G 
+ .MD... 
+ FFD... 
+        
+
+Gerakan 147: P-bawah
+     K  
+ ...IJJ 
+ YYYI.. 
+ .HH.PG 
+ .MCCPG 
+ .MD... 
+ FFD... 
+        
+
+Gerakan 148: P-bawah
+     K  
+ ...IJJ 
+ YYYI.. 
+ .HH..G 
+ .MCCPG 
+ .MD.P. 
+ FFD... 
+        
+
+Gerakan 149: P-bawah
+     K  
+ ...IJJ 
+ YYYI.. 
+ .HH..G 
+ .MCC.G 
+ .MD.P. 
+ FFD.P. 
+        
+
+Gerakan 150: C-kanan
+     K  
+ ...IJJ 
+ YYYI.. 
+ .HH..G 
+ .M.CCG 
+ .MD.P. 
+ FFD.P. 
+        
+
+Gerakan 151: D-atas
+     K  
+ ...IJJ 
+ YYYI.. 
+ .HH..G 
+ .MDCCG 
+ .MD.P. 
+ FF..P. 
+        
+
+Gerakan 152: F-kanan
+     K  
+ ...IJJ 
+ YYYI.. 
+ .HH..G 
+ .MDCCG 
+ .MD.P. 
+ .FF.P. 
+        
+
+Gerakan 153: F-kanan
+     K  
+ ...IJJ 
+ YYYI.. 
+ .HH..G 
+ .MDCCG 
+ .MD.P. 
+ ..FFP. 
+        
+
+Gerakan 154: G-bawah
+     K  
+ ...IJJ 
+ YYYI.. 
+ .HH... 
+ .MDCCG 
+ .MD.PG 
+ ..FFP. 
+        
+
+Gerakan 155: F-kiri
+     K  
+ ...IJJ 
+ YYYI.. 
+ .HH... 
+ .MDCCG 
+ .MD.PG 
+ .FF.P. 
+        
+
+Gerakan 156: F-kiri
+     K  
+ ...IJJ 
+ YYYI.. 
+ .HH... 
+ .MDCCG 
+ .MD.PG 
+ FF..P. 
+        
+
+Gerakan 157: D-bawah
+     K  
+ ...IJJ 
+ YYYI.. 
+ .HH... 
+ .M.CCG 
+ .MD.PG 
+ FFD.P. 
+        
+
+Gerakan 158: C-kiri
+     K  
+ ...IJJ 
+ YYYI.. 
+ .HH... 
+ .MCC.G 
+ .MD.PG 
+ FFD.P. 
+        
+
+Gerakan 159: P-atas
+     K  
+ ...IJJ 
+ YYYI.. 
+ .HH... 
+ .MCCPG 
+ .MD.PG 
+ FFD... 
+        
+
+Gerakan 160: P-atas
+     K  
+ ...IJJ 
+ YYYI.. 
+ .HH.P. 
+ .MCCPG 
+ .MD..G 
+ FFD... 
+        
+
+Gerakan 161: P-atas
+     K  
+ ...IJJ 
+ YYYIP. 
+ .HH.P. 
+ .MCC.G 
+ .MD..G 
+ FFD... 
+        
+
+Gerakan 162: C-kanan
+     K  
+ ...IJJ 
+ YYYIP. 
+ .HH.P. 
+ .M.CCG 
+ .MD..G 
+ FFD... 
+        
+
+Gerakan 163: D-atas
+     K  
+ ...IJJ 
+ YYYIP. 
+ .HH.P. 
+ .MDCCG 
+ .MD..G 
+ FF.... 
+        
+
+Gerakan 164: F-kanan
+     K  
+ ...IJJ 
+ YYYIP. 
+ .HH.P. 
+ .MDCCG 
+ .MD..G 
+ .FF... 
+        
+
+Gerakan 165: F-kanan
+     K  
+ ...IJJ 
+ YYYIP. 
+ .HH.P. 
+ .MDCCG 
+ .MD..G 
+ ..FF.. 
+        
+
+Gerakan 166: F-kanan
+     K  
+ ...IJJ 
+ YYYIP. 
+ .HH.P. 
+ .MDCCG 
+ .MD..G 
+ ...FF. 
+        
+
+Gerakan 167: D-bawah
+     K  
+ ...IJJ 
+ YYYIP. 
+ .HH.P. 
+ .M.CCG 
+ .MD..G 
+ ..DFF. 
+        
+
+Gerakan 168: C-kiri
+     K  
+ ...IJJ 
+ YYYIP. 
+ .HH.P. 
+ .MCC.G 
+ .MD..G 
+ ..DFF. 
+        
+
+Gerakan 169: P-bawah
+     K  
+ ...IJJ 
+ YYYI.. 
+ .HH.P. 
+ .MCCPG 
+ .MD..G 
+ ..DFF. 
+        
+
+Gerakan 170: P-bawah
+     K  
+ ...IJJ 
+ YYYI.. 
+ .HH... 
+ .MCCPG 
+ .MD.PG 
+ ..DFF. 
+        
+
+Gerakan 171: F-kanan
+     K  
+ ...IJJ 
+ YYYI.. 
+ .HH... 
+ .MCCPG 
+ .MD.PG 
+ ..D.FF 
+        
+
+Gerakan 172: P-atas
+     K  
+ ...IJJ 
+ YYYI.. 
+ .HH.P. 
+ .MCCPG 
+ .MD..G 
+ ..D.FF 
+        
+
+Gerakan 173: P-atas
+     K  
+ ...IJJ 
+ YYYIP. 
+ .HH.P. 
+ .MCC.G 
+ .MD..G 
+ ..D.FF 
+        
+
+Gerakan 174: C-kanan
+     K  
+ ...IJJ 
+ YYYIP. 
+ .HH.P. 
+ .M.CCG 
+ .MD..G 
+ ..D.FF 
+        
+
+Gerakan 175: D-atas
+     K  
+ ...IJJ 
+ YYYIP. 
+ .HH.P. 
+ .MDCCG 
+ .MD..G 
+ ....FF 
+        
+
+Gerakan 176: H-kiri
+     K  
+ ...IJJ 
+ YYYIP. 
+ HH..P. 
+ .MDCCG 
+ .MD..G 
+ ....FF 
+        
+
+Gerakan 177: D-atas
+     K  
+ ...IJJ 
+ YYYIP. 
+ HHD.P. 
+ .MDCCG 
+ .M...G 
+ ....FF 
+        
+
+Gerakan 178: D-bawah
+     K  
+ ...IJJ 
+ YYYIP. 
+ HH..P. 
+ .M.CCG 
+ .MD..G 
+ ..D.FF 
+        
+
+Gerakan 179: C-kiri
+     K  
+ ...IJJ 
+ YYYIP. 
+ HH..P. 
+ .MCC.G 
+ .MD..G 
+ ..D.FF 
+        
+
+Gerakan 180: P-bawah
+     K  
+ ...IJJ 
+ YYYI.. 
+ HH..P. 
+ .MCCPG 
+ .MD..G 
+ ..D.FF 
+        
+
+Gerakan 181: P-bawah
+     K  
+ ...IJJ 
+ YYYI.. 
+ HH.... 
+ .MCCPG 
+ .MD.PG 
+ ..D.FF 
+        
+
+Gerakan 182: F-kiri
+     K  
+ ...IJJ 
+ YYYI.. 
+ HH.... 
+ .MCCPG 
+ .MD.PG 
+ ..DFF. 
+        
+
+Gerakan 183: P-atas
+     K  
+ ...IJJ 
+ YYYI.. 
+ HH..P. 
+ .MCCPG 
+ .MD..G 
+ ..DFF. 
+        
+
+Gerakan 184: P-atas
+     K  
+ ...IJJ 
+ YYYIP. 
+ HH..P. 
+ .MCC.G 
+ .MD..G 
+ ..DFF. 
+        
+
+Gerakan 185: C-kanan
+     K  
+ ...IJJ 
+ YYYIP. 
+ HH..P. 
+ .M.CCG 
+ .MD..G 
+ ..DFF. 
+        
+
+Gerakan 186: D-atas
+     K  
+ ...IJJ 
+ YYYIP. 
+ HH..P. 
+ .MDCCG 
+ .MD..G 
+ ...FF. 
+        
+
+Gerakan 187: D-atas
+     K  
+ ...IJJ 
+ YYYIP. 
+ HHD.P. 
+ .MDCCG 
+ .M...G 
+ ...FF. 
+        
+
+Gerakan 188: F-kiri
+     K  
+ ...IJJ 
+ YYYIP. 
+ HHD.P. 
+ .MDCCG 
+ .M...G 
+ ..FF.. 
+        
+
+Gerakan 189: D-bawah
+     K  
+ ...IJJ 
+ YYYIP. 
+ HH..P. 
+ .MDCCG 
+ .MD..G 
+ ..FF.. 
+        
+
+Gerakan 190: F-kiri
+     K  
+ ...IJJ 
+ YYYIP. 
+ HH..P. 
+ .MDCCG 
+ .MD..G 
+ .FF... 
+        
+
+Gerakan 191: D-atas
+     K  
+ ...IJJ 
+ YYYIP. 
+ HHD.P. 
+ .MDCCG 
+ .M...G 
+ .FF... 
+        
+
+Gerakan 192: F-kiri
+     K  
+ ...IJJ 
+ YYYIP. 
+ HHD.P. 
+ .MDCCG 
+ .M...G 
+ FF.... 
+        
+
+Gerakan 193: D-bawah
+     K  
+ ...IJJ 
+ YYYIP. 
+ HH..P. 
+ .MDCCG 
+ .MD..G 
+ FF.... 
+        
+
+Gerakan 194: D-bawah
+     K  
+ ...IJJ 
+ YYYIP. 
+ HH..P. 
+ .M.CCG 
+ .MD..G 
+ FFD... 
+        
+
+Gerakan 195: C-kiri
+     K  
+ ...IJJ 
+ YYYIP. 
+ HH..P. 
+ .MCC.G 
+ .MD..G 
+ FFD... 
+        
+
+Gerakan 196: P-bawah
+     K  
+ ...IJJ 
+ YYYI.. 
+ HH..P. 
+ .MCCPG 
+ .MD..G 
+ FFD... 
+        
+
+Gerakan 197: P-bawah
+     K  
+ ...IJJ 
+ YYYI.. 
+ HH.... 
+ .MCCPG 
+ .MD.PG 
+ FFD... 
+        
+
+Gerakan 198: P-bawah
+     K  
+ ...IJJ 
+ YYYI.. 
+ HH.... 
+ .MCC.G 
+ .MD.PG 
+ FFD.P. 
+        
+
+Gerakan 199: C-kanan
+     K  
+ ...IJJ 
+ YYYI.. 
+ HH.... 
+ .M.CCG 
+ .MD.PG 
+ FFD.P. 
+        
+
+Gerakan 200: D-atas
+     K  
+ ...IJJ 
+ YYYI.. 
+ HH.... 
+ .MDCCG 
+ .MD.PG 
+ FF..P. 
+        
+
+Gerakan 201: D-atas
+     K  
+ ...IJJ 
+ YYYI.. 
+ HHD... 
+ .MDCCG 
+ .M..PG 
+ FF..P. 
+        
+
+Gerakan 202: F-kanan
+     K  
+ ...IJJ 
+ YYYI.. 
+ HHD... 
+ .MDCCG 
+ .M..PG 
+ .FF.P. 
+        
+
+Gerakan 203: D-bawah
+     K  
+ ...IJJ 
+ YYYI.. 
+ HH.... 
+ .MDCCG 
+ .MD.PG 
+ .FF.P. 
+        
+
+Gerakan 204: F-kanan
+     K  
+ ...IJJ 
+ YYYI.. 
+ HH.... 
+ .MDCCG 
+ .MD.PG 
+ ..FFP. 
+        
+
+Gerakan 205: D-atas
+     K  
+ ...IJJ 
+ YYYI.. 
+ HHD... 
+ .MDCCG 
+ .M..PG 
+ ..FFP. 
+        
+
+Gerakan 206: G-atas
+     K  
+ ...IJJ 
+ YYYI.. 
+ HHD..G 
+ .MDCCG 
+ .M..P. 
+ ..FFP. 
+        
+
+Gerakan 207: D-bawah
+     K  
+ ...IJJ 
+ YYYI.. 
+ HH...G 
+ .MDCCG 
+ .MD.P. 
+ ..FFP. 
+        
+
+Gerakan 208: F-kiri
+     K  
+ ...IJJ 
+ YYYI.. 
+ HH...G 
+ .MDCCG 
+ .MD.P. 
+ .FF.P. 
+        
+
+Gerakan 209: D-atas
+     K  
+ ...IJJ 
+ YYYI.. 
+ HHD..G 
+ .MDCCG 
+ .M..P. 
+ .FF.P. 
+        
+
+Gerakan 210: F-kiri
+     K  
+ ...IJJ 
+ YYYI.. 
+ HHD..G 
+ .MDCCG 
+ .M..P. 
+ FF..P. 
+        
+
+Gerakan 211: D-bawah
+     K  
+ ...IJJ 
+ YYYI.. 
+ HH...G 
+ .MDCCG 
+ .MD.P. 
+ FF..P. 
+        
+
+Gerakan 212: D-bawah
+     K  
+ ...IJJ 
+ YYYI.. 
+ HH...G 
+ .M.CCG 
+ .MD.P. 
+ FFD.P. 
+        
+
+Gerakan 213: C-kiri
+     K  
+ ...IJJ 
+ YYYI.. 
+ HH...G 
+ .MCC.G 
+ .MD.P. 
+ FFD.P. 
+        
+
+Gerakan 214: P-atas
+     K  
+ ...IJJ 
+ YYYI.. 
+ HH...G 
+ .MCCPG 
+ .MD.P. 
+ FFD... 
+        
+
+Gerakan 215: P-atas
+     K  
+ ...IJJ 
+ YYYI.. 
+ HH..PG 
+ .MCCPG 
+ .MD... 
+ FFD... 
+        
+
+Gerakan 216: P-atas
+     K  
+ ...IJJ 
+ YYYIP. 
+ HH..PG 
+ .MCC.G 
+ .MD... 
+ FFD... 
+        
+
+Gerakan 217: C-kanan
+     K  
+ ...IJJ 
+ YYYIP. 
+ HH..PG 
+ .M.CCG 
+ .MD... 
+ FFD... 
+        
+
+Gerakan 218: D-atas
+     K  
+ ...IJJ 
+ YYYIP. 
+ HH..PG 
+ .MDCCG 
+ .MD... 
+ FF.... 
+        
+
+Gerakan 219: D-atas
+     K  
+ ...IJJ 
+ YYYIP. 
+ HHD.PG 
+ .MDCCG 
+ .M.... 
+ FF.... 
+        
+
+Gerakan 220: F-kanan
+     K  
+ ...IJJ 
+ YYYIP. 
+ HHD.PG 
+ .MDCCG 
+ .M.... 
+ .FF... 
+        
+
+Gerakan 221: D-bawah
+     K  
+ ...IJJ 
+ YYYIP. 
+ HH..PG 
+ .MDCCG 
+ .MD... 
+ .FF... 
+        
+
+Gerakan 222: F-kanan
+     K  
+ ...IJJ 
+ YYYIP. 
+ HH..PG 
+ .MDCCG 
+ .MD... 
+ ..FF.. 
+        
+
+Gerakan 223: D-atas
+     K  
+ ...IJJ 
+ YYYIP. 
+ HHD.PG 
+ .MDCCG 
+ .M.... 
+ ..FF.. 
+        
+
+Gerakan 224: F-kanan
+     K  
+ ...IJJ 
+ YYYIP. 
+ HHD.PG 
+ .MDCCG 
+ .M.... 
+ ...FF. 
+        
+
+Gerakan 225: D-bawah
+     K  
+ ...IJJ 
+ YYYIP. 
+ HH..PG 
+ .MDCCG 
+ .MD... 
+ ...FF. 
+        
+
+Gerakan 226: D-bawah
+     K  
+ ...IJJ 
+ YYYIP. 
+ HH..PG 
+ .M.CCG 
+ .MD... 
+ ..DFF. 
+        
+
+Gerakan 227: C-kiri
+     K  
+ ...IJJ 
+ YYYIP. 
+ HH..PG 
+ .MCC.G 
+ .MD... 
+ ..DFF. 
+        
+
+Gerakan 228: P-bawah
+     K  
+ ...IJJ 
+ YYYI.. 
+ HH..PG 
+ .MCCPG 
+ .MD... 
+ ..DFF. 
+        
+
+Gerakan 229: P-bawah
+     K  
+ ...IJJ 
+ YYYI.. 
+ HH...G 
+ .MCCPG 
+ .MD.P. 
+ ..DFF. 
+        
+
+Gerakan 230: F-kanan
+     K  
+ ...IJJ 
+ YYYI.. 
+ HH...G 
+ .MCCPG 
+ .MD.P. 
+ ..D.FF 
+        
+
+Gerakan 231: P-atas
+     K  
+ ...IJJ 
+ YYYI.. 
+ HH..PG 
+ .MCCPG 
+ .MD... 
+ ..D.FF 
+        
+
+Gerakan 232: P-atas
+     K  
+ ...IJJ 
+ YYYIP. 
+ HH..PG 
+ .MCC.G 
+ .MD... 
+ ..D.FF 
+        
+
+Gerakan 233: C-kanan
+     K  
+ ...IJJ 
+ YYYIP. 
+ HH..PG 
+ .M.CCG 
+ .MD... 
+ ..D.FF 
+        
+
+Gerakan 234: D-atas
+     K  
+ ...IJJ 
+ YYYIP. 
+ HH..PG 
+ .MDCCG 
+ .MD... 
+ ....FF 
+        
+
+Gerakan 235: D-atas
+     K  
+ ...IJJ 
+ YYYIP. 
+ HHD.PG 
+ .MDCCG 
+ .M.... 
+ ....FF 
+        
+
+Gerakan 236: I-bawah
+     K  
+ ....JJ 
+ YYYIP. 
+ HHDIPG 
+ .MDCCG 
+ .M.... 
+ ....FF 
+        
+
+Gerakan 237: D-bawah
+     K  
+ ....JJ 
+ YYYIP. 
+ HH.IPG 
+ .MDCCG 
+ .MD... 
+ ....FF 
+        
+
+Gerakan 238: D-bawah
+     K  
+ ....JJ 
+ YYYIP. 
+ HH.IPG 
+ .M.CCG 
+ .MD... 
+ ..D.FF 
+        
+
+Gerakan 239: C-kiri
+     K  
+ ....JJ 
+ YYYIP. 
+ HH.IPG 
+ .MCC.G 
+ .MD... 
+ ..D.FF 
+        
+
+Gerakan 240: P-bawah
+     K  
+ ....JJ 
+ YYYI.. 
+ HH.IPG 
+ .MCCPG 
+ .MD... 
+ ..D.FF 
+        
+
+Gerakan 241: P-bawah
+     K  
+ ....JJ 
+ YYYI.. 
+ HH.I.G 
+ .MCCPG 
+ .MD.P. 
+ ..D.FF 
+        
+
+Gerakan 242: F-kiri
+     K  
+ ....JJ 
+ YYYI.. 
+ HH.I.G 
+ .MCCPG 
+ .MD.P. 
+ ..DFF. 
+        
+
+Gerakan 243: P-atas
+     K  
+ ....JJ 
+ YYYI.. 
+ HH.IPG 
+ .MCCPG 
+ .MD... 
+ ..DFF. 
+        
+
+Gerakan 244: P-atas
+     K  
+ ....JJ 
+ YYYIP. 
+ HH.IPG 
+ .MCC.G 
+ .MD... 
+ ..DFF. 
+        
+
+Gerakan 245: C-kanan
+     K  
+ ....JJ 
+ YYYIP. 
+ HH.IPG 
+ .M.CCG 
+ .MD... 
+ ..DFF. 
+        
+
+Gerakan 246: D-atas
+     K  
+ ....JJ 
+ YYYIP. 
+ HH.IPG 
+ .MDCCG 
+ .MD... 
+ ...FF. 
+        
+
+Gerakan 247: D-atas
+     K  
+ ....JJ 
+ YYYIP. 
+ HHDIPG 
+ .MDCCG 
+ .M.... 
+ ...FF. 
+        
+
+Gerakan 248: F-kiri
+     K  
+ ....JJ 
+ YYYIP. 
+ HHDIPG 
+ .MDCCG 
+ .M.... 
+ ..FF.. 
+        
+
+Gerakan 249: D-bawah
+     K  
+ ....JJ 
+ YYYIP. 
+ HH.IPG 
+ .MDCCG 
+ .MD... 
+ ..FF.. 
+        
+
+Gerakan 250: F-kiri
+     K  
+ ....JJ 
+ YYYIP. 
+ HH.IPG 
+ .MDCCG 
+ .MD... 
+ .FF... 
+        
+
+Gerakan 251: D-atas
+     K  
+ ....JJ 
+ YYYIP. 
+ HHDIPG 
+ .MDCCG 
+ .M.... 
+ .FF... 
+        
+
+Gerakan 252: F-kiri
+     K  
+ ....JJ 
+ YYYIP. 
+ HHDIPG 
+ .MDCCG 
+ .M.... 
+ FF.... 
+        
+
+Gerakan 253: D-bawah
+     K  
+ ....JJ 
+ YYYIP. 
+ HH.IPG 
+ .MDCCG 
+ .MD... 
+ FF.... 
+        
+
+Gerakan 254: D-bawah
+     K  
+ ....JJ 
+ YYYIP. 
+ HH.IPG 
+ .M.CCG 
+ .MD... 
+ FFD... 
+        
+
+Gerakan 255: C-kiri
+     K  
+ ....JJ 
+ YYYIP. 
+ HH.IPG 
+ .MCC.G 
+ .MD... 
+ FFD... 
+        
+
+Gerakan 256: P-bawah
+     K  
+ ....JJ 
+ YYYI.. 
+ HH.IPG 
+ .MCCPG 
+ .MD... 
+ FFD... 
+        
+
+Gerakan 257: P-bawah
+     K  
+ ....JJ 
+ YYYI.. 
+ HH.I.G 
+ .MCCPG 
+ .MD.P. 
+ FFD... 
+        
+
+Gerakan 258: P-bawah
+     K  
+ ....JJ 
+ YYYI.. 
+ HH.I.G 
+ .MCC.G 
+ .MD.P. 
+ FFD.P. 
+        
+
+Gerakan 259: C-kanan
+     K  
+ ....JJ 
+ YYYI.. 
+ HH.I.G 
+ .M.CCG 
+ .MD.P. 
+ FFD.P. 
+        
+
+Gerakan 260: D-atas
+     K  
+ ....JJ 
+ YYYI.. 
+ HH.I.G 
+ .MDCCG 
+ .MD.P. 
+ FF..P. 
+        
+
+Gerakan 261: D-atas
+     K  
+ ....JJ 
+ YYYI.. 
+ HHDI.G 
+ .MDCCG 
+ .M..P. 
+ FF..P. 
+        
+
+Gerakan 262: F-kanan
+     K  
+ ....JJ 
+ YYYI.. 
+ HHDI.G 
+ .MDCCG 
+ .M..P. 
+ .FF.P. 
+        
+
+Gerakan 263: D-bawah
+     K  
+ ....JJ 
+ YYYI.. 
+ HH.I.G 
+ .MDCCG 
+ .MD.P. 
+ .FF.P. 
+        
+
+Gerakan 264: F-kanan
+     K  
+ ....JJ 
+ YYYI.. 
+ HH.I.G 
+ .MDCCG 
+ .MD.P. 
+ ..FFP. 
+        
+
+Gerakan 265: D-atas
+     K  
+ ....JJ 
+ YYYI.. 
+ HHDI.G 
+ .MDCCG 
+ .M..P. 
+ ..FFP. 
+        
+
+Gerakan 266: G-bawah
+     K  
+ ....JJ 
+ YYYI.. 
+ HHDI.. 
+ .MDCCG 
+ .M..PG 
+ ..FFP. 
+        
+
+Gerakan 267: D-bawah
+     K  
+ ....JJ 
+ YYYI.. 
+ HH.I.. 
+ .MDCCG 
+ .MD.PG 
+ ..FFP. 
+        
+
+Gerakan 268: F-kiri
+     K  
+ ....JJ 
+ YYYI.. 
+ HH.I.. 
+ .MDCCG 
+ .MD.PG 
+ .FF.P. 
+        
+
+Gerakan 269: D-atas
+     K  
+ ....JJ 
+ YYYI.. 
+ HHDI.. 
+ .MDCCG 
+ .M..PG 
+ .FF.P. 
+        
+
+Gerakan 270: F-kiri
+     K  
+ ....JJ 
+ YYYI.. 
+ HHDI.. 
+ .MDCCG 
+ .M..PG 
+ FF..P. 
+        
+
+Gerakan 271: D-bawah
+     K  
+ ....JJ 
+ YYYI.. 
+ HH.I.. 
+ .MDCCG 
+ .MD.PG 
+ FF..P. 
+        
+
+Gerakan 272: D-bawah
+     K  
+ ....JJ 
+ YYYI.. 
+ HH.I.. 
+ .M.CCG 
+ .MD.PG 
+ FFD.P. 
+        
+
+Gerakan 273: C-kiri
+     K  
+ ....JJ 
+ YYYI.. 
+ HH.I.. 
+ .MCC.G 
+ .MD.PG 
+ FFD.P. 
+        
+
+Gerakan 274: P-atas
+     K  
+ ....JJ 
+ YYYI.. 
+ HH.I.. 
+ .MCCPG 
+ .MD.PG 
+ FFD... 
+        
+
+Gerakan 275: P-atas
+     K  
+ ....JJ 
+ YYYI.. 
+ HH.IP. 
+ .MCCPG 
+ .MD..G 
+ FFD... 
+        
+
+Gerakan 276: P-atas
+     K  
+ ....JJ 
+ YYYIP. 
+ HH.IP. 
+ .MCC.G 
+ .MD..G 
+ FFD... 
+        
+
+Gerakan 277: C-kanan
+     K  
+ ....JJ 
+ YYYIP. 
+ HH.IP. 
+ .M.CCG 
+ .MD..G 
+ FFD... 
+        
+
+Gerakan 278: D-atas
+     K  
+ ....JJ 
+ YYYIP. 
+ HH.IP. 
+ .MDCCG 
+ .MD..G 
+ FF.... 
+        
+
+Gerakan 279: D-atas
+     K  
+ ....JJ 
+ YYYIP. 
+ HHDIP. 
+ .MDCCG 
+ .M...G 
+ FF.... 
+        
+
+Gerakan 280: F-kanan
+     K  
+ ....JJ 
+ YYYIP. 
+ HHDIP. 
+ .MDCCG 
+ .M...G 
+ .FF... 
+        
+
+Gerakan 281: D-bawah
+     K  
+ ....JJ 
+ YYYIP. 
+ HH.IP. 
+ .MDCCG 
+ .MD..G 
+ .FF... 
+        
+
+Gerakan 282: F-kanan
+     K  
+ ....JJ 
+ YYYIP. 
+ HH.IP. 
+ .MDCCG 
+ .MD..G 
+ ..FF.. 
+        
+
+Gerakan 283: D-atas
+     K  
+ ....JJ 
+ YYYIP. 
+ HHDIP. 
+ .MDCCG 
+ .M...G 
+ ..FF.. 
+        
+
+Gerakan 284: F-kanan
+     K  
+ ....JJ 
+ YYYIP. 
+ HHDIP. 
+ .MDCCG 
+ .M...G 
+ ...FF. 
+        
+
+Gerakan 285: D-bawah
+     K  
+ ....JJ 
+ YYYIP. 
+ HH.IP. 
+ .MDCCG 
+ .MD..G 
+ ...FF. 
+        
+
+Gerakan 286: D-bawah
+     K  
+ ....JJ 
+ YYYIP. 
+ HH.IP. 
+ .M.CCG 
+ .MD..G 
+ ..DFF. 
+        
+
+Gerakan 287: C-kiri
+     K  
+ ....JJ 
+ YYYIP. 
+ HH.IP. 
+ .MCC.G 
+ .MD..G 
+ ..DFF. 
+        
+
+Gerakan 288: P-bawah
+     K  
+ ....JJ 
+ YYYI.. 
+ HH.IP. 
+ .MCCPG 
+ .MD..G 
+ ..DFF. 
+        
+
+Gerakan 289: P-bawah
+     K  
+ ....JJ 
+ YYYI.. 
+ HH.I.. 
+ .MCCPG 
+ .MD.PG 
+ ..DFF. 
+        
+
+Gerakan 290: F-kanan
+     K  
+ ....JJ 
+ YYYI.. 
+ HH.I.. 
+ .MCCPG 
+ .MD.PG 
+ ..D.FF 
+        
+
+Gerakan 291: P-atas
+     K  
+ ....JJ 
+ YYYI.. 
+ HH.IP. 
+ .MCCPG 
+ .MD..G 
+ ..D.FF 
+        
+
+Gerakan 292: P-atas
+     K  
+ ....JJ 
+ YYYIP. 
+ HH.IP. 
+ .MCC.G 
+ .MD..G 
+ ..D.FF 
+        
+
+Gerakan 293: C-kanan
+     K  
+ ....JJ 
+ YYYIP. 
+ HH.IP. 
+ .M.CCG 
+ .MD..G 
+ ..D.FF 
+        
+
+Gerakan 294: D-atas
+     K  
+ ....JJ 
+ YYYIP. 
+ HH.IP. 
+ .MDCCG 
+ .MD..G 
+ ....FF 
+        
+
+Gerakan 295: D-atas
+     K  
+ ....JJ 
+ YYYIP. 
+ HHDIP. 
+ .MDCCG 
+ .M...G 
+ ....FF 
+        
+
+Gerakan 296: J-kiri
+     K  
+ ...JJ. 
+ YYYIP. 
+ HHDIP. 
+ .MDCCG 
+ .M...G 
+ ....FF 
+        
+
+Gerakan 297: D-bawah
+     K  
+ ...JJ. 
+ YYYIP. 
+ HH.IP. 
+ .MDCCG 
+ .MD..G 
+ ....FF 
+        
+
+Gerakan 298: D-bawah
+     K  
+ ...JJ. 
+ YYYIP. 
+ HH.IP. 
+ .M.CCG 
+ .MD..G 
+ ..D.FF 
+        
+
+Gerakan 299: C-kiri
+     K  
+ ...JJ. 
+ YYYIP. 
+ HH.IP. 
+ .MCC.G 
+ .MD..G 
+ ..D.FF 
+        
+
+Gerakan 300: P-bawah
+     K  
+ ...JJ. 
+ YYYI.. 
+ HH.IP. 
+ .MCCPG 
+ .MD..G 
+ ..D.FF 
+        
+
+Gerakan 301: P-bawah
+     K  
+ ...JJ. 
+ YYYI.. 
+ HH.I.. 
+ .MCCPG 
+ .MD.PG 
+ ..D.FF 
+        
+
+Gerakan 302: F-kiri
+     K  
+ ...JJ. 
+ YYYI.. 
+ HH.I.. 
+ .MCCPG 
+ .MD.PG 
+ ..DFF. 
+        
+
+Gerakan 303: P-atas
+     K  
+ ...JJ. 
+ YYYI.. 
+ HH.IP. 
+ .MCCPG 
+ .MD..G 
+ ..DFF. 
+        
+
+Gerakan 304: P-atas
+     K  
+ ...JJ. 
+ YYYIP. 
+ HH.IP. 
+ .MCC.G 
+ .MD..G 
+ ..DFF. 
+        
+
+Gerakan 305: C-kanan
+     K  
+ ...JJ. 
+ YYYIP. 
+ HH.IP. 
+ .M.CCG 
+ .MD..G 
+ ..DFF. 
+        
+
+Gerakan 306: D-atas
+     K  
+ ...JJ. 
+ YYYIP. 
+ HH.IP. 
+ .MDCCG 
+ .MD..G 
+ ...FF. 
+        
+
+Gerakan 307: D-atas
+     K  
+ ...JJ. 
+ YYYIP. 
+ HHDIP. 
+ .MDCCG 
+ .M...G 
+ ...FF. 
+        
+
+Gerakan 308: F-kiri
+     K  
+ ...JJ. 
+ YYYIP. 
+ HHDIP. 
+ .MDCCG 
+ .M...G 
+ ..FF.. 
+        
+
+Gerakan 309: D-bawah
+     K  
+ ...JJ. 
+ YYYIP. 
+ HH.IP. 
+ .MDCCG 
+ .MD..G 
+ ..FF.. 
+        
+
+Gerakan 310: F-kiri
+     K  
+ ...JJ. 
+ YYYIP. 
+ HH.IP. 
+ .MDCCG 
+ .MD..G 
+ .FF... 
+        
+
+Gerakan 311: D-atas
+     K  
+ ...JJ. 
+ YYYIP. 
+ HHDIP. 
+ .MDCCG 
+ .M...G 
+ .FF... 
+        
+
+Gerakan 312: F-kiri
+     K  
+ ...JJ. 
+ YYYIP. 
+ HHDIP. 
+ .MDCCG 
+ .M...G 
+ FF.... 
+        
+
+Gerakan 313: D-bawah
+     K  
+ ...JJ. 
+ YYYIP. 
+ HH.IP. 
+ .MDCCG 
+ .MD..G 
+ FF.... 
+        
+
+Gerakan 314: D-bawah
+     K  
+ ...JJ. 
+ YYYIP. 
+ HH.IP. 
+ .M.CCG 
+ .MD..G 
+ FFD... 
+        
+
+Gerakan 315: C-kiri
+     K  
+ ...JJ. 
+ YYYIP. 
+ HH.IP. 
+ .MCC.G 
+ .MD..G 
+ FFD... 
+        
+
+Gerakan 316: P-bawah
+     K  
+ ...JJ. 
+ YYYI.. 
+ HH.IP. 
+ .MCCPG 
+ .MD..G 
+ FFD... 
+        
+
+Gerakan 317: P-bawah
+     K  
+ ...JJ. 
+ YYYI.. 
+ HH.I.. 
+ .MCCPG 
+ .MD.PG 
+ FFD... 
+        
+
+Gerakan 318: P-bawah
+     K  
+ ...JJ. 
+ YYYI.. 
+ HH.I.. 
+ .MCC.G 
+ .MD.PG 
+ FFD.P. 
+        
+
+Gerakan 319: C-kanan
+     K  
+ ...JJ. 
+ YYYI.. 
+ HH.I.. 
+ .M.CCG 
+ .MD.PG 
+ FFD.P. 
+        
+
+Gerakan 320: D-atas
+     K  
+ ...JJ. 
+ YYYI.. 
+ HH.I.. 
+ .MDCCG 
+ .MD.PG 
+ FF..P. 
+        
+
+Gerakan 321: D-atas
+     K  
+ ...JJ. 
+ YYYI.. 
+ HHDI.. 
+ .MDCCG 
+ .M..PG 
+ FF..P. 
+        
+
+Gerakan 322: F-kanan
+     K  
+ ...JJ. 
+ YYYI.. 
+ HHDI.. 
+ .MDCCG 
+ .M..PG 
+ .FF.P. 
+        
+
+Gerakan 323: D-bawah
+     K  
+ ...JJ. 
+ YYYI.. 
+ HH.I.. 
+ .MDCCG 
+ .MD.PG 
+ .FF.P. 
+        
+
+Gerakan 324: F-kanan
+     K  
+ ...JJ. 
+ YYYI.. 
+ HH.I.. 
+ .MDCCG 
+ .MD.PG 
+ ..FFP. 
+        
+
+Gerakan 325: D-atas
+     K  
+ ...JJ. 
+ YYYI.. 
+ HHDI.. 
+ .MDCCG 
+ .M..PG 
+ ..FFP. 
+        
+
+Gerakan 326: G-atas
+     K  
+ ...JJ. 
+ YYYI.. 
+ HHDI.G 
+ .MDCCG 
+ .M..P. 
+ ..FFP. 
+        
+
+Gerakan 327: D-bawah
+     K  
+ ...JJ. 
+ YYYI.. 
+ HH.I.G 
+ .MDCCG 
+ .MD.P. 
+ ..FFP. 
+        
+
+Gerakan 328: F-kiri
+     K  
+ ...JJ. 
+ YYYI.. 
+ HH.I.G 
+ .MDCCG 
+ .MD.P. 
+ .FF.P. 
+        
+
+Gerakan 329: D-atas
+     K  
+ ...JJ. 
+ YYYI.. 
+ HHDI.G 
+ .MDCCG 
+ .M..P. 
+ .FF.P. 
+        
+
+Gerakan 330: F-kiri
+     K  
+ ...JJ. 
+ YYYI.. 
+ HHDI.G 
+ .MDCCG 
+ .M..P. 
+ FF..P. 
+        
+
+Gerakan 331: D-bawah
+     K  
+ ...JJ. 
+ YYYI.. 
+ HH.I.G 
+ .MDCCG 
+ .MD.P. 
+ FF..P. 
+        
+
+Gerakan 332: D-bawah
+     K  
+ ...JJ. 
+ YYYI.. 
+ HH.I.G 
+ .M.CCG 
+ .MD.P. 
+ FFD.P. 
+        
+
+Gerakan 333: C-kiri
+     K  
+ ...JJ. 
+ YYYI.. 
+ HH.I.G 
+ .MCC.G 
+ .MD.P. 
+ FFD.P. 
+        
+
+Gerakan 334: P-atas
+     K  
+ ...JJ. 
+ YYYI.. 
+ HH.I.G 
+ .MCCPG 
+ .MD.P. 
+ FFD... 
+        
+
+Gerakan 335: P-atas
+     K  
+ ...JJ. 
+ YYYI.. 
+ HH.IPG 
+ .MCCPG 
+ .MD... 
+ FFD... 
+        
+
+Gerakan 336: P-atas
+     K  
+ ...JJ. 
+ YYYIP. 
+ HH.IPG 
+ .MCC.G 
+ .MD... 
+ FFD... 
+        
+
+Gerakan 337: C-kanan
+     K  
+ ...JJ. 
+ YYYIP. 
+ HH.IPG 
+ .M.CCG 
+ .MD... 
+ FFD... 
+        
+
+Gerakan 338: D-atas
+     K  
+ ...JJ. 
+ YYYIP. 
+ HH.IPG 
+ .MDCCG 
+ .MD... 
+ FF.... 
+        
+
+Gerakan 339: D-atas
+     K  
+ ...JJ. 
+ YYYIP. 
+ HHDIPG 
+ .MDCCG 
+ .M.... 
+ FF.... 
+        
+
+Gerakan 340: F-kanan
+     K  
+ ...JJ. 
+ YYYIP. 
+ HHDIPG 
+ .MDCCG 
+ .M.... 
+ .FF... 
+        
+
+Gerakan 341: D-bawah
+     K  
+ ...JJ. 
+ YYYIP. 
+ HH.IPG 
+ .MDCCG 
+ .MD... 
+ .FF... 
+        
+
+Gerakan 342: F-kanan
+     K  
+ ...JJ. 
+ YYYIP. 
+ HH.IPG 
+ .MDCCG 
+ .MD... 
+ ..FF.. 
+        
+
+Gerakan 343: D-atas
+     K  
+ ...JJ. 
+ YYYIP. 
+ HHDIPG 
+ .MDCCG 
+ .M.... 
+ ..FF.. 
+        
+
+Gerakan 344: F-kanan
+     K  
+ ...JJ. 
+ YYYIP. 
+ HHDIPG 
+ .MDCCG 
+ .M.... 
+ ...FF. 
+        
+
+Gerakan 345: D-bawah
+     K  
+ ...JJ. 
+ YYYIP. 
+ HH.IPG 
+ .MDCCG 
+ .MD... 
+ ...FF. 
+        
+
+Gerakan 346: D-bawah
+     K  
+ ...JJ. 
+ YYYIP. 
+ HH.IPG 
+ .M.CCG 
+ .MD... 
+ ..DFF. 
+        
+
+Gerakan 347: C-kiri
+     K  
+ ...JJ. 
+ YYYIP. 
+ HH.IPG 
+ .MCC.G 
+ .MD... 
+ ..DFF. 
+        
+
+Gerakan 348: P-bawah
+     K  
+ ...JJ. 
+ YYYI.. 
+ HH.IPG 
+ .MCCPG 
+ .MD... 
+ ..DFF. 
+        
+
+Gerakan 349: P-bawah
+     K  
+ ...JJ. 
+ YYYI.. 
+ HH.I.G 
+ .MCCPG 
+ .MD.P. 
+ ..DFF. 
+        
+
+Gerakan 350: F-kanan
+     K  
+ ...JJ. 
+ YYYI.. 
+ HH.I.G 
+ .MCCPG 
+ .MD.P. 
+ ..D.FF 
+        
+
+Gerakan 351: P-atas
+     K  
+ ...JJ. 
+ YYYI.. 
+ HH.IPG 
+ .MCCPG 
+ .MD... 
+ ..D.FF 
+        
+
+Gerakan 352: P-atas
+     K  
+ ...JJ. 
+ YYYIP. 
+ HH.IPG 
+ .MCC.G 
+ .MD... 
+ ..D.FF 
+        
+
+Gerakan 353: C-kanan
+     K  
+ ...JJ. 
+ YYYIP. 
+ HH.IPG 
+ .M.CCG 
+ .MD... 
+ ..D.FF 
+        
+
+Gerakan 354: D-atas
+     K  
+ ...JJ. 
+ YYYIP. 
+ HH.IPG 
+ .MDCCG 
+ .MD... 
+ ....FF 
+        
+
+Gerakan 355: D-atas
+     K  
+ ...JJ. 
+ YYYIP. 
+ HHDIPG 
+ .MDCCG 
+ .M.... 
+ ....FF 
+        
+
+Gerakan 356: G-atas
+     K  
+ ...JJ. 
+ YYYIPG 
+ HHDIPG 
+ .MDCC. 
+ .M.... 
+ ....FF 
+        
+
+Gerakan 357: C-kanan
+     K  
+ ...JJ. 
+ YYYIPG 
+ HHDIPG 
+ .MD.CC 
+ .M.... 
+ ....FF 
+        
+
+Gerakan 358: D-bawah
+     K  
+ ...JJ. 
+ YYYIPG 
+ HH.IPG 
+ .MD.CC 
+ .MD... 
+ ....FF 
+        
+
+Gerakan 359: C-kiri
+     K  
+ ...JJ. 
+ YYYIPG 
+ HH.IPG 
+ .MDCC. 
+ .MD... 
+ ....FF 
+        
+
+Gerakan 360: D-bawah
+     K  
+ ...JJ. 
+ YYYIPG 
+ HH.IPG 
+ .M.CC. 
+ .MD... 
+ ..D.FF 
+        
+
+Gerakan 361: C-kiri
+     K  
+ ...JJ. 
+ YYYIPG 
+ HH.IPG 
+ .MCC.. 
+ .MD... 
+ ..D.FF 
+        
+
+Gerakan 362: P-bawah
+     K  
+ ...JJ. 
+ YYYI.G 
+ HH.IPG 
+ .MCCP. 
+ .MD... 
+ ..D.FF 
+        
+
+Gerakan 363: P-bawah
+     K  
+ ...JJ. 
+ YYYI.G 
+ HH.I.G 
+ .MCCP. 
+ .MD.P. 
+ ..D.FF 
+        
+
+Gerakan 364: F-kiri
+     K  
+ ...JJ. 
+ YYYI.G 
+ HH.I.G 
+ .MCCP. 
+ .MD.P. 
+ ..DFF. 
+        
+
+Gerakan 365: P-atas
+     K  
+ ...JJ. 
+ YYYI.G 
+ HH.IPG 
+ .MCCP. 
+ .MD... 
+ ..DFF. 
+        
+
+Gerakan 366: P-atas
+     K  
+ ...JJ. 
+ YYYIPG 
+ HH.IPG 
+ .MCC.. 
+ .MD... 
+ ..DFF. 
+        
+
+Gerakan 367: C-kanan
+     K  
+ ...JJ. 
+ YYYIPG 
+ HH.IPG 
+ .M.CC. 
+ .MD... 
+ ..DFF. 
+        
+
+Gerakan 368: C-kanan
+     K  
+ ...JJ. 
+ YYYIPG 
+ HH.IPG 
+ .M..CC 
+ .MD... 
+ ..DFF. 
+        
+
+Gerakan 369: D-atas
+     K  
+ ...JJ. 
+ YYYIPG 
+ HH.IPG 
+ .MD.CC 
+ .MD... 
+ ...FF. 
+        
+
+Gerakan 370: C-kiri
+     K  
+ ...JJ. 
+ YYYIPG 
+ HH.IPG 
+ .MDCC. 
+ .MD... 
+ ...FF. 
+        
+
+Gerakan 371: D-atas
+     K  
+ ...JJ. 
+ YYYIPG 
+ HHDIPG 
+ .MDCC. 
+ .M.... 
+ ...FF. 
+        
+
+Gerakan 372: C-kanan
+     K  
+ ...JJ. 
+ YYYIPG 
+ HHDIPG 
+ .MD.CC 
+ .M.... 
+ ...FF. 
+        
+
+Gerakan 373: F-kiri
+     K  
+ ...JJ. 
+ YYYIPG 
+ HHDIPG 
+ .MD.CC 
+ .M.... 
+ ..FF.. 
+        
+
+Gerakan 374: C-kiri
+     K  
+ ...JJ. 
+ YYYIPG 
+ HHDIPG 
+ .MDCC. 
+ .M.... 
+ ..FF.. 
+        
+
+Gerakan 375: D-bawah
+     K  
+ ...JJ. 
+ YYYIPG 
+ HH.IPG 
+ .MDCC. 
+ .MD... 
+ ..FF.. 
+        
+
+Gerakan 376: C-kanan
+     K  
+ ...JJ. 
+ YYYIPG 
+ HH.IPG 
+ .MD.CC 
+ .MD... 
+ ..FF.. 
+        
+
+Gerakan 377: F-kiri
+     K  
+ ...JJ. 
+ YYYIPG 
+ HH.IPG 
+ .MD.CC 
+ .MD... 
+ .FF... 
+        
+
+Gerakan 378: C-kiri
+     K  
+ ...JJ. 
+ YYYIPG 
+ HH.IPG 
+ .MDCC. 
+ .MD... 
+ .FF... 
+        
+
+Gerakan 379: D-atas
+     K  
+ ...JJ. 
+ YYYIPG 
+ HHDIPG 
+ .MDCC. 
+ .M.... 
+ .FF... 
+        
+
+Gerakan 380: C-kanan
+     K  
+ ...JJ. 
+ YYYIPG 
+ HHDIPG 
+ .MD.CC 
+ .M.... 
+ .FF... 
+        
+
+Gerakan 381: F-kiri
+     K  
+ ...JJ. 
+ YYYIPG 
+ HHDIPG 
+ .MD.CC 
+ .M.... 
+ FF.... 
+        
+
+Gerakan 382: C-kiri
+     K  
+ ...JJ. 
+ YYYIPG 
+ HHDIPG 
+ .MDCC. 
+ .M.... 
+ FF.... 
+        
+
+Gerakan 383: D-bawah
+     K  
+ ...JJ. 
+ YYYIPG 
+ HH.IPG 
+ .MDCC. 
+ .MD... 
+ FF.... 
+        
+
+Gerakan 384: C-kanan
+     K  
+ ...JJ. 
+ YYYIPG 
+ HH.IPG 
+ .MD.CC 
+ .MD... 
+ FF.... 
+        
+
+Gerakan 385: D-bawah
+     K  
+ ...JJ. 
+ YYYIPG 
+ HH.IPG 
+ .M..CC 
+ .MD... 
+ FFD... 
+        
+
+Gerakan 386: C-kiri
+     K  
+ ...JJ. 
+ YYYIPG 
+ HH.IPG 
+ .M.CC. 
+ .MD... 
+ FFD... 
+        
+
+Gerakan 387: C-kiri
+     K  
+ ...JJ. 
+ YYYIPG 
+ HH.IPG 
+ .MCC.. 
+ .MD... 
+ FFD... 
+        
+
+Gerakan 388: P-bawah
+     K  
+ ...JJ. 
+ YYYI.G 
+ HH.IPG 
+ .MCCP. 
+ .MD... 
+ FFD... 
+        
+
+Gerakan 389: P-bawah
+     K  
+ ...JJ. 
+ YYYI.G 
+ HH.I.G 
+ .MCCP. 
+ .MD.P. 
+ FFD... 
+        
+
+Gerakan 390: P-bawah
+     K  
+ ...JJ. 
+ YYYI.G 
+ HH.I.G 
+ .MCC.. 
+ .MD.P. 
+ FFD.P. 
+        
+
+Gerakan 391: C-kanan
+     K  
+ ...JJ. 
+ YYYI.G 
+ HH.I.G 
+ .M.CC. 
+ .MD.P. 
+ FFD.P. 
+        
+
+Gerakan 392: C-kanan
+     K  
+ ...JJ. 
+ YYYI.G 
+ HH.I.G 
+ .M..CC 
+ .MD.P. 
+ FFD.P. 
+        
+
+Gerakan 393: D-atas
+     K  
+ ...JJ. 
+ YYYI.G 
+ HH.I.G 
+ .MD.CC 
+ .MD.P. 
+ FF..P. 
+        
+
+Gerakan 394: C-kiri
+     K  
+ ...JJ. 
+ YYYI.G 
+ HH.I.G 
+ .MDCC. 
+ .MD.P. 
+ FF..P. 
+        
+
+Gerakan 395: D-atas
+     K  
+ ...JJ. 
+ YYYI.G 
+ HHDI.G 
+ .MDCC. 
+ .M..P. 
+ FF..P. 
+        
+
+Gerakan 396: C-kanan
+     K  
+ ...JJ. 
+ YYYI.G 
+ HHDI.G 
+ .MD.CC 
+ .M..P. 
+ FF..P. 
+        
+
+Gerakan 397: F-kanan
+     K  
+ ...JJ. 
+ YYYI.G 
+ HHDI.G 
+ .MD.CC 
+ .M..P. 
+ .FF.P. 
+        
+
+Gerakan 398: C-kiri
+     K  
+ ...JJ. 
+ YYYI.G 
+ HHDI.G 
+ .MDCC. 
+ .M..P. 
+ .FF.P. 
+        
+
+Gerakan 399: D-bawah
+     K  
+ ...JJ. 
+ YYYI.G 
+ HH.I.G 
+ .MDCC. 
+ .MD.P. 
+ .FF.P. 
+        
+
+Gerakan 400: C-kanan
+     K  
+ ...JJ. 
+ YYYI.G 
+ HH.I.G 
+ .MD.CC 
+ .MD.P. 
+ .FF.P. 
+        
+
+Gerakan 401: F-kanan
+     K  
+ ...JJ. 
+ YYYI.G 
+ HH.I.G 
+ .MD.CC 
+ .MD.P. 
+ ..FFP. 
+        
+
+Gerakan 402: C-kiri
+     K  
+ ...JJ. 
+ YYYI.G 
+ HH.I.G 
+ .MDCC. 
+ .MD.P. 
+ ..FFP. 
+        
+
+Gerakan 403: D-atas
+     K  
+ ...JJ. 
+ YYYI.G 
+ HHDI.G 
+ .MDCC. 
+ .M..P. 
+ ..FFP. 
+        
+
+Gerakan 404: C-kanan
+     K  
+ ...JJ. 
+ YYYI.G 
+ HHDI.G 
+ .MD.CC 
+ .M..P. 
+ ..FFP. 
+        
+
+Gerakan 405: G-atas
+     K  
+ ...JJG 
+ YYYI.G 
+ HHDI.. 
+ .MD.CC 
+ .M..P. 
+ ..FFP. 
+        
+
+Gerakan 406: C-kiri
+     K  
+ ...JJG 
+ YYYI.G 
+ HHDI.. 
+ .MDCC. 
+ .M..P. 
+ ..FFP. 
+        
+
+Gerakan 407: D-bawah
+     K  
+ ...JJG 
+ YYYI.G 
+ HH.I.. 
+ .MDCC. 
+ .MD.P. 
+ ..FFP. 
+        
+
+Gerakan 408: C-kanan
+     K  
+ ...JJG 
+ YYYI.G 
+ HH.I.. 
+ .MD.CC 
+ .MD.P. 
+ ..FFP. 
+        
+
+Gerakan 409: F-kiri
+     K  
+ ...JJG 
+ YYYI.G 
+ HH.I.. 
+ .MD.CC 
+ .MD.P. 
+ .FF.P. 
+        
+
+Gerakan 410: C-kiri
+     K  
+ ...JJG 
+ YYYI.G 
+ HH.I.. 
+ .MDCC. 
+ .MD.P. 
+ .FF.P. 
+        
+
+Gerakan 411: D-atas
+     K  
+ ...JJG 
+ YYYI.G 
+ HHDI.. 
+ .MDCC. 
+ .M..P. 
+ .FF.P. 
+        
+
+Gerakan 412: C-kanan
+     K  
+ ...JJG 
+ YYYI.G 
+ HHDI.. 
+ .MD.CC 
+ .M..P. 
+ .FF.P. 
+        
+
+Gerakan 413: F-kiri
+     K  
+ ...JJG 
+ YYYI.G 
+ HHDI.. 
+ .MD.CC 
+ .M..P. 
+ FF..P. 
+        
+
+Gerakan 414: C-kiri
+     K  
+ ...JJG 
+ YYYI.G 
+ HHDI.. 
+ .MDCC. 
+ .M..P. 
+ FF..P. 
+        
+
+Gerakan 415: D-bawah
+     K  
+ ...JJG 
+ YYYI.G 
+ HH.I.. 
+ .MDCC. 
+ .MD.P. 
+ FF..P. 
+        
+
+Gerakan 416: C-kanan
+     K  
+ ...JJG 
+ YYYI.G 
+ HH.I.. 
+ .MD.CC 
+ .MD.P. 
+ FF..P. 
+        
+
+Gerakan 417: D-bawah
+     K  
+ ...JJG 
+ YYYI.G 
+ HH.I.. 
+ .M..CC 
+ .MD.P. 
+ FFD.P. 
+        
+
+Gerakan 418: C-kiri
+     K  
+ ...JJG 
+ YYYI.G 
+ HH.I.. 
+ .M.CC. 
+ .MD.P. 
+ FFD.P. 
+        
+
+Gerakan 419: C-kiri
+     K  
+ ...JJG 
+ YYYI.G 
+ HH.I.. 
+ .MCC.. 
+ .MD.P. 
+ FFD.P. 
+        
+
+Gerakan 420: P-atas
+     K  
+ ...JJG 
+ YYYI.G 
+ HH.I.. 
+ .MCCP. 
+ .MD.P. 
+ FFD... 
+        
+
+Gerakan 421: P-atas
+     K  
+ ...JJG 
+ YYYI.G 
+ HH.IP. 
+ .MCCP. 
+ .MD... 
+ FFD... 
+        
+
+Gerakan 422: P-atas
+     K  
+ ...JJG 
+ YYYIPG 
+ HH.IP. 
+ .MCC.. 
+ .MD... 
+ FFD... 
+        
+
+Gerakan 423: C-kanan
+     K  
+ ...JJG 
+ YYYIPG 
+ HH.IP. 
+ .M.CC. 
+ .MD... 
+ FFD... 
+        
+
+Gerakan 424: C-kanan
+     K  
+ ...JJG 
+ YYYIPG 
+ HH.IP. 
+ .M..CC 
+ .MD... 
+ FFD... 
+        
+
+Gerakan 425: D-atas
+     K  
+ ...JJG 
+ YYYIPG 
+ HH.IP. 
+ .MD.CC 
+ .MD... 
+ FF.... 
+        
+
+Gerakan 426: C-kiri
+     K  
+ ...JJG 
+ YYYIPG 
+ HH.IP. 
+ .MDCC. 
+ .MD... 
+ FF.... 
+        
+
+Gerakan 427: D-atas
+     K  
+ ...JJG 
+ YYYIPG 
+ HHDIP. 
+ .MDCC. 
+ .M.... 
+ FF.... 
+        
+
+Gerakan 428: C-kanan
+     K  
+ ...JJG 
+ YYYIPG 
+ HHDIP. 
+ .MD.CC 
+ .M.... 
+ FF.... 
+        
+
+Gerakan 429: F-kanan
+     K  
+ ...JJG 
+ YYYIPG 
+ HHDIP. 
+ .MD.CC 
+ .M.... 
+ .FF... 
+        
+
+Gerakan 430: C-kiri
+     K  
+ ...JJG 
+ YYYIPG 
+ HHDIP. 
+ .MDCC. 
+ .M.... 
+ .FF... 
+        
+
+Gerakan 431: D-bawah
+     K  
+ ...JJG 
+ YYYIPG 
+ HH.IP. 
+ .MDCC. 
+ .MD... 
+ .FF... 
+        
+
+Gerakan 432: C-kanan
+     K  
+ ...JJG 
+ YYYIPG 
+ HH.IP. 
+ .MD.CC 
+ .MD... 
+ .FF... 
+        
+
+Gerakan 433: F-kanan
+     K  
+ ...JJG 
+ YYYIPG 
+ HH.IP. 
+ .MD.CC 
+ .MD... 
+ ..FF.. 
+        
+
+Gerakan 434: C-kiri
+     K  
+ ...JJG 
+ YYYIPG 
+ HH.IP. 
+ .MDCC. 
+ .MD... 
+ ..FF.. 
+        
+
+Gerakan 435: D-atas
+     K  
+ ...JJG 
+ YYYIPG 
+ HHDIP. 
+ .MDCC. 
+ .M.... 
+ ..FF.. 
+        
+
+Gerakan 436: C-kanan
+     K  
+ ...JJG 
+ YYYIPG 
+ HHDIP. 
+ .MD.CC 
+ .M.... 
+ ..FF.. 
+        
+
+Gerakan 437: F-kanan
+     K  
+ ...JJG 
+ YYYIPG 
+ HHDIP. 
+ .MD.CC 
+ .M.... 
+ ...FF. 
+        
+
+Gerakan 438: C-kiri
+     K  
+ ...JJG 
+ YYYIPG 
+ HHDIP. 
+ .MDCC. 
+ .M.... 
+ ...FF. 
+        
+
+Gerakan 439: D-bawah
+     K  
+ ...JJG 
+ YYYIPG 
+ HH.IP. 
+ .MDCC. 
+ .MD... 
+ ...FF. 
+        
+
+Gerakan 440: C-kanan
+     K  
+ ...JJG 
+ YYYIPG 
+ HH.IP. 
+ .MD.CC 
+ .MD... 
+ ...FF. 
+        
+
+Gerakan 441: D-bawah
+     K  
+ ...JJG 
+ YYYIPG 
+ HH.IP. 
+ .M..CC 
+ .MD... 
+ ..DFF. 
+        
+
+Gerakan 442: C-kiri
+     K  
+ ...JJG 
+ YYYIPG 
+ HH.IP. 
+ .M.CC. 
+ .MD... 
+ ..DFF. 
+        
+
+Gerakan 443: C-kiri
+     K  
+ ...JJG 
+ YYYIPG 
+ HH.IP. 
+ .MCC.. 
+ .MD... 
+ ..DFF. 
+        
+
+Gerakan 444: P-bawah
+     K  
+ ...JJG 
+ YYYI.G 
+ HH.IP. 
+ .MCCP. 
+ .MD... 
+ ..DFF. 
+        
+
+Gerakan 445: P-bawah
+     K  
+ ...JJG 
+ YYYI.G 
+ HH.I.. 
+ .MCCP. 
+ .MD.P. 
+ ..DFF. 
+        
+
+Gerakan 446: F-kanan
+     K  
+ ...JJG 
+ YYYI.G 
+ HH.I.. 
+ .MCCP. 
+ .MD.P. 
+ ..D.FF 
+        
+
+Gerakan 447: P-atas
+     K  
+ ...JJG 
+ YYYI.G 
+ HH.IP. 
+ .MCCP. 
+ .MD... 
+ ..D.FF 
+        
+
+Gerakan 448: P-atas
+     K  
+ ...JJG 
+ YYYIPG 
+ HH.IP. 
+ .MCC.. 
+ .MD... 
+ ..D.FF 
+        
+
+Gerakan 449: C-kanan
+     K  
+ ...JJG 
+ YYYIPG 
+ HH.IP. 
+ .M.CC. 
+ .MD... 
+ ..D.FF 
+        
+
+Gerakan 450: C-kanan
+     K  
+ ...JJG 
+ YYYIPG 
+ HH.IP. 
+ .M..CC 
+ .MD... 
+ ..D.FF 
+        
+
+Gerakan 451: D-atas
+     K  
+ ...JJG 
+ YYYIPG 
+ HH.IP. 
+ .MD.CC 
+ .MD... 
+ ....FF 
+        
+
+Gerakan 452: C-kiri
+     K  
+ ...JJG 
+ YYYIPG 
+ HH.IP. 
+ .MDCC. 
+ .MD... 
+ ....FF 
+        
+
+Gerakan 453: D-atas
+     K  
+ ...JJG 
+ YYYIPG 
+ HHDIP. 
+ .MDCC. 
+ .M.... 
+ ....FF 
+        
+
+Gerakan 454: C-kanan
+     K  
+ ...JJG 
+ YYYIPG 
+ HHDIP. 
+ .MD.CC 
+ .M.... 
+ ....FF 
+        
+
+Gerakan 455: I-bawah
+     K  
+ ...JJG 
+ YYY.PG 
+ HHDIP. 
+ .MDICC 
+ .M.... 
+ ....FF 
+        
+
+Gerakan 456: D-bawah
+     K  
+ ...JJG 
+ YYY.PG 
+ HH.IP. 
+ .MDICC 
+ .MD... 
+ ....FF 
+        
+
+Gerakan 457: D-bawah
+     K  
+ ...JJG 
+ YYY.PG 
+ HH.IP. 
+ .M.ICC 
+ .MD... 
+ ..D.FF 
+        
+
+Gerakan 458: F-kiri
+     K  
+ ...JJG 
+ YYY.PG 
+ HH.IP. 
+ .M.ICC 
+ .MD... 
+ ..DFF. 
+        
+
+Gerakan 459: D-atas
+     K  
+ ...JJG 
+ YYY.PG 
+ HH.IP. 
+ .MDICC 
+ .MD... 
+ ...FF. 
+        
+
+Gerakan 460: D-atas
+     K  
+ ...JJG 
+ YYY.PG 
+ HHDIP. 
+ .MDICC 
+ .M.... 
+ ...FF. 
+        
+
+Gerakan 461: F-kiri
+     K  
+ ...JJG 
+ YYY.PG 
+ HHDIP. 
+ .MDICC 
+ .M.... 
+ ..FF.. 
+        
+
+Gerakan 462: D-bawah
+     K  
+ ...JJG 
+ YYY.PG 
+ HH.IP. 
+ .MDICC 
+ .MD... 
+ ..FF.. 
+        
+
+Gerakan 463: F-kiri
+     K  
+ ...JJG 
+ YYY.PG 
+ HH.IP. 
+ .MDICC 
+ .MD... 
+ .FF... 
+        
+
+Gerakan 464: D-atas
+     K  
+ ...JJG 
+ YYY.PG 
+ HHDIP. 
+ .MDICC 
+ .M.... 
+ .FF... 
+        
+
+Gerakan 465: F-kiri
+     K  
+ ...JJG 
+ YYY.PG 
+ HHDIP. 
+ .MDICC 
+ .M.... 
+ FF.... 
+        
+
+Gerakan 466: D-bawah
+     K  
+ ...JJG 
+ YYY.PG 
+ HH.IP. 
+ .MDICC 
+ .MD... 
+ FF.... 
+        
+
+Gerakan 467: D-bawah
+     K  
+ ...JJG 
+ YYY.PG 
+ HH.IP. 
+ .M.ICC 
+ .MD... 
+ FFD... 
+        
+
+Gerakan 468: G-bawah
+     K  
+ ...JJ. 
+ YYY.PG 
+ HH.IPG 
+ .M.ICC 
+ .MD... 
+ FFD... 
+        
+
+Gerakan 469: D-atas
+     K  
+ ...JJ. 
+ YYY.PG 
+ HH.IPG 
+ .MDICC 
+ .MD... 
+ FF.... 
+        
+
+Gerakan 470: D-atas
+     K  
+ ...JJ. 
+ YYY.PG 
+ HHDIPG 
+ .MDICC 
+ .M.... 
+ FF.... 
+        
+
+Gerakan 471: F-kanan
+     K  
+ ...JJ. 
+ YYY.PG 
+ HHDIPG 
+ .MDICC 
+ .M.... 
+ .FF... 
+        
+
+Gerakan 472: D-bawah
+     K  
+ ...JJ. 
+ YYY.PG 
+ HH.IPG 
+ .MDICC 
+ .MD... 
+ .FF... 
+        
+
+Gerakan 473: F-kanan
+     K  
+ ...JJ. 
+ YYY.PG 
+ HH.IPG 
+ .MDICC 
+ .MD... 
+ ..FF.. 
+        
+
+Gerakan 474: D-atas
+     K  
+ ...JJ. 
+ YYY.PG 
+ HHDIPG 
+ .MDICC 
+ .M.... 
+ ..FF.. 
+        
+
+Gerakan 475: F-kanan
+     K  
+ ...JJ. 
+ YYY.PG 
+ HHDIPG 
+ .MDICC 
+ .M.... 
+ ...FF. 
+        
+
+Gerakan 476: D-bawah
+     K  
+ ...JJ. 
+ YYY.PG 
+ HH.IPG 
+ .MDICC 
+ .MD... 
+ ...FF. 
+        
+
+Gerakan 477: D-bawah
+     K  
+ ...JJ. 
+ YYY.PG 
+ HH.IPG 
+ .M.ICC 
+ .MD... 
+ ..DFF. 
+        
+
+Gerakan 478: F-kanan
+     K  
+ ...JJ. 
+ YYY.PG 
+ HH.IPG 
+ .M.ICC 
+ .MD... 
+ ..D.FF 
+        
+
+Gerakan 479: D-atas
+     K  
+ ...JJ. 
+ YYY.PG 
+ HH.IPG 
+ .MDICC 
+ .MD... 
+ ....FF 
+        
+
+Gerakan 480: D-atas
+     K  
+ ...JJ. 
+ YYY.PG 
+ HHDIPG 
+ .MDICC 
+ .M.... 
+ ....FF 
+        
+
+Gerakan 481: I-bawah
+     K  
+ ...JJ. 
+ YYY.PG 
+ HHD.PG 
+ .MDICC 
+ .M.I.. 
+ ....FF 
+        
+
+Gerakan 482: D-bawah
+     K  
+ ...JJ. 
+ YYY.PG 
+ HH..PG 
+ .MDICC 
+ .MDI.. 
+ ....FF 
+        
+
+Gerakan 483: D-bawah
+     K  
+ ...JJ. 
+ YYY.PG 
+ HH..PG 
+ .M.ICC 
+ .MDI.. 
+ ..D.FF 
+        
+
+Gerakan 484: F-kiri
+     K  
+ ...JJ. 
+ YYY.PG 
+ HH..PG 
+ .M.ICC 
+ .MDI.. 
+ ..DFF. 
+        
+
+Gerakan 485: D-atas
+     K  
+ ...JJ. 
+ YYY.PG 
+ HH..PG 
+ .MDICC 
+ .MDI.. 
+ ...FF. 
+        
+
+Gerakan 486: D-atas
+     K  
+ ...JJ. 
+ YYY.PG 
+ HHD.PG 
+ .MDICC 
+ .M.I.. 
+ ...FF. 
+        
+
+Gerakan 487: F-kiri
+     K  
+ ...JJ. 
+ YYY.PG 
+ HHD.PG 
+ .MDICC 
+ .M.I.. 
+ ..FF.. 
+        
+
+Gerakan 488: D-bawah
+     K  
+ ...JJ. 
+ YYY.PG 
+ HH..PG 
+ .MDICC 
+ .MDI.. 
+ ..FF.. 
+        
+
+Gerakan 489: F-kiri
+     K  
+ ...JJ. 
+ YYY.PG 
+ HH..PG 
+ .MDICC 
+ .MDI.. 
+ .FF... 
+        
+
+Gerakan 490: D-atas
+     K  
+ ...JJ. 
+ YYY.PG 
+ HHD.PG 
+ .MDICC 
+ .M.I.. 
+ .FF... 
+        
+
+Gerakan 491: F-kiri
+     K  
+ ...JJ. 
+ YYY.PG 
+ HHD.PG 
+ .MDICC 
+ .M.I.. 
+ FF.... 
+        
+
+Gerakan 492: D-bawah
+     K  
+ ...JJ. 
+ YYY.PG 
+ HH..PG 
+ .MDICC 
+ .MDI.. 
+ FF.... 
+        
+
+Gerakan 493: D-bawah
+     K  
+ ...JJ. 
+ YYY.PG 
+ HH..PG 
+ .M.ICC 
+ .MDI.. 
+ FFD... 
+        
+
+Gerakan 494: G-atas
+     K  
+ ...JJG 
+ YYY.PG 
+ HH..P. 
+ .M.ICC 
+ .MDI.. 
+ FFD... 
+        
+
+Gerakan 495: D-atas
+     K  
+ ...JJG 
+ YYY.PG 
+ HH..P. 
+ .MDICC 
+ .MDI.. 
+ FF.... 
+        
+
+Gerakan 496: D-atas
+     K  
+ ...JJG 
+ YYY.PG 
+ HHD.P. 
+ .MDICC 
+ .M.I.. 
+ FF.... 
+        
+
+Gerakan 497: F-kanan
+     K  
+ ...JJG 
+ YYY.PG 
+ HHD.P. 
+ .MDICC 
+ .M.I.. 
+ .FF... 
+        
+
+Gerakan 498: D-bawah
+     K  
+ ...JJG 
+ YYY.PG 
+ HH..P. 
+ .MDICC 
+ .MDI.. 
+ .FF... 
+        
+
+Gerakan 499: F-kanan
+     K  
+ ...JJG 
+ YYY.PG 
+ HH..P. 
+ .MDICC 
+ .MDI.. 
+ ..FF.. 
+        
+
+Gerakan 500: D-atas
+     K  
+ ...JJG 
+ YYY.PG 
+ HHD.P. 
+ .MDICC 
+ .M.I.. 
+ ..FF.. 
+        
+
+Gerakan 501: F-kanan
+     K  
+ ...JJG 
+ YYY.PG 
+ HHD.P. 
+ .MDICC 
+ .M.I.. 
+ ...FF. 
+        
+
+Gerakan 502: D-bawah
+     K  
+ ...JJG 
+ YYY.PG 
+ HH..P. 
+ .MDICC 
+ .MDI.. 
+ ...FF. 
+        
+
+Gerakan 503: D-bawah
+     K  
+ ...JJG 
+ YYY.PG 
+ HH..P. 
+ .M.ICC 
+ .MDI.. 
+ ..DFF. 
+        
+
+Gerakan 504: F-kanan
+     K  
+ ...JJG 
+ YYY.PG 
+ HH..P. 
+ .M.ICC 
+ .MDI.. 
+ ..D.FF 
+        
+
+Gerakan 505: D-atas
+     K  
+ ...JJG 
+ YYY.PG 
+ HH..P. 
+ .MDICC 
+ .MDI.. 
+ ....FF 
+        
+
+Gerakan 506: D-atas
+     K  
+ ...JJG 
+ YYY.PG 
+ HHD.P. 
+ .MDICC 
+ .M.I.. 
+ ....FF 
+        
+
+Gerakan 507: I-bawah
+     K  
+ ...JJG 
+ YYY.PG 
+ HHD.P. 
+ .MD.CC 
+ .M.I.. 
+ ...IFF 
+        
+
+Gerakan 508: C-kiri
+     K  
+ ...JJG 
+ YYY.PG 
+ HHD.P. 
+ .MDCC. 
+ .M.I.. 
+ ...IFF 
+        
+
+Gerakan 509: D-bawah
+     K  
+ ...JJG 
+ YYY.PG 
+ HH..P. 
+ .MDCC. 
+ .MDI.. 
+ ...IFF 
+        
+
+Gerakan 510: C-kanan
+     K  
+ ...JJG 
+ YYY.PG 
+ HH..P. 
+ .MD.CC 
+ .MDI.. 
+ ...IFF 
+        
+
+Gerakan 511: D-bawah
+     K  
+ ...JJG 
+ YYY.PG 
+ HH..P. 
+ .M..CC 
+ .MDI.. 
+ ..DIFF 
+        
+
+Gerakan 512: C-kiri
+     K  
+ ...JJG 
+ YYY.PG 
+ HH..P. 
+ .M.CC. 
+ .MDI.. 
+ ..DIFF 
+        
+
+Gerakan 513: C-kiri
+     K  
+ ...JJG 
+ YYY.PG 
+ HH..P. 
+ .MCC.. 
+ .MDI.. 
+ ..DIFF 
+        
+
+Gerakan 514: P-bawah
+     K  
+ ...JJG 
+ YYY..G 
+ HH..P. 
+ .MCCP. 
+ .MDI.. 
+ ..DIFF 
+        
+
+Gerakan 515: P-bawah
+     K  
+ ...JJG 
+ YYY..G 
+ HH.... 
+ .MCCP. 
+ .MDIP. 
+ ..DIFF 
+        
+
+Gerakan 516: G-bawah
+     K  
+ ...JJ. 
+ YYY..G 
+ HH...G 
+ .MCCP. 
+ .MDIP. 
+ ..DIFF 
+        
+
+Gerakan 517: P-atas
+     K  
+ ...JJ. 
+ YYY..G 
+ HH..PG 
+ .MCCP. 
+ .MDI.. 
+ ..DIFF 
+        
+
+Gerakan 518: P-atas
+     K  
+ ...JJ. 
+ YYY.PG 
+ HH..PG 
+ .MCC.. 
+ .MDI.. 
+ ..DIFF 
+        
+
+Gerakan 519: C-kanan
+     K  
+ ...JJ. 
+ YYY.PG 
+ HH..PG 
+ .M.CC. 
+ .MDI.. 
+ ..DIFF 
+        
+
+Gerakan 520: C-kanan
+     K  
+ ...JJ. 
+ YYY.PG 
+ HH..PG 
+ .M..CC 
+ .MDI.. 
+ ..DIFF 
+        
+
+Gerakan 521: D-atas
+     K  
+ ...JJ. 
+ YYY.PG 
+ HH..PG 
+ .MD.CC 
+ .MDI.. 
+ ...IFF 
+        
+
+Gerakan 522: C-kiri
+     K  
+ ...JJ. 
+ YYY.PG 
+ HH..PG 
+ .MDCC. 
+ .MDI.. 
+ ...IFF 
+        
+
+Gerakan 523: D-atas
+     K  
+ ...JJ. 
+ YYY.PG 
+ HHD.PG 
+ .MDCC. 
+ .M.I.. 
+ ...IFF 
+        
+
+Gerakan 524: C-kanan
+     K  
+ ...JJ. 
+ YYY.PG 
+ HHD.PG 
+ .MD.CC 
+ .M.I.. 
+ ...IFF 
+        
+
+Gerakan 525: Y-kanan
+     K  
+ ...JJ. 
+ .YYYPG 
+ HHD.PG 
+ .MD.CC 
+ .M.I.. 
+ ...IFF 
+        
+
+Gerakan 526: C-kiri
+     K  
+ ...JJ. 
+ .YYYPG 
+ HHD.PG 
+ .MDCC. 
+ .M.I.. 
+ ...IFF 
+        
+
+Gerakan 527: D-bawah
+     K  
+ ...JJ. 
+ .YYYPG 
+ HH..PG 
+ .MDCC. 
+ .MDI.. 
+ ...IFF 
+        
+
+Gerakan 528: C-kanan
+     K  
+ ...JJ. 
+ .YYYPG 
+ HH..PG 
+ .MD.CC 
+ .MDI.. 
+ ...IFF 
+        
+
+Gerakan 529: D-bawah
+     K  
+ ...JJ. 
+ .YYYPG 
+ HH..PG 
+ .M..CC 
+ .MDI.. 
+ ..DIFF 
+        
+
+Gerakan 530: C-kiri
+     K  
+ ...JJ. 
+ .YYYPG 
+ HH..PG 
+ .M.CC. 
+ .MDI.. 
+ ..DIFF 
+        
+
+Gerakan 531: C-kiri
+     K  
+ ...JJ. 
+ .YYYPG 
+ HH..PG 
+ .MCC.. 
+ .MDI.. 
+ ..DIFF 
+        
+
+Gerakan 532: P-bawah
+     K  
+ ...JJ. 
+ .YYY.G 
+ HH..PG 
+ .MCCP. 
+ .MDI.. 
+ ..DIFF 
+        
+
+Gerakan 533: P-bawah
+     K  
+ ...JJ. 
+ .YYY.G 
+ HH...G 
+ .MCCP. 
+ .MDIP. 
+ ..DIFF 
+        
+
+Gerakan 534: G-atas
+     K  
+ ...JJG 
+ .YYY.G 
+ HH.... 
+ .MCCP. 
+ .MDIP. 
+ ..DIFF 
+        
+
+Gerakan 535: P-atas
+     K  
+ ...JJG 
+ .YYY.G 
+ HH..P. 
+ .MCCP. 
+ .MDI.. 
+ ..DIFF 
+        
+
+Gerakan 536: P-atas
+     K  
+ ...JJG 
+ .YYYPG 
+ HH..P. 
+ .MCC.. 
+ .MDI.. 
+ ..DIFF 
+        
+
+Gerakan 537: C-kanan
+     K  
+ ...JJG 
+ .YYYPG 
+ HH..P. 
+ .M.CC. 
+ .MDI.. 
+ ..DIFF 
+        
+
+Gerakan 538: C-kanan
+     K  
+ ...JJG 
+ .YYYPG 
+ HH..P. 
+ .M..CC 
+ .MDI.. 
+ ..DIFF 
+        
+
+Gerakan 539: D-atas
+     K  
+ ...JJG 
+ .YYYPG 
+ HH..P. 
+ .MD.CC 
+ .MDI.. 
+ ...IFF 
+        
+
+Gerakan 540: C-kiri
+     K  
+ ...JJG 
+ .YYYPG 
+ HH..P. 
+ .MDCC. 
+ .MDI.. 
+ ...IFF 
+        
+
+Gerakan 541: D-atas
+     K  
+ ...JJG 
+ .YYYPG 
+ HHD.P. 
+ .MDCC. 
+ .M.I.. 
+ ...IFF 
+        
+
+Gerakan 542: C-kanan
+     K  
+ ...JJG 
+ .YYYPG 
+ HHD.P. 
+ .MD.CC 
+ .M.I.. 
+ ...IFF 
+        
+
+Gerakan 543: I-atas
+     K  
+ ...JJG 
+ .YYYPG 
+ HHD.P. 
+ .MDICC 
+ .M.I.. 
+ ....FF 
+        
+
+Gerakan 544: D-bawah
+     K  
+ ...JJG 
+ .YYYPG 
+ HH..P. 
+ .MDICC 
+ .MDI.. 
+ ....FF 
+        
+
+Gerakan 545: D-bawah
+     K  
+ ...JJG 
+ .YYYPG 
+ HH..P. 
+ .M.ICC 
+ .MDI.. 
+ ..D.FF 
+        
+
+Gerakan 546: F-kiri
+     K  
+ ...JJG 
+ .YYYPG 
+ HH..P. 
+ .M.ICC 
+ .MDI.. 
+ ..DFF. 
+        
+
+Gerakan 547: D-atas
+     K  
+ ...JJG 
+ .YYYPG 
+ HH..P. 
+ .MDICC 
+ .MDI.. 
+ ...FF. 
+        
+
+Gerakan 548: D-atas
+     K  
+ ...JJG 
+ .YYYPG 
+ HHD.P. 
+ .MDICC 
+ .M.I.. 
+ ...FF. 
+        
+
+Gerakan 549: F-kiri
+     K  
+ ...JJG 
+ .YYYPG 
+ HHD.P. 
+ .MDICC 
+ .M.I.. 
+ ..FF.. 
+        
+
+Gerakan 550: D-bawah
+     K  
+ ...JJG 
+ .YYYPG 
+ HH..P. 
+ .MDICC 
+ .MDI.. 
+ ..FF.. 
+        
+
+Gerakan 551: F-kiri
+     K  
+ ...JJG 
+ .YYYPG 
+ HH..P. 
+ .MDICC 
+ .MDI.. 
+ .FF... 
+        
+
+Gerakan 552: D-atas
+     K  
+ ...JJG 
+ .YYYPG 
+ HHD.P. 
+ .MDICC 
+ .M.I.. 
+ .FF... 
+        
+
+Gerakan 553: F-kiri
+     K  
+ ...JJG 
+ .YYYPG 
+ HHD.P. 
+ .MDICC 
+ .M.I.. 
+ FF.... 
+        
+
+Gerakan 554: D-bawah
+     K  
+ ...JJG 
+ .YYYPG 
+ HH..P. 
+ .MDICC 
+ .MDI.. 
+ FF.... 
+        
+
+Gerakan 555: D-bawah
+     K  
+ ...JJG 
+ .YYYPG 
+ HH..P. 
+ .M.ICC 
+ .MDI.. 
+ FFD... 
+        
+
+Gerakan 556: G-bawah
+     K  
+ ...JJ. 
+ .YYYPG 
+ HH..PG 
+ .M.ICC 
+ .MDI.. 
+ FFD... 
+        
+
+Gerakan 557: D-atas
+     K  
+ ...JJ. 
+ .YYYPG 
+ HH..PG 
+ .MDICC 
+ .MDI.. 
+ FF.... 
+        
+
+Gerakan 558: D-atas
+     K  
+ ...JJ. 
+ .YYYPG 
+ HHD.PG 
+ .MDICC 
+ .M.I.. 
+ FF.... 
+        
+
+Gerakan 559: F-kanan
+     K  
+ ...JJ. 
+ .YYYPG 
+ HHD.PG 
+ .MDICC 
+ .M.I.. 
+ .FF... 
+        
+
+Gerakan 560: D-bawah
+     K  
+ ...JJ. 
+ .YYYPG 
+ HH..PG 
+ .MDICC 
+ .MDI.. 
+ .FF... 
+        
+
+Gerakan 561: F-kanan
+     K  
+ ...JJ. 
+ .YYYPG 
+ HH..PG 
+ .MDICC 
+ .MDI.. 
+ ..FF.. 
+        
+
+Gerakan 562: D-atas
+     K  
+ ...JJ. 
+ .YYYPG 
+ HHD.PG 
+ .MDICC 
+ .M.I.. 
+ ..FF.. 
+        
+
+Gerakan 563: F-kanan
+     K  
+ ...JJ. 
+ .YYYPG 
+ HHD.PG 
+ .MDICC 
+ .M.I.. 
+ ...FF. 
+        
+
+Gerakan 564: D-bawah
+     K  
+ ...JJ. 
+ .YYYPG 
+ HH..PG 
+ .MDICC 
+ .MDI.. 
+ ...FF. 
+        
+
+Gerakan 565: D-bawah
+     K  
+ ...JJ. 
+ .YYYPG 
+ HH..PG 
+ .M.ICC 
+ .MDI.. 
+ ..DFF. 
+        
+
+Gerakan 566: F-kanan
+     K  
+ ...JJ. 
+ .YYYPG 
+ HH..PG 
+ .M.ICC 
+ .MDI.. 
+ ..D.FF 
+        
+
+Gerakan 567: D-atas
+     K  
+ ...JJ. 
+ .YYYPG 
+ HH..PG 
+ .MDICC 
+ .MDI.. 
+ ....FF 
+        
+
+Gerakan 568: D-atas
+     K  
+ ...JJ. 
+ .YYYPG 
+ HHD.PG 
+ .MDICC 
+ .M.I.. 
+ ....FF 
+        
+
+Gerakan 569: I-atas
+     K  
+ ...JJ. 
+ .YYYPG 
+ HHDIPG 
+ .MDICC 
+ .M.... 
+ ....FF 
+        
+
+Gerakan 570: D-bawah
+     K  
+ ...JJ. 
+ .YYYPG 
+ HH.IPG 
+ .MDICC 
+ .MD... 
+ ....FF 
+        
+
+Gerakan 571: D-bawah
+     K  
+ ...JJ. 
+ .YYYPG 
+ HH.IPG 
+ .M.ICC 
+ .MD... 
+ ..D.FF 
+        
+
+Gerakan 572: F-kiri
+     K  
+ ...JJ. 
+ .YYYPG 
+ HH.IPG 
+ .M.ICC 
+ .MD... 
+ ..DFF. 
+        
+
+Gerakan 573: D-atas
+     K  
+ ...JJ. 
+ .YYYPG 
+ HH.IPG 
+ .MDICC 
+ .MD... 
+ ...FF. 
+        
+
+Gerakan 574: D-atas
+     K  
+ ...JJ. 
+ .YYYPG 
+ HHDIPG 
+ .MDICC 
+ .M.... 
+ ...FF. 
+        
+
+Gerakan 575: F-kiri
+     K  
+ ...JJ. 
+ .YYYPG 
+ HHDIPG 
+ .MDICC 
+ .M.... 
+ ..FF.. 
+        
+
+Gerakan 576: D-bawah
+     K  
+ ...JJ. 
+ .YYYPG 
+ HH.IPG 
+ .MDICC 
+ .MD... 
+ ..FF.. 
+        
+
+Gerakan 577: F-kiri
+     K  
+ ...JJ. 
+ .YYYPG 
+ HH.IPG 
+ .MDICC 
+ .MD... 
+ .FF... 
+        
+
+Gerakan 578: D-atas
+     K  
+ ...JJ. 
+ .YYYPG 
+ HHDIPG 
+ .MDICC 
+ .M.... 
+ .FF... 
+        
+
+Gerakan 579: F-kiri
+     K  
+ ...JJ. 
+ .YYYPG 
+ HHDIPG 
+ .MDICC 
+ .M.... 
+ FF.... 
+        
+
+Gerakan 580: D-bawah
+     K  
+ ...JJ. 
+ .YYYPG 
+ HH.IPG 
+ .MDICC 
+ .MD... 
+ FF.... 
+        
+
+Gerakan 581: D-bawah
+     K  
+ ...JJ. 
+ .YYYPG 
+ HH.IPG 
+ .M.ICC 
+ .MD... 
+ FFD... 
+        
+
+Gerakan 582: G-atas
+     K  
+ ...JJG 
+ .YYYPG 
+ HH.IP. 
+ .M.ICC 
+ .MD... 
+ FFD... 
+        
+
+Gerakan 583: D-atas
+     K  
+ ...JJG 
+ .YYYPG 
+ HH.IP. 
+ .MDICC 
+ .MD... 
+ FF.... 
+        
+
+Gerakan 584: D-atas
+     K  
+ ...JJG 
+ .YYYPG 
+ HHDIP. 
+ .MDICC 
+ .M.... 
+ FF.... 
+        
+
+Gerakan 585: F-kanan
+     K  
+ ...JJG 
+ .YYYPG 
+ HHDIP. 
+ .MDICC 
+ .M.... 
+ .FF... 
+        
+
+Gerakan 586: D-bawah
+     K  
+ ...JJG 
+ .YYYPG 
+ HH.IP. 
+ .MDICC 
+ .MD... 
+ .FF... 
+        
+
+Gerakan 587: F-kanan
+     K  
+ ...JJG 
+ .YYYPG 
+ HH.IP. 
+ .MDICC 
+ .MD... 
+ ..FF.. 
+        
+
+Gerakan 588: D-atas
+     K  
+ ...JJG 
+ .YYYPG 
+ HHDIP. 
+ .MDICC 
+ .M.... 
+ ..FF.. 
+        
+
+Gerakan 589: F-kanan
+     K  
+ ...JJG 
+ .YYYPG 
+ HHDIP. 
+ .MDICC 
+ .M.... 
+ ...FF. 
+        
+
+Gerakan 590: D-bawah
+     K  
+ ...JJG 
+ .YYYPG 
+ HH.IP. 
+ .MDICC 
+ .MD... 
+ ...FF. 
+        
+
+Gerakan 591: D-bawah
+     K  
+ ...JJG 
+ .YYYPG 
+ HH.IP. 
+ .M.ICC 
+ .MD... 
+ ..DFF. 
+        
+
+Gerakan 592: F-kanan
+     K  
+ ...JJG 
+ .YYYPG 
+ HH.IP. 
+ .M.ICC 
+ .MD... 
+ ..D.FF 
+        
+
+Gerakan 593: D-atas
+     K  
+ ...JJG 
+ .YYYPG 
+ HH.IP. 
+ .MDICC 
+ .MD... 
+ ....FF 
+        
+
+Gerakan 594: D-atas
+     K  
+ ...JJG 
+ .YYYPG 
+ HHDIP. 
+ .MDICC 
+ .M.... 
+ ....FF 
+        
+
+Gerakan 595: J-kiri
+     K  
+ ..JJ.G 
+ .YYYPG 
+ HHDIP. 
+ .MDICC 
+ .M.... 
+ ....FF 
+        
+
+Gerakan 596: P-atas
+     K  
+ ..JJPG 
+ .YYYPG 
+ HHDI.. 
+ .MDICC 
+ .M.... 
+ ....FF 
+        
+
+Gerakan 597: P-atas
+     P  
+ ..JJPG 
+ .YYY.G 
+ HHDI.. 
+ .MDICC 
+ .M.... 
+ ....FF 
+        
+
+Jumlah Gerakan: 597, Waktu: 21 ms

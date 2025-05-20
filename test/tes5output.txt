@@ -1,0 +1,2503 @@
+Algoritma: GBFS
+Heuristik: Manhattan Distance
+Papan awal:
+        
+ RR..JL 
+ BBB.JL 
+ .PP.ILK
+ D..FI. 
+ D.EFGG 
+ CCE.MM 
+        
+
+Gerakan 1: P-kanan
+        
+ RR..JL 
+ BBB.JL 
+ ..PPILK
+ D..FI. 
+ D.EFGG 
+ CCE.MM 
+        
+
+Gerakan 2: E-atas
+        
+ RR..JL 
+ BBB.JL 
+ ..PPILK
+ D.EFI. 
+ D.EFGG 
+ CC..MM 
+        
+
+Gerakan 3: R-kanan
+        
+ ..RRJL 
+ BBB.JL 
+ ..PPILK
+ D.EFI. 
+ D.EFGG 
+ CC..MM 
+        
+
+Gerakan 4: C-kanan
+        
+ ..RRJL 
+ BBB.JL 
+ ..PPILK
+ D.EFI. 
+ D.EFGG 
+ .CC.MM 
+        
+
+Gerakan 5: P-kiri
+        
+ ..RRJL 
+ BBB.JL 
+ PP..ILK
+ D.EFI. 
+ D.EFGG 
+ .CC.MM 
+        
+
+Gerakan 6: E-atas
+        
+ ..RRJL 
+ BBB.JL 
+ PPE.ILK
+ D.EFI. 
+ D..FGG 
+ .CC.MM 
+        
+
+Gerakan 7: M-kiri
+        
+ ..RRJL 
+ BBB.JL 
+ PPE.ILK
+ D.EFI. 
+ D..FGG 
+ .CCMM. 
+        
+
+Gerakan 8: L-bawah
+        
+ ..RRJ. 
+ BBB.JL 
+ PPE.ILK
+ D.EFIL 
+ D..FGG 
+ .CCMM. 
+        
+
+Gerakan 9: F-atas
+        
+ ..RRJ. 
+ BBBFJL 
+ PPEFILK
+ D.E.IL 
+ D...GG 
+ .CCMM. 
+        
+
+Gerakan 10: M-kanan
+        
+ ..RRJ. 
+ BBBFJL 
+ PPEFILK
+ D.E.IL 
+ D...GG 
+ .CC.MM 
+        
+
+Gerakan 11: G-kiri
+        
+ ..RRJ. 
+ BBBFJL 
+ PPEFILK
+ D.E.IL 
+ DGG... 
+ .CC.MM 
+        
+
+Gerakan 12: L-atas
+        
+ ..RRJL 
+ BBBFJL 
+ PPEFILK
+ D.E.I. 
+ DGG... 
+ .CC.MM 
+        
+
+Gerakan 13: M-kiri
+        
+ ..RRJL 
+ BBBFJL 
+ PPEFILK
+ D.E.I. 
+ DGG... 
+ .CCMM. 
+        
+
+Gerakan 14: G-kanan
+        
+ ..RRJL 
+ BBBFJL 
+ PPEFILK
+ D.E.I. 
+ D..GG. 
+ .CCMM. 
+        
+
+Gerakan 15: L-bawah
+        
+ ..RRJ. 
+ BBBFJ. 
+ PPEFI.K
+ D.E.IL 
+ D..GGL 
+ .CCMML 
+        
+
+Gerakan 16: G-kiri
+        
+ ..RRJ. 
+ BBBFJ. 
+ PPEFI.K
+ D.E.IL 
+ D.GG.L 
+ .CCMML 
+        
+
+Gerakan 17: L-atas
+        
+ ..RRJ. 
+ BBBFJ. 
+ PPEFILK
+ D.E.IL 
+ D.GG.L 
+ .CCMM. 
+        
+
+Gerakan 18: M-kanan
+        
+ ..RRJ. 
+ BBBFJ. 
+ PPEFILK
+ D.E.IL 
+ D.GG.L 
+ .CC.MM 
+        
+
+Gerakan 19: I-bawah
+        
+ ..RRJ. 
+ BBBFJ. 
+ PPEF.LK
+ D.E.IL 
+ D.GGIL 
+ .CC.MM 
+        
+
+Gerakan 20: L-atas
+        
+ ..RRJL 
+ BBBFJL 
+ PPEF.LK
+ D.E.I. 
+ D.GGI. 
+ .CC.MM 
+        
+
+Gerakan 21: M-kiri
+        
+ ..RRJL 
+ BBBFJL 
+ PPEF.LK
+ D.E.I. 
+ D.GGI. 
+ .CCMM. 
+        
+
+Gerakan 22: L-bawah
+        
+ ..RRJ. 
+ BBBFJL 
+ PPEF.LK
+ D.E.IL 
+ D.GGI. 
+ .CCMM. 
+        
+
+Gerakan 23: J-bawah
+        
+ ..RR.. 
+ BBBFJL 
+ PPEFJLK
+ D.E.IL 
+ D.GGI. 
+ .CCMM. 
+        
+
+Gerakan 24: M-kanan
+        
+ ..RR.. 
+ BBBFJL 
+ PPEFJLK
+ D.E.IL 
+ D.GGI. 
+ .CC.MM 
+        
+
+Gerakan 25: F-bawah
+        
+ ..RR.. 
+ BBB.JL 
+ PPEFJLK
+ D.EFIL 
+ D.GGI. 
+ .CC.MM 
+        
+
+Gerakan 26: L-bawah
+        
+ ..RR.. 
+ BBB.J. 
+ PPEFJLK
+ D.EFIL 
+ D.GGIL 
+ .CC.MM 
+        
+
+Gerakan 27: M-kiri
+        
+ ..RR.. 
+ BBB.J. 
+ PPEFJLK
+ D.EFIL 
+ D.GGIL 
+ .CCMM. 
+        
+
+Gerakan 28: J-atas
+        
+ ..RRJ. 
+ BBB.J. 
+ PPEF.LK
+ D.EFIL 
+ D.GGIL 
+ .CCMM. 
+        
+
+Gerakan 29: G-kiri
+        
+ ..RRJ. 
+ BBB.J. 
+ PPEF.LK
+ D.EFIL 
+ DGG.IL 
+ .CCMM. 
+        
+
+Gerakan 30: M-kanan
+        
+ ..RRJ. 
+ BBB.J. 
+ PPEF.LK
+ D.EFIL 
+ DGG.IL 
+ .CC.MM 
+        
+
+Gerakan 31: L-atas
+        
+ ..RRJL 
+ BBB.JL 
+ PPEF.LK
+ D.EFI. 
+ DGG.I. 
+ .CC.MM 
+        
+
+Gerakan 32: J-bawah
+        
+ ..RR.L 
+ BBB.JL 
+ PPEFJLK
+ D.EFI. 
+ DGG.I. 
+ .CC.MM 
+        
+
+Gerakan 33: M-kiri
+        
+ ..RR.L 
+ BBB.JL 
+ PPEFJLK
+ D.EFI. 
+ DGG.I. 
+ .CCMM. 
+        
+
+Gerakan 34: L-bawah
+        
+ ..RR.. 
+ BBB.J. 
+ PPEFJ.K
+ D.EFIL 
+ DGG.IL 
+ .CCMML 
+        
+
+Gerakan 35: F-bawah
+        
+ ..RR.. 
+ BBB.J. 
+ PPE.J.K
+ D.EFIL 
+ DGGFIL 
+ .CCMML 
+        
+
+Gerakan 36: L-atas
+        
+ ..RR.. 
+ BBB.JL 
+ PPE.JLK
+ D.EFIL 
+ DGGFI. 
+ .CCMM. 
+        
+
+Gerakan 37: M-kanan
+        
+ ..RR.. 
+ BBB.JL 
+ PPE.JLK
+ D.EFIL 
+ DGGFI. 
+ .CC.MM 
+        
+
+Gerakan 38: L-bawah
+        
+ ..RR.. 
+ BBB.J. 
+ PPE.JLK
+ D.EFIL 
+ DGGFIL 
+ .CC.MM 
+        
+
+Gerakan 39: F-bawah
+        
+ ..RR.. 
+ BBB.J. 
+ PPE.JLK
+ D.E.IL 
+ DGGFIL 
+ .CCFMM 
+        
+
+Gerakan 40: D-bawah
+        
+ ..RR.. 
+ BBB.J. 
+ PPE.JLK
+ ..E.IL 
+ DGGFIL 
+ DCCFMM 
+        
+
+Gerakan 41: L-atas
+        
+ ..RR.L 
+ BBB.JL 
+ PPE.JLK
+ ..E.I. 
+ DGGFI. 
+ DCCFMM 
+        
+
+Gerakan 42: J-atas
+        
+ ..RRJL 
+ BBB.JL 
+ PPE..LK
+ ..E.I. 
+ DGGFI. 
+ DCCFMM 
+        
+
+Gerakan 43: L-bawah
+        
+ ..RRJ. 
+ BBB.JL 
+ PPE..LK
+ ..E.IL 
+ DGGFI. 
+ DCCFMM 
+        
+
+Gerakan 44: I-atas
+        
+ ..RRJ. 
+ BBB.JL 
+ PPE.ILK
+ ..E.IL 
+ DGGF.. 
+ DCCFMM 
+        
+
+Gerakan 45: F-atas
+        
+ ..RRJ. 
+ BBB.JL 
+ PPEFILK
+ ..EFIL 
+ DGG... 
+ DCC.MM 
+        
+
+Gerakan 46: M-kiri
+        
+ ..RRJ. 
+ BBB.JL 
+ PPEFILK
+ ..EFIL 
+ DGG... 
+ DCCMM. 
+        
+
+Gerakan 47: L-bawah
+        
+ ..RRJ. 
+ BBB.J. 
+ PPEFI.K
+ ..EFIL 
+ DGG..L 
+ DCCMML 
+        
+
+Gerakan 48: I-bawah
+        
+ ..RRJ. 
+ BBB.J. 
+ PPEF..K
+ ..EFIL 
+ DGG.IL 
+ DCCMML 
+        
+
+Gerakan 49: L-atas
+        
+ ..RRJL 
+ BBB.JL 
+ PPEF.LK
+ ..EFI. 
+ DGG.I. 
+ DCCMM. 
+        
+
+Gerakan 50: G-kanan
+        
+ ..RRJL 
+ BBB.JL 
+ PPEF.LK
+ ..EFI. 
+ D.GGI. 
+ DCCMM. 
+        
+
+Gerakan 51: M-kanan
+        
+ ..RRJL 
+ BBB.JL 
+ PPEF.LK
+ ..EFI. 
+ D.GGI. 
+ DCC.MM 
+        
+
+Gerakan 52: L-bawah
+        
+ ..RRJ. 
+ BBB.J. 
+ PPEF.LK
+ ..EFIL 
+ D.GGIL 
+ DCC.MM 
+        
+
+Gerakan 53: I-atas
+        
+ ..RRJ. 
+ BBB.J. 
+ PPEFILK
+ ..EFIL 
+ D.GG.L 
+ DCC.MM 
+        
+
+Gerakan 54: M-kiri
+        
+ ..RRJ. 
+ BBB.J. 
+ PPEFILK
+ ..EFIL 
+ D.GG.L 
+ DCCMM. 
+        
+
+Gerakan 55: G-kanan
+        
+ ..RRJ. 
+ BBB.J. 
+ PPEFILK
+ ..EFIL 
+ D..GGL 
+ DCCMM. 
+        
+
+Gerakan 56: L-atas
+        
+ ..RRJL 
+ BBB.JL 
+ PPEFILK
+ ..EFI. 
+ D..GG. 
+ DCCMM. 
+        
+
+Gerakan 57: M-kanan
+        
+ ..RRJL 
+ BBB.JL 
+ PPEFILK
+ ..EFI. 
+ D..GG. 
+ DCC.MM 
+        
+
+Gerakan 58: G-kanan
+        
+ ..RRJL 
+ BBB.JL 
+ PPEFILK
+ ..EFI. 
+ D...GG 
+ DCC.MM 
+        
+
+Gerakan 59: F-bawah
+        
+ ..RRJL 
+ BBB.JL 
+ PPE.ILK
+ ..E.I. 
+ D..FGG 
+ DCCFMM 
+        
+
+Gerakan 60: L-bawah
+        
+ ..RRJ. 
+ BBB.JL 
+ PPE.ILK
+ ..E.IL 
+ D..FGG 
+ DCCFMM 
+        
+
+Gerakan 61: F-atas
+        
+ ..RRJ. 
+ BBB.JL 
+ PPE.ILK
+ ..EFIL 
+ D..FGG 
+ DCC.MM 
+        
+
+Gerakan 62: C-kanan
+        
+ ..RRJ. 
+ BBB.JL 
+ PPE.ILK
+ ..EFIL 
+ D..FGG 
+ D.CCMM 
+        
+
+Gerakan 63: L-atas
+        
+ ..RRJL 
+ BBB.JL 
+ PPE.ILK
+ ..EFI. 
+ D..FGG 
+ D.CCMM 
+        
+
+Gerakan 64: F-atas
+        
+ ..RRJL 
+ BBBFJL 
+ PPEFILK
+ ..E.I. 
+ D...GG 
+ D.CCMM 
+        
+
+Gerakan 65: G-kiri
+        
+ ..RRJL 
+ BBBFJL 
+ PPEFILK
+ ..E.I. 
+ DGG... 
+ D.CCMM 
+        
+
+Gerakan 66: L-bawah
+        
+ ..RRJ. 
+ BBBFJ. 
+ PPEFILK
+ ..E.IL 
+ DGG..L 
+ D.CCMM 
+        
+
+Gerakan 67: I-bawah
+        
+ ..RRJ. 
+ BBBFJ. 
+ PPEF.LK
+ ..E.IL 
+ DGG.IL 
+ D.CCMM 
+        
+
+Gerakan 68: L-atas
+        
+ ..RRJ. 
+ BBBFJL 
+ PPEF.LK
+ ..E.IL 
+ DGG.I. 
+ D.CCMM 
+        
+
+Gerakan 69: J-bawah
+        
+ ..RR.. 
+ BBBFJL 
+ PPEFJLK
+ ..E.IL 
+ DGG.I. 
+ D.CCMM 
+        
+
+Gerakan 70: L-atas
+        
+ ..RR.L 
+ BBBFJL 
+ PPEFJLK
+ ..E.I. 
+ DGG.I. 
+ D.CCMM 
+        
+
+Gerakan 71: G-kanan
+        
+ ..RR.L 
+ BBBFJL 
+ PPEFJLK
+ ..E.I. 
+ D.GGI. 
+ D.CCMM 
+        
+
+Gerakan 72: L-bawah
+        
+ ..RR.. 
+ BBBFJ. 
+ PPEFJLK
+ ..E.IL 
+ D.GGIL 
+ D.CCMM 
+        
+
+Gerakan 73: F-bawah
+        
+ ..RR.. 
+ BBB.J. 
+ PPEFJLK
+ ..EFIL 
+ D.GGIL 
+ D.CCMM 
+        
+
+Gerakan 74: L-atas
+        
+ ..RR.. 
+ BBB.JL 
+ PPEFJLK
+ ..EFIL 
+ D.GGI. 
+ D.CCMM 
+        
+
+Gerakan 75: J-atas
+        
+ ..RRJ. 
+ BBB.JL 
+ PPEF.LK
+ ..EFIL 
+ D.GGI. 
+ D.CCMM 
+        
+
+Gerakan 76: I-atas
+        
+ ..RRJ. 
+ BBB.JL 
+ PPEFILK
+ ..EFIL 
+ D.GG.. 
+ D.CCMM 
+        
+
+Gerakan 77: L-atas
+        
+ ..RRJL 
+ BBB.JL 
+ PPEFILK
+ ..EFI. 
+ D.GG.. 
+ D.CCMM 
+        
+
+Gerakan 78: D-atas
+        
+ ..RRJL 
+ BBB.JL 
+ PPEFILK
+ D.EFI. 
+ D.GG.. 
+ ..CCMM 
+        
+
+Gerakan 79: L-bawah
+        
+ ..RRJ. 
+ BBB.J. 
+ PPEFILK
+ D.EFIL 
+ D.GG.L 
+ ..CCMM 
+        
+
+Gerakan 80: I-bawah
+        
+ ..RRJ. 
+ BBB.J. 
+ PPEF.LK
+ D.EFIL 
+ D.GGIL 
+ ..CCMM 
+        
+
+Gerakan 81: C-kiri
+        
+ ..RRJ. 
+ BBB.J. 
+ PPEF.LK
+ D.EFIL 
+ D.GGIL 
+ CC..MM 
+        
+
+Gerakan 82: M-kiri
+        
+ ..RRJ. 
+ BBB.J. 
+ PPEF.LK
+ D.EFIL 
+ D.GGIL 
+ CCMM.. 
+        
+
+Gerakan 83: L-bawah
+        
+ ..RRJ. 
+ BBB.J. 
+ PPEF..K
+ D.EFIL 
+ D.GGIL 
+ CCMM.L 
+        
+
+Gerakan 84: M-kanan
+        
+ ..RRJ. 
+ BBB.J. 
+ PPEF..K
+ D.EFIL 
+ D.GGIL 
+ CC.MML 
+        
+
+Gerakan 85: L-atas
+        
+ ..RRJL 
+ BBB.JL 
+ PPEF.LK
+ D.EFI. 
+ D.GGI. 
+ CC.MM. 
+        
+
+Gerakan 86: J-bawah
+        
+ ..RR.L 
+ BBB.JL 
+ PPEFJLK
+ D.EFI. 
+ D.GGI. 
+ CC.MM. 
+        
+
+Gerakan 87: M-kanan
+        
+ ..RR.L 
+ BBB.JL 
+ PPEFJLK
+ D.EFI. 
+ D.GGI. 
+ CC..MM 
+        
+
+Gerakan 88: F-atas
+        
+ ..RR.L 
+ BBBFJL 
+ PPEFJLK
+ D.E.I. 
+ D.GGI. 
+ CC..MM 
+        
+
+Gerakan 89: M-kiri
+        
+ ..RR.L 
+ BBBFJL 
+ PPEFJLK
+ D.E.I. 
+ D.GGI. 
+ CCMM.. 
+        
+
+Gerakan 90: L-bawah
+        
+ ..RR.. 
+ BBBFJ. 
+ PPEFJ.K
+ D.E.IL 
+ D.GGIL 
+ CCMM.L 
+        
+
+Gerakan 91: M-kanan
+        
+ ..RR.. 
+ BBBFJ. 
+ PPEFJ.K
+ D.E.IL 
+ D.GGIL 
+ CC.MML 
+        
+
+Gerakan 92: L-atas
+        
+ ..RR.. 
+ BBBFJ. 
+ PPEFJLK
+ D.E.IL 
+ D.GGIL 
+ CC.MM. 
+        
+
+Gerakan 93: J-atas
+        
+ ..RRJ. 
+ BBBFJ. 
+ PPEF.LK
+ D.E.IL 
+ D.GGIL 
+ CC.MM. 
+        
+
+Gerakan 94: G-kiri
+        
+ ..RRJ. 
+ BBBFJ. 
+ PPEF.LK
+ D.E.IL 
+ DGG.IL 
+ CC.MM. 
+        
+
+Gerakan 95: M-kanan
+        
+ ..RRJ. 
+ BBBFJ. 
+ PPEF.LK
+ D.E.IL 
+ DGG.IL 
+ CC..MM 
+        
+
+Gerakan 96: L-atas
+        
+ ..RRJL 
+ BBBFJL 
+ PPEF.LK
+ D.E.I. 
+ DGG.I. 
+ CC..MM 
+        
+
+Gerakan 97: M-kiri
+        
+ ..RRJL 
+ BBBFJL 
+ PPEF.LK
+ D.E.I. 
+ DGG.I. 
+ CCMM.. 
+        
+
+Gerakan 98: L-bawah
+        
+ ..RRJ. 
+ BBBFJ. 
+ PPEF..K
+ D.E.IL 
+ DGG.IL 
+ CCMM.L 
+        
+
+Gerakan 99: I-bawah
+        
+ ..RRJ. 
+ BBBFJ. 
+ PPEF..K
+ D.E..L 
+ DGG.IL 
+ CCMMIL 
+        
+
+Gerakan 100: L-atas
+        
+ ..RRJ. 
+ BBBFJL 
+ PPEF.LK
+ D.E..L 
+ DGG.I. 
+ CCMMI. 
+        
+
+Gerakan 101: J-bawah
+        
+ ..RR.. 
+ BBBF.L 
+ PPEFJLK
+ D.E.JL 
+ DGG.I. 
+ CCMMI. 
+        
+
+Gerakan 102: L-bawah
+        
+ ..RR.. 
+ BBBF.. 
+ PPEFJLK
+ D.E.JL 
+ DGG.IL 
+ CCMMI. 
+        
+
+Gerakan 103: J-atas
+        
+ ..RR.. 
+ BBBFJ. 
+ PPEFJLK
+ D.E..L 
+ DGG.IL 
+ CCMMI. 
+        
+
+Gerakan 104: L-atas
+        
+ ..RR.L 
+ BBBFJL 
+ PPEFJLK
+ D.E... 
+ DGG.I. 
+ CCMMI. 
+        
+
+Gerakan 105: F-bawah
+        
+ ..RR.L 
+ BBB.JL 
+ PPE.JLK
+ D.EF.. 
+ DGGFI. 
+ CCMMI. 
+        
+
+Gerakan 106: L-bawah
+        
+ ..RR.. 
+ BBB.J. 
+ PPE.J.K
+ D.EF.L 
+ DGGFIL 
+ CCMMIL 
+        
+
+Gerakan 107: J-bawah
+        
+ ..RR.. 
+ BBB... 
+ PPE.J.K
+ D.EFJL 
+ DGGFIL 
+ CCMMIL 
+        
+
+Gerakan 108: F-atas
+        
+ ..RR.. 
+ BBB... 
+ PPEFJ.K
+ D.EFJL 
+ DGG.IL 
+ CCMMIL 
+        
+
+Gerakan 109: L-atas
+        
+ ..RR.L 
+ BBB..L 
+ PPEFJLK
+ D.EFJ. 
+ DGG.I. 
+ CCMMI. 
+        
+
+Gerakan 110: J-atas
+        
+ ..RRJL 
+ BBB.JL 
+ PPEF.LK
+ D.EF.. 
+ DGG.I. 
+ CCMMI. 
+        
+
+Gerakan 111: L-bawah
+        
+ ..RRJ. 
+ BBB.J. 
+ PPEF.LK
+ D.EF.L 
+ DGG.IL 
+ CCMMI. 
+        
+
+Gerakan 112: I-atas
+        
+ ..RRJ. 
+ BBB.J. 
+ PPEFILK
+ D.EFIL 
+ DGG..L 
+ CCMM.. 
+        
+
+Gerakan 113: M-kanan
+        
+ ..RRJ. 
+ BBB.J. 
+ PPEFILK
+ D.EFIL 
+ DGG..L 
+ CC..MM 
+        
+
+Gerakan 114: L-atas
+        
+ ..RRJL 
+ BBB.JL 
+ PPEFILK
+ D.EFI. 
+ DGG... 
+ CC..MM 
+        
+
+Gerakan 115: M-kiri
+        
+ ..RRJL 
+ BBB.JL 
+ PPEFILK
+ D.EFI. 
+ DGG... 
+ CC.MM. 
+        
+
+Gerakan 116: L-bawah
+        
+ ..RRJ. 
+ BBB.J. 
+ PPEFI.K
+ D.EFIL 
+ DGG..L 
+ CC.MML 
+        
+
+Gerakan 117: G-kanan
+        
+ ..RRJ. 
+ BBB.J. 
+ PPEFI.K
+ D.EFIL 
+ D..GGL 
+ CC.MML 
+        
+
+Gerakan 118: M-kiri
+        
+ ..RRJ. 
+ BBB.J. 
+ PPEFI.K
+ D.EFIL 
+ D..GGL 
+ CCMM.L 
+        
+
+Gerakan 119: L-atas
+        
+ ..RRJL 
+ BBB.JL 
+ PPEFILK
+ D.EFI. 
+ D..GG. 
+ CCMM.. 
+        
+
+Gerakan 120: G-kanan
+        
+ ..RRJL 
+ BBB.JL 
+ PPEFILK
+ D.EFI. 
+ D...GG 
+ CCMM.. 
+        
+
+Gerakan 121: L-bawah
+        
+ ..RRJ. 
+ BBB.JL 
+ PPEFILK
+ D.EFIL 
+ D...GG 
+ CCMM.. 
+        
+
+Gerakan 122: M-kanan
+        
+ ..RRJ. 
+ BBB.JL 
+ PPEFILK
+ D.EFIL 
+ D...GG 
+ CC..MM 
+        
+
+Gerakan 123: G-kiri
+        
+ ..RRJ. 
+ BBB.JL 
+ PPEFILK
+ D.EFIL 
+ D.GG.. 
+ CC..MM 
+        
+
+Gerakan 124: M-kiri
+        
+ ..RRJ. 
+ BBB.JL 
+ PPEFILK
+ D.EFIL 
+ D.GG.. 
+ CC.MM. 
+        
+
+Gerakan 125: L-bawah
+        
+ ..RRJ. 
+ BBB.J. 
+ PPEFILK
+ D.EFIL 
+ D.GG.L 
+ CC.MM. 
+        
+
+Gerakan 126: B-kanan
+        
+ ..RRJ. 
+ .BBBJ. 
+ PPEFILK
+ D.EFIL 
+ D.GG.L 
+ CC.MM. 
+        
+
+Gerakan 127: M-kanan
+        
+ ..RRJ. 
+ .BBBJ. 
+ PPEFILK
+ D.EFIL 
+ D.GG.L 
+ CC..MM 
+        
+
+Gerakan 128: L-atas
+        
+ ..RRJL 
+ .BBBJL 
+ PPEFILK
+ D.EFI. 
+ D.GG.. 
+ CC..MM 
+        
+
+Gerakan 129: M-kiri
+        
+ ..RRJL 
+ .BBBJL 
+ PPEFILK
+ D.EFI. 
+ D.GG.. 
+ CCMM.. 
+        
+
+Gerakan 130: L-bawah
+        
+ ..RRJ. 
+ .BBBJ. 
+ PPEFI.K
+ D.EFIL 
+ D.GG.L 
+ CCMM.L 
+        
+
+Gerakan 131: I-bawah
+        
+ ..RRJ. 
+ .BBBJ. 
+ PPEF..K
+ D.EF.L 
+ D.GGIL 
+ CCMMIL 
+        
+
+Gerakan 132: L-atas
+        
+ ..RRJ. 
+ .BBBJL 
+ PPEF.LK
+ D.EF.L 
+ D.GGI. 
+ CCMMI. 
+        
+
+Gerakan 133: J-bawah
+        
+ ..RR.. 
+ .BBB.L 
+ PPEFJLK
+ D.EFJL 
+ D.GGI. 
+ CCMMI. 
+        
+
+Gerakan 134: L-bawah
+        
+ ..RR.. 
+ .BBB.. 
+ PPEFJLK
+ D.EFJL 
+ D.GGIL 
+ CCMMI. 
+        
+
+Gerakan 135: J-atas
+        
+ ..RR.. 
+ .BBBJ. 
+ PPEFJLK
+ D.EF.L 
+ D.GGIL 
+ CCMMI. 
+        
+
+Gerakan 136: L-atas
+        
+ ..RR.L 
+ .BBBJL 
+ PPEFJLK
+ D.EF.. 
+ D.GGI. 
+ CCMMI. 
+        
+
+Gerakan 137: I-atas
+        
+ ..RR.L 
+ .BBBJL 
+ PPEFJLK
+ D.EFI. 
+ D.GGI. 
+ CCMM.. 
+        
+
+Gerakan 138: L-bawah
+        
+ ..RR.. 
+ .BBBJ. 
+ PPEFJ.K
+ D.EFIL 
+ D.GGIL 
+ CCMM.L 
+        
+
+Gerakan 139: M-kanan
+        
+ ..RR.. 
+ .BBBJ. 
+ PPEFJ.K
+ D.EFIL 
+ D.GGIL 
+ CC.MML 
+        
+
+Gerakan 140: L-atas
+        
+ ..RR.. 
+ .BBBJL 
+ PPEFJLK
+ D.EFIL 
+ D.GGI. 
+ CC.MM. 
+        
+
+Gerakan 141: M-kanan
+        
+ ..RR.. 
+ .BBBJL 
+ PPEFJLK
+ D.EFIL 
+ D.GGI. 
+ CC..MM 
+        
+
+Gerakan 142: L-bawah
+        
+ ..RR.. 
+ .BBBJ. 
+ PPEFJLK
+ D.EFIL 
+ D.GGIL 
+ CC..MM 
+        
+
+Gerakan 143: G-kiri
+        
+ ..RR.. 
+ .BBBJ. 
+ PPEFJLK
+ D.EFIL 
+ DGG.IL 
+ CC..MM 
+        
+
+Gerakan 144: M-kiri
+        
+ ..RR.. 
+ .BBBJ. 
+ PPEFJLK
+ D.EFIL 
+ DGG.IL 
+ CCMM.. 
+        
+
+Gerakan 145: L-atas
+        
+ ..RR.. 
+ .BBBJL 
+ PPEFJLK
+ D.EFIL 
+ DGG.I. 
+ CCMM.. 
+        
+
+Gerakan 146: J-atas
+        
+ ..RRJ. 
+ .BBBJL 
+ PPEF.LK
+ D.EFIL 
+ DGG.I. 
+ CCMM.. 
+        
+
+Gerakan 147: M-kanan
+        
+ ..RRJ. 
+ .BBBJL 
+ PPEF.LK
+ D.EFIL 
+ DGG.I. 
+ CC..MM 
+        
+
+Gerakan 148: L-atas
+        
+ ..RRJL 
+ .BBBJL 
+ PPEF.LK
+ D.EFI. 
+ DGG.I. 
+ CC..MM 
+        
+
+Gerakan 149: M-kiri
+        
+ ..RRJL 
+ .BBBJL 
+ PPEF.LK
+ D.EFI. 
+ DGG.I. 
+ CC.MM. 
+        
+
+Gerakan 150: L-bawah
+        
+ ..RRJ. 
+ .BBBJ. 
+ PPEF..K
+ D.EFIL 
+ DGG.IL 
+ CC.MML 
+        
+
+Gerakan 151: F-bawah
+        
+ ..RRJ. 
+ .BBBJ. 
+ PPE...K
+ D.EFIL 
+ DGGFIL 
+ CC.MML 
+        
+
+Gerakan 152: M-kiri
+        
+ ..RRJ. 
+ .BBBJ. 
+ PPE...K
+ D.EFIL 
+ DGGFIL 
+ CCMM.L 
+        
+
+Gerakan 153: L-atas
+        
+ ..RRJL 
+ .BBBJL 
+ PPE..LK
+ D.EFI. 
+ DGGFI. 
+ CCMM.. 
+        
+
+Gerakan 154: J-bawah
+        
+ ..RR.L 
+ .BBBJL 
+ PPE.JLK
+ D.EFI. 
+ DGGFI. 
+ CCMM.. 
+        
+
+Gerakan 155: M-kanan
+        
+ ..RR.L 
+ .BBBJL 
+ PPE.JLK
+ D.EFI. 
+ DGGFI. 
+ CC..MM 
+        
+
+Gerakan 156: L-bawah
+        
+ ..RR.. 
+ .BBBJL 
+ PPE.JLK
+ D.EFIL 
+ DGGFI. 
+ CC..MM 
+        
+
+Gerakan 157: M-kiri
+        
+ ..RR.. 
+ .BBBJL 
+ PPE.JLK
+ D.EFIL 
+ DGGFI. 
+ CC.MM. 
+        
+
+Gerakan 158: L-bawah
+        
+ ..RR.. 
+ .BBBJ. 
+ PPE.JLK
+ D.EFIL 
+ DGGFIL 
+ CC.MM. 
+        
+
+Gerakan 159: C-kanan
+        
+ ..RR.. 
+ .BBBJ. 
+ PPE.JLK
+ D.EFIL 
+ DGGFIL 
+ .CCMM. 
+        
+
+Gerakan 160: L-atas
+        
+ ..RR.L 
+ .BBBJL 
+ PPE.JLK
+ D.EFI. 
+ DGGFI. 
+ .CCMM. 
+        
+
+Gerakan 161: J-atas
+        
+ ..RRJL 
+ .BBBJL 
+ PPE..LK
+ D.EFI. 
+ DGGFI. 
+ .CCMM. 
+        
+
+Gerakan 162: M-kanan
+        
+ ..RRJL 
+ .BBBJL 
+ PPE..LK
+ D.EFI. 
+ DGGFI. 
+ .CC.MM 
+        
+
+Gerakan 163: L-bawah
+        
+ ..RRJ. 
+ .BBBJ. 
+ PPE..LK
+ D.EFIL 
+ DGGFIL 
+ .CC.MM 
+        
+
+Gerakan 164: I-atas
+        
+ ..RRJ. 
+ .BBBJ. 
+ PPE.ILK
+ D.EFIL 
+ DGGF.L 
+ .CC.MM 
+        
+
+Gerakan 165: M-kiri
+        
+ ..RRJ. 
+ .BBBJ. 
+ PPE.ILK
+ D.EFIL 
+ DGGF.L 
+ .CCMM. 
+        
+
+Gerakan 166: L-bawah
+        
+ ..RRJ. 
+ .BBBJ. 
+ PPE.I.K
+ D.EFIL 
+ DGGF.L 
+ .CCMML 
+        
+
+Gerakan 167: F-atas
+        
+ ..RRJ. 
+ .BBBJ. 
+ PPEFI.K
+ D.EFIL 
+ DGG..L 
+ .CCMML 
+        
+
+Gerakan 168: L-atas
+        
+ ..RRJL 
+ .BBBJL 
+ PPEFILK
+ D.EFI. 
+ DGG... 
+ .CCMM. 
+        
+
+Gerakan 169: M-kanan
+        
+ ..RRJL 
+ .BBBJL 
+ PPEFILK
+ D.EFI. 
+ DGG... 
+ .CC.MM 
+        
+
+Gerakan 170: L-bawah
+        
+ ..RRJ. 
+ .BBBJL 
+ PPEFILK
+ D.EFIL 
+ DGG... 
+ .CC.MM 
+        
+
+Gerakan 171: G-kanan
+        
+ ..RRJ. 
+ .BBBJL 
+ PPEFILK
+ D.EFIL 
+ D...GG 
+ .CC.MM 
+        
+
+Gerakan 172: M-kiri
+        
+ ..RRJ. 
+ .BBBJL 
+ PPEFILK
+ D.EFIL 
+ D...GG 
+ .CCMM. 
+        
+
+Gerakan 173: G-kiri
+        
+ ..RRJ. 
+ .BBBJL 
+ PPEFILK
+ D.EFIL 
+ D.GG.. 
+ .CCMM. 
+        
+
+Gerakan 174: I-bawah
+        
+ ..RRJ. 
+ .BBBJL 
+ PPEF.LK
+ D.EFIL 
+ D.GGI. 
+ .CCMM. 
+        
+
+Gerakan 175: M-kanan
+        
+ ..RRJ. 
+ .BBBJL 
+ PPEF.LK
+ D.EFIL 
+ D.GGI. 
+ .CC.MM 
+        
+
+Gerakan 176: L-bawah
+        
+ ..RRJ. 
+ .BBBJ. 
+ PPEF.LK
+ D.EFIL 
+ D.GGIL 
+ .CC.MM 
+        
+
+Gerakan 177: R-kiri
+        
+ .RR.J. 
+ .BBBJ. 
+ PPEF.LK
+ D.EFIL 
+ D.GGIL 
+ .CC.MM 
+        
+
+Gerakan 178: M-kiri
+        
+ .RR.J. 
+ .BBBJ. 
+ PPEF.LK
+ D.EFIL 
+ D.GGIL 
+ .CCMM. 
+        
+
+Gerakan 179: L-bawah
+        
+ .RR.J. 
+ .BBBJ. 
+ PPEF..K
+ D.EFIL 
+ D.GGIL 
+ .CCMML 
+        
+
+Gerakan 180: J-bawah
+        
+ .RR... 
+ .BBBJ. 
+ PPEFJ.K
+ D.EFIL 
+ D.GGIL 
+ .CCMML 
+        
+
+Gerakan 181: L-atas
+        
+ .RR..L 
+ .BBBJL 
+ PPEFJLK
+ D.EFI. 
+ D.GGI. 
+ .CCMM. 
+        
+
+Gerakan 182: M-kanan
+        
+ .RR..L 
+ .BBBJL 
+ PPEFJLK
+ D.EFI. 
+ D.GGI. 
+ .CC.MM 
+        
+
+Gerakan 183: L-bawah
+        
+ .RR... 
+ .BBBJL 
+ PPEFJLK
+ D.EFIL 
+ D.GGI. 
+ .CC.MM 
+        
+
+Gerakan 184: D-bawah
+        
+ .RR... 
+ .BBBJL 
+ PPEFJLK
+ ..EFIL 
+ D.GGI. 
+ DCC.MM 
+        
+
+Gerakan 185: M-kiri
+        
+ .RR... 
+ .BBBJL 
+ PPEFJLK
+ ..EFIL 
+ D.GGI. 
+ DCCMM. 
+        
+
+Gerakan 186: L-bawah
+        
+ .RR... 
+ .BBBJ. 
+ PPEFJLK
+ ..EFIL 
+ D.GGIL 
+ DCCMM. 
+        
+
+Gerakan 187: G-kiri
+        
+ .RR... 
+ .BBBJ. 
+ PPEFJLK
+ ..EFIL 
+ DGG.IL 
+ DCCMM. 
+        
+
+Gerakan 188: M-kanan
+        
+ .RR... 
+ .BBBJ. 
+ PPEFJLK
+ ..EFIL 
+ DGG.IL 
+ DCC.MM 
+        
+
+Gerakan 189: L-atas
+        
+ .RR..L 
+ .BBBJL 
+ PPEFJLK
+ ..EFI. 
+ DGG.I. 
+ DCC.MM 
+        
+
+Gerakan 190: J-atas
+        
+ .RR.JL 
+ .BBBJL 
+ PPEF.LK
+ ..EFI. 
+ DGG.I. 
+ DCC.MM 
+        
+
+Gerakan 191: M-kiri
+        
+ .RR.JL 
+ .BBBJL 
+ PPEF.LK
+ ..EFI. 
+ DGG.I. 
+ DCCMM. 
+        
+
+Gerakan 192: L-bawah
+        
+ .RR.J. 
+ .BBBJ. 
+ PPEF..K
+ ..EFIL 
+ DGG.IL 
+ DCCMML 
+        
+
+Gerakan 193: I-atas
+        
+ .RR.J. 
+ .BBBJ. 
+ PPEFI.K
+ ..EFIL 
+ DGG..L 
+ DCCMML 
+        
+
+Gerakan 194: L-atas
+        
+ .RR.J. 
+ .BBBJL 
+ PPEFILK
+ ..EFIL 
+ DGG... 
+ DCCMM. 
+        
+
+Gerakan 195: M-kanan
+        
+ .RR.J. 
+ .BBBJL 
+ PPEFILK
+ ..EFIL 
+ DGG... 
+ DCC.MM 
+        
+
+Gerakan 196: L-bawah
+        
+ .RR.J. 
+ .BBBJ. 
+ PPEFILK
+ ..EFIL 
+ DGG..L 
+ DCC.MM 
+        
+
+Gerakan 197: G-kanan
+        
+ .RR.J. 
+ .BBBJ. 
+ PPEFILK
+ ..EFIL 
+ D..GGL 
+ DCC.MM 
+        
+
+Gerakan 198: M-kiri
+        
+ .RR.J. 
+ .BBBJ. 
+ PPEFILK
+ ..EFIL 
+ D..GGL 
+ DCCMM. 
+        
+
+Gerakan 199: L-atas
+        
+ .RR.JL 
+ .BBBJL 
+ PPEFILK
+ ..EFI. 
+ D..GG. 
+ DCCMM. 
+        
+
+Gerakan 200: G-kanan
+        
+ .RR.JL 
+ .BBBJL 
+ PPEFILK
+ ..EFI. 
+ D...GG 
+ DCCMM. 
+        
+
+Gerakan 201: M-kanan
+        
+ .RR.JL 
+ .BBBJL 
+ PPEFILK
+ ..EFI. 
+ D...GG 
+ DCC.MM 
+        
+
+Gerakan 202: G-kiri
+        
+ .RR.JL 
+ .BBBJL 
+ PPEFILK
+ ..EFI. 
+ D.GG.. 
+ DCC.MM 
+        
+
+Gerakan 203: D-atas
+        
+ .RR.JL 
+ .BBBJL 
+ PPEFILK
+ D.EFI. 
+ D.GG.. 
+ .CC.MM 
+        
+
+Gerakan 204: M-kiri
+        
+ .RR.JL 
+ .BBBJL 
+ PPEFILK
+ D.EFI. 
+ D.GG.. 
+ .CCMM. 
+        
+
+Gerakan 205: C-kiri
+        
+ .RR.JL 
+ .BBBJL 
+ PPEFILK
+ D.EFI. 
+ D.GG.. 
+ CC.MM. 
+        
+
+Gerakan 206: L-bawah
+        
+ .RR.J. 
+ .BBBJ. 
+ PPEFI.K
+ D.EFIL 
+ D.GG.L 
+ CC.MML 
+        
+
+Gerakan 207: G-kanan
+        
+ .RR.J. 
+ .BBBJ. 
+ PPEFI.K
+ D.EFIL 
+ D..GGL 
+ CC.MML 
+        
+
+Gerakan 208: L-atas
+        
+ .RR.J. 
+ .BBBJL 
+ PPEFILK
+ D.EFIL 
+ D..GG. 
+ CC.MM. 
+        
+
+Gerakan 209: M-kanan
+        
+ .RR.J. 
+ .BBBJL 
+ PPEFILK
+ D.EFIL 
+ D..GG. 
+ CC..MM 
+        
+
+Gerakan 210: L-bawah
+        
+ .RR.J. 
+ .BBBJ. 
+ PPEFILK
+ D.EFIL 
+ D..GGL 
+ CC..MM 
+        
+
+Gerakan 211: G-kiri
+        
+ .RR.J. 
+ .BBBJ. 
+ PPEFILK
+ D.EFIL 
+ DGG..L 
+ CC..MM 
+        
+
+Gerakan 212: M-kiri
+        
+ .RR.J. 
+ .BBBJ. 
+ PPEFILK
+ D.EFIL 
+ DGG..L 
+ CCMM.. 
+        
+
+Gerakan 213: L-atas
+        
+ .RR.J. 
+ .BBBJL 
+ PPEFILK
+ D.EFIL 
+ DGG... 
+ CCMM.. 
+        
+
+Gerakan 214: I-bawah
+        
+ .RR.J. 
+ .BBBJL 
+ PPEF.LK
+ D.EF.L 
+ DGG.I. 
+ CCMMI. 
+        
+
+Gerakan 215: L-bawah
+        
+ .RR.J. 
+ .BBBJ. 
+ PPEF..K
+ D.EF.L 
+ DGG.IL 
+ CCMMIL 
+        
+
+Gerakan 216: J-bawah
+        
+ .RR... 
+ .BBB.. 
+ PPEFJ.K
+ D.EFJL 
+ DGG.IL 
+ CCMMIL 
+        
+
+Gerakan 217: L-atas
+        
+ .RR..L 
+ .BBB.L 
+ PPEFJLK
+ D.EFJ. 
+ DGG.I. 
+ CCMMI. 
+        
+
+Gerakan 218: J-atas
+        
+ .RR..L 
+ .BBBJL 
+ PPEFJLK
+ D.EF.. 
+ DGG.I. 
+ CCMMI. 
+        
+
+Gerakan 219: L-bawah
+        
+ .RR... 
+ .BBBJ. 
+ PPEFJLK
+ D.EF.L 
+ DGG.IL 
+ CCMMI. 
+        
+
+Gerakan 220: F-bawah
+        
+ .RR... 
+ .BBBJ. 
+ PPE.JLK
+ D.EF.L 
+ DGGFIL 
+ CCMMI. 
+        
+
+Gerakan 221: L-bawah
+        
+ .RR... 
+ .BBBJ. 
+ PPE.J.K
+ D.EF.L 
+ DGGFIL 
+ CCMMIL 
+        
+
+Gerakan 222: R-kanan
+        
+ ...RR. 
+ .BBBJ. 
+ PPE.J.K
+ D.EF.L 
+ DGGFIL 
+ CCMMIL 
+        
+
+Gerakan 223: L-atas
+        
+ ...RRL 
+ .BBBJL 
+ PPE.JLK
+ D.EF.. 
+ DGGFI. 
+ CCMMI. 
+        
+
+Gerakan 224: J-bawah
+        
+ ...RRL 
+ .BBB.L 
+ PPE.JLK
+ D.EFJ. 
+ DGGFI. 
+ CCMMI. 
+        
+
+Gerakan 225: L-bawah
+        
+ ...RR. 
+ .BBB.. 
+ PPE.JLK
+ D.EFJL 
+ DGGFIL 
+ CCMMI. 
+        
+
+Gerakan 226: F-atas
+        
+ ...RR. 
+ .BBB.. 
+ PPEFJLK
+ D.EFJL 
+ DGG.IL 
+ CCMMI. 
+        
+
+Gerakan 227: L-atas
+        
+ ...RR. 
+ .BBB.L 
+ PPEFJLK
+ D.EFJL 
+ DGG.I. 
+ CCMMI. 
+        
+
+Gerakan 228: J-atas
+        
+ ...RR. 
+ .BBBJL 
+ PPEFJLK
+ D.EF.L 
+ DGG.I. 
+ CCMMI. 
+        
+
+Gerakan 229: G-kanan
+        
+ ...RR. 
+ .BBBJL 
+ PPEFJLK
+ D.EF.L 
+ D.GGI. 
+ CCMMI. 
+        
+
+Gerakan 230: L-bawah
+        
+ ...RR. 
+ .BBBJ. 
+ PPEFJ.K
+ D.EF.L 
+ D.GGIL 
+ CCMMIL 
+        
+
+Gerakan 231: J-bawah
+        
+ ...RR. 
+ .BBB.. 
+ PPEFJ.K
+ D.EFJL 
+ D.GGIL 
+ CCMMIL 
+        
+
+Gerakan 232: L-atas
+        
+ ...RRL 
+ .BBB.L 
+ PPEFJLK
+ D.EFJ. 
+ D.GGI. 
+ CCMMI. 
+        
+
+Gerakan 233: B-kanan
+        
+ ...RRL 
+ ..BBBL 
+ PPEFJLK
+ D.EFJ. 
+ D.GGI. 
+ CCMMI. 
+        
+
+Gerakan 234: L-bawah
+        
+ ...RR. 
+ ..BBB. 
+ PPEFJLK
+ D.EFJL 
+ D.GGIL 
+ CCMMI. 
+        
+
+Gerakan 235: B-kanan
+        
+ ...RR. 
+ ...BBB 
+ PPEFJLK
+ D.EFJL 
+ D.GGIL 
+ CCMMI. 
+        
+
+Gerakan 236: E-atas
+        
+ ..ERR. 
+ ..EBBB 
+ PP.FJLK
+ D..FJL 
+ D.GGIL 
+ CCMMI. 
+        
+
+Gerakan 237: P-kanan
+        
+ ..ERR. 
+ ..EBBB 
+ .PPFJLK
+ D..FJL 
+ D.GGIL 
+ CCMMI. 
+        
+
+Gerakan 238: D-atas
+        
+ D.ERR. 
+ D.EBBB 
+ .PPFJLK
+ ...FJL 
+ ..GGIL 
+ CCMMI. 
+        
+
+Gerakan 239: G-kiri
+        
+ D.ERR. 
+ D.EBBB 
+ .PPFJLK
+ ...FJL 
+ GG..IL 
+ CCMMI. 
+        
+
+Gerakan 240: L-bawah
+        
+ D.ERR. 
+ D.EBBB 
+ .PPFJ.K
+ ...FJL 
+ GG..IL 
+ CCMMIL 
+        
+
+Gerakan 241: P-kiri
+        
+ D.ERR. 
+ D.EBBB 
+ PP.FJ.K
+ ...FJL 
+ GG..IL 
+ CCMMIL 
+        
+
+Gerakan 242: E-bawah
+        
+ D..RR. 
+ D..BBB 
+ PP.FJ.K
+ ..EFJL 
+ GGE.IL 
+ CCMMIL 
+        
+
+Gerakan 243: P-kanan
+        
+ D..RR. 
+ D..BBB 
+ .PPFJ.K
+ ..EFJL 
+ GGE.IL 
+ CCMMIL 
+        
+
+Gerakan 244: F-bawah
+        
+ D..RR. 
+ D..BBB 
+ .PP.J.K
+ ..EFJL 
+ GGEFIL 
+ CCMMIL 
+        
+
+Gerakan 245: P-kanan
+        
+ D..RR. 
+ D..BBB 
+ ..PPJ.K
+ ..EFJL 
+ GGEFIL 
+ CCMMIL 
+        
+
+Gerakan 246: R-kiri
+        
+ D.RR.. 
+ D..BBB 
+ ..PPJ.K
+ ..EFJL 
+ GGEFIL 
+ CCMMIL 
+        
+
+Gerakan 247: B-kiri
+        
+ D.RR.. 
+ DBBB.. 
+ ..PPJ.K
+ ..EFJL 
+ GGEFIL 
+ CCMMIL 
+        
+
+Gerakan 248: J-atas
+        
+ D.RRJ. 
+ DBBBJ. 
+ ..PP..K
+ ..EF.L 
+ GGEFIL 
+ CCMMIL 
+        
+
+Gerakan 249: P-kanan
+        
+ D.RRJ. 
+ DBBBJ. 
+ .....PP
+ ..EF.L 
+ GGEFIL 
+ CCMMIL 
+        
+
+Jumlah Gerakan: 249, Waktu: 91 ms

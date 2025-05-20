@@ -22,6 +22,8 @@ public class Main extends JFrame {
     private JButton saveButton;
     private Map<Character, Color> colorMap = new HashMap<>();
     private File lastDirectory = null;
+    private String algo;
+    private int heuristicType;
     private Thread animationThread = null;
     private long duration;
 
@@ -51,7 +53,7 @@ public class Main extends JFrame {
         loadButton.setForeground(Color.WHITE);
         loadButton.setAlignmentX(Component.CENTER_ALIGNMENT);
 
-        algorithmDropdown = new JComboBox<>(new String[]{"GREEDY BFS", "UCS", "A STAR", "IDS"});
+        algorithmDropdown = new JComboBox<>(new String[]{"GBFS", "UCS", "A STAR", "IDS"});
         algorithmDropdown.setBackground(Color.WHITE);
         algorithmDropdown.setMaximumSize(new Dimension(180, 30));
         algorithmDropdown.setAlignmentX(Component.CENTER_ALIGNMENT);
@@ -59,7 +61,7 @@ public class Main extends JFrame {
             "<html>1. Manhattan Distance</html>",
             "<html>2. Min Blocking Pieces</html>",
             "<html>3. Manhattan Distance<br>+ Min Blocking Pieces</html>",
-            "<html>4. Manhattan Distance<br>+ Min Moveable Blockers</html>"
+            "<html>4. Min Moveable Blockers</html>"
         };
 
         heuristicDropdown = new JComboBox<>(heuristics);
@@ -174,6 +176,8 @@ public class Main extends JFrame {
         
             if (fileChooser.showOpenDialog(this) == JFileChooser.APPROVE_OPTION) {
                 try {
+                    this.algo = "";
+                    this.heuristicType = 0;
                     inputOutput = new InputOutput();
                     inputOutput.setupSolver(fileChooser.getSelectedFile().getAbsolutePath());
                     // solver = new Solver();
@@ -203,18 +207,20 @@ public class Main extends JFrame {
                 statusLabel.setText("File belum di-load.");
                 return;
             }
+            this.algo = "";
+            this.heuristicType = 0;
             solveButton.setEnabled(false);
             replayButton.setEnabled(false);
             statusLabel.setText("Solving...");
         
             SwingUtilities.invokeLater(() -> {
-                String algo = (String) algorithmDropdown.getSelectedItem();
-                int heuristicType = heuristicDropdown.getSelectedIndex() + 1;
+                this.algo = (String) algorithmDropdown.getSelectedItem();
+                this.heuristicType = heuristicDropdown.getSelectedIndex() + 1;
                 long startTime = System.currentTimeMillis();
             
                 try {
                     boolean solved = switch (algo) {
-                        case "GREEDY BFS" -> solver.solveWithGreedyBFS(heuristicType, inputOutput.getInitialState());
+                        case "GBFS" -> solver.solveWithGreedyBFS(heuristicType, inputOutput.getInitialState());
                         case "UCS" -> solver.solveWithUCS(inputOutput.getInitialState());
                         case "A STAR" -> solver.solveWithAStar(heuristicType, inputOutput.getInitialState());
                         case "IDS" -> solver.solveWithIDS(inputOutput.getInitialState());
@@ -283,7 +289,7 @@ public class Main extends JFrame {
         });
 
         saveButton.addActionListener((ActionEvent e) -> {
-            if (solver != null && solver.getSolutionPath() != null) {
+            if (solver != null) {
                 JFileChooser fileChooser = new JFileChooser();
                 if (lastDirectory != null) {
                     fileChooser.setCurrentDirectory(lastDirectory);
@@ -293,7 +299,7 @@ public class Main extends JFrame {
                 if (fileChooser.showSaveDialog(this) == JFileChooser.APPROVE_OPTION) {
                     File selectedFile = fileChooser.getSelectedFile();
                     try {
-                        inputOutput.saveSolutionToFile(selectedFile.getAbsolutePath(), solver.getSolutionPath(), duration);
+                        inputOutput.saveSolutionToFile(selectedFile.getAbsolutePath(), solver.getSolutionPath(), algo, heuristicType, duration);
                         lastDirectory = selectedFile.getParentFile();
                         String folder = selectedFile.getParentFile().getName();  
                         String filename = selectedFile.getName();                

@@ -1,0 +1,3 @@
+Algoritma: A STAR
+Heuristik: Manhattan Distance<br>+ Min Moveable Blockers
+Solusi tidak ditemukan.

@@ -1,0 +1,463 @@
+Algoritma: GBFS
+Heuristik: Min Blocking Pieces
+Papan awal:
+    K   
+ AY.SSS 
+ AYECC. 
+ R.E.GG 
+ R.DD.. 
+ ...PM. 
+ FF.PM. 
+        
+
+Gerakan 1: C-kanan
+    K   
+ AY.SSS 
+ AYE.CC 
+ R.E.GG 
+ R.DD.. 
+ ...PM. 
+ FF.PM. 
+        
+
+Gerakan 2: D-kanan
+    K   
+ AY.SSS 
+ AYE.CC 
+ R.E.GG 
+ R...DD 
+ ...PM. 
+ FF.PM. 
+        
+
+Gerakan 3: P-atas
+    K   
+ AY.SSS 
+ AYEPCC 
+ R.EPGG 
+ R...DD 
+ ....M. 
+ FF..M. 
+        
+
+Gerakan 4: Y-bawah
+    K   
+ A..SSS 
+ A.EPCC 
+ RYEPGG 
+ RY..DD 
+ ....M. 
+ FF..M. 
+        
+
+Gerakan 5: E-bawah
+    K   
+ A..SSS 
+ A..PCC 
+ RY.PGG 
+ RY..DD 
+ ..E.M. 
+ FFE.M. 
+        
+
+Gerakan 6: Y-bawah
+    K   
+ A..SSS 
+ A..PCC 
+ R..PGG 
+ RY..DD 
+ .YE.M. 
+ FFE.M. 
+        
+
+Gerakan 7: E-atas
+    K   
+ A.ESSS 
+ A.EPCC 
+ R..PGG 
+ RY..DD 
+ .Y..M. 
+ FF..M. 
+        
+
+Gerakan 8: Y-atas
+    K   
+ A.ESSS 
+ AYEPCC 
+ RY.PGG 
+ R...DD 
+ ....M. 
+ FF..M. 
+        
+
+Gerakan 9: D-kiri
+    K   
+ A.ESSS 
+ AYEPCC 
+ RY.PGG 
+ R.DD.. 
+ ....M. 
+ FF..M. 
+        
+
+Gerakan 10: M-atas
+    K   
+ A.ESSS 
+ AYEPCC 
+ RY.PGG 
+ R.DDM. 
+ ....M. 
+ FF.... 
+        
+
+Gerakan 11: R-bawah
+    K   
+ A.ESSS 
+ AYEPCC 
+ .Y.PGG 
+ R.DDM. 
+ R...M. 
+ FF.... 
+        
+
+Gerakan 12: Y-bawah
+    K   
+ A.ESSS 
+ A.EPCC 
+ ...PGG 
+ RYDDM. 
+ RY..M. 
+ FF.... 
+        
+
+Gerakan 13: M-bawah
+    K   
+ A.ESSS 
+ A.EPCC 
+ ...PGG 
+ RYDD.. 
+ RY..M. 
+ FF..M. 
+        
+
+Gerakan 14: Y-atas
+    K   
+ AYESSS 
+ AYEPCC 
+ ...PGG 
+ R.DD.. 
+ R...M. 
+ FF..M. 
+        
+
+Gerakan 15: F-kanan
+    K   
+ AYESSS 
+ AYEPCC 
+ ...PGG 
+ R.DD.. 
+ R...M. 
+ .FF.M. 
+        
+
+Gerakan 16: M-atas
+    K   
+ AYESSS 
+ AYEPCC 
+ ...PGG 
+ R.DDM. 
+ R...M. 
+ .FF... 
+        
+
+Gerakan 17: F-kanan
+    K   
+ AYESSS 
+ AYEPCC 
+ ...PGG 
+ R.DDM. 
+ R...M. 
+ ....FF 
+        
+
+Gerakan 18: E-bawah
+    K   
+ AY.SSS 
+ AYEPCC 
+ ..EPGG 
+ R.DDM. 
+ R...M. 
+ ....FF 
+        
+
+Gerakan 19: Y-bawah
+    K   
+ A..SSS 
+ A.EPCC 
+ ..EPGG 
+ R.DDM. 
+ RY..M. 
+ .Y..FF 
+        
+
+Gerakan 20: F-kiri
+    K   
+ A..SSS 
+ A.EPCC 
+ ..EPGG 
+ R.DDM. 
+ RY..M. 
+ .YFF.. 
+        
+
+Gerakan 21: Y-atas
+    K   
+ A..SSS 
+ AYEPCC 
+ .YEPGG 
+ R.DDM. 
+ R...M. 
+ ..FF.. 
+        
+
+Gerakan 22: F-kanan
+    K   
+ A..SSS 
+ AYEPCC 
+ .YEPGG 
+ R.DDM. 
+ R...M. 
+ ...FF. 
+        
+
+Gerakan 23: Y-bawah
+    K   
+ A..SSS 
+ A.EPCC 
+ ..EPGG 
+ RYDDM. 
+ RY..M. 
+ ...FF. 
+        
+
+Gerakan 24: F-kiri
+    K   
+ A..SSS 
+ A.EPCC 
+ ..EPGG 
+ RYDDM. 
+ RY..M. 
+ .FF... 
+        
+
+Gerakan 25: M-bawah
+    K   
+ A..SSS 
+ A.EPCC 
+ ..EPGG 
+ RYDD.. 
+ RY..M. 
+ .FF.M. 
+        
+
+Gerakan 26: Y-atas
+    K   
+ A..SSS 
+ AYEPCC 
+ .YEPGG 
+ R.DD.. 
+ R...M. 
+ .FF.M. 
+        
+
+Gerakan 27: F-kiri
+    K   
+ A..SSS 
+ AYEPCC 
+ .YEPGG 
+ R.DD.. 
+ R...M. 
+ FF..M. 
+        
+
+Gerakan 28: Y-bawah
+    K   
+ A..SSS 
+ A.EPCC 
+ .YEPGG 
+ RYDD.. 
+ R...M. 
+ FF..M. 
+        
+
+Gerakan 29: M-atas
+    K   
+ A..SSS 
+ A.EPCC 
+ .YEPGG 
+ RYDDM. 
+ R...M. 
+ FF.... 
+        
+
+Gerakan 30: S-kiri
+    K   
+ ASSS.. 
+ A.EPCC 
+ .YEPGG 
+ RYDDM. 
+ R...M. 
+ FF.... 
+        
+
+Gerakan 31: Y-bawah
+    K   
+ ASSS.. 
+ A.EPCC 
+ ..EPGG 
+ RYDDM. 
+ RY..M. 
+ FF.... 
+        
+
+Gerakan 32: M-bawah
+    K   
+ ASSS.. 
+ A.EPCC 
+ ..EPGG 
+ RYDD.. 
+ RY..M. 
+ FF..M. 
+        
+
+Gerakan 33: F-kanan
+    K   
+ ASSS.. 
+ A.EPCC 
+ ..EPGG 
+ RYDD.. 
+ RY..M. 
+ ..FFM. 
+        
+
+Gerakan 34: Y-atas
+    K   
+ ASSS.. 
+ AYEPCC 
+ .YEPGG 
+ R.DD.. 
+ R...M. 
+ ..FFM. 
+        
+
+Gerakan 35: D-kanan
+    K   
+ ASSS.. 
+ AYEPCC 
+ .YEPGG 
+ R...DD 
+ R...M. 
+ ..FFM. 
+        
+
+Gerakan 36: Y-bawah
+    K   
+ ASSS.. 
+ A.EPCC 
+ ..EPGG 
+ R...DD 
+ RY..M. 
+ .YFFM. 
+        
+
+Gerakan 37: D-kiri
+    K   
+ ASSS.. 
+ A.EPCC 
+ ..EPGG 
+ RDD... 
+ RY..M. 
+ .YFFM. 
+        
+
+Gerakan 38: M-atas
+    K   
+ ASSS.. 
+ A.EPCC 
+ ..EPGG 
+ RDD.M. 
+ RY..M. 
+ .YFF.. 
+        
+
+Gerakan 39: F-kanan
+    K   
+ ASSS.. 
+ A.EPCC 
+ ..EPGG 
+ RDD.M. 
+ RY..M. 
+ .Y..FF 
+        
+
+Gerakan 40: S-kanan
+    K   
+ A.SSS. 
+ A.EPCC 
+ ..EPGG 
+ RDD.M. 
+ RY..M. 
+ .Y..FF 
+        
+
+Gerakan 41: F-kiri
+    K   
+ A.SSS. 
+ A.EPCC 
+ ..EPGG 
+ RDD.M. 
+ RY..M. 
+ .Y.FF. 
+        
+
+Gerakan 42: D-kanan
+    K   
+ A.SSS. 
+ A.EPCC 
+ ..EPGG 
+ R.DDM. 
+ RY..M. 
+ .Y.FF. 
+        
+
+Gerakan 43: A-bawah
+    K   
+ ..SSS. 
+ A.EPCC 
+ A.EPGG 
+ R.DDM. 
+ RY..M. 
+ .Y.FF. 
+        
+
+Gerakan 44: S-kiri
+    K   
+ SSS... 
+ A.EPCC 
+ A.EPGG 
+ R.DDM. 
+ RY..M. 
+ .Y.FF. 
+        
+
+Gerakan 45: P-atas
+    P   
+ SSSP.. 
+ A.E.CC 
+ A.E.GG 
+ R.DDM. 
+ RY..M. 
+ .Y.FF. 
+        
+
+Jumlah Gerakan: 45, Waktu: 13 ms

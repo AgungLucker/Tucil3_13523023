@@ -50,13 +50,17 @@ public class Piece {
     }
 
     public boolean canMove(State state, int moveRow, int moveCol) {
+        int rows = state.getStateBoard().getRows();
+        int cols = state.getStateBoard().getCols(); 
         List<int[]> occupiedCells = getOccupiedCells();
+        char[][] board = state.getStateBoard().getBoard();
+        
         for (int[] cell : occupiedCells) {
             int newRow = cell[0] + moveRow;
             int newCol = cell[1] + moveCol;
 
-            if (newRow < 0 || newRow >= state.getStateBoard().getRows()
-                || newCol < 0 || newCol >= state.getStateBoard().getCols()) {
+            if (newRow < 0 || newRow >= rows
+                || newCol < 0 || newCol >= cols) {
                     return false;
                 }
 
@@ -67,7 +71,7 @@ public class Piece {
                     break;
                 }
             }
-            char destCell = state.getStateBoard().getBoard()[newRow][newCol];
+            char destCell = board[newRow][newCol];
             if (!isOriginalCell && destCell != '.' && destCell != 'K') {
                 return false;
             }

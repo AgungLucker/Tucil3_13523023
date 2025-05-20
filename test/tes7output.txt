@@ -1,0 +1,223 @@
+Algoritma: GBFS
+Heuristik: Manhattan Distance >+ Min Blocking Pieces
+Papan awal:
+        
+ CCCVT. 
+ B..VTN 
+ BRR..N 
+ G.ADDD 
+KG.APPE 
+ .FFHHE 
+        
+
+Gerakan 1: V-bawah
+        
+ CCC.T. 
+ B..VTN 
+ BRRV.N 
+ G.ADDD 
+KG.APPE 
+ .FFHHE 
+        
+
+Gerakan 2: T-bawah
+        
+ CCC... 
+ B..VTN 
+ BRRVTN 
+ G.ADDD 
+KG.APPE 
+ .FFHHE 
+        
+
+Gerakan 3: N-atas
+        
+ CCC..N 
+ B..VTN 
+ BRRVT. 
+ G.ADDD 
+KG.APPE 
+ .FFHHE 
+        
+
+Gerakan 4: V-atas
+        
+ CCCV.N 
+ B..VTN 
+ BRR.T. 
+ G.ADDD 
+KG.APPE 
+ .FFHHE 
+        
+
+Gerakan 5: R-kanan
+        
+ CCCV.N 
+ B..VTN 
+ B.RRT. 
+ G.ADDD 
+KG.APPE 
+ .FFHHE 
+        
+
+Gerakan 6: T-atas
+        
+ CCCVTN 
+ B..VTN 
+ B.RR.. 
+ G.ADDD 
+KG.APPE 
+ .FFHHE 
+        
+
+Gerakan 7: R-kanan
+        
+ CCCVTN 
+ B..VTN 
+ B...RR 
+ G.ADDD 
+KG.APPE 
+ .FFHHE 
+        
+
+Gerakan 8: A-atas
+        
+ CCCVTN 
+ B..VTN 
+ B.A.RR 
+ G.ADDD 
+KG..PPE 
+ .FFHHE 
+        
+
+Gerakan 9: P-kiri
+        
+ CCCVTN 
+ B..VTN 
+ B.A.RR 
+ G.ADDD 
+KGPP..E 
+ .FFHHE 
+        
+
+Gerakan 10: A-atas
+        
+ CCCVTN 
+ B.AVTN 
+ B.A.RR 
+ G..DDD 
+KGPP..E 
+ .FFHHE 
+        
+
+Gerakan 11: R-kiri
+        
+ CCCVTN 
+ B.AVTN 
+ B.ARR. 
+ G..DDD 
+KGPP..E 
+ .FFHHE 
+        
+
+Gerakan 12: D-kiri
+        
+ CCCVTN 
+ B.AVTN 
+ B.ARR. 
+ GDDD.. 
+KGPP..E 
+ .FFHHE 
+        
+
+Gerakan 13: E-atas
+        
+ CCCVTN 
+ B.AVTN 
+ B.ARR. 
+ GDDD.E 
+KGPP..E 
+ .FFHH. 
+        
+
+Gerakan 14: F-kiri
+        
+ CCCVTN 
+ B.AVTN 
+ B.ARR. 
+ GDDD.E 
+KGPP..E 
+ FF.HH. 
+        
+
+Gerakan 15: H-kiri
+        
+ CCCVTN 
+ B.AVTN 
+ B.ARR. 
+ GDDD.E 
+KGPP..E 
+ FFHH.. 
+        
+
+Gerakan 16: R-kanan
+        
+ CCCVTN 
+ B.AVTN 
+ B.A.RR 
+ GDDD.E 
+KGPP..E 
+ FFHH.. 
+        
+
+Gerakan 17: V-bawah
+        
+ CCC.TN 
+ B.AVTN 
+ B.AVRR 
+ GDDD.E 
+KGPP..E 
+ FFHH.. 
+        
+
+Gerakan 18: C-kanan
+        
+ .CCCTN 
+ B.AVTN 
+ B.AVRR 
+ GDDD.E 
+KGPP..E 
+ FFHH.. 
+        
+
+Gerakan 19: B-atas
+        
+ BCCCTN 
+ B.AVTN 
+ ..AVRR 
+ GDDD.E 
+KGPP..E 
+ FFHH.. 
+        
+
+Gerakan 20: G-atas
+        
+ BCCCTN 
+ B.AVTN 
+ G.AVRR 
+ GDDD.E 
+K.PP..E 
+ FFHH.. 
+        
+
+Gerakan 21: P-kiri
+        
+ BCCCTN 
+ B.AVTN 
+ G.AVRR 
+ GDDD.E 
+PP....E 
+ FFHH.. 
+        
+
+Jumlah Gerakan: 21, Waktu: 2 ms

@@ -1,0 +1,323 @@
+Algoritma: A STAR
+Heuristik: Manhattan Distance
+Papan awal:
+        
+ .BB.Q. 
+ RCD.QZ 
+ RCDPPZK
+ SSSI.Z 
+ ..JIGG 
+ MMJNN. 
+        
+
+Gerakan 1: N-kanan
+        
+ .BB.Q. 
+ RCD.QZ 
+ RCDPPZK
+ SSSI.Z 
+ ..JIGG 
+ MMJ.NN 
+        
+
+Gerakan 2: B-kiri
+        
+ BB..Q. 
+ RCD.QZ 
+ RCDPPZK
+ SSSI.Z 
+ ..JIGG 
+ MMJ.NN 
+        
+
+Gerakan 3: I-bawah
+        
+ BB..Q. 
+ RCD.QZ 
+ RCDPPZK
+ SSS..Z 
+ ..JIGG 
+ MMJINN 
+        
+
+Gerakan 4: S-kanan
+        
+ BB..Q. 
+ RCD.QZ 
+ RCDPPZK
+ ..SSSZ 
+ ..JIGG 
+ MMJINN 
+        
+
+Gerakan 5: C-bawah
+        
+ BB..Q. 
+ R.D.QZ 
+ R.DPPZK
+ .CSSSZ 
+ .CJIGG 
+ MMJINN 
+        
+
+Gerakan 6: D-atas
+        
+ BBD.Q. 
+ R.D.QZ 
+ R..PPZK
+ .CSSSZ 
+ .CJIGG 
+ MMJINN 
+        
+
+Gerakan 7: R-bawah
+        
+ BBD.Q. 
+ ..D.QZ 
+ ...PPZK
+ RCSSSZ 
+ RCJIGG 
+ MMJINN 
+        
+
+Gerakan 8: P-kiri
+        
+ BBD.Q. 
+ ..D.QZ 
+ PP...ZK
+ RCSSSZ 
+ RCJIGG 
+ MMJINN 
+        
+
+Gerakan 9: Q-bawah
+        
+ BBD... 
+ ..D.QZ 
+ PP..QZK
+ RCSSSZ 
+ RCJIGG 
+ MMJINN 
+        
+
+Gerakan 10: D-bawah
+        
+ BB.... 
+ ..D.QZ 
+ PPD.QZK
+ RCSSSZ 
+ RCJIGG 
+ MMJINN 
+        
+
+Gerakan 11: B-kanan
+        
+ ...BB. 
+ ..D.QZ 
+ PPD.QZK
+ RCSSSZ 
+ RCJIGG 
+ MMJINN 
+        
+
+Gerakan 12: D-atas
+        
+ ..DBB. 
+ ..D.QZ 
+ PP..QZK
+ RCSSSZ 
+ RCJIGG 
+ MMJINN 
+        
+
+Gerakan 13: P-kanan
+        
+ ..DBB. 
+ ..D.QZ 
+ ..PPQZK
+ RCSSSZ 
+ RCJIGG 
+ MMJINN 
+        
+
+Gerakan 14: C-atas
+        
+ .CDBB. 
+ .CD.QZ 
+ ..PPQZK
+ R.SSSZ 
+ R.JIGG 
+ MMJINN 
+        
+
+Gerakan 15: R-atas
+        
+ RCDBB. 
+ RCD.QZ 
+ ..PPQZK
+ ..SSSZ 
+ ..JIGG 
+ MMJINN 
+        
+
+Gerakan 16: S-kiri
+        
+ RCDBB. 
+ RCD.QZ 
+ ..PPQZK
+ SSS..Z 
+ ..JIGG 
+ MMJINN 
+        
+
+Gerakan 17: Z-atas
+        
+ RCDBBZ 
+ RCD.QZ 
+ ..PPQZK
+ SSS... 
+ ..JIGG 
+ MMJINN 
+        
+
+Gerakan 18: P-kiri
+        
+ RCDBBZ 
+ RCD.QZ 
+ PP..QZK
+ SSS... 
+ ..JIGG 
+ MMJINN 
+        
+
+Gerakan 19: I-atas
+        
+ RCDBBZ 
+ RCDIQZ 
+ PP.IQZK
+ SSS... 
+ ..J.GG 
+ MMJ.NN 
+        
+
+Gerakan 20: S-kanan
+        
+ RCDBBZ 
+ RCDIQZ 
+ PP.IQZK
+ ...SSS 
+ ..J.GG 
+ MMJ.NN 
+        
+
+Gerakan 21: J-atas
+        
+ RCDBBZ 
+ RCDIQZ 
+ PPJIQZK
+ ..JSSS 
+ ....GG 
+ MM..NN 
+        
+
+Gerakan 22: G-kiri
+        
+ RCDBBZ 
+ RCDIQZ 
+ PPJIQZK
+ ..JSSS 
+ GG.... 
+ MM..NN 
+        
+
+Gerakan 23: J-bawah
+        
+ RCDBBZ 
+ RCDIQZ 
+ PP.IQZK
+ ...SSS 
+ GGJ... 
+ MMJ.NN 
+        
+
+Gerakan 24: S-kiri
+        
+ RCDBBZ 
+ RCDIQZ 
+ PP.IQZK
+ SSS... 
+ GGJ... 
+ MMJ.NN 
+        
+
+Gerakan 25: I-bawah
+        
+ RCDBBZ 
+ RCD.QZ 
+ PP..QZK
+ SSSI.. 
+ GGJI.. 
+ MMJ.NN 
+        
+
+Gerakan 26: P-kanan
+        
+ RCDBBZ 
+ RCD.QZ 
+ ..PPQZK
+ SSSI.. 
+ GGJI.. 
+ MMJ.NN 
+        
+
+Gerakan 27: Q-bawah
+        
+ RCDBBZ 
+ RCD..Z 
+ ..PP.ZK
+ SSSIQ. 
+ GGJIQ. 
+ MMJ.NN 
+        
+
+Gerakan 28: P-kanan
+        
+ RCDBBZ 
+ RCD..Z 
+ ...PPZK
+ SSSIQ. 
+ GGJIQ. 
+ MMJ.NN 
+        
+
+Gerakan 29: N-kiri
+        
+ RCDBBZ 
+ RCD..Z 
+ ...PPZK
+ SSSIQ. 
+ GGJIQ. 
+ MMJNN. 
+        
+
+Gerakan 30: Z-bawah
+        
+ RCDBB. 
+ RCD... 
+ ...PP.K
+ SSSIQZ 
+ GGJIQZ 
+ MMJNNZ 
+        
+
+Gerakan 31: P-kanan
+        
+ RCDBB. 
+ RCD... 
+ .....PP
+ SSSIQZ 
+ GGJIQZ 
+ MMJNNZ 
+        
+
+Jumlah Gerakan: 31, Waktu: 51381 ms

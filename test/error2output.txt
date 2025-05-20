@@ -1,0 +1,3 @@
+Algoritma: IDS
+Heuristik: Manhattan Distance
+Solusi tidak ditemukan.

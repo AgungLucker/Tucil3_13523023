@@ -1,0 +1,6663 @@
+Algoritma: IDS
+Heuristik: Manhattan Distance
+Papan awal:
+        
+ .C..R. 
+ .C.JRA 
+ PPLJ.AK
+ G.L.I. 
+ GHH.I. 
+ G..DDD 
+        
+
+Gerakan 1: A-atas
+        
+ .C..RA 
+ .C.JRA 
+ PPLJ..K
+ G.L.I. 
+ GHH.I. 
+ G..DDD 
+        
+
+Gerakan 2: A-bawah
+        
+ .C..R. 
+ .C.JR. 
+ PPLJ.AK
+ G.L.IA 
+ GHH.I. 
+ G..DDD 
+        
+
+Gerakan 3: A-bawah
+        
+ .C..R. 
+ .C.JR. 
+ PPLJ..K
+ G.L.IA 
+ GHH.IA 
+ G..DDD 
+        
+
+Gerakan 4: R-bawah
+        
+ .C.... 
+ .C.JR. 
+ PPLJR.K
+ G.L.IA 
+ GHH.IA 
+ G..DDD 
+        
+
+Gerakan 5: A-atas
+        
+ .C.... 
+ .C.JR. 
+ PPLJRAK
+ G.L.IA 
+ GHH.I. 
+ G..DDD 
+        
+
+Gerakan 6: A-atas
+        
+ .C.... 
+ .C.JRA 
+ PPLJRAK
+ G.L.I. 
+ GHH.I. 
+ G..DDD 
+        
+
+Gerakan 7: A-atas
+        
+ .C...A 
+ .C.JRA 
+ PPLJR.K
+ G.L.I. 
+ GHH.I. 
+ G..DDD 
+        
+
+Gerakan 8: D-kiri
+        
+ .C...A 
+ .C.JRA 
+ PPLJR.K
+ G.L.I. 
+ GHH.I. 
+ G.DDD. 
+        
+
+Gerakan 9: A-bawah
+        
+ .C.... 
+ .C.JRA 
+ PPLJRAK
+ G.L.I. 
+ GHH.I. 
+ G.DDD. 
+        
+
+Gerakan 10: A-bawah
+        
+ .C.... 
+ .C.JR. 
+ PPLJRAK
+ G.L.IA 
+ GHH.I. 
+ G.DDD. 
+        
+
+Gerakan 11: A-bawah
+        
+ .C.... 
+ .C.JR. 
+ PPLJR.K
+ G.L.IA 
+ GHH.IA 
+ G.DDD. 
+        
+
+Gerakan 12: A-bawah
+        
+ .C.... 
+ .C.JR. 
+ PPLJR.K
+ G.L.I. 
+ GHH.IA 
+ G.DDDA 
+        
+
+Gerakan 13: R-atas
+        
+ .C..R. 
+ .C.JR. 
+ PPLJ..K
+ G.L.I. 
+ GHH.IA 
+ G.DDDA 
+        
+
+Gerakan 14: A-atas
+        
+ .C..R. 
+ .C.JR. 
+ PPLJ..K
+ G.L.IA 
+ GHH.IA 
+ G.DDD. 
+        
+
+Gerakan 15: A-atas
+        
+ .C..R. 
+ .C.JR. 
+ PPLJ.AK
+ G.L.IA 
+ GHH.I. 
+ G.DDD. 
+        
+
+Gerakan 16: A-atas
+        
+ .C..R. 
+ .C.JRA 
+ PPLJ.AK
+ G.L.I. 
+ GHH.I. 
+ G.DDD. 
+        
+
+Gerakan 17: A-atas
+        
+ .C..RA 
+ .C.JRA 
+ PPLJ..K
+ G.L.I. 
+ GHH.I. 
+ G.DDD. 
+        
+
+Gerakan 18: D-kiri
+        
+ .C..RA 
+ .C.JRA 
+ PPLJ..K
+ G.L.I. 
+ GHH.I. 
+ GDDD.. 
+        
+
+Gerakan 19: A-bawah
+        
+ .C..R. 
+ .C.JRA 
+ PPLJ.AK
+ G.L.I. 
+ GHH.I. 
+ GDDD.. 
+        
+
+Gerakan 20: A-bawah
+        
+ .C..R. 
+ .C.JR. 
+ PPLJ.AK
+ G.L.IA 
+ GHH.I. 
+ GDDD.. 
+        
+
+Gerakan 21: A-bawah
+        
+ .C..R. 
+ .C.JR. 
+ PPLJ..K
+ G.L.IA 
+ GHH.IA 
+ GDDD.. 
+        
+
+Gerakan 22: A-bawah
+        
+ .C..R. 
+ .C.JR. 
+ PPLJ..K
+ G.L.I. 
+ GHH.IA 
+ GDDD.A 
+        
+
+Gerakan 23: R-bawah
+        
+ .C.... 
+ .C.JR. 
+ PPLJR.K
+ G.L.I. 
+ GHH.IA 
+ GDDD.A 
+        
+
+Gerakan 24: A-atas
+        
+ .C.... 
+ .C.JR. 
+ PPLJR.K
+ G.L.IA 
+ GHH.IA 
+ GDDD.. 
+        
+
+Gerakan 25: A-atas
+        
+ .C.... 
+ .C.JR. 
+ PPLJRAK
+ G.L.IA 
+ GHH.I. 
+ GDDD.. 
+        
+
+Gerakan 26: A-atas
+        
+ .C.... 
+ .C.JRA 
+ PPLJRAK
+ G.L.I. 
+ GHH.I. 
+ GDDD.. 
+        
+
+Gerakan 27: A-atas
+        
+ .C...A 
+ .C.JRA 
+ PPLJR.K
+ G.L.I. 
+ GHH.I. 
+ GDDD.. 
+        
+
+Gerakan 28: H-kanan
+        
+ .C...A 
+ .C.JRA 
+ PPLJR.K
+ G.L.I. 
+ G.HHI. 
+ GDDD.. 
+        
+
+Gerakan 29: A-bawah
+        
+ .C.... 
+ .C.JRA 
+ PPLJRAK
+ G.L.I. 
+ G.HHI. 
+ GDDD.. 
+        
+
+Gerakan 30: A-bawah
+        
+ .C.... 
+ .C.JR. 
+ PPLJRAK
+ G.L.IA 
+ G.HHI. 
+ GDDD.. 
+        
+
+Gerakan 31: A-bawah
+        
+ .C.... 
+ .C.JR. 
+ PPLJR.K
+ G.L.IA 
+ G.HHIA 
+ GDDD.. 
+        
+
+Gerakan 32: A-bawah
+        
+ .C.... 
+ .C.JR. 
+ PPLJR.K
+ G.L.I. 
+ G.HHIA 
+ GDDD.A 
+        
+
+Gerakan 33: R-atas
+        
+ .C..R. 
+ .C.JR. 
+ PPLJ..K
+ G.L.I. 
+ G.HHIA 
+ GDDD.A 
+        
+
+Gerakan 34: A-atas
+        
+ .C..R. 
+ .C.JR. 
+ PPLJ..K
+ G.L.IA 
+ G.HHIA 
+ GDDD.. 
+        
+
+Gerakan 35: A-atas
+        
+ .C..R. 
+ .C.JR. 
+ PPLJ.AK
+ G.L.IA 
+ G.HHI. 
+ GDDD.. 
+        
+
+Gerakan 36: A-atas
+        
+ .C..R. 
+ .C.JRA 
+ PPLJ.AK
+ G.L.I. 
+ G.HHI. 
+ GDDD.. 
+        
+
+Gerakan 37: A-atas
+        
+ .C..RA 
+ .C.JRA 
+ PPLJ..K
+ G.L.I. 
+ G.HHI. 
+ GDDD.. 
+        
+
+Gerakan 38: D-kanan
+        
+ .C..RA 
+ .C.JRA 
+ PPLJ..K
+ G.L.I. 
+ G.HHI. 
+ G.DDD. 
+        
+
+Gerakan 39: A-bawah
+        
+ .C..R. 
+ .C.JRA 
+ PPLJ.AK
+ G.L.I. 
+ G.HHI. 
+ G.DDD. 
+        
+
+Gerakan 40: A-bawah
+        
+ .C..R. 
+ .C.JR. 
+ PPLJ.AK
+ G.L.IA 
+ G.HHI. 
+ G.DDD. 
+        
+
+Gerakan 41: A-bawah
+        
+ .C..R. 
+ .C.JR. 
+ PPLJ..K
+ G.L.IA 
+ G.HHIA 
+ G.DDD. 
+        
+
+Gerakan 42: A-bawah
+        
+ .C..R. 
+ .C.JR. 
+ PPLJ..K
+ G.L.I. 
+ G.HHIA 
+ G.DDDA 
+        
+
+Gerakan 43: R-bawah
+        
+ .C.... 
+ .C.JR. 
+ PPLJR.K
+ G.L.I. 
+ G.HHIA 
+ G.DDDA 
+        
+
+Gerakan 44: A-atas
+        
+ .C.... 
+ .C.JR. 
+ PPLJR.K
+ G.L.IA 
+ G.HHIA 
+ G.DDD. 
+        
+
+Gerakan 45: A-atas
+        
+ .C.... 
+ .C.JR. 
+ PPLJRAK
+ G.L.IA 
+ G.HHI. 
+ G.DDD. 
+        
+
+Gerakan 46: A-atas
+        
+ .C.... 
+ .C.JRA 
+ PPLJRAK
+ G.L.I. 
+ G.HHI. 
+ G.DDD. 
+        
+
+Gerakan 47: A-atas
+        
+ .C...A 
+ .C.JRA 
+ PPLJR.K
+ G.L.I. 
+ G.HHI. 
+ G.DDD. 
+        
+
+Gerakan 48: D-kanan
+        
+ .C...A 
+ .C.JRA 
+ PPLJR.K
+ G.L.I. 
+ G.HHI. 
+ G..DDD 
+        
+
+Gerakan 49: A-bawah
+        
+ .C.... 
+ .C.JRA 
+ PPLJRAK
+ G.L.I. 
+ G.HHI. 
+ G..DDD 
+        
+
+Gerakan 50: A-bawah
+        
+ .C.... 
+ .C.JR. 
+ PPLJRAK
+ G.L.IA 
+ G.HHI. 
+ G..DDD 
+        
+
+Gerakan 51: A-bawah
+        
+ .C.... 
+ .C.JR. 
+ PPLJR.K
+ G.L.IA 
+ G.HHIA 
+ G..DDD 
+        
+
+Gerakan 52: R-atas
+        
+ .C..R. 
+ .C.JR. 
+ PPLJ..K
+ G.L.IA 
+ G.HHIA 
+ G..DDD 
+        
+
+Gerakan 53: A-atas
+        
+ .C..R. 
+ .C.JR. 
+ PPLJ.AK
+ G.L.IA 
+ G.HHI. 
+ G..DDD 
+        
+
+Gerakan 54: A-atas
+        
+ .C..R. 
+ .C.JRA 
+ PPLJ.AK
+ G.L.I. 
+ G.HHI. 
+ G..DDD 
+        
+
+Gerakan 55: A-atas
+        
+ .C..RA 
+ .C.JRA 
+ PPLJ..K
+ G.L.I. 
+ G.HHI. 
+ G..DDD 
+        
+
+Gerakan 56: I-atas
+        
+ .C..RA 
+ .C.JRA 
+ PPLJI.K
+ G.L.I. 
+ G.HH.. 
+ G..DDD 
+        
+
+Gerakan 57: A-bawah
+        
+ .C..R. 
+ .C.JRA 
+ PPLJIAK
+ G.L.I. 
+ G.HH.. 
+ G..DDD 
+        
+
+Gerakan 58: A-bawah
+        
+ .C..R. 
+ .C.JR. 
+ PPLJIAK
+ G.L.IA 
+ G.HH.. 
+ G..DDD 
+        
+
+Gerakan 59: A-bawah
+        
+ .C..R. 
+ .C.JR. 
+ PPLJI.K
+ G.L.IA 
+ G.HH.A 
+ G..DDD 
+        
+
+Gerakan 60: D-kiri
+        
+ .C..R. 
+ .C.JR. 
+ PPLJI.K
+ G.L.IA 
+ G.HH.A 
+ G.DDD. 
+        
+
+Gerakan 61: A-atas
+        
+ .C..R. 
+ .C.JR. 
+ PPLJIAK
+ G.L.IA 
+ G.HH.. 
+ G.DDD. 
+        
+
+Gerakan 62: A-atas
+        
+ .C..R. 
+ .C.JRA 
+ PPLJIAK
+ G.L.I. 
+ G.HH.. 
+ G.DDD. 
+        
+
+Gerakan 63: A-atas
+        
+ .C..RA 
+ .C.JRA 
+ PPLJI.K
+ G.L.I. 
+ G.HH.. 
+ G.DDD. 
+        
+
+Gerakan 64: A-bawah
+        
+ .C..R. 
+ .C.JR. 
+ PPLJI.K
+ G.L.I. 
+ G.HH.A 
+ G.DDDA 
+        
+
+Gerakan 65: D-kiri
+        
+ .C..R. 
+ .C.JR. 
+ PPLJI.K
+ G.L.I. 
+ G.HH.A 
+ GDDD.A 
+        
+
+Gerakan 66: A-atas
+        
+ .C..R. 
+ .C.JR. 
+ PPLJI.K
+ G.L.IA 
+ G.HH.A 
+ GDDD.. 
+        
+
+Gerakan 67: A-atas
+        
+ .C..R. 
+ .C.JR. 
+ PPLJIAK
+ G.L.IA 
+ G.HH.. 
+ GDDD.. 
+        
+
+Gerakan 68: A-atas
+        
+ .C..R. 
+ .C.JRA 
+ PPLJIAK
+ G.L.I. 
+ G.HH.. 
+ GDDD.. 
+        
+
+Gerakan 69: A-atas
+        
+ .C..RA 
+ .C.JRA 
+ PPLJI.K
+ G.L.I. 
+ G.HH.. 
+ GDDD.. 
+        
+
+Gerakan 70: H-kiri
+        
+ .C..RA 
+ .C.JRA 
+ PPLJI.K
+ G.L.I. 
+ GHH... 
+ GDDD.. 
+        
+
+Gerakan 71: A-bawah
+        
+ .C..R. 
+ .C.JRA 
+ PPLJIAK
+ G.L.I. 
+ GHH... 
+ GDDD.. 
+        
+
+Gerakan 72: A-bawah
+        
+ .C..R. 
+ .C.JR. 
+ PPLJIAK
+ G.L.IA 
+ GHH... 
+ GDDD.. 
+        
+
+Gerakan 73: A-bawah
+        
+ .C..R. 
+ .C.JR. 
+ PPLJI.K
+ G.L.IA 
+ GHH..A 
+ GDDD.. 
+        
+
+Gerakan 74: A-bawah
+        
+ .C..R. 
+ .C.JR. 
+ PPLJI.K
+ G.L.I. 
+ GHH..A 
+ GDDD.A 
+        
+
+Gerakan 75: D-kanan
+        
+ .C..R. 
+ .C.JR. 
+ PPLJI.K
+ G.L.I. 
+ GHH..A 
+ G.DDDA 
+        
+
+Gerakan 76: A-atas
+        
+ .C..R. 
+ .C.JR. 
+ PPLJI.K
+ G.L.IA 
+ GHH..A 
+ G.DDD. 
+        
+
+Gerakan 77: A-atas
+        
+ .C..R. 
+ .C.JR. 
+ PPLJIAK
+ G.L.IA 
+ GHH... 
+ G.DDD. 
+        
+
+Gerakan 78: A-atas
+        
+ .C..R. 
+ .C.JRA 
+ PPLJIAK
+ G.L.I. 
+ GHH... 
+ G.DDD. 
+        
+
+Gerakan 79: A-atas
+        
+ .C..RA 
+ .C.JRA 
+ PPLJI.K
+ G.L.I. 
+ GHH... 
+ G.DDD. 
+        
+
+Gerakan 80: D-kanan
+        
+ .C..RA 
+ .C.JRA 
+ PPLJI.K
+ G.L.I. 
+ GHH... 
+ G..DDD 
+        
+
+Gerakan 81: A-bawah
+        
+ .C..R. 
+ .C.JRA 
+ PPLJIAK
+ G.L.I. 
+ GHH... 
+ G..DDD 
+        
+
+Gerakan 82: A-bawah
+        
+ .C..R. 
+ .C.JR. 
+ PPLJIAK
+ G.L.IA 
+ GHH... 
+ G..DDD 
+        
+
+Gerakan 83: A-bawah
+        
+ .C..R. 
+ .C.JR. 
+ PPLJI.K
+ G.L.IA 
+ GHH..A 
+ G..DDD 
+        
+
+Gerakan 84: H-kanan
+        
+ .C..R. 
+ .C.JR. 
+ PPLJI.K
+ G.L.IA 
+ G..HHA 
+ G..DDD 
+        
+
+Gerakan 85: A-atas
+        
+ .C..R. 
+ .C.JR. 
+ PPLJIAK
+ G.L.IA 
+ G..HH. 
+ G..DDD 
+        
+
+Gerakan 86: A-atas
+        
+ .C..R. 
+ .C.JRA 
+ PPLJIAK
+ G.L.I. 
+ G..HH. 
+ G..DDD 
+        
+
+Gerakan 87: A-atas
+        
+ .C..RA 
+ .C.JRA 
+ PPLJI.K
+ G.L.I. 
+ G..HH. 
+ G..DDD 
+        
+
+Gerakan 88: D-kiri
+        
+ .C..RA 
+ .C.JRA 
+ PPLJI.K
+ G.L.I. 
+ G..HH. 
+ G.DDD. 
+        
+
+Gerakan 89: A-bawah
+        
+ .C..R. 
+ .C.JRA 
+ PPLJIAK
+ G.L.I. 
+ G..HH. 
+ G.DDD. 
+        
+
+Gerakan 90: A-bawah
+        
+ .C..R. 
+ .C.JR. 
+ PPLJIAK
+ G.L.IA 
+ G..HH. 
+ G.DDD. 
+        
+
+Gerakan 91: A-bawah
+        
+ .C..R. 
+ .C.JR. 
+ PPLJI.K
+ G.L.IA 
+ G..HHA 
+ G.DDD. 
+        
+
+Gerakan 92: A-bawah
+        
+ .C..R. 
+ .C.JR. 
+ PPLJI.K
+ G.L.I. 
+ G..HHA 
+ G.DDDA 
+        
+
+Gerakan 93: D-kiri
+        
+ .C..R. 
+ .C.JR. 
+ PPLJI.K
+ G.L.I. 
+ G..HHA 
+ GDDD.A 
+        
+
+Gerakan 94: A-atas
+        
+ .C..R. 
+ .C.JR. 
+ PPLJI.K
+ G.L.IA 
+ G..HHA 
+ GDDD.. 
+        
+
+Gerakan 95: A-atas
+        
+ .C..R. 
+ .C.JR. 
+ PPLJIAK
+ G.L.IA 
+ G..HH. 
+ GDDD.. 
+        
+
+Gerakan 96: A-atas
+        
+ .C..R. 
+ .C.JRA 
+ PPLJIAK
+ G.L.I. 
+ G..HH. 
+ GDDD.. 
+        
+
+Gerakan 97: A-atas
+        
+ .C..RA 
+ .C.JRA 
+ PPLJI.K
+ G.L.I. 
+ G..HH. 
+ GDDD.. 
+        
+
+Gerakan 98: H-kanan
+        
+ .C..RA 
+ .C.JRA 
+ PPLJI.K
+ G.L.I. 
+ G...HH 
+ GDDD.. 
+        
+
+Gerakan 99: A-bawah
+        
+ .C..R. 
+ .C.JRA 
+ PPLJIAK
+ G.L.I. 
+ G...HH 
+ GDDD.. 
+        
+
+Gerakan 100: A-bawah
+        
+ .C..R. 
+ .C.JR. 
+ PPLJIAK
+ G.L.IA 
+ G...HH 
+ GDDD.. 
+        
+
+Gerakan 101: D-kanan
+        
+ .C..R. 
+ .C.JR. 
+ PPLJIAK
+ G.L.IA 
+ G...HH 
+ G.DDD. 
+        
+
+Gerakan 102: A-atas
+        
+ .C..R. 
+ .C.JRA 
+ PPLJIAK
+ G.L.I. 
+ G...HH 
+ G.DDD. 
+        
+
+Gerakan 103: A-atas
+        
+ .C..RA 
+ .C.JRA 
+ PPLJI.K
+ G.L.I. 
+ G...HH 
+ G.DDD. 
+        
+
+Gerakan 104: D-kanan
+        
+ .C..RA 
+ .C.JRA 
+ PPLJI.K
+ G.L.I. 
+ G...HH 
+ G..DDD 
+        
+
+Gerakan 105: A-bawah
+        
+ .C..R. 
+ .C.JRA 
+ PPLJIAK
+ G.L.I. 
+ G...HH 
+ G..DDD 
+        
+
+Gerakan 106: A-bawah
+        
+ .C..R. 
+ .C.JR. 
+ PPLJIAK
+ G.L.IA 
+ G...HH 
+ G..DDD 
+        
+
+Gerakan 107: J-atas
+        
+ .C.JR. 
+ .C.JR. 
+ PPL.IAK
+ G.L.IA 
+ G...HH 
+ G..DDD 
+        
+
+Gerakan 108: A-atas
+        
+ .C.JR. 
+ .C.JRA 
+ PPL.IAK
+ G.L.I. 
+ G...HH 
+ G..DDD 
+        
+
+Gerakan 109: A-atas
+        
+ .C.JRA 
+ .C.JRA 
+ PPL.I.K
+ G.L.I. 
+ G...HH 
+ G..DDD 
+        
+
+Gerakan 110: D-kiri
+        
+ .C.JRA 
+ .C.JRA 
+ PPL.I.K
+ G.L.I. 
+ G...HH 
+ G.DDD. 
+        
+
+Gerakan 111: A-bawah
+        
+ .C.JR. 
+ .C.JRA 
+ PPL.IAK
+ G.L.I. 
+ G...HH 
+ G.DDD. 
+        
+
+Gerakan 112: A-bawah
+        
+ .C.JR. 
+ .C.JR. 
+ PPL.IAK
+ G.L.IA 
+ G...HH 
+ G.DDD. 
+        
+
+Gerakan 113: D-kiri
+        
+ .C.JR. 
+ .C.JR. 
+ PPL.IAK
+ G.L.IA 
+ G...HH 
+ GDDD.. 
+        
+
+Gerakan 114: A-atas
+        
+ .C.JR. 
+ .C.JRA 
+ PPL.IAK
+ G.L.I. 
+ G...HH 
+ GDDD.. 
+        
+
+Gerakan 115: A-atas
+        
+ .C.JRA 
+ .C.JRA 
+ PPL.I.K
+ G.L.I. 
+ G...HH 
+ GDDD.. 
+        
+
+Gerakan 116: H-kiri
+        
+ .C.JRA 
+ .C.JRA 
+ PPL.I.K
+ G.L.I. 
+ G..HH. 
+ GDDD.. 
+        
+
+Gerakan 117: A-bawah
+        
+ .C.JR. 
+ .C.JRA 
+ PPL.IAK
+ G.L.I. 
+ G..HH. 
+ GDDD.. 
+        
+
+Gerakan 118: A-bawah
+        
+ .C.JR. 
+ .C.JR. 
+ PPL.IAK
+ G.L.IA 
+ G..HH. 
+ GDDD.. 
+        
+
+Gerakan 119: A-bawah
+        
+ .C.JR. 
+ .C.JR. 
+ PPL.I.K
+ G.L.IA 
+ G..HHA 
+ GDDD.. 
+        
+
+Gerakan 120: A-bawah
+        
+ .C.JR. 
+ .C.JR. 
+ PPL.I.K
+ G.L.I. 
+ G..HHA 
+ GDDD.A 
+        
+
+Gerakan 121: D-kanan
+        
+ .C.JR. 
+ .C.JR. 
+ PPL.I.K
+ G.L.I. 
+ G..HHA 
+ G.DDDA 
+        
+
+Gerakan 122: A-atas
+        
+ .C.JR. 
+ .C.JR. 
+ PPL.I.K
+ G.L.IA 
+ G..HHA 
+ G.DDD. 
+        
+
+Gerakan 123: A-atas
+        
+ .C.JR. 
+ .C.JR. 
+ PPL.IAK
+ G.L.IA 
+ G..HH. 
+ G.DDD. 
+        
+
+Gerakan 124: A-atas
+        
+ .C.JR. 
+ .C.JRA 
+ PPL.IAK
+ G.L.I. 
+ G..HH. 
+ G.DDD. 
+        
+
+Gerakan 125: A-atas
+        
+ .C.JRA 
+ .C.JRA 
+ PPL.I.K
+ G.L.I. 
+ G..HH. 
+ G.DDD. 
+        
+
+Gerakan 126: D-kanan
+        
+ .C.JRA 
+ .C.JRA 
+ PPL.I.K
+ G.L.I. 
+ G..HH. 
+ G..DDD 
+        
+
+Gerakan 127: A-bawah
+        
+ .C.JR. 
+ .C.JRA 
+ PPL.IAK
+ G.L.I. 
+ G..HH. 
+ G..DDD 
+        
+
+Gerakan 128: A-bawah
+        
+ .C.JR. 
+ .C.JR. 
+ PPL.IAK
+ G.L.IA 
+ G..HH. 
+ G..DDD 
+        
+
+Gerakan 129: A-bawah
+        
+ .C.JR. 
+ .C.JR. 
+ PPL.I.K
+ G.L.IA 
+ G..HHA 
+ G..DDD 
+        
+
+Gerakan 130: H-kiri
+        
+ .C.JR. 
+ .C.JR. 
+ PPL.I.K
+ G.L.IA 
+ G.HH.A 
+ G..DDD 
+        
+
+Gerakan 131: A-atas
+        
+ .C.JR. 
+ .C.JR. 
+ PPL.IAK
+ G.L.IA 
+ G.HH.. 
+ G..DDD 
+        
+
+Gerakan 132: A-atas
+        
+ .C.JR. 
+ .C.JRA 
+ PPL.IAK
+ G.L.I. 
+ G.HH.. 
+ G..DDD 
+        
+
+Gerakan 133: A-atas
+        
+ .C.JRA 
+ .C.JRA 
+ PPL.I.K
+ G.L.I. 
+ G.HH.. 
+ G..DDD 
+        
+
+Gerakan 134: D-kiri
+        
+ .C.JRA 
+ .C.JRA 
+ PPL.I.K
+ G.L.I. 
+ G.HH.. 
+ G.DDD. 
+        
+
+Gerakan 135: A-bawah
+        
+ .C.JR. 
+ .C.JRA 
+ PPL.IAK
+ G.L.I. 
+ G.HH.. 
+ G.DDD. 
+        
+
+Gerakan 136: A-bawah
+        
+ .C.JR. 
+ .C.JR. 
+ PPL.IAK
+ G.L.IA 
+ G.HH.. 
+ G.DDD. 
+        
+
+Gerakan 137: A-bawah
+        
+ .C.JR. 
+ .C.JR. 
+ PPL.I.K
+ G.L.IA 
+ G.HH.A 
+ G.DDD. 
+        
+
+Gerakan 138: A-bawah
+        
+ .C.JR. 
+ .C.JR. 
+ PPL.I.K
+ G.L.I. 
+ G.HH.A 
+ G.DDDA 
+        
+
+Gerakan 139: D-kiri
+        
+ .C.JR. 
+ .C.JR. 
+ PPL.I.K
+ G.L.I. 
+ G.HH.A 
+ GDDD.A 
+        
+
+Gerakan 140: A-atas
+        
+ .C.JR. 
+ .C.JR. 
+ PPL.I.K
+ G.L.IA 
+ G.HH.A 
+ GDDD.. 
+        
+
+Gerakan 141: A-atas
+        
+ .C.JR. 
+ .C.JR. 
+ PPL.IAK
+ G.L.IA 
+ G.HH.. 
+ GDDD.. 
+        
+
+Gerakan 142: A-atas
+        
+ .C.JR. 
+ .C.JRA 
+ PPL.IAK
+ G.L.I. 
+ G.HH.. 
+ GDDD.. 
+        
+
+Gerakan 143: A-atas
+        
+ .C.JRA 
+ .C.JRA 
+ PPL.I.K
+ G.L.I. 
+ G.HH.. 
+ GDDD.. 
+        
+
+Gerakan 144: H-kiri
+        
+ .C.JRA 
+ .C.JRA 
+ PPL.I.K
+ G.L.I. 
+ GHH... 
+ GDDD.. 
+        
+
+Gerakan 145: A-bawah
+        
+ .C.JR. 
+ .C.JRA 
+ PPL.IAK
+ G.L.I. 
+ GHH... 
+ GDDD.. 
+        
+
+Gerakan 146: A-bawah
+        
+ .C.JR. 
+ .C.JR. 
+ PPL.IAK
+ G.L.IA 
+ GHH... 
+ GDDD.. 
+        
+
+Gerakan 147: A-bawah
+        
+ .C.JR. 
+ .C.JR. 
+ PPL.I.K
+ G.L.IA 
+ GHH..A 
+ GDDD.. 
+        
+
+Gerakan 148: A-bawah
+        
+ .C.JR. 
+ .C.JR. 
+ PPL.I.K
+ G.L.I. 
+ GHH..A 
+ GDDD.A 
+        
+
+Gerakan 149: D-kanan
+        
+ .C.JR. 
+ .C.JR. 
+ PPL.I.K
+ G.L.I. 
+ GHH..A 
+ G.DDDA 
+        
+
+Gerakan 150: A-atas
+        
+ .C.JR. 
+ .C.JR. 
+ PPL.I.K
+ G.L.IA 
+ GHH..A 
+ G.DDD. 
+        
+
+Gerakan 151: A-atas
+        
+ .C.JR. 
+ .C.JR. 
+ PPL.IAK
+ G.L.IA 
+ GHH... 
+ G.DDD. 
+        
+
+Gerakan 152: A-atas
+        
+ .C.JR. 
+ .C.JRA 
+ PPL.IAK
+ G.L.I. 
+ GHH... 
+ G.DDD. 
+        
+
+Gerakan 153: A-atas
+        
+ .C.JRA 
+ .C.JRA 
+ PPL.I.K
+ G.L.I. 
+ GHH... 
+ G.DDD. 
+        
+
+Gerakan 154: D-kanan
+        
+ .C.JRA 
+ .C.JRA 
+ PPL.I.K
+ G.L.I. 
+ GHH... 
+ G..DDD 
+        
+
+Gerakan 155: A-bawah
+        
+ .C.JR. 
+ .C.JRA 
+ PPL.IAK
+ G.L.I. 
+ GHH... 
+ G..DDD 
+        
+
+Gerakan 156: A-bawah
+        
+ .C.JR. 
+ .C.JR. 
+ PPL.IAK
+ G.L.IA 
+ GHH... 
+ G..DDD 
+        
+
+Gerakan 157: A-bawah
+        
+ .C.JR. 
+ .C.JR. 
+ PPL.I.K
+ G.L.IA 
+ GHH..A 
+ G..DDD 
+        
+
+Gerakan 158: I-bawah
+        
+ .C.JR. 
+ .C.JR. 
+ PPL...K
+ G.L.IA 
+ GHH.IA 
+ G..DDD 
+        
+
+Gerakan 159: A-atas
+        
+ .C.JR. 
+ .C.JR. 
+ PPL..AK
+ G.L.IA 
+ GHH.I. 
+ G..DDD 
+        
+
+Gerakan 160: A-atas
+        
+ .C.JR. 
+ .C.JRA 
+ PPL..AK
+ G.L.I. 
+ GHH.I. 
+ G..DDD 
+        
+
+Gerakan 161: A-atas
+        
+ .C.JRA 
+ .C.JRA 
+ PPL...K
+ G.L.I. 
+ GHH.I. 
+ G..DDD 
+        
+
+Gerakan 162: R-bawah
+        
+ .C.J.A 
+ .C.JRA 
+ PPL.R.K
+ G.L.I. 
+ GHH.I. 
+ G..DDD 
+        
+
+Gerakan 163: A-bawah
+        
+ .C.J.. 
+ .C.JRA 
+ PPL.RAK
+ G.L.I. 
+ GHH.I. 
+ G..DDD 
+        
+
+Gerakan 164: A-bawah
+        
+ .C.J.. 
+ .C.JR. 
+ PPL.RAK
+ G.L.IA 
+ GHH.I. 
+ G..DDD 
+        
+
+Gerakan 165: A-bawah
+        
+ .C.J.. 
+ .C.JR. 
+ PPL.R.K
+ G.L.IA 
+ GHH.IA 
+ G..DDD 
+        
+
+Gerakan 166: D-kiri
+        
+ .C.J.. 
+ .C.JR. 
+ PPL.R.K
+ G.L.IA 
+ GHH.IA 
+ G.DDD. 
+        
+
+Gerakan 167: A-atas
+        
+ .C.J.. 
+ .C.JR. 
+ PPL.RAK
+ G.L.IA 
+ GHH.I. 
+ G.DDD. 
+        
+
+Gerakan 168: A-atas
+        
+ .C.J.. 
+ .C.JRA 
+ PPL.RAK
+ G.L.I. 
+ GHH.I. 
+ G.DDD. 
+        
+
+Gerakan 169: A-atas
+        
+ .C.J.A 
+ .C.JRA 
+ PPL.R.K
+ G.L.I. 
+ GHH.I. 
+ G.DDD. 
+        
+
+Gerakan 170: A-bawah
+        
+ .C.J.. 
+ .C.JR. 
+ PPL.R.K
+ G.L.I. 
+ GHH.IA 
+ G.DDDA 
+        
+
+Gerakan 171: R-atas
+        
+ .C.JR. 
+ .C.JR. 
+ PPL...K
+ G.L.I. 
+ GHH.IA 
+ G.DDDA 
+        
+
+Gerakan 172: A-atas
+        
+ .C.JR. 
+ .C.JR. 
+ PPL...K
+ G.L.IA 
+ GHH.IA 
+ G.DDD. 
+        
+
+Gerakan 173: A-atas
+        
+ .C.JR. 
+ .C.JR. 
+ PPL..AK
+ G.L.IA 
+ GHH.I. 
+ G.DDD. 
+        
+
+Gerakan 174: A-atas
+        
+ .C.JR. 
+ .C.JRA 
+ PPL..AK
+ G.L.I. 
+ GHH.I. 
+ G.DDD. 
+        
+
+Gerakan 175: A-atas
+        
+ .C.JRA 
+ .C.JRA 
+ PPL...K
+ G.L.I. 
+ GHH.I. 
+ G.DDD. 
+        
+
+Gerakan 176: D-kiri
+        
+ .C.JRA 
+ .C.JRA 
+ PPL...K
+ G.L.I. 
+ GHH.I. 
+ GDDD.. 
+        
+
+Gerakan 177: A-bawah
+        
+ .C.JR. 
+ .C.JRA 
+ PPL..AK
+ G.L.I. 
+ GHH.I. 
+ GDDD.. 
+        
+
+Gerakan 178: A-bawah
+        
+ .C.JR. 
+ .C.JR. 
+ PPL..AK
+ G.L.IA 
+ GHH.I. 
+ GDDD.. 
+        
+
+Gerakan 179: A-bawah
+        
+ .C.JR. 
+ .C.JR. 
+ PPL...K
+ G.L.IA 
+ GHH.IA 
+ GDDD.. 
+        
+
+Gerakan 180: A-bawah
+        
+ .C.JR. 
+ .C.JR. 
+ PPL...K
+ G.L.I. 
+ GHH.IA 
+ GDDD.A 
+        
+
+Gerakan 181: R-bawah
+        
+ .C.J.. 
+ .C.JR. 
+ PPL.R.K
+ G.L.I. 
+ GHH.IA 
+ GDDD.A 
+        
+
+Gerakan 182: A-atas
+        
+ .C.J.. 
+ .C.JR. 
+ PPL.R.K
+ G.L.IA 
+ GHH.IA 
+ GDDD.. 
+        
+
+Gerakan 183: A-atas
+        
+ .C.J.. 
+ .C.JR. 
+ PPL.RAK
+ G.L.IA 
+ GHH.I. 
+ GDDD.. 
+        
+
+Gerakan 184: A-atas
+        
+ .C.J.. 
+ .C.JRA 
+ PPL.RAK
+ G.L.I. 
+ GHH.I. 
+ GDDD.. 
+        
+
+Gerakan 185: A-atas
+        
+ .C.J.A 
+ .C.JRA 
+ PPL.R.K
+ G.L.I. 
+ GHH.I. 
+ GDDD.. 
+        
+
+Gerakan 186: H-kanan
+        
+ .C.J.A 
+ .C.JRA 
+ PPL.R.K
+ G.L.I. 
+ G.HHI. 
+ GDDD.. 
+        
+
+Gerakan 187: A-bawah
+        
+ .C.J.. 
+ .C.JRA 
+ PPL.RAK
+ G.L.I. 
+ G.HHI. 
+ GDDD.. 
+        
+
+Gerakan 188: A-bawah
+        
+ .C.J.. 
+ .C.JR. 
+ PPL.RAK
+ G.L.IA 
+ G.HHI. 
+ GDDD.. 
+        
+
+Gerakan 189: A-bawah
+        
+ .C.J.. 
+ .C.JR. 
+ PPL.R.K
+ G.L.IA 
+ G.HHIA 
+ GDDD.. 
+        
+
+Gerakan 190: A-bawah
+        
+ .C.J.. 
+ .C.JR. 
+ PPL.R.K
+ G.L.I. 
+ G.HHIA 
+ GDDD.A 
+        
+
+Gerakan 191: R-atas
+        
+ .C.JR. 
+ .C.JR. 
+ PPL...K
+ G.L.I. 
+ G.HHIA 
+ GDDD.A 
+        
+
+Gerakan 192: A-atas
+        
+ .C.JR. 
+ .C.JR. 
+ PPL...K
+ G.L.IA 
+ G.HHIA 
+ GDDD.. 
+        
+
+Gerakan 193: A-atas
+        
+ .C.JR. 
+ .C.JR. 
+ PPL..AK
+ G.L.IA 
+ G.HHI. 
+ GDDD.. 
+        
+
+Gerakan 194: A-atas
+        
+ .C.JR. 
+ .C.JRA 
+ PPL..AK
+ G.L.I. 
+ G.HHI. 
+ GDDD.. 
+        
+
+Gerakan 195: A-atas
+        
+ .C.JRA 
+ .C.JRA 
+ PPL...K
+ G.L.I. 
+ G.HHI. 
+ GDDD.. 
+        
+
+Gerakan 196: D-kanan
+        
+ .C.JRA 
+ .C.JRA 
+ PPL...K
+ G.L.I. 
+ G.HHI. 
+ G.DDD. 
+        
+
+Gerakan 197: A-bawah
+        
+ .C.JR. 
+ .C.JRA 
+ PPL..AK
+ G.L.I. 
+ G.HHI. 
+ G.DDD. 
+        
+
+Gerakan 198: A-bawah
+        
+ .C.JR. 
+ .C.JR. 
+ PPL..AK
+ G.L.IA 
+ G.HHI. 
+ G.DDD. 
+        
+
+Gerakan 199: A-bawah
+        
+ .C.JR. 
+ .C.JR. 
+ PPL...K
+ G.L.IA 
+ G.HHIA 
+ G.DDD. 
+        
+
+Gerakan 200: A-bawah
+        
+ .C.JR. 
+ .C.JR. 
+ PPL...K
+ G.L.I. 
+ G.HHIA 
+ G.DDDA 
+        
+
+Gerakan 201: R-bawah
+        
+ .C.J.. 
+ .C.JR. 
+ PPL.R.K
+ G.L.I. 
+ G.HHIA 
+ G.DDDA 
+        
+
+Gerakan 202: A-atas
+        
+ .C.J.. 
+ .C.JR. 
+ PPL.R.K
+ G.L.IA 
+ G.HHIA 
+ G.DDD. 
+        
+
+Gerakan 203: A-atas
+        
+ .C.J.. 
+ .C.JR. 
+ PPL.RAK
+ G.L.IA 
+ G.HHI. 
+ G.DDD. 
+        
+
+Gerakan 204: A-atas
+        
+ .C.J.. 
+ .C.JRA 
+ PPL.RAK
+ G.L.I. 
+ G.HHI. 
+ G.DDD. 
+        
+
+Gerakan 205: A-atas
+        
+ .C.J.A 
+ .C.JRA 
+ PPL.R.K
+ G.L.I. 
+ G.HHI. 
+ G.DDD. 
+        
+
+Gerakan 206: D-kanan
+        
+ .C.J.A 
+ .C.JRA 
+ PPL.R.K
+ G.L.I. 
+ G.HHI. 
+ G..DDD 
+        
+
+Gerakan 207: A-bawah
+        
+ .C.J.. 
+ .C.JRA 
+ PPL.RAK
+ G.L.I. 
+ G.HHI. 
+ G..DDD 
+        
+
+Gerakan 208: A-bawah
+        
+ .C.J.. 
+ .C.JR. 
+ PPL.RAK
+ G.L.IA 
+ G.HHI. 
+ G..DDD 
+        
+
+Gerakan 209: A-bawah
+        
+ .C.J.. 
+ .C.JR. 
+ PPL.R.K
+ G.L.IA 
+ G.HHIA 
+ G..DDD 
+        
+
+Gerakan 210: R-atas
+        
+ .C.JR. 
+ .C.JR. 
+ PPL...K
+ G.L.IA 
+ G.HHIA 
+ G..DDD 
+        
+
+Gerakan 211: A-atas
+        
+ .C.JR. 
+ .C.JR. 
+ PPL..AK
+ G.L.IA 
+ G.HHI. 
+ G..DDD 
+        
+
+Gerakan 212: A-atas
+        
+ .C.JR. 
+ .C.JRA 
+ PPL..AK
+ G.L.I. 
+ G.HHI. 
+ G..DDD 
+        
+
+Gerakan 213: A-atas
+        
+ .C.JRA 
+ .C.JRA 
+ PPL...K
+ G.L.I. 
+ G.HHI. 
+ G..DDD 
+        
+
+Gerakan 214: J-bawah
+        
+ .C..RA 
+ .C..RA 
+ PPLJ..K
+ G.LJI. 
+ G.HHI. 
+ G..DDD 
+        
+
+Gerakan 215: A-bawah
+        
+ .C..R. 
+ .C..RA 
+ PPLJ.AK
+ G.LJI. 
+ G.HHI. 
+ G..DDD 
+        
+
+Gerakan 216: A-bawah
+        
+ .C..R. 
+ .C..R. 
+ PPLJ.AK
+ G.LJIA 
+ G.HHI. 
+ G..DDD 
+        
+
+Gerakan 217: A-bawah
+        
+ .C..R. 
+ .C..R. 
+ PPLJ..K
+ G.LJIA 
+ G.HHIA 
+ G..DDD 
+        
+
+Gerakan 218: R-bawah
+        
+ .C.... 
+ .C..R. 
+ PPLJR.K
+ G.LJIA 
+ G.HHIA 
+ G..DDD 
+        
+
+Gerakan 219: A-atas
+        
+ .C.... 
+ .C..R. 
+ PPLJRAK
+ G.LJIA 
+ G.HHI. 
+ G..DDD 
+        
+
+Gerakan 220: A-atas
+        
+ .C.... 
+ .C..RA 
+ PPLJRAK
+ G.LJI. 
+ G.HHI. 
+ G..DDD 
+        
+
+Gerakan 221: A-atas
+        
+ .C...A 
+ .C..RA 
+ PPLJR.K
+ G.LJI. 
+ G.HHI. 
+ G..DDD 
+        
+
+Gerakan 222: D-kiri
+        
+ .C...A 
+ .C..RA 
+ PPLJR.K
+ G.LJI. 
+ G.HHI. 
+ G.DDD. 
+        
+
+Gerakan 223: A-bawah
+        
+ .C.... 
+ .C..RA 
+ PPLJRAK
+ G.LJI. 
+ G.HHI. 
+ G.DDD. 
+        
+
+Gerakan 224: A-bawah
+        
+ .C.... 
+ .C..R. 
+ PPLJRAK
+ G.LJIA 
+ G.HHI. 
+ G.DDD. 
+        
+
+Gerakan 225: A-bawah
+        
+ .C.... 
+ .C..R. 
+ PPLJR.K
+ G.LJIA 
+ G.HHIA 
+ G.DDD. 
+        
+
+Gerakan 226: A-bawah
+        
+ .C.... 
+ .C..R. 
+ PPLJR.K
+ G.LJI. 
+ G.HHIA 
+ G.DDDA 
+        
+
+Gerakan 227: R-atas
+        
+ .C..R. 
+ .C..R. 
+ PPLJ..K
+ G.LJI. 
+ G.HHIA 
+ G.DDDA 
+        
+
+Gerakan 228: A-atas
+        
+ .C..R. 
+ .C..R. 
+ PPLJ..K
+ G.LJIA 
+ G.HHIA 
+ G.DDD. 
+        
+
+Gerakan 229: A-atas
+        
+ .C..R. 
+ .C..R. 
+ PPLJ.AK
+ G.LJIA 
+ G.HHI. 
+ G.DDD. 
+        
+
+Gerakan 230: A-atas
+        
+ .C..R. 
+ .C..RA 
+ PPLJ.AK
+ G.LJI. 
+ G.HHI. 
+ G.DDD. 
+        
+
+Gerakan 231: A-atas
+        
+ .C..RA 
+ .C..RA 
+ PPLJ..K
+ G.LJI. 
+ G.HHI. 
+ G.DDD. 
+        
+
+Gerakan 232: D-kiri
+        
+ .C..RA 
+ .C..RA 
+ PPLJ..K
+ G.LJI. 
+ G.HHI. 
+ GDDD.. 
+        
+
+Gerakan 233: A-bawah
+        
+ .C..R. 
+ .C..RA 
+ PPLJ.AK
+ G.LJI. 
+ G.HHI. 
+ GDDD.. 
+        
+
+Gerakan 234: A-bawah
+        
+ .C..R. 
+ .C..R. 
+ PPLJ.AK
+ G.LJIA 
+ G.HHI. 
+ GDDD.. 
+        
+
+Gerakan 235: A-bawah
+        
+ .C..R. 
+ .C..R. 
+ PPLJ..K
+ G.LJIA 
+ G.HHIA 
+ GDDD.. 
+        
+
+Gerakan 236: A-bawah
+        
+ .C..R. 
+ .C..R. 
+ PPLJ..K
+ G.LJI. 
+ G.HHIA 
+ GDDD.A 
+        
+
+Gerakan 237: R-bawah
+        
+ .C.... 
+ .C..R. 
+ PPLJR.K
+ G.LJI. 
+ G.HHIA 
+ GDDD.A 
+        
+
+Gerakan 238: A-atas
+        
+ .C.... 
+ .C..R. 
+ PPLJR.K
+ G.LJIA 
+ G.HHIA 
+ GDDD.. 
+        
+
+Gerakan 239: A-atas
+        
+ .C.... 
+ .C..R. 
+ PPLJRAK
+ G.LJIA 
+ G.HHI. 
+ GDDD.. 
+        
+
+Gerakan 240: A-atas
+        
+ .C.... 
+ .C..RA 
+ PPLJRAK
+ G.LJI. 
+ G.HHI. 
+ GDDD.. 
+        
+
+Gerakan 241: A-atas
+        
+ .C...A 
+ .C..RA 
+ PPLJR.K
+ G.LJI. 
+ G.HHI. 
+ GDDD.. 
+        
+
+Gerakan 242: H-kiri
+        
+ .C...A 
+ .C..RA 
+ PPLJR.K
+ G.LJI. 
+ GHH.I. 
+ GDDD.. 
+        
+
+Gerakan 243: A-bawah
+        
+ .C.... 
+ .C..RA 
+ PPLJRAK
+ G.LJI. 
+ GHH.I. 
+ GDDD.. 
+        
+
+Gerakan 244: A-bawah
+        
+ .C.... 
+ .C..R. 
+ PPLJRAK
+ G.LJIA 
+ GHH.I. 
+ GDDD.. 
+        
+
+Gerakan 245: A-bawah
+        
+ .C.... 
+ .C..R. 
+ PPLJR.K
+ G.LJIA 
+ GHH.IA 
+ GDDD.. 
+        
+
+Gerakan 246: A-bawah
+        
+ .C.... 
+ .C..R. 
+ PPLJR.K
+ G.LJI. 
+ GHH.IA 
+ GDDD.A 
+        
+
+Gerakan 247: R-atas
+        
+ .C..R. 
+ .C..R. 
+ PPLJ..K
+ G.LJI. 
+ GHH.IA 
+ GDDD.A 
+        
+
+Gerakan 248: A-atas
+        
+ .C..R. 
+ .C..R. 
+ PPLJ..K
+ G.LJIA 
+ GHH.IA 
+ GDDD.. 
+        
+
+Gerakan 249: A-atas
+        
+ .C..R. 
+ .C..R. 
+ PPLJ.AK
+ G.LJIA 
+ GHH.I. 
+ GDDD.. 
+        
+
+Gerakan 250: A-atas
+        
+ .C..R. 
+ .C..RA 
+ PPLJ.AK
+ G.LJI. 
+ GHH.I. 
+ GDDD.. 
+        
+
+Gerakan 251: A-atas
+        
+ .C..RA 
+ .C..RA 
+ PPLJ..K
+ G.LJI. 
+ GHH.I. 
+ GDDD.. 
+        
+
+Gerakan 252: D-kanan
+        
+ .C..RA 
+ .C..RA 
+ PPLJ..K
+ G.LJI. 
+ GHH.I. 
+ G.DDD. 
+        
+
+Gerakan 253: A-bawah
+        
+ .C..R. 
+ .C..RA 
+ PPLJ.AK
+ G.LJI. 
+ GHH.I. 
+ G.DDD. 
+        
+
+Gerakan 254: A-bawah
+        
+ .C..R. 
+ .C..R. 
+ PPLJ.AK
+ G.LJIA 
+ GHH.I. 
+ G.DDD. 
+        
+
+Gerakan 255: A-bawah
+        
+ .C..R. 
+ .C..R. 
+ PPLJ..K
+ G.LJIA 
+ GHH.IA 
+ G.DDD. 
+        
+
+Gerakan 256: A-bawah
+        
+ .C..R. 
+ .C..R. 
+ PPLJ..K
+ G.LJI. 
+ GHH.IA 
+ G.DDDA 
+        
+
+Gerakan 257: R-bawah
+        
+ .C.... 
+ .C..R. 
+ PPLJR.K
+ G.LJI. 
+ GHH.IA 
+ G.DDDA 
+        
+
+Gerakan 258: A-atas
+        
+ .C.... 
+ .C..R. 
+ PPLJR.K
+ G.LJIA 
+ GHH.IA 
+ G.DDD. 
+        
+
+Gerakan 259: A-atas
+        
+ .C.... 
+ .C..R. 
+ PPLJRAK
+ G.LJIA 
+ GHH.I. 
+ G.DDD. 
+        
+
+Gerakan 260: A-atas
+        
+ .C.... 
+ .C..RA 
+ PPLJRAK
+ G.LJI. 
+ GHH.I. 
+ G.DDD. 
+        
+
+Gerakan 261: A-atas
+        
+ .C...A 
+ .C..RA 
+ PPLJR.K
+ G.LJI. 
+ GHH.I. 
+ G.DDD. 
+        
+
+Gerakan 262: D-kanan
+        
+ .C...A 
+ .C..RA 
+ PPLJR.K
+ G.LJI. 
+ GHH.I. 
+ G..DDD 
+        
+
+Gerakan 263: A-bawah
+        
+ .C.... 
+ .C..RA 
+ PPLJRAK
+ G.LJI. 
+ GHH.I. 
+ G..DDD 
+        
+
+Gerakan 264: A-bawah
+        
+ .C.... 
+ .C..R. 
+ PPLJRAK
+ G.LJIA 
+ GHH.I. 
+ G..DDD 
+        
+
+Gerakan 265: A-bawah
+        
+ .C.... 
+ .C..R. 
+ PPLJR.K
+ G.LJIA 
+ GHH.IA 
+ G..DDD 
+        
+
+Gerakan 266: R-atas
+        
+ .C..R. 
+ .C..R. 
+ PPLJ..K
+ G.LJIA 
+ GHH.IA 
+ G..DDD 
+        
+
+Gerakan 267: A-atas
+        
+ .C..R. 
+ .C..R. 
+ PPLJ.AK
+ G.LJIA 
+ GHH.I. 
+ G..DDD 
+        
+
+Gerakan 268: A-atas
+        
+ .C..R. 
+ .C..RA 
+ PPLJ.AK
+ G.LJI. 
+ GHH.I. 
+ G..DDD 
+        
+
+Gerakan 269: A-atas
+        
+ .C..RA 
+ .C..RA 
+ PPLJ..K
+ G.LJI. 
+ GHH.I. 
+ G..DDD 
+        
+
+Gerakan 270: I-atas
+        
+ .C..RA 
+ .C..RA 
+ PPLJI.K
+ G.LJI. 
+ GHH... 
+ G..DDD 
+        
+
+Gerakan 271: A-bawah
+        
+ .C..R. 
+ .C..RA 
+ PPLJIAK
+ G.LJI. 
+ GHH... 
+ G..DDD 
+        
+
+Gerakan 272: A-bawah
+        
+ .C..R. 
+ .C..R. 
+ PPLJIAK
+ G.LJIA 
+ GHH... 
+ G..DDD 
+        
+
+Gerakan 273: A-bawah
+        
+ .C..R. 
+ .C..R. 
+ PPLJI.K
+ G.LJIA 
+ GHH..A 
+ G..DDD 
+        
+
+Gerakan 274: D-kiri
+        
+ .C..R. 
+ .C..R. 
+ PPLJI.K
+ G.LJIA 
+ GHH..A 
+ G.DDD. 
+        
+
+Gerakan 275: A-atas
+        
+ .C..R. 
+ .C..R. 
+ PPLJIAK
+ G.LJIA 
+ GHH... 
+ G.DDD. 
+        
+
+Gerakan 276: A-atas
+        
+ .C..R. 
+ .C..RA 
+ PPLJIAK
+ G.LJI. 
+ GHH... 
+ G.DDD. 
+        
+
+Gerakan 277: A-atas
+        
+ .C..RA 
+ .C..RA 
+ PPLJI.K
+ G.LJI. 
+ GHH... 
+ G.DDD. 
+        
+
+Gerakan 278: A-bawah
+        
+ .C..R. 
+ .C..R. 
+ PPLJI.K
+ G.LJI. 
+ GHH..A 
+ G.DDDA 
+        
+
+Gerakan 279: D-kiri
+        
+ .C..R. 
+ .C..R. 
+ PPLJI.K
+ G.LJI. 
+ GHH..A 
+ GDDD.A 
+        
+
+Gerakan 280: A-atas
+        
+ .C..R. 
+ .C..R. 
+ PPLJI.K
+ G.LJIA 
+ GHH..A 
+ GDDD.. 
+        
+
+Gerakan 281: A-atas
+        
+ .C..R. 
+ .C..R. 
+ PPLJIAK
+ G.LJIA 
+ GHH... 
+ GDDD.. 
+        
+
+Gerakan 282: A-atas
+        
+ .C..R. 
+ .C..RA 
+ PPLJIAK
+ G.LJI. 
+ GHH... 
+ GDDD.. 
+        
+
+Gerakan 283: A-atas
+        
+ .C..RA 
+ .C..RA 
+ PPLJI.K
+ G.LJI. 
+ GHH... 
+ GDDD.. 
+        
+
+Gerakan 284: H-kanan
+        
+ .C..RA 
+ .C..RA 
+ PPLJI.K
+ G.LJI. 
+ G.HH.. 
+ GDDD.. 
+        
+
+Gerakan 285: A-bawah
+        
+ .C..R. 
+ .C..RA 
+ PPLJIAK
+ G.LJI. 
+ G.HH.. 
+ GDDD.. 
+        
+
+Gerakan 286: A-bawah
+        
+ .C..R. 
+ .C..R. 
+ PPLJIAK
+ G.LJIA 
+ G.HH.. 
+ GDDD.. 
+        
+
+Gerakan 287: A-bawah
+        
+ .C..R. 
+ .C..R. 
+ PPLJI.K
+ G.LJIA 
+ G.HH.A 
+ GDDD.. 
+        
+
+Gerakan 288: A-bawah
+        
+ .C..R. 
+ .C..R. 
+ PPLJI.K
+ G.LJI. 
+ G.HH.A 
+ GDDD.A 
+        
+
+Gerakan 289: D-kanan
+        
+ .C..R. 
+ .C..R. 
+ PPLJI.K
+ G.LJI. 
+ G.HH.A 
+ G.DDDA 
+        
+
+Gerakan 290: A-atas
+        
+ .C..R. 
+ .C..R. 
+ PPLJI.K
+ G.LJIA 
+ G.HH.A 
+ G.DDD. 
+        
+
+Gerakan 291: A-atas
+        
+ .C..R. 
+ .C..R. 
+ PPLJIAK
+ G.LJIA 
+ G.HH.. 
+ G.DDD. 
+        
+
+Gerakan 292: A-atas
+        
+ .C..R. 
+ .C..RA 
+ PPLJIAK
+ G.LJI. 
+ G.HH.. 
+ G.DDD. 
+        
+
+Gerakan 293: A-atas
+        
+ .C..RA 
+ .C..RA 
+ PPLJI.K
+ G.LJI. 
+ G.HH.. 
+ G.DDD. 
+        
+
+Gerakan 294: D-kanan
+        
+ .C..RA 
+ .C..RA 
+ PPLJI.K
+ G.LJI. 
+ G.HH.. 
+ G..DDD 
+        
+
+Gerakan 295: A-bawah
+        
+ .C..R. 
+ .C..RA 
+ PPLJIAK
+ G.LJI. 
+ G.HH.. 
+ G..DDD 
+        
+
+Gerakan 296: A-bawah
+        
+ .C..R. 
+ .C..R. 
+ PPLJIAK
+ G.LJIA 
+ G.HH.. 
+ G..DDD 
+        
+
+Gerakan 297: A-bawah
+        
+ .C..R. 
+ .C..R. 
+ PPLJI.K
+ G.LJIA 
+ G.HH.A 
+ G..DDD 
+        
+
+Gerakan 298: H-kanan
+        
+ .C..R. 
+ .C..R. 
+ PPLJI.K
+ G.LJIA 
+ G..HHA 
+ G..DDD 
+        
+
+Gerakan 299: A-atas
+        
+ .C..R. 
+ .C..R. 
+ PPLJIAK
+ G.LJIA 
+ G..HH. 
+ G..DDD 
+        
+
+Gerakan 300: A-atas
+        
+ .C..R. 
+ .C..RA 
+ PPLJIAK
+ G.LJI. 
+ G..HH. 
+ G..DDD 
+        
+
+Gerakan 301: A-atas
+        
+ .C..RA 
+ .C..RA 
+ PPLJI.K
+ G.LJI. 
+ G..HH. 
+ G..DDD 
+        
+
+Gerakan 302: D-kiri
+        
+ .C..RA 
+ .C..RA 
+ PPLJI.K
+ G.LJI. 
+ G..HH. 
+ G.DDD. 
+        
+
+Gerakan 303: A-bawah
+        
+ .C..R. 
+ .C..RA 
+ PPLJIAK
+ G.LJI. 
+ G..HH. 
+ G.DDD. 
+        
+
+Gerakan 304: A-bawah
+        
+ .C..R. 
+ .C..R. 
+ PPLJIAK
+ G.LJIA 
+ G..HH. 
+ G.DDD. 
+        
+
+Gerakan 305: A-bawah
+        
+ .C..R. 
+ .C..R. 
+ PPLJI.K
+ G.LJIA 
+ G..HHA 
+ G.DDD. 
+        
+
+Gerakan 306: A-bawah
+        
+ .C..R. 
+ .C..R. 
+ PPLJI.K
+ G.LJI. 
+ G..HHA 
+ G.DDDA 
+        
+
+Gerakan 307: D-kiri
+        
+ .C..R. 
+ .C..R. 
+ PPLJI.K
+ G.LJI. 
+ G..HHA 
+ GDDD.A 
+        
+
+Gerakan 308: A-atas
+        
+ .C..R. 
+ .C..R. 
+ PPLJI.K
+ G.LJIA 
+ G..HHA 
+ GDDD.. 
+        
+
+Gerakan 309: A-atas
+        
+ .C..R. 
+ .C..R. 
+ PPLJIAK
+ G.LJIA 
+ G..HH. 
+ GDDD.. 
+        
+
+Gerakan 310: A-atas
+        
+ .C..R. 
+ .C..RA 
+ PPLJIAK
+ G.LJI. 
+ G..HH. 
+ GDDD.. 
+        
+
+Gerakan 311: A-atas
+        
+ .C..RA 
+ .C..RA 
+ PPLJI.K
+ G.LJI. 
+ G..HH. 
+ GDDD.. 
+        
+
+Gerakan 312: H-kanan
+        
+ .C..RA 
+ .C..RA 
+ PPLJI.K
+ G.LJI. 
+ G...HH 
+ GDDD.. 
+        
+
+Gerakan 313: A-bawah
+        
+ .C..R. 
+ .C..RA 
+ PPLJIAK
+ G.LJI. 
+ G...HH 
+ GDDD.. 
+        
+
+Gerakan 314: A-bawah
+        
+ .C..R. 
+ .C..R. 
+ PPLJIAK
+ G.LJIA 
+ G...HH 
+ GDDD.. 
+        
+
+Gerakan 315: D-kanan
+        
+ .C..R. 
+ .C..R. 
+ PPLJIAK
+ G.LJIA 
+ G...HH 
+ G.DDD. 
+        
+
+Gerakan 316: A-atas
+        
+ .C..R. 
+ .C..RA 
+ PPLJIAK
+ G.LJI. 
+ G...HH 
+ G.DDD. 
+        
+
+Gerakan 317: A-atas
+        
+ .C..RA 
+ .C..RA 
+ PPLJI.K
+ G.LJI. 
+ G...HH 
+ G.DDD. 
+        
+
+Gerakan 318: D-kanan
+        
+ .C..RA 
+ .C..RA 
+ PPLJI.K
+ G.LJI. 
+ G...HH 
+ G..DDD 
+        
+
+Gerakan 319: A-bawah
+        
+ .C..R. 
+ .C..RA 
+ PPLJIAK
+ G.LJI. 
+ G...HH 
+ G..DDD 
+        
+
+Gerakan 320: A-bawah
+        
+ .C..R. 
+ .C..R. 
+ PPLJIAK
+ G.LJIA 
+ G...HH 
+ G..DDD 
+        
+
+Gerakan 321: J-bawah
+        
+ .C..R. 
+ .C..R. 
+ PPL.IAK
+ G.LJIA 
+ G..JHH 
+ G..DDD 
+        
+
+Gerakan 322: A-atas
+        
+ .C..R. 
+ .C..RA 
+ PPL.IAK
+ G.LJI. 
+ G..JHH 
+ G..DDD 
+        
+
+Gerakan 323: A-atas
+        
+ .C..RA 
+ .C..RA 
+ PPL.I.K
+ G.LJI. 
+ G..JHH 
+ G..DDD 
+        
+
+Gerakan 324: D-kiri
+        
+ .C..RA 
+ .C..RA 
+ PPL.I.K
+ G.LJI. 
+ G..JHH 
+ G.DDD. 
+        
+
+Gerakan 325: A-bawah
+        
+ .C..R. 
+ .C..RA 
+ PPL.IAK
+ G.LJI. 
+ G..JHH 
+ G.DDD. 
+        
+
+Gerakan 326: A-bawah
+        
+ .C..R. 
+ .C..R. 
+ PPL.IAK
+ G.LJIA 
+ G..JHH 
+ G.DDD. 
+        
+
+Gerakan 327: D-kiri
+        
+ .C..R. 
+ .C..R. 
+ PPL.IAK
+ G.LJIA 
+ G..JHH 
+ GDDD.. 
+        
+
+Gerakan 328: A-atas
+        
+ .C..R. 
+ .C..RA 
+ PPL.IAK
+ G.LJI. 
+ G..JHH 
+ GDDD.. 
+        
+
+Gerakan 329: A-atas
+        
+ .C..RA 
+ .C..RA 
+ PPL.I.K
+ G.LJI. 
+ G..JHH 
+ GDDD.. 
+        
+
+Gerakan 330: L-atas
+        
+ .C..RA 
+ .CL.RA 
+ PPL.I.K
+ G..JI. 
+ G..JHH 
+ GDDD.. 
+        
+
+Gerakan 331: A-bawah
+        
+ .C..R. 
+ .CL.RA 
+ PPL.IAK
+ G..JI. 
+ G..JHH 
+ GDDD.. 
+        
+
+Gerakan 332: A-bawah
+        
+ .C..R. 
+ .CL.R. 
+ PPL.IAK
+ G..JIA 
+ G..JHH 
+ GDDD.. 
+        
+
+Gerakan 333: D-kanan
+        
+ .C..R. 
+ .CL.R. 
+ PPL.IAK
+ G..JIA 
+ G..JHH 
+ G.DDD. 
+        
+
+Gerakan 334: A-atas
+        
+ .C..R. 
+ .CL.RA 
+ PPL.IAK
+ G..JI. 
+ G..JHH 
+ G.DDD. 
+        
+
+Gerakan 335: A-atas
+        
+ .C..RA 
+ .CL.RA 
+ PPL.I.K
+ G..JI. 
+ G..JHH 
+ G.DDD. 
+        
+
+Gerakan 336: D-kanan
+        
+ .C..RA 
+ .CL.RA 
+ PPL.I.K
+ G..JI. 
+ G..JHH 
+ G..DDD 
+        
+
+Gerakan 337: A-bawah
+        
+ .C..R. 
+ .CL.RA 
+ PPL.IAK
+ G..JI. 
+ G..JHH 
+ G..DDD 
+        
+
+Gerakan 338: A-bawah
+        
+ .C..R. 
+ .CL.R. 
+ PPL.IAK
+ G..JIA 
+ G..JHH 
+ G..DDD 
+        
+
+Gerakan 339: J-atas
+        
+ .C..R. 
+ .CL.R. 
+ PPLJIAK
+ G..JIA 
+ G...HH 
+ G..DDD 
+        
+
+Gerakan 340: A-atas
+        
+ .C..R. 
+ .CL.RA 
+ PPLJIAK
+ G..JI. 
+ G...HH 
+ G..DDD 
+        
+
+Gerakan 341: A-atas
+        
+ .C..RA 
+ .CL.RA 
+ PPLJI.K
+ G..JI. 
+ G...HH 
+ G..DDD 
+        
+
+Gerakan 342: D-kiri
+        
+ .C..RA 
+ .CL.RA 
+ PPLJI.K
+ G..JI. 
+ G...HH 
+ G.DDD. 
+        
+
+Gerakan 343: A-bawah
+        
+ .C..R. 
+ .CL.RA 
+ PPLJIAK
+ G..JI. 
+ G...HH 
+ G.DDD. 
+        
+
+Gerakan 344: A-bawah
+        
+ .C..R. 
+ .CL.R. 
+ PPLJIAK
+ G..JIA 
+ G...HH 
+ G.DDD. 
+        
+
+Gerakan 345: D-kiri
+        
+ .C..R. 
+ .CL.R. 
+ PPLJIAK
+ G..JIA 
+ G...HH 
+ GDDD.. 
+        
+
+Gerakan 346: A-atas
+        
+ .C..R. 
+ .CL.RA 
+ PPLJIAK
+ G..JI. 
+ G...HH 
+ GDDD.. 
+        
+
+Gerakan 347: A-atas
+        
+ .C..RA 
+ .CL.RA 
+ PPLJI.K
+ G..JI. 
+ G...HH 
+ GDDD.. 
+        
+
+Gerakan 348: H-kiri
+        
+ .C..RA 
+ .CL.RA 
+ PPLJI.K
+ G..JI. 
+ G..HH. 
+ GDDD.. 
+        
+
+Gerakan 349: A-bawah
+        
+ .C..R. 
+ .CL.RA 
+ PPLJIAK
+ G..JI. 
+ G..HH. 
+ GDDD.. 
+        
+
+Gerakan 350: A-bawah
+        
+ .C..R. 
+ .CL.R. 
+ PPLJIAK
+ G..JIA 
+ G..HH. 
+ GDDD.. 
+        
+
+Gerakan 351: A-bawah
+        
+ .C..R. 
+ .CL.R. 
+ PPLJI.K
+ G..JIA 
+ G..HHA 
+ GDDD.. 
+        
+
+Gerakan 352: A-bawah
+        
+ .C..R. 
+ .CL.R. 
+ PPLJI.K
+ G..JI. 
+ G..HHA 
+ GDDD.A 
+        
+
+Gerakan 353: D-kanan
+        
+ .C..R. 
+ .CL.R. 
+ PPLJI.K
+ G..JI. 
+ G..HHA 
+ G.DDDA 
+        
+
+Gerakan 354: A-atas
+        
+ .C..R. 
+ .CL.R. 
+ PPLJI.K
+ G..JIA 
+ G..HHA 
+ G.DDD. 
+        
+
+Gerakan 355: A-atas
+        
+ .C..R. 
+ .CL.R. 
+ PPLJIAK
+ G..JIA 
+ G..HH. 
+ G.DDD. 
+        
+
+Gerakan 356: A-atas
+        
+ .C..R. 
+ .CL.RA 
+ PPLJIAK
+ G..JI. 
+ G..HH. 
+ G.DDD. 
+        
+
+Gerakan 357: A-atas
+        
+ .C..RA 
+ .CL.RA 
+ PPLJI.K
+ G..JI. 
+ G..HH. 
+ G.DDD. 
+        
+
+Gerakan 358: D-kanan
+        
+ .C..RA 
+ .CL.RA 
+ PPLJI.K
+ G..JI. 
+ G..HH. 
+ G..DDD 
+        
+
+Gerakan 359: A-bawah
+        
+ .C..R. 
+ .CL.RA 
+ PPLJIAK
+ G..JI. 
+ G..HH. 
+ G..DDD 
+        
+
+Gerakan 360: A-bawah
+        
+ .C..R. 
+ .CL.R. 
+ PPLJIAK
+ G..JIA 
+ G..HH. 
+ G..DDD 
+        
+
+Gerakan 361: A-bawah
+        
+ .C..R. 
+ .CL.R. 
+ PPLJI.K
+ G..JIA 
+ G..HHA 
+ G..DDD 
+        
+
+Gerakan 362: H-kiri
+        
+ .C..R. 
+ .CL.R. 
+ PPLJI.K
+ G..JIA 
+ G.HH.A 
+ G..DDD 
+        
+
+Gerakan 363: A-atas
+        
+ .C..R. 
+ .CL.R. 
+ PPLJIAK
+ G..JIA 
+ G.HH.. 
+ G..DDD 
+        
+
+Gerakan 364: A-atas
+        
+ .C..R. 
+ .CL.RA 
+ PPLJIAK
+ G..JI. 
+ G.HH.. 
+ G..DDD 
+        
+
+Gerakan 365: A-atas
+        
+ .C..RA 
+ .CL.RA 
+ PPLJI.K
+ G..JI. 
+ G.HH.. 
+ G..DDD 
+        
+
+Gerakan 366: D-kiri
+        
+ .C..RA 
+ .CL.RA 
+ PPLJI.K
+ G..JI. 
+ G.HH.. 
+ G.DDD. 
+        
+
+Gerakan 367: A-bawah
+        
+ .C..R. 
+ .CL.RA 
+ PPLJIAK
+ G..JI. 
+ G.HH.. 
+ G.DDD. 
+        
+
+Gerakan 368: A-bawah
+        
+ .C..R. 
+ .CL.R. 
+ PPLJIAK
+ G..JIA 
+ G.HH.. 
+ G.DDD. 
+        
+
+Gerakan 369: A-bawah
+        
+ .C..R. 
+ .CL.R. 
+ PPLJI.K
+ G..JIA 
+ G.HH.A 
+ G.DDD. 
+        
+
+Gerakan 370: A-bawah
+        
+ .C..R. 
+ .CL.R. 
+ PPLJI.K
+ G..JI. 
+ G.HH.A 
+ G.DDDA 
+        
+
+Gerakan 371: D-kiri
+        
+ .C..R. 
+ .CL.R. 
+ PPLJI.K
+ G..JI. 
+ G.HH.A 
+ GDDD.A 
+        
+
+Gerakan 372: A-atas
+        
+ .C..R. 
+ .CL.R. 
+ PPLJI.K
+ G..JIA 
+ G.HH.A 
+ GDDD.. 
+        
+
+Gerakan 373: A-atas
+        
+ .C..R. 
+ .CL.R. 
+ PPLJIAK
+ G..JIA 
+ G.HH.. 
+ GDDD.. 
+        
+
+Gerakan 374: A-atas
+        
+ .C..R. 
+ .CL.RA 
+ PPLJIAK
+ G..JI. 
+ G.HH.. 
+ GDDD.. 
+        
+
+Gerakan 375: A-atas
+        
+ .C..RA 
+ .CL.RA 
+ PPLJI.K
+ G..JI. 
+ G.HH.. 
+ GDDD.. 
+        
+
+Gerakan 376: H-kiri
+        
+ .C..RA 
+ .CL.RA 
+ PPLJI.K
+ G..JI. 
+ GHH... 
+ GDDD.. 
+        
+
+Gerakan 377: A-bawah
+        
+ .C..R. 
+ .CL.RA 
+ PPLJIAK
+ G..JI. 
+ GHH... 
+ GDDD.. 
+        
+
+Gerakan 378: A-bawah
+        
+ .C..R. 
+ .CL.R. 
+ PPLJIAK
+ G..JIA 
+ GHH... 
+ GDDD.. 
+        
+
+Gerakan 379: A-bawah
+        
+ .C..R. 
+ .CL.R. 
+ PPLJI.K
+ G..JIA 
+ GHH..A 
+ GDDD.. 
+        
+
+Gerakan 380: A-bawah
+        
+ .C..R. 
+ .CL.R. 
+ PPLJI.K
+ G..JI. 
+ GHH..A 
+ GDDD.A 
+        
+
+Gerakan 381: D-kanan
+        
+ .C..R. 
+ .CL.R. 
+ PPLJI.K
+ G..JI. 
+ GHH..A 
+ G.DDDA 
+        
+
+Gerakan 382: A-atas
+        
+ .C..R. 
+ .CL.R. 
+ PPLJI.K
+ G..JIA 
+ GHH..A 
+ G.DDD. 
+        
+
+Gerakan 383: A-atas
+        
+ .C..R. 
+ .CL.R. 
+ PPLJIAK
+ G..JIA 
+ GHH... 
+ G.DDD. 
+        
+
+Gerakan 384: A-atas
+        
+ .C..R. 
+ .CL.RA 
+ PPLJIAK
+ G..JI. 
+ GHH... 
+ G.DDD. 
+        
+
+Gerakan 385: A-atas
+        
+ .C..RA 
+ .CL.RA 
+ PPLJI.K
+ G..JI. 
+ GHH... 
+ G.DDD. 
+        
+
+Gerakan 386: D-kanan
+        
+ .C..RA 
+ .CL.RA 
+ PPLJI.K
+ G..JI. 
+ GHH... 
+ G..DDD 
+        
+
+Gerakan 387: A-bawah
+        
+ .C..R. 
+ .CL.RA 
+ PPLJIAK
+ G..JI. 
+ GHH... 
+ G..DDD 
+        
+
+Gerakan 388: A-bawah
+        
+ .C..R. 
+ .CL.R. 
+ PPLJIAK
+ G..JIA 
+ GHH... 
+ G..DDD 
+        
+
+Gerakan 389: A-bawah
+        
+ .C..R. 
+ .CL.R. 
+ PPLJI.K
+ G..JIA 
+ GHH..A 
+ G..DDD 
+        
+
+Gerakan 390: I-bawah
+        
+ .C..R. 
+ .CL.R. 
+ PPLJ..K
+ G..JIA 
+ GHH.IA 
+ G..DDD 
+        
+
+Gerakan 391: A-atas
+        
+ .C..R. 
+ .CL.R. 
+ PPLJ.AK
+ G..JIA 
+ GHH.I. 
+ G..DDD 
+        
+
+Gerakan 392: A-atas
+        
+ .C..R. 
+ .CL.RA 
+ PPLJ.AK
+ G..JI. 
+ GHH.I. 
+ G..DDD 
+        
+
+Gerakan 393: A-atas
+        
+ .C..RA 
+ .CL.RA 
+ PPLJ..K
+ G..JI. 
+ GHH.I. 
+ G..DDD 
+        
+
+Gerakan 394: R-bawah
+        
+ .C...A 
+ .CL.RA 
+ PPLJR.K
+ G..JI. 
+ GHH.I. 
+ G..DDD 
+        
+
+Gerakan 395: A-bawah
+        
+ .C.... 
+ .CL.RA 
+ PPLJRAK
+ G..JI. 
+ GHH.I. 
+ G..DDD 
+        
+
+Gerakan 396: A-bawah
+        
+ .C.... 
+ .CL.R. 
+ PPLJRAK
+ G..JIA 
+ GHH.I. 
+ G..DDD 
+        
+
+Gerakan 397: A-bawah
+        
+ .C.... 
+ .CL.R. 
+ PPLJR.K
+ G..JIA 
+ GHH.IA 
+ G..DDD 
+        
+
+Gerakan 398: D-kiri
+        
+ .C.... 
+ .CL.R. 
+ PPLJR.K
+ G..JIA 
+ GHH.IA 
+ G.DDD. 
+        
+
+Gerakan 399: A-atas
+        
+ .C.... 
+ .CL.R. 
+ PPLJRAK
+ G..JIA 
+ GHH.I. 
+ G.DDD. 
+        
+
+Gerakan 400: A-atas
+        
+ .C.... 
+ .CL.RA 
+ PPLJRAK
+ G..JI. 
+ GHH.I. 
+ G.DDD. 
+        
+
+Gerakan 401: A-atas
+        
+ .C...A 
+ .CL.RA 
+ PPLJR.K
+ G..JI. 
+ GHH.I. 
+ G.DDD. 
+        
+
+Gerakan 402: A-bawah
+        
+ .C.... 
+ .CL.R. 
+ PPLJR.K
+ G..JI. 
+ GHH.IA 
+ G.DDDA 
+        
+
+Gerakan 403: R-atas
+        
+ .C..R. 
+ .CL.R. 
+ PPLJ..K
+ G..JI. 
+ GHH.IA 
+ G.DDDA 
+        
+
+Gerakan 404: A-atas
+        
+ .C..R. 
+ .CL.R. 
+ PPLJ..K
+ G..JIA 
+ GHH.IA 
+ G.DDD. 
+        
+
+Gerakan 405: A-atas
+        
+ .C..R. 
+ .CL.R. 
+ PPLJ.AK
+ G..JIA 
+ GHH.I. 
+ G.DDD. 
+        
+
+Gerakan 406: A-atas
+        
+ .C..R. 
+ .CL.RA 
+ PPLJ.AK
+ G..JI. 
+ GHH.I. 
+ G.DDD. 
+        
+
+Gerakan 407: A-atas
+        
+ .C..RA 
+ .CL.RA 
+ PPLJ..K
+ G..JI. 
+ GHH.I. 
+ G.DDD. 
+        
+
+Gerakan 408: D-kiri
+        
+ .C..RA 
+ .CL.RA 
+ PPLJ..K
+ G..JI. 
+ GHH.I. 
+ GDDD.. 
+        
+
+Gerakan 409: A-bawah
+        
+ .C..R. 
+ .CL.RA 
+ PPLJ.AK
+ G..JI. 
+ GHH.I. 
+ GDDD.. 
+        
+
+Gerakan 410: A-bawah
+        
+ .C..R. 
+ .CL.R. 
+ PPLJ.AK
+ G..JIA 
+ GHH.I. 
+ GDDD.. 
+        
+
+Gerakan 411: A-bawah
+        
+ .C..R. 
+ .CL.R. 
+ PPLJ..K
+ G..JIA 
+ GHH.IA 
+ GDDD.. 
+        
+
+Gerakan 412: A-bawah
+        
+ .C..R. 
+ .CL.R. 
+ PPLJ..K
+ G..JI. 
+ GHH.IA 
+ GDDD.A 
+        
+
+Gerakan 413: R-bawah
+        
+ .C.... 
+ .CL.R. 
+ PPLJR.K
+ G..JI. 
+ GHH.IA 
+ GDDD.A 
+        
+
+Gerakan 414: A-atas
+        
+ .C.... 
+ .CL.R. 
+ PPLJR.K
+ G..JIA 
+ GHH.IA 
+ GDDD.. 
+        
+
+Gerakan 415: A-atas
+        
+ .C.... 
+ .CL.R. 
+ PPLJRAK
+ G..JIA 
+ GHH.I. 
+ GDDD.. 
+        
+
+Gerakan 416: A-atas
+        
+ .C.... 
+ .CL.RA 
+ PPLJRAK
+ G..JI. 
+ GHH.I. 
+ GDDD.. 
+        
+
+Gerakan 417: A-atas
+        
+ .C...A 
+ .CL.RA 
+ PPLJR.K
+ G..JI. 
+ GHH.I. 
+ GDDD.. 
+        
+
+Gerakan 418: H-kanan
+        
+ .C...A 
+ .CL.RA 
+ PPLJR.K
+ G..JI. 
+ G.HHI. 
+ GDDD.. 
+        
+
+Gerakan 419: A-bawah
+        
+ .C.... 
+ .CL.RA 
+ PPLJRAK
+ G..JI. 
+ G.HHI. 
+ GDDD.. 
+        
+
+Gerakan 420: A-bawah
+        
+ .C.... 
+ .CL.R. 
+ PPLJRAK
+ G..JIA 
+ G.HHI. 
+ GDDD.. 
+        
+
+Gerakan 421: A-bawah
+        
+ .C.... 
+ .CL.R. 
+ PPLJR.K
+ G..JIA 
+ G.HHIA 
+ GDDD.. 
+        
+
+Gerakan 422: A-bawah
+        
+ .C.... 
+ .CL.R. 
+ PPLJR.K
+ G..JI. 
+ G.HHIA 
+ GDDD.A 
+        
+
+Gerakan 423: R-atas
+        
+ .C..R. 
+ .CL.R. 
+ PPLJ..K
+ G..JI. 
+ G.HHIA 
+ GDDD.A 
+        
+
+Gerakan 424: A-atas
+        
+ .C..R. 
+ .CL.R. 
+ PPLJ..K
+ G..JIA 
+ G.HHIA 
+ GDDD.. 
+        
+
+Gerakan 425: A-atas
+        
+ .C..R. 
+ .CL.R. 
+ PPLJ.AK
+ G..JIA 
+ G.HHI. 
+ GDDD.. 
+        
+
+Gerakan 426: A-atas
+        
+ .C..R. 
+ .CL.RA 
+ PPLJ.AK
+ G..JI. 
+ G.HHI. 
+ GDDD.. 
+        
+
+Gerakan 427: A-atas
+        
+ .C..RA 
+ .CL.RA 
+ PPLJ..K
+ G..JI. 
+ G.HHI. 
+ GDDD.. 
+        
+
+Gerakan 428: D-kanan
+        
+ .C..RA 
+ .CL.RA 
+ PPLJ..K
+ G..JI. 
+ G.HHI. 
+ G.DDD. 
+        
+
+Gerakan 429: A-bawah
+        
+ .C..R. 
+ .CL.RA 
+ PPLJ.AK
+ G..JI. 
+ G.HHI. 
+ G.DDD. 
+        
+
+Gerakan 430: A-bawah
+        
+ .C..R. 
+ .CL.R. 
+ PPLJ.AK
+ G..JIA 
+ G.HHI. 
+ G.DDD. 
+        
+
+Gerakan 431: A-bawah
+        
+ .C..R. 
+ .CL.R. 
+ PPLJ..K
+ G..JIA 
+ G.HHIA 
+ G.DDD. 
+        
+
+Gerakan 432: A-bawah
+        
+ .C..R. 
+ .CL.R. 
+ PPLJ..K
+ G..JI. 
+ G.HHIA 
+ G.DDDA 
+        
+
+Gerakan 433: R-bawah
+        
+ .C.... 
+ .CL.R. 
+ PPLJR.K
+ G..JI. 
+ G.HHIA 
+ G.DDDA 
+        
+
+Gerakan 434: A-atas
+        
+ .C.... 
+ .CL.R. 
+ PPLJR.K
+ G..JIA 
+ G.HHIA 
+ G.DDD. 
+        
+
+Gerakan 435: A-atas
+        
+ .C.... 
+ .CL.R. 
+ PPLJRAK
+ G..JIA 
+ G.HHI. 
+ G.DDD. 
+        
+
+Gerakan 436: A-atas
+        
+ .C.... 
+ .CL.RA 
+ PPLJRAK
+ G..JI. 
+ G.HHI. 
+ G.DDD. 
+        
+
+Gerakan 437: A-atas
+        
+ .C...A 
+ .CL.RA 
+ PPLJR.K
+ G..JI. 
+ G.HHI. 
+ G.DDD. 
+        
+
+Gerakan 438: D-kanan
+        
+ .C...A 
+ .CL.RA 
+ PPLJR.K
+ G..JI. 
+ G.HHI. 
+ G..DDD 
+        
+
+Gerakan 439: A-bawah
+        
+ .C.... 
+ .CL.RA 
+ PPLJRAK
+ G..JI. 
+ G.HHI. 
+ G..DDD 
+        
+
+Gerakan 440: A-bawah
+        
+ .C.... 
+ .CL.R. 
+ PPLJRAK
+ G..JIA 
+ G.HHI. 
+ G..DDD 
+        
+
+Gerakan 441: A-bawah
+        
+ .C.... 
+ .CL.R. 
+ PPLJR.K
+ G..JIA 
+ G.HHIA 
+ G..DDD 
+        
+
+Gerakan 442: R-atas
+        
+ .C..R. 
+ .CL.R. 
+ PPLJ..K
+ G..JIA 
+ G.HHIA 
+ G..DDD 
+        
+
+Gerakan 443: A-atas
+        
+ .C..R. 
+ .CL.R. 
+ PPLJ.AK
+ G..JIA 
+ G.HHI. 
+ G..DDD 
+        
+
+Gerakan 444: A-atas
+        
+ .C..R. 
+ .CL.RA 
+ PPLJ.AK
+ G..JI. 
+ G.HHI. 
+ G..DDD 
+        
+
+Gerakan 445: A-atas
+        
+ .C..RA 
+ .CL.RA 
+ PPLJ..K
+ G..JI. 
+ G.HHI. 
+ G..DDD 
+        
+
+Gerakan 446: J-atas
+        
+ .C..RA 
+ .CLJRA 
+ PPLJ..K
+ G...I. 
+ G.HHI. 
+ G..DDD 
+        
+
+Gerakan 447: A-bawah
+        
+ .C..R. 
+ .CLJRA 
+ PPLJ.AK
+ G...I. 
+ G.HHI. 
+ G..DDD 
+        
+
+Gerakan 448: A-bawah
+        
+ .C..R. 
+ .CLJR. 
+ PPLJ.AK
+ G...IA 
+ G.HHI. 
+ G..DDD 
+        
+
+Gerakan 449: A-bawah
+        
+ .C..R. 
+ .CLJR. 
+ PPLJ..K
+ G...IA 
+ G.HHIA 
+ G..DDD 
+        
+
+Gerakan 450: R-bawah
+        
+ .C.... 
+ .CLJR. 
+ PPLJR.K
+ G...IA 
+ G.HHIA 
+ G..DDD 
+        
+
+Gerakan 451: A-atas
+        
+ .C.... 
+ .CLJR. 
+ PPLJRAK
+ G...IA 
+ G.HHI. 
+ G..DDD 
+        
+
+Gerakan 452: A-atas
+        
+ .C.... 
+ .CLJRA 
+ PPLJRAK
+ G...I. 
+ G.HHI. 
+ G..DDD 
+        
+
+Gerakan 453: A-atas
+        
+ .C...A 
+ .CLJRA 
+ PPLJR.K
+ G...I. 
+ G.HHI. 
+ G..DDD 
+        
+
+Gerakan 454: D-kiri
+        
+ .C...A 
+ .CLJRA 
+ PPLJR.K
+ G...I. 
+ G.HHI. 
+ G.DDD. 
+        
+
+Gerakan 455: A-bawah
+        
+ .C.... 
+ .CLJRA 
+ PPLJRAK
+ G...I. 
+ G.HHI. 
+ G.DDD. 
+        
+
+Gerakan 456: A-bawah
+        
+ .C.... 
+ .CLJR. 
+ PPLJRAK
+ G...IA 
+ G.HHI. 
+ G.DDD. 
+        
+
+Gerakan 457: A-bawah
+        
+ .C.... 
+ .CLJR. 
+ PPLJR.K
+ G...IA 
+ G.HHIA 
+ G.DDD. 
+        
+
+Gerakan 458: A-bawah
+        
+ .C.... 
+ .CLJR. 
+ PPLJR.K
+ G...I. 
+ G.HHIA 
+ G.DDDA 
+        
+
+Gerakan 459: R-atas
+        
+ .C..R. 
+ .CLJR. 
+ PPLJ..K
+ G...I. 
+ G.HHIA 
+ G.DDDA 
+        
+
+Gerakan 460: A-atas
+        
+ .C..R. 
+ .CLJR. 
+ PPLJ..K
+ G...IA 
+ G.HHIA 
+ G.DDD. 
+        
+
+Gerakan 461: A-atas
+        
+ .C..R. 
+ .CLJR. 
+ PPLJ.AK
+ G...IA 
+ G.HHI. 
+ G.DDD. 
+        
+
+Gerakan 462: A-atas
+        
+ .C..R. 
+ .CLJRA 
+ PPLJ.AK
+ G...I. 
+ G.HHI. 
+ G.DDD. 
+        
+
+Gerakan 463: A-atas
+        
+ .C..RA 
+ .CLJRA 
+ PPLJ..K
+ G...I. 
+ G.HHI. 
+ G.DDD. 
+        
+
+Gerakan 464: D-kiri
+        
+ .C..RA 
+ .CLJRA 
+ PPLJ..K
+ G...I. 
+ G.HHI. 
+ GDDD.. 
+        
+
+Gerakan 465: A-bawah
+        
+ .C..R. 
+ .CLJRA 
+ PPLJ.AK
+ G...I. 
+ G.HHI. 
+ GDDD.. 
+        
+
+Gerakan 466: A-bawah
+        
+ .C..R. 
+ .CLJR. 
+ PPLJ.AK
+ G...IA 
+ G.HHI. 
+ GDDD.. 
+        
+
+Gerakan 467: A-bawah
+        
+ .C..R. 
+ .CLJR. 
+ PPLJ..K
+ G...IA 
+ G.HHIA 
+ GDDD.. 
+        
+
+Gerakan 468: A-bawah
+        
+ .C..R. 
+ .CLJR. 
+ PPLJ..K
+ G...I. 
+ G.HHIA 
+ GDDD.A 
+        
+
+Gerakan 469: R-bawah
+        
+ .C.... 
+ .CLJR. 
+ PPLJR.K
+ G...I. 
+ G.HHIA 
+ GDDD.A 
+        
+
+Gerakan 470: A-atas
+        
+ .C.... 
+ .CLJR. 
+ PPLJR.K
+ G...IA 
+ G.HHIA 
+ GDDD.. 
+        
+
+Gerakan 471: A-atas
+        
+ .C.... 
+ .CLJR. 
+ PPLJRAK
+ G...IA 
+ G.HHI. 
+ GDDD.. 
+        
+
+Gerakan 472: A-atas
+        
+ .C.... 
+ .CLJRA 
+ PPLJRAK
+ G...I. 
+ G.HHI. 
+ GDDD.. 
+        
+
+Gerakan 473: A-atas
+        
+ .C...A 
+ .CLJRA 
+ PPLJR.K
+ G...I. 
+ G.HHI. 
+ GDDD.. 
+        
+
+Gerakan 474: H-kiri
+        
+ .C...A 
+ .CLJRA 
+ PPLJR.K
+ G...I. 
+ GHH.I. 
+ GDDD.. 
+        
+
+Gerakan 475: A-bawah
+        
+ .C.... 
+ .CLJRA 
+ PPLJRAK
+ G...I. 
+ GHH.I. 
+ GDDD.. 
+        
+
+Gerakan 476: A-bawah
+        
+ .C.... 
+ .CLJR. 
+ PPLJRAK
+ G...IA 
+ GHH.I. 
+ GDDD.. 
+        
+
+Gerakan 477: A-bawah
+        
+ .C.... 
+ .CLJR. 
+ PPLJR.K
+ G...IA 
+ GHH.IA 
+ GDDD.. 
+        
+
+Gerakan 478: A-bawah
+        
+ .C.... 
+ .CLJR. 
+ PPLJR.K
+ G...I. 
+ GHH.IA 
+ GDDD.A 
+        
+
+Gerakan 479: R-atas
+        
+ .C..R. 
+ .CLJR. 
+ PPLJ..K
+ G...I. 
+ GHH.IA 
+ GDDD.A 
+        
+
+Gerakan 480: A-atas
+        
+ .C..R. 
+ .CLJR. 
+ PPLJ..K
+ G...IA 
+ GHH.IA 
+ GDDD.. 
+        
+
+Gerakan 481: A-atas
+        
+ .C..R. 
+ .CLJR. 
+ PPLJ.AK
+ G...IA 
+ GHH.I. 
+ GDDD.. 
+        
+
+Gerakan 482: A-atas
+        
+ .C..R. 
+ .CLJRA 
+ PPLJ.AK
+ G...I. 
+ GHH.I. 
+ GDDD.. 
+        
+
+Gerakan 483: A-atas
+        
+ .C..RA 
+ .CLJRA 
+ PPLJ..K
+ G...I. 
+ GHH.I. 
+ GDDD.. 
+        
+
+Gerakan 484: D-kanan
+        
+ .C..RA 
+ .CLJRA 
+ PPLJ..K
+ G...I. 
+ GHH.I. 
+ G.DDD. 
+        
+
+Gerakan 485: A-bawah
+        
+ .C..R. 
+ .CLJRA 
+ PPLJ.AK
+ G...I. 
+ GHH.I. 
+ G.DDD. 
+        
+
+Gerakan 486: A-bawah
+        
+ .C..R. 
+ .CLJR. 
+ PPLJ.AK
+ G...IA 
+ GHH.I. 
+ G.DDD. 
+        
+
+Gerakan 487: A-bawah
+        
+ .C..R. 
+ .CLJR. 
+ PPLJ..K
+ G...IA 
+ GHH.IA 
+ G.DDD. 
+        
+
+Gerakan 488: A-bawah
+        
+ .C..R. 
+ .CLJR. 
+ PPLJ..K
+ G...I. 
+ GHH.IA 
+ G.DDDA 
+        
+
+Gerakan 489: R-bawah
+        
+ .C.... 
+ .CLJR. 
+ PPLJR.K
+ G...I. 
+ GHH.IA 
+ G.DDDA 
+        
+
+Gerakan 490: A-atas
+        
+ .C.... 
+ .CLJR. 
+ PPLJR.K
+ G...IA 
+ GHH.IA 
+ G.DDD. 
+        
+
+Gerakan 491: A-atas
+        
+ .C.... 
+ .CLJR. 
+ PPLJRAK
+ G...IA 
+ GHH.I. 
+ G.DDD. 
+        
+
+Gerakan 492: A-atas
+        
+ .C.... 
+ .CLJRA 
+ PPLJRAK
+ G...I. 
+ GHH.I. 
+ G.DDD. 
+        
+
+Gerakan 493: A-atas
+        
+ .C...A 
+ .CLJRA 
+ PPLJR.K
+ G...I. 
+ GHH.I. 
+ G.DDD. 
+        
+
+Gerakan 494: D-kanan
+        
+ .C...A 
+ .CLJRA 
+ PPLJR.K
+ G...I. 
+ GHH.I. 
+ G..DDD 
+        
+
+Gerakan 495: A-bawah
+        
+ .C.... 
+ .CLJRA 
+ PPLJRAK
+ G...I. 
+ GHH.I. 
+ G..DDD 
+        
+
+Gerakan 496: A-bawah
+        
+ .C.... 
+ .CLJR. 
+ PPLJRAK
+ G...IA 
+ GHH.I. 
+ G..DDD 
+        
+
+Gerakan 497: A-bawah
+        
+ .C.... 
+ .CLJR. 
+ PPLJR.K
+ G...IA 
+ GHH.IA 
+ G..DDD 
+        
+
+Gerakan 498: R-atas
+        
+ .C..R. 
+ .CLJR. 
+ PPLJ..K
+ G...IA 
+ GHH.IA 
+ G..DDD 
+        
+
+Gerakan 499: A-atas
+        
+ .C..R. 
+ .CLJR. 
+ PPLJ.AK
+ G...IA 
+ GHH.I. 
+ G..DDD 
+        
+
+Gerakan 500: A-atas
+        
+ .C..R. 
+ .CLJRA 
+ PPLJ.AK
+ G...I. 
+ GHH.I. 
+ G..DDD 
+        
+
+Gerakan 501: A-atas
+        
+ .C..RA 
+ .CLJRA 
+ PPLJ..K
+ G...I. 
+ GHH.I. 
+ G..DDD 
+        
+
+Gerakan 502: I-atas
+        
+ .C..RA 
+ .CLJRA 
+ PPLJI.K
+ G...I. 
+ GHH... 
+ G..DDD 
+        
+
+Gerakan 503: A-bawah
+        
+ .C..R. 
+ .CLJRA 
+ PPLJIAK
+ G...I. 
+ GHH... 
+ G..DDD 
+        
+
+Gerakan 504: A-bawah
+        
+ .C..R. 
+ .CLJR. 
+ PPLJIAK
+ G...IA 
+ GHH... 
+ G..DDD 
+        
+
+Gerakan 505: A-bawah
+        
+ .C..R. 
+ .CLJR. 
+ PPLJI.K
+ G...IA 
+ GHH..A 
+ G..DDD 
+        
+
+Gerakan 506: D-kiri
+        
+ .C..R. 
+ .CLJR. 
+ PPLJI.K
+ G...IA 
+ GHH..A 
+ G.DDD. 
+        
+
+Gerakan 507: A-atas
+        
+ .C..R. 
+ .CLJR. 
+ PPLJIAK
+ G...IA 
+ GHH... 
+ G.DDD. 
+        
+
+Gerakan 508: A-atas
+        
+ .C..R. 
+ .CLJRA 
+ PPLJIAK
+ G...I. 
+ GHH... 
+ G.DDD. 
+        
+
+Gerakan 509: A-atas
+        
+ .C..RA 
+ .CLJRA 
+ PPLJI.K
+ G...I. 
+ GHH... 
+ G.DDD. 
+        
+
+Gerakan 510: A-bawah
+        
+ .C..R. 
+ .CLJR. 
+ PPLJI.K
+ G...I. 
+ GHH..A 
+ G.DDDA 
+        
+
+Gerakan 511: D-kiri
+        
+ .C..R. 
+ .CLJR. 
+ PPLJI.K
+ G...I. 
+ GHH..A 
+ GDDD.A 
+        
+
+Gerakan 512: A-atas
+        
+ .C..R. 
+ .CLJR. 
+ PPLJI.K
+ G...IA 
+ GHH..A 
+ GDDD.. 
+        
+
+Gerakan 513: A-atas
+        
+ .C..R. 
+ .CLJR. 
+ PPLJIAK
+ G...IA 
+ GHH... 
+ GDDD.. 
+        
+
+Gerakan 514: A-atas
+        
+ .C..R. 
+ .CLJRA 
+ PPLJIAK
+ G...I. 
+ GHH... 
+ GDDD.. 
+        
+
+Gerakan 515: A-atas
+        
+ .C..RA 
+ .CLJRA 
+ PPLJI.K
+ G...I. 
+ GHH... 
+ GDDD.. 
+        
+
+Gerakan 516: H-kanan
+        
+ .C..RA 
+ .CLJRA 
+ PPLJI.K
+ G...I. 
+ G.HH.. 
+ GDDD.. 
+        
+
+Gerakan 517: A-bawah
+        
+ .C..R. 
+ .CLJRA 
+ PPLJIAK
+ G...I. 
+ G.HH.. 
+ GDDD.. 
+        
+
+Gerakan 518: A-bawah
+        
+ .C..R. 
+ .CLJR. 
+ PPLJIAK
+ G...IA 
+ G.HH.. 
+ GDDD.. 
+        
+
+Gerakan 519: A-bawah
+        
+ .C..R. 
+ .CLJR. 
+ PPLJI.K
+ G...IA 
+ G.HH.A 
+ GDDD.. 
+        
+
+Gerakan 520: A-bawah
+        
+ .C..R. 
+ .CLJR. 
+ PPLJI.K
+ G...I. 
+ G.HH.A 
+ GDDD.A 
+        
+
+Gerakan 521: D-kanan
+        
+ .C..R. 
+ .CLJR. 
+ PPLJI.K
+ G...I. 
+ G.HH.A 
+ G.DDDA 
+        
+
+Gerakan 522: A-atas
+        
+ .C..R. 
+ .CLJR. 
+ PPLJI.K
+ G...IA 
+ G.HH.A 
+ G.DDD. 
+        
+
+Gerakan 523: A-atas
+        
+ .C..R. 
+ .CLJR. 
+ PPLJIAK
+ G...IA 
+ G.HH.. 
+ G.DDD. 
+        
+
+Gerakan 524: A-atas
+        
+ .C..R. 
+ .CLJRA 
+ PPLJIAK
+ G...I. 
+ G.HH.. 
+ G.DDD. 
+        
+
+Gerakan 525: A-atas
+        
+ .C..RA 
+ .CLJRA 
+ PPLJI.K
+ G...I. 
+ G.HH.. 
+ G.DDD. 
+        
+
+Gerakan 526: D-kanan
+        
+ .C..RA 
+ .CLJRA 
+ PPLJI.K
+ G...I. 
+ G.HH.. 
+ G..DDD 
+        
+
+Gerakan 527: A-bawah
+        
+ .C..R. 
+ .CLJRA 
+ PPLJIAK
+ G...I. 
+ G.HH.. 
+ G..DDD 
+        
+
+Gerakan 528: A-bawah
+        
+ .C..R. 
+ .CLJR. 
+ PPLJIAK
+ G...IA 
+ G.HH.. 
+ G..DDD 
+        
+
+Gerakan 529: A-bawah
+        
+ .C..R. 
+ .CLJR. 
+ PPLJI.K
+ G...IA 
+ G.HH.A 
+ G..DDD 
+        
+
+Gerakan 530: H-kanan
+        
+ .C..R. 
+ .CLJR. 
+ PPLJI.K
+ G...IA 
+ G..HHA 
+ G..DDD 
+        
+
+Gerakan 531: A-atas
+        
+ .C..R. 
+ .CLJR. 
+ PPLJIAK
+ G...IA 
+ G..HH. 
+ G..DDD 
+        
+
+Gerakan 532: A-atas
+        
+ .C..R. 
+ .CLJRA 
+ PPLJIAK
+ G...I. 
+ G..HH. 
+ G..DDD 
+        
+
+Gerakan 533: A-atas
+        
+ .C..RA 
+ .CLJRA 
+ PPLJI.K
+ G...I. 
+ G..HH. 
+ G..DDD 
+        
+
+Gerakan 534: D-kiri
+        
+ .C..RA 
+ .CLJRA 
+ PPLJI.K
+ G...I. 
+ G..HH. 
+ G.DDD. 
+        
+
+Gerakan 535: A-bawah
+        
+ .C..R. 
+ .CLJRA 
+ PPLJIAK
+ G...I. 
+ G..HH. 
+ G.DDD. 
+        
+
+Gerakan 536: A-bawah
+        
+ .C..R. 
+ .CLJR. 
+ PPLJIAK
+ G...IA 
+ G..HH. 
+ G.DDD. 
+        
+
+Gerakan 537: A-bawah
+        
+ .C..R. 
+ .CLJR. 
+ PPLJI.K
+ G...IA 
+ G..HHA 
+ G.DDD. 
+        
+
+Gerakan 538: A-bawah
+        
+ .C..R. 
+ .CLJR. 
+ PPLJI.K
+ G...I. 
+ G..HHA 
+ G.DDDA 
+        
+
+Gerakan 539: D-kiri
+        
+ .C..R. 
+ .CLJR. 
+ PPLJI.K
+ G...I. 
+ G..HHA 
+ GDDD.A 
+        
+
+Gerakan 540: A-atas
+        
+ .C..R. 
+ .CLJR. 
+ PPLJI.K
+ G...IA 
+ G..HHA 
+ GDDD.. 
+        
+
+Gerakan 541: A-atas
+        
+ .C..R. 
+ .CLJR. 
+ PPLJIAK
+ G...IA 
+ G..HH. 
+ GDDD.. 
+        
+
+Gerakan 542: A-atas
+        
+ .C..R. 
+ .CLJRA 
+ PPLJIAK
+ G...I. 
+ G..HH. 
+ GDDD.. 
+        
+
+Gerakan 543: A-atas
+        
+ .C..RA 
+ .CLJRA 
+ PPLJI.K
+ G...I. 
+ G..HH. 
+ GDDD.. 
+        
+
+Gerakan 544: H-kanan
+        
+ .C..RA 
+ .CLJRA 
+ PPLJI.K
+ G...I. 
+ G...HH 
+ GDDD.. 
+        
+
+Gerakan 545: A-bawah
+        
+ .C..R. 
+ .CLJRA 
+ PPLJIAK
+ G...I. 
+ G...HH 
+ GDDD.. 
+        
+
+Gerakan 546: A-bawah
+        
+ .C..R. 
+ .CLJR. 
+ PPLJIAK
+ G...IA 
+ G...HH 
+ GDDD.. 
+        
+
+Gerakan 547: D-kanan
+        
+ .C..R. 
+ .CLJR. 
+ PPLJIAK
+ G...IA 
+ G...HH 
+ G.DDD. 
+        
+
+Gerakan 548: A-atas
+        
+ .C..R. 
+ .CLJRA 
+ PPLJIAK
+ G...I. 
+ G...HH 
+ G.DDD. 
+        
+
+Gerakan 549: A-atas
+        
+ .C..RA 
+ .CLJRA 
+ PPLJI.K
+ G...I. 
+ G...HH 
+ G.DDD. 
+        
+
+Gerakan 550: D-kanan
+        
+ .C..RA 
+ .CLJRA 
+ PPLJI.K
+ G...I. 
+ G...HH 
+ G..DDD 
+        
+
+Gerakan 551: A-bawah
+        
+ .C..R. 
+ .CLJRA 
+ PPLJIAK
+ G...I. 
+ G...HH 
+ G..DDD 
+        
+
+Gerakan 552: A-bawah
+        
+ .C..R. 
+ .CLJR. 
+ PPLJIAK
+ G...IA 
+ G...HH 
+ G..DDD 
+        
+
+Gerakan 553: J-atas
+        
+ .C.JR. 
+ .CLJR. 
+ PPL.IAK
+ G...IA 
+ G...HH 
+ G..DDD 
+        
+
+Gerakan 554: A-atas
+        
+ .C.JR. 
+ .CLJRA 
+ PPL.IAK
+ G...I. 
+ G...HH 
+ G..DDD 
+        
+
+Gerakan 555: A-atas
+        
+ .C.JRA 
+ .CLJRA 
+ PPL.I.K
+ G...I. 
+ G...HH 
+ G..DDD 
+        
+
+Gerakan 556: D-kiri
+        
+ .C.JRA 
+ .CLJRA 
+ PPL.I.K
+ G...I. 
+ G...HH 
+ G.DDD. 
+        
+
+Gerakan 557: A-bawah
+        
+ .C.JR. 
+ .CLJRA 
+ PPL.IAK
+ G...I. 
+ G...HH 
+ G.DDD. 
+        
+
+Gerakan 558: A-bawah
+        
+ .C.JR. 
+ .CLJR. 
+ PPL.IAK
+ G...IA 
+ G...HH 
+ G.DDD. 
+        
+
+Gerakan 559: D-kiri
+        
+ .C.JR. 
+ .CLJR. 
+ PPL.IAK
+ G...IA 
+ G...HH 
+ GDDD.. 
+        
+
+Gerakan 560: A-atas
+        
+ .C.JR. 
+ .CLJRA 
+ PPL.IAK
+ G...I. 
+ G...HH 
+ GDDD.. 
+        
+
+Gerakan 561: A-atas
+        
+ .C.JRA 
+ .CLJRA 
+ PPL.I.K
+ G...I. 
+ G...HH 
+ GDDD.. 
+        
+
+Gerakan 562: H-kiri
+        
+ .C.JRA 
+ .CLJRA 
+ PPL.I.K
+ G...I. 
+ G..HH. 
+ GDDD.. 
+        
+
+Gerakan 563: A-bawah
+        
+ .C.JR. 
+ .CLJRA 
+ PPL.IAK
+ G...I. 
+ G..HH. 
+ GDDD.. 
+        
+
+Gerakan 564: A-bawah
+        
+ .C.JR. 
+ .CLJR. 
+ PPL.IAK
+ G...IA 
+ G..HH. 
+ GDDD.. 
+        
+
+Gerakan 565: A-bawah
+        
+ .C.JR. 
+ .CLJR. 
+ PPL.I.K
+ G...IA 
+ G..HHA 
+ GDDD.. 
+        
+
+Gerakan 566: A-bawah
+        
+ .C.JR. 
+ .CLJR. 
+ PPL.I.K
+ G...I. 
+ G..HHA 
+ GDDD.A 
+        
+
+Gerakan 567: D-kanan
+        
+ .C.JR. 
+ .CLJR. 
+ PPL.I.K
+ G...I. 
+ G..HHA 
+ G.DDDA 
+        
+
+Gerakan 568: A-atas
+        
+ .C.JR. 
+ .CLJR. 
+ PPL.I.K
+ G...IA 
+ G..HHA 
+ G.DDD. 
+        
+
+Gerakan 569: A-atas
+        
+ .C.JR. 
+ .CLJR. 
+ PPL.IAK
+ G...IA 
+ G..HH. 
+ G.DDD. 
+        
+
+Gerakan 570: A-atas
+        
+ .C.JR. 
+ .CLJRA 
+ PPL.IAK
+ G...I. 
+ G..HH. 
+ G.DDD. 
+        
+
+Gerakan 571: A-atas
+        
+ .C.JRA 
+ .CLJRA 
+ PPL.I.K
+ G...I. 
+ G..HH. 
+ G.DDD. 
+        
+
+Gerakan 572: D-kanan
+        
+ .C.JRA 
+ .CLJRA 
+ PPL.I.K
+ G...I. 
+ G..HH. 
+ G..DDD 
+        
+
+Gerakan 573: A-bawah
+        
+ .C.JR. 
+ .CLJRA 
+ PPL.IAK
+ G...I. 
+ G..HH. 
+ G..DDD 
+        
+
+Gerakan 574: A-bawah
+        
+ .C.JR. 
+ .CLJR. 
+ PPL.IAK
+ G...IA 
+ G..HH. 
+ G..DDD 
+        
+
+Gerakan 575: A-bawah
+        
+ .C.JR. 
+ .CLJR. 
+ PPL.I.K
+ G...IA 
+ G..HHA 
+ G..DDD 
+        
+
+Gerakan 576: H-kiri
+        
+ .C.JR. 
+ .CLJR. 
+ PPL.I.K
+ G...IA 
+ G.HH.A 
+ G..DDD 
+        
+
+Gerakan 577: A-atas
+        
+ .C.JR. 
+ .CLJR. 
+ PPL.IAK
+ G...IA 
+ G.HH.. 
+ G..DDD 
+        
+
+Gerakan 578: A-atas
+        
+ .C.JR. 
+ .CLJRA 
+ PPL.IAK
+ G...I. 
+ G.HH.. 
+ G..DDD 
+        
+
+Gerakan 579: A-atas
+        
+ .C.JRA 
+ .CLJRA 
+ PPL.I.K
+ G...I. 
+ G.HH.. 
+ G..DDD 
+        
+
+Gerakan 580: D-kiri
+        
+ .C.JRA 
+ .CLJRA 
+ PPL.I.K
+ G...I. 
+ G.HH.. 
+ G.DDD. 
+        
+
+Gerakan 581: A-bawah
+        
+ .C.JR. 
+ .CLJRA 
+ PPL.IAK
+ G...I. 
+ G.HH.. 
+ G.DDD. 
+        
+
+Gerakan 582: A-bawah
+        
+ .C.JR. 
+ .CLJR. 
+ PPL.IAK
+ G...IA 
+ G.HH.. 
+ G.DDD. 
+        
+
+Gerakan 583: A-bawah
+        
+ .C.JR. 
+ .CLJR. 
+ PPL.I.K
+ G...IA 
+ G.HH.A 
+ G.DDD. 
+        
+
+Gerakan 584: A-bawah
+        
+ .C.JR. 
+ .CLJR. 
+ PPL.I.K
+ G...I. 
+ G.HH.A 
+ G.DDDA 
+        
+
+Gerakan 585: D-kiri
+        
+ .C.JR. 
+ .CLJR. 
+ PPL.I.K
+ G...I. 
+ G.HH.A 
+ GDDD.A 
+        
+
+Gerakan 586: A-atas
+        
+ .C.JR. 
+ .CLJR. 
+ PPL.I.K
+ G...IA 
+ G.HH.A 
+ GDDD.. 
+        
+
+Gerakan 587: A-atas
+        
+ .C.JR. 
+ .CLJR. 
+ PPL.IAK
+ G...IA 
+ G.HH.. 
+ GDDD.. 
+        
+
+Gerakan 588: A-atas
+        
+ .C.JR. 
+ .CLJRA 
+ PPL.IAK
+ G...I. 
+ G.HH.. 
+ GDDD.. 
+        
+
+Gerakan 589: A-atas
+        
+ .C.JRA 
+ .CLJRA 
+ PPL.I.K
+ G...I. 
+ G.HH.. 
+ GDDD.. 
+        
+
+Gerakan 590: H-kiri
+        
+ .C.JRA 
+ .CLJRA 
+ PPL.I.K
+ G...I. 
+ GHH... 
+ GDDD.. 
+        
+
+Gerakan 591: A-bawah
+        
+ .C.JR. 
+ .CLJRA 
+ PPL.IAK
+ G...I. 
+ GHH... 
+ GDDD.. 
+        
+
+Gerakan 592: A-bawah
+        
+ .C.JR. 
+ .CLJR. 
+ PPL.IAK
+ G...IA 
+ GHH... 
+ GDDD.. 
+        
+
+Gerakan 593: A-bawah
+        
+ .C.JR. 
+ .CLJR. 
+ PPL.I.K
+ G...IA 
+ GHH..A 
+ GDDD.. 
+        
+
+Gerakan 594: A-bawah
+        
+ .C.JR. 
+ .CLJR. 
+ PPL.I.K
+ G...I. 
+ GHH..A 
+ GDDD.A 
+        
+
+Gerakan 595: D-kanan
+        
+ .C.JR. 
+ .CLJR. 
+ PPL.I.K
+ G...I. 
+ GHH..A 
+ G.DDDA 
+        
+
+Gerakan 596: A-atas
+        
+ .C.JR. 
+ .CLJR. 
+ PPL.I.K
+ G...IA 
+ GHH..A 
+ G.DDD. 
+        
+
+Gerakan 597: A-atas
+        
+ .C.JR. 
+ .CLJR. 
+ PPL.IAK
+ G...IA 
+ GHH... 
+ G.DDD. 
+        
+
+Gerakan 598: A-atas
+        
+ .C.JR. 
+ .CLJRA 
+ PPL.IAK
+ G...I. 
+ GHH... 
+ G.DDD. 
+        
+
+Gerakan 599: A-atas
+        
+ .C.JRA 
+ .CLJRA 
+ PPL.I.K
+ G...I. 
+ GHH... 
+ G.DDD. 
+        
+
+Gerakan 600: D-kanan
+        
+ .C.JRA 
+ .CLJRA 
+ PPL.I.K
+ G...I. 
+ GHH... 
+ G..DDD 
+        
+
+Gerakan 601: A-bawah
+        
+ .C.JR. 
+ .CLJRA 
+ PPL.IAK
+ G...I. 
+ GHH... 
+ G..DDD 
+        
+
+Gerakan 602: A-bawah
+        
+ .C.JR. 
+ .CLJR. 
+ PPL.IAK
+ G...IA 
+ GHH... 
+ G..DDD 
+        
+
+Gerakan 603: A-bawah
+        
+ .C.JR. 
+ .CLJR. 
+ PPL.I.K
+ G...IA 
+ GHH..A 
+ G..DDD 
+        
+
+Gerakan 604: I-bawah
+        
+ .C.JR. 
+ .CLJR. 
+ PPL...K
+ G...IA 
+ GHH.IA 
+ G..DDD 
+        
+
+Gerakan 605: A-atas
+        
+ .C.JR. 
+ .CLJR. 
+ PPL..AK
+ G...IA 
+ GHH.I. 
+ G..DDD 
+        
+
+Gerakan 606: A-atas
+        
+ .C.JR. 
+ .CLJRA 
+ PPL..AK
+ G...I. 
+ GHH.I. 
+ G..DDD 
+        
+
+Gerakan 607: A-atas
+        
+ .C.JRA 
+ .CLJRA 
+ PPL...K
+ G...I. 
+ GHH.I. 
+ G..DDD 
+        
+
+Gerakan 608: R-bawah
+        
+ .C.J.A 
+ .CLJRA 
+ PPL.R.K
+ G...I. 
+ GHH.I. 
+ G..DDD 
+        
+
+Gerakan 609: A-bawah
+        
+ .C.J.. 
+ .CLJRA 
+ PPL.RAK
+ G...I. 
+ GHH.I. 
+ G..DDD 
+        
+
+Gerakan 610: A-bawah
+        
+ .C.J.. 
+ .CLJR. 
+ PPL.RAK
+ G...IA 
+ GHH.I. 
+ G..DDD 
+        
+
+Gerakan 611: A-bawah
+        
+ .C.J.. 
+ .CLJR. 
+ PPL.R.K
+ G...IA 
+ GHH.IA 
+ G..DDD 
+        
+
+Gerakan 612: D-kiri
+        
+ .C.J.. 
+ .CLJR. 
+ PPL.R.K
+ G...IA 
+ GHH.IA 
+ G.DDD. 
+        
+
+Gerakan 613: A-atas
+        
+ .C.J.. 
+ .CLJR. 
+ PPL.RAK
+ G...IA 
+ GHH.I. 
+ G.DDD. 
+        
+
+Gerakan 614: A-atas
+        
+ .C.J.. 
+ .CLJRA 
+ PPL.RAK
+ G...I. 
+ GHH.I. 
+ G.DDD. 
+        
+
+Gerakan 615: A-atas
+        
+ .C.J.A 
+ .CLJRA 
+ PPL.R.K
+ G...I. 
+ GHH.I. 
+ G.DDD. 
+        
+
+Gerakan 616: A-bawah
+        
+ .C.J.. 
+ .CLJR. 
+ PPL.R.K
+ G...I. 
+ GHH.IA 
+ G.DDDA 
+        
+
+Gerakan 617: R-atas
+        
+ .C.JR. 
+ .CLJR. 
+ PPL...K
+ G...I. 
+ GHH.IA 
+ G.DDDA 
+        
+
+Gerakan 618: A-atas
+        
+ .C.JR. 
+ .CLJR. 
+ PPL...K
+ G...IA 
+ GHH.IA 
+ G.DDD. 
+        
+
+Gerakan 619: A-atas
+        
+ .C.JR. 
+ .CLJR. 
+ PPL..AK
+ G...IA 
+ GHH.I. 
+ G.DDD. 
+        
+
+Gerakan 620: A-atas
+        
+ .C.JR. 
+ .CLJRA 
+ PPL..AK
+ G...I. 
+ GHH.I. 
+ G.DDD. 
+        
+
+Gerakan 621: A-atas
+        
+ .C.JRA 
+ .CLJRA 
+ PPL...K
+ G...I. 
+ GHH.I. 
+ G.DDD. 
+        
+
+Gerakan 622: D-kiri
+        
+ .C.JRA 
+ .CLJRA 
+ PPL...K
+ G...I. 
+ GHH.I. 
+ GDDD.. 
+        
+
+Gerakan 623: A-bawah
+        
+ .C.JR. 
+ .CLJRA 
+ PPL..AK
+ G...I. 
+ GHH.I. 
+ GDDD.. 
+        
+
+Gerakan 624: A-bawah
+        
+ .C.JR. 
+ .CLJR. 
+ PPL..AK
+ G...IA 
+ GHH.I. 
+ GDDD.. 
+        
+
+Gerakan 625: A-bawah
+        
+ .C.JR. 
+ .CLJR. 
+ PPL...K
+ G...IA 
+ GHH.IA 
+ GDDD.. 
+        
+
+Gerakan 626: A-bawah
+        
+ .C.JR. 
+ .CLJR. 
+ PPL...K
+ G...I. 
+ GHH.IA 
+ GDDD.A 
+        
+
+Gerakan 627: R-bawah
+        
+ .C.J.. 
+ .CLJR. 
+ PPL.R.K
+ G...I. 
+ GHH.IA 
+ GDDD.A 
+        
+
+Gerakan 628: A-atas
+        
+ .C.J.. 
+ .CLJR. 
+ PPL.R.K
+ G...IA 
+ GHH.IA 
+ GDDD.. 
+        
+
+Gerakan 629: A-atas
+        
+ .C.J.. 
+ .CLJR. 
+ PPL.RAK
+ G...IA 
+ GHH.I. 
+ GDDD.. 
+        
+
+Gerakan 630: A-atas
+        
+ .C.J.. 
+ .CLJRA 
+ PPL.RAK
+ G...I. 
+ GHH.I. 
+ GDDD.. 
+        
+
+Gerakan 631: A-atas
+        
+ .C.J.A 
+ .CLJRA 
+ PPL.R.K
+ G...I. 
+ GHH.I. 
+ GDDD.. 
+        
+
+Gerakan 632: H-kanan
+        
+ .C.J.A 
+ .CLJRA 
+ PPL.R.K
+ G...I. 
+ G.HHI. 
+ GDDD.. 
+        
+
+Gerakan 633: A-bawah
+        
+ .C.J.. 
+ .CLJRA 
+ PPL.RAK
+ G...I. 
+ G.HHI. 
+ GDDD.. 
+        
+
+Gerakan 634: A-bawah
+        
+ .C.J.. 
+ .CLJR. 
+ PPL.RAK
+ G...IA 
+ G.HHI. 
+ GDDD.. 
+        
+
+Gerakan 635: A-bawah
+        
+ .C.J.. 
+ .CLJR. 
+ PPL.R.K
+ G...IA 
+ G.HHIA 
+ GDDD.. 
+        
+
+Gerakan 636: A-bawah
+        
+ .C.J.. 
+ .CLJR. 
+ PPL.R.K
+ G...I. 
+ G.HHIA 
+ GDDD.A 
+        
+
+Gerakan 637: R-atas
+        
+ .C.JR. 
+ .CLJR. 
+ PPL...K
+ G...I. 
+ G.HHIA 
+ GDDD.A 
+        
+
+Gerakan 638: A-atas
+        
+ .C.JR. 
+ .CLJR. 
+ PPL...K
+ G...IA 
+ G.HHIA 
+ GDDD.. 
+        
+
+Gerakan 639: A-atas
+        
+ .C.JR. 
+ .CLJR. 
+ PPL..AK
+ G...IA 
+ G.HHI. 
+ GDDD.. 
+        
+
+Gerakan 640: A-atas
+        
+ .C.JR. 
+ .CLJRA 
+ PPL..AK
+ G...I. 
+ G.HHI. 
+ GDDD.. 
+        
+
+Gerakan 641: A-atas
+        
+ .C.JRA 
+ .CLJRA 
+ PPL...K
+ G...I. 
+ G.HHI. 
+ GDDD.. 
+        
+
+Gerakan 642: D-kanan
+        
+ .C.JRA 
+ .CLJRA 
+ PPL...K
+ G...I. 
+ G.HHI. 
+ G.DDD. 
+        
+
+Gerakan 643: A-bawah
+        
+ .C.JR. 
+ .CLJRA 
+ PPL..AK
+ G...I. 
+ G.HHI. 
+ G.DDD. 
+        
+
+Gerakan 644: A-bawah
+        
+ .C.JR. 
+ .CLJR. 
+ PPL..AK
+ G...IA 
+ G.HHI. 
+ G.DDD. 
+        
+
+Gerakan 645: A-bawah
+        
+ .C.JR. 
+ .CLJR. 
+ PPL...K
+ G...IA 
+ G.HHIA 
+ G.DDD. 
+        
+
+Gerakan 646: A-bawah
+        
+ .C.JR. 
+ .CLJR. 
+ PPL...K
+ G...I. 
+ G.HHIA 
+ G.DDDA 
+        
+
+Gerakan 647: R-bawah
+        
+ .C.J.. 
+ .CLJR. 
+ PPL.R.K
+ G...I. 
+ G.HHIA 
+ G.DDDA 
+        
+
+Gerakan 648: A-atas
+        
+ .C.J.. 
+ .CLJR. 
+ PPL.R.K
+ G...IA 
+ G.HHIA 
+ G.DDD. 
+        
+
+Gerakan 649: A-atas
+        
+ .C.J.. 
+ .CLJR. 
+ PPL.RAK
+ G...IA 
+ G.HHI. 
+ G.DDD. 
+        
+
+Gerakan 650: A-atas
+        
+ .C.J.. 
+ .CLJRA 
+ PPL.RAK
+ G...I. 
+ G.HHI. 
+ G.DDD. 
+        
+
+Gerakan 651: A-atas
+        
+ .C.J.A 
+ .CLJRA 
+ PPL.R.K
+ G...I. 
+ G.HHI. 
+ G.DDD. 
+        
+
+Gerakan 652: D-kanan
+        
+ .C.J.A 
+ .CLJRA 
+ PPL.R.K
+ G...I. 
+ G.HHI. 
+ G..DDD 
+        
+
+Gerakan 653: A-bawah
+        
+ .C.J.. 
+ .CLJRA 
+ PPL.RAK
+ G...I. 
+ G.HHI. 
+ G..DDD 
+        
+
+Gerakan 654: A-bawah
+        
+ .C.J.. 
+ .CLJR. 
+ PPL.RAK
+ G...IA 
+ G.HHI. 
+ G..DDD 
+        
+
+Gerakan 655: A-bawah
+        
+ .C.J.. 
+ .CLJR. 
+ PPL.R.K
+ G...IA 
+ G.HHIA 
+ G..DDD 
+        
+
+Gerakan 656: R-atas
+        
+ .C.JR. 
+ .CLJR. 
+ PPL...K
+ G...IA 
+ G.HHIA 
+ G..DDD 
+        
+
+Gerakan 657: A-atas
+        
+ .C.JR. 
+ .CLJR. 
+ PPL..AK
+ G...IA 
+ G.HHI. 
+ G..DDD 
+        
+
+Gerakan 658: A-atas
+        
+ .C.JR. 
+ .CLJRA 
+ PPL..AK
+ G...I. 
+ G.HHI. 
+ G..DDD 
+        
+
+Gerakan 659: A-atas
+        
+ .C.JRA 
+ .CLJRA 
+ PPL...K
+ G...I. 
+ G.HHI. 
+ G..DDD 
+        
+
+Gerakan 660: L-atas
+        
+ .CLJRA 
+ .CLJRA 
+ PP....K
+ G...I. 
+ G.HHI. 
+ G..DDD 
+        
+
+Gerakan 661: P-kanan
+        
+ .CLJRA 
+ .CLJRA 
+ .PP...K
+ G...I. 
+ G.HHI. 
+ G..DDD 
+        
+
+Gerakan 662: P-kanan
+        
+ .CLJRA 
+ .CLJRA 
+ ..PP..K
+ G...I. 
+ G.HHI. 
+ G..DDD 
+        
+
+Gerakan 663: P-kanan
+        
+ .CLJRA 
+ .CLJRA 
+ ...PP.K
+ G...I. 
+ G.HHI. 
+ G..DDD 
+        
+
+Gerakan 664: P-kanan
+        
+ .CLJRA 
+ .CLJRA 
+ ....PPK
+ G...I. 
+ G.HHI. 
+ G..DDD 
+        
+
+Gerakan 665: P-kanan
+        
+ .CLJRA 
+ .CLJRA 
+ .....PP
+ G...I. 
+ G.HHI. 
+ G..DDD 
+        
+
+Jumlah Gerakan: 665, Waktu: 26 ms

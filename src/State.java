@@ -7,7 +7,7 @@ public class State {
     private State parent;
     private List<String> moveLog;
     private int cost;
-    private int heuristic;
+    private String uniqueID = null;
     
     // CTOR awal
     public State(char[][] board, Map<Character, Piece> pieces, int exitY, int exitX) {
@@ -19,7 +19,6 @@ public class State {
         }
         this.parent = null;
         this.cost = 0;
-        this.heuristic = 0;
         this.moveLog = new ArrayList<>();
 
     }
@@ -34,7 +33,6 @@ public class State {
         }
         this.parent = parent;
         this.cost = cost;
-        this.heuristic = 0;
         this.moveLog = moveLog;
     }
 
@@ -47,9 +45,6 @@ public class State {
     public int getCost() {
         return cost;
     }
-    public int getHeuristic() {
-        return heuristic;
-    }
     public Map<Character, Piece> getPieces() {
         return pieces;
     }
@@ -59,15 +54,17 @@ public class State {
     public List<String> getMoveLog() {
         return moveLog;
     }
-
     public String getUniqueStateID() {
-        StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < board.getRows(); i++) {
-            for (int j = 0; j < board.getCols(); j++) {
-                sb.append(board.getBoard()[i][j]);
+        if (uniqueID == null) { 
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < board.getRows(); i++) {
+                for (int j = 0; j < board.getCols(); j++) {
+                    sb.append(board.getBoard()[i][j]);
+                }
             }
+            uniqueID = sb.toString();
         }
-        return sb.toString();
+        return uniqueID;
     }
 
     public int calculateDistanceToExit() {
@@ -75,10 +72,6 @@ public class State {
         if (board.getExitX() == 0) {
             return primaryPiece.getPieceCol();
         } else if (board.getExitX()  == board.getCols() - 1) {
-            System.out.println("cols: " + board.getCols());
-            System.out.println("pieceCol: " + primaryPiece.getPieceCol());
-            System.out.println("pieceSize: " + primaryPiece.getPieceSize());
-            System.out.println(board.getCols() - 1 - (primaryPiece.getPieceCol() + primaryPiece.getPieceSize() - 1));
             return board.getCols() - 1 - (primaryPiece.getPieceCol() + primaryPiece.getPieceSize() - 1);
         } else if (board.getExitY() == 0) {
             return primaryPiece.getPieceRow();
@@ -144,7 +137,7 @@ public class State {
                     Piece movedPiece = piece.move(moveRow, moveCol);
                     Map<Character, Piece> nextPieces = new HashMap<>(this.pieces);
                     nextPieces.put(piece.getPieceID(), movedPiece);
-                    Board  nextStateBoard = board.updateBoard(piece, movedPiece);
+                    Board nextStateBoard = board.updateBoard(piece, movedPiece);
                     List<String> newMoveLog = new ArrayList<>(this.moveLog);
                     String direction = "";
                     if (possibleMovePoint < 0) {
@@ -183,17 +176,5 @@ public class State {
         return false;
     }
 
-    // private void printDebugBoard(char[][] debugBoard) {
-    // if (debugBoard == null || debugBoard.length == 0 || debugBoard[0].length == 0) {
-        // System.out.println("Papan kosong atau tidak valid.");
-        // return;
-    // }
-    // for (int i = 0; i < debugBoard.length; i++) {
-        // for (int j = 0; j < debugBoard[0].length; j++) {
-            // System.out.print(debugBoard[i][j]);
-        // }
-        // System.out.println();
-    // }
-// }
 
 }

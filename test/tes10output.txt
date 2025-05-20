@@ -1,0 +1,73 @@
+Algoritma: A STAR
+Heuristik: Min Blocking Pieces
+Papan awal:
+  K     
+ ...IBB 
+ IIIL.G 
+ HH.L.G 
+ .PELCC 
+ .PESS. 
+ .NNN.. 
+        
+
+Gerakan 1: N-kiri
+  K     
+ ...IBB 
+ IIIL.G 
+ HH.L.G 
+ .PELCC 
+ .PESS. 
+ NNN... 
+        
+
+Gerakan 2: S-kanan
+  K     
+ ...IBB 
+ IIIL.G 
+ HH.L.G 
+ .PELCC 
+ .PE.SS 
+ NNN... 
+        
+
+Gerakan 3: L-bawah
+  K     
+ ...IBB 
+ III..G 
+ HH...G 
+ .PELCC 
+ .PELSS 
+ NNNL.. 
+        
+
+Gerakan 4: I-kanan
+  K     
+ ...IBB 
+ ..IIIG 
+ HH...G 
+ .PELCC 
+ .PELSS 
+ NNNL.. 
+        
+
+Gerakan 5: H-kanan
+  K     
+ ...IBB 
+ ..IIIG 
+ ..HH.G 
+ .PELCC 
+ .PELSS 
+ NNNL.. 
+        
+
+Gerakan 6: P-atas
+  P     
+ .P.IBB 
+ ..IIIG 
+ ..HH.G 
+ ..ELCC 
+ ..ELSS 
+ NNNL.. 
+        
+
+Jumlah Gerakan: 6, Waktu: 5 ms

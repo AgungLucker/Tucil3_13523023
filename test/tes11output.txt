@@ -1,0 +1,93 @@
+Algoritma: A STAR
+Heuristik: Manhattan Distance >+ Min Blocking Pieces
+Papan awal:
+        
+ A..JII 
+ A.BJ.. 
+ LLB..D 
+KJ.BPPD 
+ J....M 
+ HHHIIM 
+        
+
+Gerakan 1: B-atas
+        
+ A.BJII 
+ A.BJ.. 
+ LLB..D 
+KJ..PPD 
+ J....M 
+ HHHIIM 
+        
+
+Gerakan 2: P-kiri
+        
+ A.BJII 
+ A.BJ.. 
+ LLB..D 
+KJPP..D 
+ J....M 
+ HHHIIM 
+        
+
+Gerakan 3: D-atas
+        
+ A.BJII 
+ A.BJ.D 
+ LLB..D 
+KJPP... 
+ J....M 
+ HHHIIM 
+        
+
+Gerakan 4: M-atas
+        
+ A.BJII 
+ A.BJ.D 
+ LLB..D 
+KJPP..M 
+ J....M 
+ HHHII. 
+        
+
+Gerakan 5: I-kanan
+        
+ A.BJII 
+ A.BJ.D 
+ LLB..D 
+KJPP..M 
+ J....M 
+ HHH.II 
+        
+
+Gerakan 6: H-kanan
+        
+ A.BJII 
+ A.BJ.D 
+ LLB..D 
+KJPP..M 
+ J....M 
+ .HHHII 
+        
+
+Gerakan 7: J-bawah
+        
+ A.BJII 
+ A.BJ.D 
+ LLB..D 
+K.PP..M 
+ J....M 
+ JHHHII 
+        
+
+Gerakan 8: P-kiri
+        
+ A.BJII 
+ A.BJ.D 
+ LLB..D 
+PP....M 
+ J....M 
+ JHHHII 
+        
+
+Jumlah Gerakan: 8, Waktu: 1 ms
