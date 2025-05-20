@@ -30,17 +30,13 @@ Muhammad Aufa Farabi - 13523023
    ```sh
    git clone https://github.com/AgungLucker/Tucil3_13523023
    ```
-2. Pindah ke direktori src untuk memulai program
-    ```sh
-    cd src
-    ```
 2. Compile program 
     ```sh
-    javac *.java
+    javac -d bin src/*.java
     ```
 3. Jalankan program dengan command berikut
     ```sh
-    java Main.java 
+    java -cp bin src.Main  
     ```
 
 ## Links
