@@ -55,8 +55,8 @@ public class Piece {
             int newRow = cell[0] + moveRow;
             int newCol = cell[1] + moveCol;
 
-            if (newRow < 0 || newRow >= state.board.length
-                || newCol < 0 || newCol >= state.board[0].length) {
+            if (newRow < 0 || newRow >= state.getStateBoard().getRows()
+                || newCol < 0 || newCol >= state.getStateBoard().getCols()) {
                     return false;
                 }
 
@@ -67,7 +67,7 @@ public class Piece {
                     break;
                 }
             }
-            char destCell = state.board[newRow][newCol];
+            char destCell = state.getStateBoard().getBoard()[newRow][newCol];
             if (!isOriginalCell && destCell != '.' && destCell != 'K') {
                 return false;
             }
@@ -75,12 +75,6 @@ public class Piece {
         return true;
         
     }
-
-    public boolean isPrimaryPiece() {
-        return pieceID == 'P';
-    }
-
-
 
 
 }

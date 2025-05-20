@@ -10,6 +10,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Main extends JFrame {
+    private InputOutput inputOutput;
     private Solver solver;
     private JPanel boardPanel;
     private JComboBox<String> algorithmDropdown;
@@ -18,8 +19,10 @@ public class Main extends JFrame {
     private JLabel statsLabel;
     private JButton solveButton;
     private JButton replayButton;
+    private JButton saveButton;
     private Map<Character, Color> colorMap = new HashMap<>();
     private File lastDirectory = null;
+    private Thread animationThread = null;
 
 
     public Main() {
@@ -47,12 +50,18 @@ public class Main extends JFrame {
         loadButton.setForeground(Color.WHITE);
         loadButton.setAlignmentX(Component.CENTER_ALIGNMENT);
 
-        algorithmDropdown = new JComboBox<>(new String[]{"GREEDY BFS", "UCS", "A STAR"});
+        algorithmDropdown = new JComboBox<>(new String[]{"GREEDY BFS", "UCS", "A STAR", "IDS"});
         algorithmDropdown.setBackground(Color.WHITE);
         algorithmDropdown.setMaximumSize(new Dimension(180, 30));
         algorithmDropdown.setAlignmentX(Component.CENTER_ALIGNMENT);
+        String[] heuristics = {
+            "<html>1. Manhattan Distance</html>",
+            "<html>2. Min Blocking Pieces</html>",
+            "<html>3. Manhattan Distance<br>+ Min Blocking Pieces</html>",
+            "<html>4. Manhattan Distance<br>+ Min Moveable Blockers</html>"
+        };
 
-        heuristicDropdown = new JComboBox<>(new String[]{"1. Min Blocking Pieces", "2. Min moveable Blocking Pieces"});
+        heuristicDropdown = new JComboBox<>(heuristics);
         heuristicDropdown.setBackground(Color.WHITE);
         heuristicDropdown.setMaximumSize(new Dimension(180, 30));
         heuristicDropdown.setAlignmentX(Component.CENTER_ALIGNMENT);
@@ -62,6 +71,7 @@ public class Main extends JFrame {
         solveButton.setBackground(Color.DARK_GRAY);
         solveButton.setForeground(Color.WHITE);
         solveButton.setAlignmentX(Component.CENTER_ALIGNMENT);
+        solveButton.setEnabled(false);
 
         replayButton = new JButton("Replay Animation");
         replayButton.setMaximumSize(new Dimension(140, 35));
@@ -71,11 +81,28 @@ public class Main extends JFrame {
         replayButton.setEnabled(false);
         replayButton.setAlignmentX(Component.CENTER_ALIGNMENT);
 
+        saveButton = new JButton("Save");
+        saveButton.setMaximumSize(new Dimension(160, 35));
+        saveButton.setBackground(Color.yellow);
+        saveButton.setForeground(Color.DARK_GRAY);
+        saveButton.setEnabled(false);
+        saveButton.setAlignmentX(Component.CENTER_ALIGNMENT);
+            
         JLabel algorithmLabel = new JLabel("Algorithm");
         algorithmLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
 
         JLabel heuristicLabel = new JLabel("Heuristic");
         heuristicLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
+
+        JLabel speedLabel = new JLabel("Animation Speed (ms)");
+        speedLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
+
+        JSlider speedSlider = new JSlider(JSlider.HORIZONTAL, 50, 1000, 500);
+        speedSlider.setMajorTickSpacing(250);
+        speedSlider.setMinorTickSpacing(50);
+        speedSlider.setPaintTicks(true);
+        speedSlider.setPaintLabels(true);
+
 
         sideBar.add(loadButton);
         sideBar.add(Box.createRigidArea(new Dimension(0, 30)));
@@ -90,6 +117,12 @@ public class Main extends JFrame {
         sideBar.add(solveButton);
         sideBar.add(Box.createRigidArea(new Dimension(0, 10)));
         sideBar.add(replayButton);
+        sideBar.add(Box.createRigidArea(new Dimension(0, 30)));
+        sideBar.add(speedLabel);
+        sideBar.add(Box.createRigidArea(new Dimension(0, 15)));
+        sideBar.add(speedSlider);
+        sideBar.add(Box.createRigidArea(new Dimension(0, 20)));
+        sideBar.add(saveButton);
         sideBar.setBorder(BorderFactory.createEmptyBorder(15, 10, 10, 10));
 
         
@@ -140,18 +173,24 @@ public class Main extends JFrame {
         
             if (fileChooser.showOpenDialog(this) == JFileChooser.APPROVE_OPTION) {
                 try {
-                    solver = new Solver();
-                    solver.setupSolver(fileChooser.getSelectedFile().getAbsolutePath());
+                    inputOutput = new InputOutput();
+                    inputOutput.setupSolver(fileChooser.getSelectedFile().getAbsolutePath());
+                    // solver = new Solver();
+                    // solver.setupSolver(fileChooser.getSelectedFile().getAbsolutePath());
                     statusLabel.setText("Loaded: " + fileChooser.getSelectedFile().getName());
-                    drawBoard(solver.getInitialBoard());
-                    replayButton.setEnabled(false);
+                    drawBoard(inputOutput.getInitialBoard());
+                    solveButton.setEnabled(true);
                 
                     lastDirectory = fileChooser.getSelectedFile().getParentFile();
+                    solver = new Solver();
                 
                 } catch (IOException | IllegalArgumentException ex) {
                     statusLabel.setText("Error: " + ex.getMessage());
                     boardPanel.removeAll();
                     boardPanel.repaint();
+                    drawBoard(emptyBoard);
+                    solveButton.setEnabled(false);
+                    lastDirectory = fileChooser.getSelectedFile().getParentFile();
                 }
             }
         });
@@ -159,11 +198,10 @@ public class Main extends JFrame {
 
         // Solve Button Action
         solveButton.addActionListener((ActionEvent e) -> {
-            if (solver == null) {
+            if (inputOutput == null) {
                 statusLabel.setText("File belum di-load.");
                 return;
             }
-        
             solveButton.setEnabled(false);
             replayButton.setEnabled(false);
             statusLabel.setText("Solving...");
@@ -175,9 +213,10 @@ public class Main extends JFrame {
             
                 try {
                     boolean solved = switch (algo) {
-                        case "GREEDY BFS" -> solver.solveWithGreedyBFS(heuristicType);
-                        case "UCS" -> solver.solveWithUCS();
-                        case "A STAR" -> solver.solveWithAStar(heuristicType);
+                        case "GREEDY BFS" -> solver.solveWithGreedyBFS(heuristicType, inputOutput.getInitialState());
+                        case "UCS" -> solver.solveWithUCS(inputOutput.getInitialState());
+                        case "A STAR" -> solver.solveWithAStar(heuristicType, inputOutput.getInitialState());
+                        case "IDS" -> solver.solveWithIDS(inputOutput.getInitialState());
                         default -> false;
                     };
                 
@@ -187,7 +226,18 @@ public class Main extends JFrame {
                         statusLabel.setText("Solusi Ditemukan!");
                         statsLabel.setText("Jumlah Gerakan: " + (solver.getSolutionPath().size()-1) + " | Waktu: " + (endTime - startTime) + "ms");
                         if (solver != null && solver.getSolutionPath() != null) {
-                            new Thread(() -> solver.animateSolution(this::drawBoard)).start();
+                            if (animationThread != null && animationThread.isAlive()) {
+                                animationThread.interrupt();
+                                try {
+                                    animationThread.join(); // Tunggu sampai thread selesai berhenti
+                                } catch (InterruptedException ex) {
+                                    ex.printStackTrace();
+                                }
+                            }
+                            animationThread = new Thread(() -> solver.animateSolution(
+                                this::drawBoard, 
+                                () -> speedSlider.getValue()));
+                            animationThread.start();
                         }
                         solver.printSolution();
                         replayButton.setEnabled(true);
@@ -205,6 +255,7 @@ public class Main extends JFrame {
                     ex.printStackTrace();
                 } finally {
                     solveButton.setEnabled(true);
+                    saveButton.setEnabled(true);
                 }
             });
         });
@@ -213,10 +264,47 @@ public class Main extends JFrame {
         replayButton.addActionListener((ActionEvent e) -> {
             solveButton.setEnabled(false);
             if (solver != null && solver.getSolutionPath() != null) {
-                new Thread(() -> solver.animateSolution(this::drawBoard)).start();
+                 if (animationThread != null && animationThread.isAlive()) {
+                    animationThread.interrupt();
+                    try {
+                        animationThread.join(); // Tunggu sampai thread selesai berhenti
+                    } catch (InterruptedException ex) {
+                        ex.printStackTrace();
+                    }
+                }
+                animationThread = new Thread(() -> solver.animateSolution(
+                    this::drawBoard, 
+                    () -> speedSlider.getValue()));
+                animationThread.start();    
             }
-            solveButton.setEnabled(false);
+            solveButton.setEnabled(true);
         });
+
+        saveButton.addActionListener((ActionEvent e) -> {
+            if (solver != null && solver.getSolutionPath() != null) {
+                JFileChooser fileChooser = new JFileChooser();
+                if (lastDirectory != null) {
+                    fileChooser.setCurrentDirectory(lastDirectory);
+                }
+                fileChooser.setDialogTitle("Save Solution");
+            
+                if (fileChooser.showSaveDialog(this) == JFileChooser.APPROVE_OPTION) {
+                    File selectedFile = fileChooser.getSelectedFile();
+                    try {
+                        inputOutput.saveSolutionToFile(selectedFile.getAbsolutePath(), solver.getSolutionPath());
+                        lastDirectory = selectedFile.getParentFile();
+                        statusLabel.setText("Solusi berhasil disimpan.");
+
+                    } catch (IOException ex) {
+                        statusLabel.setText("Gagal menyimpan solusi: " + ex.getMessage());
+                        ex.printStackTrace();
+                    }
+                }
+            } else {
+                statusLabel.setText("Belum ada solusi untuk disimpan.");
+            }
+        });
+
 
         this.setSize(800, 600);
         this.setVisible(true);
