@@ -1,5 +1,5 @@
 Algoritma: UCS
-Heuristik: Manhattan Distance
+Heuristik: Distance to Exit
 Papan awal:
         
  AAB... 

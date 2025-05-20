@@ -1,5 +1,5 @@
 Algoritma: A STAR
-Heuristik: Manhattan Distance >+ Min Blocking Pieces
+Heuristik: Distance to Exit+ Min Blocking Pieces
 Papan awal:
         
  A..JII 

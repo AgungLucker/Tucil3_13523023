@@ -1,6 +1,6 @@
 Algoritma: GBFS
-Heuristik: Manhattan Distance >+ Min Blocking Pieces
-Papan awal:
+Heuristik: Distance to Exit + Min Blocking Pieces
+Papan awal
         
  CCCVT. 
  B..VTN 

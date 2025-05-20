@@ -92,7 +92,6 @@ public class InputOutput {
             if (boardLines.get(0).contains("K")) { // pintu keluar di atas
                 String topString = boardLines.get(0);
                 for (int j = 0; j < topString.length(); j++) {
-                    System.out.println("j: " + j);
                     if (topString.charAt(j) != 'K' && topString.charAt(j) != ' ') {
                         throw new IOException("Konfigurasi papan (baris tidak sesuai) tidak valid.");
                     }
@@ -129,9 +128,7 @@ public class InputOutput {
 
                 for (int i = 0; i < this.boardHeight; i++) {
                     String row = boardLines.get(i);
-                    System.out.println("row: " + row);
                     if (row.length() > 0 && row.charAt(0) == 'K') { // pintu keluar di kiri
-                        System.out.println("pintu keluar di kiri");
                         initialBoard[i+1][0] = 'K';
                         isExitLeft = true;
                         // printBoard(initialBoard);
@@ -146,15 +143,14 @@ public class InputOutput {
                 }
 
                 for (int i = 0; i < this.boardHeight; i++) {
-                    if ((exitX == superBoardWidth - 1 && i + 1 != exitY && boardLines.get(i).length() > boardWidth && !boardLines.get(i).contains("K")) 
-                    || (exitX == 0 && i + 1 != exitY && boardLines.get(i).length() > boardWidth && !boardLines.get(i).contains("K") && !boardLines.get(i).contains(" "))) {
-                        System.out.println("i: " + i + ", exitY: " + exitY);
-                        System.out.println("length: " + boardLines.get(i).length() + ", boardWidth: " + boardWidth);
+                    if ((exitX == superBoardWidth - 1 && i + 1 != exitY && boardLines.get(i).length() > boardWidth 
+                    && !boardLines.get(i).contains("K")) 
+                    || (exitX == 0 && i + 1 != exitY && boardLines.get(i).length() > boardWidth 
+                    && !boardLines.get(i).contains("K") && !boardLines.get(i).contains(" "))) {
+                        // System.out.println("i: " + i + ", exitY: " + exitY);
+                        // System.out.println("length: " + boardLines.get(i).length() + ", boardWidth: " + boardWidth);
                         throw new IOException("Konfigurasi papan (panjang baris berlebih) tidak valid.");
                     }
-                    System.out.println("i: " + i + ", width: " + superBoardWidth + ", exitY: " + exitY);
-                    System.out.println("boardLines.get(i): " + boardLines.get(i));
-                    System.out.println("boardLines.get(i).length(): " + boardLines.get(i).length());
                     copyRowtoInitialBoard(boardLines.get(i), i + 1, isExitLeft);
                 }
             }
@@ -208,11 +204,11 @@ public class InputOutput {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(filepath))) {
             writer.write("Algoritma: " + algo + "\n");
             if (heuristicType == 1) {
-                writer.write("Heuristik: Manhattan Distance\n");
+                writer.write("Heuristik: Distance To Exit\n");
             } else if (heuristicType == 2) {
                 writer.write("Heuristik: Min Blocking Pieces\n");
             } else if (heuristicType == 3) {
-                writer.write("Heuristik: Manhattan Distance + Min Blocking Pieces\n");
+                writer.write("Heuristik: Distance To Exit + Min Blocking Pieces\n");
             } else if (heuristicType == 4) {
                 writer.write("Heuristik: Min Moveable Blockers\n");
             }

@@ -1,5 +1,5 @@
 Algoritma: IDS
-Heuristik: Manhattan Distance
+Heuristik: Distance to Exit
 Papan awal:
         
  .C..R. 

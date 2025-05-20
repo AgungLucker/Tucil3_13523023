@@ -1,10 +1,10 @@
 package src;
 
 public class MinBlock implements Heuristic {
-    private boolean manhattanDistance;
+    private boolean isDistanceHeuristic;
 
-    public MinBlock(boolean manhattanDistance) {
-        this.manhattanDistance = manhattanDistance;
+    public MinBlock(boolean isDistanceHeuristic) {
+        this.isDistanceHeuristic = isDistanceHeuristic;
     }
 
     public int calculateHeuristic(State state) {
@@ -16,9 +16,8 @@ public class MinBlock implements Heuristic {
         int exitX = state.getStateBoard().getExitX();
         int exitDistance = 0;
 
-        if (manhattanDistance) {
+        if (isDistanceHeuristic) {
             exitDistance = state.calculateDistanceToExit();
-            System.out.println("Manhattan distance: " + exitDistance);
         } 
 
         int blockingPieces = 0;

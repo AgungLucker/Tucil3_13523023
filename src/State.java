@@ -20,7 +20,6 @@ public class State {
         this.parent = null;
         this.cost = 0;
         this.moveLog = new ArrayList<>();
-
     }
 
     // CTOR buat successor state

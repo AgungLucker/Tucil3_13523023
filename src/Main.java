@@ -58,9 +58,9 @@ public class Main extends JFrame {
         algorithmDropdown.setMaximumSize(new Dimension(180, 30));
         algorithmDropdown.setAlignmentX(Component.CENTER_ALIGNMENT);
         String[] heuristics = {
-            "<html>1. Manhattan Distance</html>",
+            "<html>1. Distance to Exit</html>",
             "<html>2. Min Blocking Pieces</html>",
-            "<html>3. Manhattan Distance<br>+ Min Blocking Pieces</html>",
+            "<html>3. Distance to Exit<br>+ Min Blocking Pieces</html>",
             "<html>4. Min Moveable Blockers</html>"
         };
 
@@ -247,7 +247,7 @@ public class Main extends JFrame {
                                 () -> speedSlider.getValue()));
                             animationThread.start();
                         }
-                        solver.printSolution();
+                        // solver.printSolution();
                         replayButton.setEnabled(true);
 
                     } else {

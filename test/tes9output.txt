@@ -1,5 +1,5 @@
 Algoritma: A STAR
-Heuristik: Manhattan Distance
+Heuristik: Distance to Exit
 Papan awal:
         
  .BB.Q. 
