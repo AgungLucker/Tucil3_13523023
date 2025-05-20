@@ -90,9 +90,18 @@ public class Solver {
 
         State goalState = null;
         this.solutionPath = null;
-
+        int cnt = 0;
         while (!frontier.isEmpty()) {
+            System.out.println("Iterasi benar ke-" + (cnt + 1));
+            cnt++;
+
             State currentState = frontier.poll();
+            if (currentState.getMoveLog().size() - 1 > 0) {
+                System.out.println("Gerakan terakhir: " + currentState.getMoveLog().get(currentState.getMoveLog().size() - 1));
+            } else {
+                System.out.println("Tidak ada gerakan yang dilakukan.");
+            }
+
 
             if (currentState.isGoal(currentState.getStateBoard().getExitY(), currentState.getStateBoard().getExitX())) {
                 goalState = currentState;

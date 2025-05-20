@@ -26,7 +26,7 @@ public class MinBlock implements Heuristic {
             }
         } else if (state.getStateBoard().getExitX() == state.getStateBoard().getCols()  - 1) {
             int row = primaryPiece.getPieceRow();
-            for (int col = state.getStateBoard().getCols() - 2; col > primaryPiece.getPieceCol(); col--) {
+            for (int col = state.getStateBoard().getCols() - 2; col >= primaryPiece.getPieceCol() + primaryPiece.getPieceSize(); col--) {
                 if (col > 0 && state.getStateBoard().getBoard()[row][col] != '.' 
                 && state.getStateBoard().getBoard()[row][col] != 'K') {
                     blockingPieces++;
@@ -42,14 +42,14 @@ public class MinBlock implements Heuristic {
             }
         } else if (state.getStateBoard().getExitY() == state.getStateBoard().getRows() - 1) {
             int col = primaryPiece.getPieceCol();
-            for (int row = state.getStateBoard().getRows() - 2; row > primaryPiece.getPieceRow(); row--) {
+            for (int row = state.getStateBoard().getRows() - 2; row >= primaryPiece.getPieceRow() + primaryPiece.getPieceSize(); row--) {
                if (row > 0 && state.getStateBoard().getBoard()[row][col] != '.' 
                && state.getStateBoard().getBoard()[row][col] != 'K') {
                    blockingPieces++;
                }
             }
         }
-
+        System.out.println("Exit distance: " + exitDistance + ", Blocking pieces: " + blockingPieces);
         return exitDistance + blockingPieces;
     }
     

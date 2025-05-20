@@ -19,7 +19,7 @@ public class InputOutput {
     }
 
     private void copyRowtoInitialBoard(String row, int targetRow, boolean isExitLeft) throws IOException {
-        if (row.length() > boardWidth + 1) {
+        if (row.length() > boardWidth + 1 || row.length() < boardWidth) {
             throw new IOException("Konfigurasi papan (panjang baris) tidak valid.");
         }
         for (int j = 0; j <= this.boardWidth; j++) {
@@ -153,7 +153,7 @@ public class InputOutput {
                 }
 
                 for (int i = 0; i < this.boardHeight; i++) {
-                    if ((exitX == superBoardWidth -1 && i + 1 != exitY && boardLines.get(i).length() > boardWidth && !boardLines.get(i).contains("K")) 
+                    if ((exitX == superBoardWidth - 1 && i + 1 != exitY && boardLines.get(i).length() > boardWidth && !boardLines.get(i).contains("K")) 
                     || (exitX == 0 && i + 1 != exitY && boardLines.get(i).length() > boardWidth && !boardLines.get(i).contains("K") && !boardLines.get(i).contains(" "))) {
                         System.out.println("i: " + i + ", exitY: " + exitY);
                         System.out.println("length: " + boardLines.get(i).length() + ", boardWidth: " + boardWidth);
@@ -210,8 +210,13 @@ public class InputOutput {
 
     }
 
-    public void saveSolutionToFile(String filepath, List<State> solutionPath) throws IOException {
+    public void saveSolutionToFile(String filepath, List<State> solutionPath, long duration) throws IOException {
+
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(filepath))) {
+             if (solutionPath == null) {
+                writer.write("Solusi tidak ditemukan.\n");
+                return;
+            }
             for (int i = 1; i < solutionPath.size(); i++) {
                 State currentState = solutionPath.get(i);
                 if (!currentState.getMoveLog().isEmpty()) {
@@ -235,7 +240,7 @@ public class InputOutput {
                 }
                 writer.write("\n");
             }
-            writer.write("Jumlah Gerakan: " + (solutionPath.size() - 1) + "\n");
+            writer.write("Jumlah Gerakan: " + (solutionPath.size() - 1) + ", Waktu: " + duration + "\n");
         }
     }
 }

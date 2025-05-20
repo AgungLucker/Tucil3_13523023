@@ -75,6 +75,10 @@ public class State {
         if (board.getExitX() == 0) {
             return primaryPiece.getPieceCol();
         } else if (board.getExitX()  == board.getCols() - 1) {
+            System.out.println("cols: " + board.getCols());
+            System.out.println("pieceCol: " + primaryPiece.getPieceCol());
+            System.out.println("pieceSize: " + primaryPiece.getPieceSize());
+            System.out.println(board.getCols() - 1 - (primaryPiece.getPieceCol() + primaryPiece.getPieceSize() - 1));
             return board.getCols() - 1 - (primaryPiece.getPieceCol() + primaryPiece.getPieceSize() - 1);
         } else if (board.getExitY() == 0) {
             return primaryPiece.getPieceRow();
@@ -95,7 +99,7 @@ public class State {
             }
         } else if (board.getExitX() == board.getCols() - 1) {
             int row = primaryPiece.getPieceRow();
-            for (int col = board.getCols() - 2; col > primaryPiece.getPieceCol(); col--) {
+            for (int col = board.getCols() - 2; col >= primaryPiece.getPieceCol() + primaryPiece.getPieceSize(); col--) {
                 if (board.getBoard()[row][col] == piece.getPieceID()) {
                     return true;
                 }
@@ -109,7 +113,7 @@ public class State {
             }
         } else if (board.getExitY() == board.getRows() - 1) {
             int col = primaryPiece.getPieceCol();
-            for (int row = board.getRows() - 2; row > primaryPiece.getPieceRow(); row--) {
+            for (int row = board.getRows() - 2; row >= primaryPiece.getPieceRow() +  + primaryPiece.getPieceSize(); row--) {
                 if (board.getBoard()[row][col] == piece.getPieceID()) {
                     return true;
                 }

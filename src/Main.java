@@ -23,6 +23,7 @@ public class Main extends JFrame {
     private Map<Character, Color> colorMap = new HashMap<>();
     private File lastDirectory = null;
     private Thread animationThread = null;
+    private long duration;
 
 
     public Main() {
@@ -224,6 +225,7 @@ public class Main extends JFrame {
                 
                     if (solved) {
                         statusLabel.setText("Solusi Ditemukan!");
+                        this.duration = endTime - startTime;
                         statsLabel.setText("Jumlah Gerakan: " + (solver.getSolutionPath().size()-1) + " | Waktu: " + (endTime - startTime) + "ms");
                         if (solver != null && solver.getSolutionPath() != null) {
                             if (animationThread != null && animationThread.isAlive()) {
@@ -267,7 +269,7 @@ public class Main extends JFrame {
                  if (animationThread != null && animationThread.isAlive()) {
                     animationThread.interrupt();
                     try {
-                        animationThread.join(); // Tunggu sampai thread selesai berhenti
+                        animationThread.join(); 
                     } catch (InterruptedException ex) {
                         ex.printStackTrace();
                     }
@@ -291,9 +293,11 @@ public class Main extends JFrame {
                 if (fileChooser.showSaveDialog(this) == JFileChooser.APPROVE_OPTION) {
                     File selectedFile = fileChooser.getSelectedFile();
                     try {
-                        inputOutput.saveSolutionToFile(selectedFile.getAbsolutePath(), solver.getSolutionPath());
+                        inputOutput.saveSolutionToFile(selectedFile.getAbsolutePath(), solver.getSolutionPath(), duration);
                         lastDirectory = selectedFile.getParentFile();
-                        statusLabel.setText("Solusi berhasil disimpan.");
+                        String folder = selectedFile.getParentFile().getName();  
+                        String filename = selectedFile.getName();                
+                        statusLabel.setText("Solusi berhasil disimpan ke: " + folder + "/" + filename);
 
                     } catch (IOException ex) {
                         statusLabel.setText("Gagal menyimpan solusi: " + ex.getMessage());
