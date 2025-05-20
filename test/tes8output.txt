@@ -1,0 +1,223 @@
+Algoritma: GBFS
+Heuristik: Min Moveable Blockers
+Papan awal:
+         
+ OOOC... 
+ PA.C.HH 
+ PA...DD 
+ YYNN... 
+ GGB..JJ 
+ ..BEER. 
+ WWVVVR. 
+ K       
+
+Gerakan 1: N-kanan
+         
+ OOOC... 
+ PA.C.HH 
+ PA...DD 
+ YY.NN.. 
+ GGB..JJ 
+ ..BEER. 
+ WWVVVR. 
+ K       
+
+Gerakan 2: B-atas
+         
+ OOOC... 
+ PABC.HH 
+ PAB..DD 
+ YY.NN.. 
+ GG...JJ 
+ ...EER. 
+ WWVVVR. 
+ K       
+
+Gerakan 3: G-kanan
+         
+ OOOC... 
+ PABC.HH 
+ PAB..DD 
+ YY.NN.. 
+ .GG..JJ 
+ ...EER. 
+ WWVVVR. 
+ K       
+
+Gerakan 4: Y-kanan
+         
+ OOOC... 
+ PABC.HH 
+ PAB..DD 
+ .YYNN.. 
+ .GG..JJ 
+ ...EER. 
+ WWVVVR. 
+ K       
+
+Gerakan 5: C-bawah
+         
+ OOO.... 
+ PABC.HH 
+ PABC.DD 
+ .YYNN.. 
+ .GG..JJ 
+ ...EER. 
+ WWVVVR. 
+ K       
+
+Gerakan 6: E-kiri
+         
+ OOO.... 
+ PABC.HH 
+ PABC.DD 
+ .YYNN.. 
+ .GG..JJ 
+ .EE..R. 
+ WWVVVR. 
+ K       
+
+Gerakan 7: N-kanan
+         
+ OOO.... 
+ PABC.HH 
+ PABC.DD 
+ .YY..NN 
+ .GG..JJ 
+ .EE..R. 
+ WWVVVR. 
+ K       
+
+Gerakan 8: O-kanan
+         
+ ...OOO. 
+ PABC.HH 
+ PABC.DD 
+ .YY..NN 
+ .GG..JJ 
+ .EE..R. 
+ WWVVVR. 
+ K       
+
+Gerakan 9: Y-kanan
+         
+ ...OOO. 
+ PABC.HH 
+ PABC.DD 
+ ..YY.NN 
+ .GG..JJ 
+ .EE..R. 
+ WWVVVR. 
+ K       
+
+Gerakan 10: P-bawah
+         
+ ...OOO. 
+ .ABC.HH 
+ .ABC.DD 
+ ..YY.NN 
+ PGG..JJ 
+ PEE..R. 
+ WWVVVR. 
+ K       
+
+Gerakan 11: Y-kiri
+         
+ ...OOO. 
+ .ABC.HH 
+ .ABC.DD 
+ YY...NN 
+ PGG..JJ 
+ PEE..R. 
+ WWVVVR. 
+ K       
+
+Gerakan 12: D-kiri
+         
+ ...OOO. 
+ .ABC.HH 
+ .ABCDD. 
+ YY...NN 
+ PGG..JJ 
+ PEE..R. 
+ WWVVVR. 
+ K       
+
+Gerakan 13: J-kiri
+         
+ ...OOO. 
+ .ABC.HH 
+ .ABCDD. 
+ YY...NN 
+ PGGJJ.. 
+ PEE..R. 
+ WWVVVR. 
+ K       
+
+Gerakan 14: Y-kanan
+         
+ ...OOO. 
+ .ABC.HH 
+ .ABCDD. 
+ ...YYNN 
+ PGGJJ.. 
+ PEE..R. 
+ WWVVVR. 
+ K       
+
+Gerakan 15: R-atas
+         
+ ...OOO. 
+ .ABC.HH 
+ .ABCDD. 
+ ...YYNN 
+ PGGJJR. 
+ PEE..R. 
+ WWVVV.. 
+ K       
+
+Gerakan 16: V-kanan
+         
+ ...OOO. 
+ .ABC.HH 
+ .ABCDD. 
+ ...YYNN 
+ PGGJJR. 
+ PEE..R. 
+ WW.VVV. 
+ K       
+
+Gerakan 17: W-kanan
+         
+ ...OOO. 
+ .ABC.HH 
+ .ABCDD. 
+ ...YYNN 
+ PGGJJR. 
+ PEE..R. 
+ .WWVVV. 
+ K       
+
+Gerakan 18: B-bawah
+         
+ ...OOO. 
+ .A.C.HH 
+ .ABCDD. 
+ ..BYYNN 
+ PGGJJR. 
+ PEE..R. 
+ .WWVVV. 
+ K       
+
+Gerakan 19: P-bawah
+         
+ ...OOO. 
+ .A.C.HH 
+ .ABCDD. 
+ ..BYYNN 
+ .GGJJR. 
+ .EE..R. 
+ PWWVVV. 
+ P       
+
+Jumlah Gerakan: 19, Waktu: 19 ms
